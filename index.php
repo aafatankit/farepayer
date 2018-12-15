@@ -161,16 +161,19 @@
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
-													<label for="date-start">Check In:</label>
-													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+													<label for="date-start">Departure Date</label>
+													<input type="date" class="form-control" id="date-start" placeholder="mm/dd/yyy"/>
 												</div>
 											</div>
+											
+<!--
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-end">Check Out:</label>
 													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
 												</div>
 											</div>
+-->
 											<div class="col-sm-12 mt">
 												<section>
 													<label for="class">Class:</label>
@@ -232,7 +235,7 @@
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
-													<label for="date-start">Return:</label>
+													<label for="date-start">Check In :</label>
 													<input type="text" class="form-control" id="date-start2" placeholder="mm/dd/yyyy"/>
 												</div>
 											</div>
