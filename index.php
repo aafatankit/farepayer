@@ -136,12 +136,18 @@
 								   <!-- Tab panes -->
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
+                                         <ol>
+                                             <li><input type="radio" name="fl" value="D" checked> Domestic </li>
+                                             <li><input type="radio" name="fl" value="I" checked> International </li>
+                                         </ol>
+<!--
                                         <div>
                                                     <input type="radio" value="" name="">
                                                     <label>One Way</label>
                                                     <input type="radio"value="" name="">
                                                     <label>Round Trip</label>
                                         </div>
+-->
                                          <br>
 										<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
