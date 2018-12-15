@@ -69,6 +69,10 @@
       width: 100%;
       height: 100%;
   }
+     ul
+{
+    list-style-type: none;
+}
   </style>
 	</head>
 	<body>
@@ -136,18 +140,10 @@
 								   <!-- Tab panes -->
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
-                                         <ol>
-                                             <li><input type="radio" name="fl" value="D" checked> Domestic </li>
-                                             <li><input type="radio" name="fl" value="I" checked> International </li>
-                                         </ol>
-<!--
-                                        <div>
-                                                    <input type="radio" value="" name="">
-                                                    <label>One Way</label>
-                                                    <input type="radio"value="" name="">
-                                                    <label>Round Trip</label>
-                                        </div>
--->
+                                         <ul class="form-inline">
+                                             <li><input type="radio" name="fl" value="D" checked> Domestic &nbsp; &nbsp; </li>
+                                             <li><input type="radio" name="fl" value="I"> International </li>
+                                         </ul>
                                          <br>
 										<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
