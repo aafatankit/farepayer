@@ -409,8 +409,9 @@
         <img src="images/slider/0.jpg" alt="">
         <img src="images/slider/raj.jpg" alt=""/>
         <img src="images/slider/ra.jpg" alt=""/>
-         <img src="images/slider/0 [5].jpg" alt=""/>
-         <img src="images/slider/33.jpg" alt=""/>
+         <img src="images/slider/0.jpg" alt=""/>
+         <img src="images/slider/ra.jpg" alt=""/>
+           <img src="images/slider/0 [1].jpg" alt=""/>
     </div>
 </div>
 

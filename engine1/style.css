@@ -300,23 +300,6 @@
   	-webkit-transform: rotateX(-90deg) translateZ(-1.25em) translateY(1.25em);
   	transform: rotateX(-90deg) translateZ(-1.25em) translateY(1.25em);
 }
-#wowslider-container1 .ws_play > span:before,
-#wowslider-container1 .ws_play > span:after{
-	content:"\e800";
-}
-#wowslider-container1 .ws_pause > span:before,
-#wowslider-container1 .ws_pause > span:after{
-	content:"\e801";
-}
-#wowslider-container1 a.  > span:before,
-#wowslider-container1 a.  > span:after {
-	content:'\e803';
-}
-#wowslider-container1 a.  > span:before,
-#wowslider-container1 a.  > span:after {
-	content:'\e802';
-}
-
 #wowslider-container1 a.  > span:after,
 #wowslider-container1 a.  > span:after,
 #wowslider-container1 .  > span:after {

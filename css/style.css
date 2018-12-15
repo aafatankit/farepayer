@@ -2074,9 +2074,10 @@ icon-twitter2 a{color: black !important;}
 
 
 /* counter start */
-.bgCOUNTER{background-image: url(../images/counter/background.jpg);    padding-bottom: 68px;
-  margin-bottom: 30px;
+.bgCOUNTER{background-image: url(../images/counter/background.jpg);padding-bottom: 68px;margin-bottom: 1px!important;
+  
 }
+
 .wChoose{margin-top: 30px;margin-bottom: 70px;text-align: center;font-size: 40px;color:white;} 
 .clINE{    color: white;
     text-align: center;

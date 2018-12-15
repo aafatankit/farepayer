@@ -85,7 +85,12 @@
       width: 100%;
       height: 100%;
   }
+	  ul
+{
+    list-style-type: none;
+}
   </style>
+   
     <!--style end-->
 	</head>
 	<body>
@@ -148,12 +153,11 @@
 								   <!-- Tab panes -->
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
-                                        <div>
-                                                    <input type="radio" value="" name="">
-                                                    <label>One Way</label>
-                                                    <input type="radio"value="" name="">
-                                                    <label>Round Trip</label>
-                                        </div>
+                                       <ul class="form-inline text-left">
+                                             <li><input type="radio" name="fl" value="D" checked><b> Domestic &nbsp; &nbsp;</b> </li>
+                                             <li><input type="radio" name="fl" value="I"><b> International</b> </li>
+                                         </ul>
+                                         
                                          <br>
 										<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
