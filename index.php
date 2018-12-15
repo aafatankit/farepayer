@@ -140,9 +140,9 @@
 								   <!-- Tab panes -->
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
-                                         <ul class="form-inline">
-                                             <li><input type="radio" name="fl" value="D" checked> Domestic &nbsp; &nbsp; </li>
-                                             <li><input type="radio" name="fl" value="I"> International </li>
+                                         <ul class="form-inline text-left">
+                                             <li><input type="radio" name="fl" value="D" checked><b> Domestic &nbsp; &nbsp;</b> </li>
+                                             <li><input type="radio" name="fl" value="I"><b> International</b> </li>
                                          </ul>
                                          <br>
 										<div class="row">
@@ -150,6 +150,7 @@
 												<div class="input-field">
 													<label for="from">From:</label>
 													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+													
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt">

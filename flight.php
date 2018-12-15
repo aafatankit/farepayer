@@ -394,26 +394,26 @@
                 <div class="item active">
                 	<div class="row">
                 	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/slider/test.jpg" alt="Image" style="max-width:100%;"></a></div>
                 	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/slider/test.jpg" alt="Image" style="max-width:100%;"></a></div>
                 	</div><!--.row-->
                 </div><!--.item-->
                  
                 <div class="item">
                 	<div class="row">
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/slider/test.jpg" alt="Image" style="max-width:100%;"></a></div>
                 		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/slider/test.jpg" alt="Image" style="max-width:100%;"></a></div>
                 		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
                 	</div><!--.row-->
                 </div><!--.item-->
                  
                 <div class="item">
                 	<div class="row">
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/slider/test.jpg" alt="Image" style="max-width:100%;"></a></div>
                 		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/slider/test.jpg" alt="Image" style="max-width:100%;"></a></div>
                 		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/slider/raj.jpg" alt="Image" style="max-width:100%;"></a></div>
                 	</div><!--.row-->
                 </div><!--.item-->
