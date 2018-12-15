@@ -511,7 +511,7 @@
 								<h3>New York</h3>
 								<span><h5>3 nights + Flight 5*Hotel</h5></span>
 								<span class="price">45,000</span>
-								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="icon-arrow-right22"></i></h4></a>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="	fa fa-map-marker"></i></h4></a>
 							</div>
 						</div>
 					</div>
@@ -522,7 +522,7 @@
 								<h3>Philippines</h3>
 								<span><h5>4 nights + Flight 5*Hotel</h5></span>
 								<span class="price">50,000</span>
-								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="icon-arrow-right22"></i></h4></a>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
 							</div>
 						</div>
 					</div>
@@ -533,13 +533,13 @@
 								<h3>Hongkong</h3>
 								<span><h5>2 nights + Flight 4*Hotel</h5></span>
 								<span class="price">60,000</span>
-								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="icon-arrow-right22"></i></h4></a>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-12 text-center animate-box">
 						<p><a class="btn btn-primary btn-outline btn-lg" href="#" style="margin-top: 30px;">
-						<b>See All Offers </b><i class="icon-arrow-right22"></i></a></p>
+						<b>See All Offers </b><i class="fa fa-map-marker"></i></a></p>
 					</div>
 			</div>
 		</div>
@@ -566,7 +566,7 @@
 								<h3>New York</h3>
 								<span><h5>3 nights + Flight 5*Hotel</h5></span>
 								<span class="price">45,000</span>
-								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="icon-arrow-right22"></i></h4></a>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
 							</div>
 						</div>
 					</div>
@@ -577,7 +577,7 @@
 								<h3>Philippines</h3>
 								<span><h5>4 nights + Flight 5*Hotel</h5></span>
 								<span class="price">50,000</span>
-								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="icon-arrow-right22"></i></h4></a>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
 							</div>
 						</div>
 					</div>
@@ -588,13 +588,13 @@
 								<h3>Hongkong</h3>
 								<span><h5>2 nights + Flight 4*Hotel</h5></span>
 								<span class="price">60,000</span>
-								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="icon-arrow-right22"></i></h4></a>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-12 text-center animate-box">
 						<p><a class="btn btn-primary btn-outline btn-lg" href="#" style="margin-top: 30px;">
-						<b>See All Offers </b><i class="icon-arrow-right22"></i></a></p>
+						<b>See All Offers </b><i class="fa fa-map-marker"></i></a></p>
 					</div>
 			</div>
 		</div>
@@ -664,7 +664,7 @@
 				</div>
 
 				<div class="col-md-12 text-center animate-box">
-					<p><a class="btn btn-primary btn-outline btn-lg" href="#">See All Post <i class="icon-arrow-right22"></i></a></p>
+					<p><a class="btn btn-primary btn-outline btn-lg" href="#">See All Post <i class="fa fa-map-marker"></i></a></p>
 				</div>
 
 			</div>
