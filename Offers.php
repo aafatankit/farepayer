@@ -10,9 +10,13 @@
     <title>Best Holiday Pacakges, Fligts, Hotels at Lowest Prices- Farepayer.com</title>
     <meta name="description" content="Farepayer.com is one of the leading Travel Companies in India, based in Delhi. We offer a consistent service and multiple resources to satisfy your every travel related desire. " />
 
-
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css">
 	
+	
+	<!--offer page links-->
+	              
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<!--offer page links end-->
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -32,9 +36,6 @@
 	<script type="text/javascript" src="engine1/jquery.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 
-
-		<!-- Mobile responsive -->
-
 <!--slider links-->
 <link rel="stylesheet" type="text/css" href="css/stylesslider.css" />
 <link rel="stylesheet" type="text/css" href="css/animateslider.css" />
@@ -51,24 +52,237 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
 	<body>
-	<!-- Start:header-top -->
-	
+<!--hedder-->
+	  <?php include 'header.php'; ?>
+  
+   <!--hedder end-->     
+
  
-        
 
-	<!-- end:header-top -->
 
-<div class="row offerBg">
-<div class="container offerbg1">
-	<div class="col-md-4 col-sm-6 col-xs-12"><img src="extra-images/city-img03.jpg" alt""</div>			
-</div>					
+   <div class="row">
+	   <div class="col-md-12"><img src="images/offers/line.jpg" alt=""></div>
+      <div id="adv_team_4_columns_carousel" class="carousel slide four_shows_one_move team_columns_carousel_wrapper" data-ride="carousel" data-interval="2000" data-pause="hover">
+         <!--========= Wrapper for slides =========-->
+         <div class="carousel-inner" role="listbox">
+            <!--========= 1st slide =========-->
+            <div class="item">
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+                  <img src="images/offers/offers1.jpg" alt="slider 01">
+                  <div class="team_columns_item_caption">
+                     Delhi To Goa
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Karachi</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               
+            </div>
+            <!--========= 2nd slide =========-->
+            <div class="item active">
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Karachi</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Karachi</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+            </div>
+            <!--========= 3rd slide =========-->
+            <div class="item">
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Karachi</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
+                  <img src="images/offers/offers1.jpg"alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Karachi</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+            </div>
+            <!--========= 4th slide =========-->
+            <div class="item">
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Karachi</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
+                  <img src="images/offers/offers1.jpg"alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Karachi</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+            </div>
+            <!--========= 5th Slide =========-->
+            <div class="item">
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Karachi</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
+                  <img src="images/offers/offers1.jpg"alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Karachi</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
+                  <img src="images/offers/offers1.jpg" alt="slider 02">
+                  <div class="team_columns_item_caption">
+                     <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
+                  </div>
+               </div>
+            </div>
+      
+         </div>
+         <!--======= Navigation Buttons =========-->
+         <!--======= Left Button =========-->
+         <a class="left carousel-control team_columns_carousel_control_left adv_left" href="#adv_team_4_columns_carousel" role="button" data-slide="prev">
+         <span class="fa fa-angle-left team_columns_carousel_control_icons" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </a>
+         <!--======= Right Button =========-->
+         <a class="right carousel-control team_columns_carousel_control_right adv_right" href="#adv_team_4_columns_carousel" role="button" data-slide="next">
+         <span class="fa fa-angle-right team_columns_carousel_control_icons" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
+      </div>
+   </div>
+</div>	     
+                                
+                                      
+                                            
+                                                  
+                                                        
+                                                              
+                                                                    
+                                                                          
+                                                                                
+                                                                                      
+                                                                                                  
+
+<div class="row">
 	
-<div class="col-md-4 col-sm-6 col-xs-12">
+	
+</div>
+
+<div class="row" style="background: #f2f2f2;">
+<div class="container" style="background: white ;margin-top: 25px;background: white;padding-top: 30px">
+	<div class="col-md-4 col-sm-6 col-xs-12"><img src="images/offers/offers1.jpg" alt""><br><b>Delhi To Toronto</b></div>			
+			
+	
+<div class="col-md-4 col-sm-6 col-xs-12"><img src="images/offers/offers1.jpg" alt""><br>
 ydtfjk
 				
 </div>
 
-<div class="col-md-4 col-sm-6 col-xs-12">
+<div class="col-md-4 col-sm-6 col-xs-12"><img src="images/offers/offers1.jpg" alt""><br>
 ydtfjk
 				
 </div>
@@ -82,18 +296,39 @@ ydtfjk
 
 
 
-
-	
-	
-
-
-
-
-
-
-
-<!--footer start-->	
+	<!--footer start-->	
 		
+		<?php include 'footer.php'; ?>
+
+<!--footer end-->
+
+	
+
+
+
+
+
+
+
+<!--Offer page js-->	
+<script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
+        });
+    </script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<script type="text/javascript" src="https://yourjavascript.com/21051171187/jquery-touchswipe-min.js"></script>
+<script type="text/javascript" src="https://yourjavascript.com/11873115711/jquery-1-12-4-min.js"></script>
+<script type="text/javascript" src="https://yourjavascript.com/71712155041/responsive-bootstrap-carousel.js"></script>	
 		
 <!--footer end-->
 <!-- jQuery -->
