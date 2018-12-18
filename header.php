@@ -29,19 +29,19 @@
                     <div id="navbaraId" class="collapse navbar-collapse">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><i class="fa fa-suitcase"></i> Tour Packages</a>
+                                <a href="TourPackages.php" class="nav-link"><i class="fa fa-suitcase"></i> Tour Packages</a>
                             </li>
                             <li class="nav-item">
                                 <a href="flight.php" class="nav-link"><i class="fa fa-send"></i> Flights</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><i class="fa fa-hotel"></i> Hotels</a>
+                                <a href="Hotels.php" class="nav-link"><i class="fa fa-hotel"></i> Hotels</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><i class="fa fa-taxi"></i> Cabs</a>
+                                <a href="cabs.php" class="nav-link"><i class="fa fa-taxi"></i> Cabs</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link"><i class="fa fa-twitch"></i> Offers</a>
+                                <a href="Offers.php" class="nav-link"><i class="fa fa-twitch"></i> Offers</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link"><i class="fa fa-user"></i> Login</a>

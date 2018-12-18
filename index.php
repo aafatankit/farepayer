@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Travel &mdash;</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Best Holiday Pacakges, Fligts, Hotels at Lowest Prices- Farepayer.com</title>
+    <meta name="description" content="Farepayer.com is one of the leading Travel Companies in India, based in Delhi. We offer a consistent service and multiple resources to satisfy your every travel related desire. " />
 
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.html">
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css">
+	<!--water-->
+	
+	
+	
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -407,7 +398,7 @@
         <img class="first" src="images/slider/0.jpg" alt="">
         <img src="images/slider/0 [1].jpg" alt=""/>
         <img src="images/slider/0 [2].jpg" alt=""/>
-       <img src="images/slider/0 [4].jpg" alt=""/>
+
         <img src="images/slider/0.jpg" alt=""/>
         <img src="images/slider/0.jpg" alt="">
         <img src="images/slider/raj.jpg" alt=""/>
