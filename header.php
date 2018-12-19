@@ -29,7 +29,12 @@
                     <div id="navbaraId" class="collapse navbar-collapse">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a href="TourPackages.php" class="nav-link"><i class="fa fa-suitcase"></i> Tour Packages</a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-suitcase"></i> Tour Packages<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="#">Page 1-1</a></li>
+                                  <li><a href="#">Page 1-2</a></li>
+                                  <li><a href="#">Page 1-3</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a href="flight.php" class="nav-link"><i class="fa fa-send"></i> Flights</a>
