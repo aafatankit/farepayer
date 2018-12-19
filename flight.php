@@ -67,8 +67,6 @@
 	<body>
 
 
-		<div id="fh5co-wrapper">
-		<div id="fh5co-page">
 	
 	
 <!-- Start:header-top -->
@@ -77,6 +75,8 @@
         
  <!-- end header-top -->
             
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
  <!-- START Banner -->      
 	
             <div class="fh5co-hero">
