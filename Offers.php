@@ -71,32 +71,31 @@
                   <img src="images/offers/offers1.jpg" alt="slider 01">
                   <div class="team_columns_item_caption">
                       <h4>Lahore</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
+                
+                  
                   </div>
                </div>
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahore</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
+                 
+                  
                   </div>
                </div>
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Karachi</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
+              
+              
                   </div>
                </div>
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahore</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
+            
                   </div>
                </div>
                
@@ -107,32 +106,31 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahor</h4>
-                     <hr>
-                     <h5>PAKISTA</h5>
+           
                   </div>
                </div>
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Karachi</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
+      
+                  
                   </div>
                </div>
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahore</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
+             
+                    
                   </div>
                </div>
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Karachi</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
+                     
+                     
                   </div>
                </div>
             </div>
