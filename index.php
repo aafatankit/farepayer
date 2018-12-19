@@ -60,6 +60,11 @@
       width: 100%;
       height: 100%;
   }
+     
+     .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+     
      ul
 {
     list-style-type: none;

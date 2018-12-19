@@ -28,14 +28,23 @@
                     </button>
                     <div id="navbaraId" class="collapse navbar-collapse">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-suitcase"></i> Tour Packages<span class="caret"></span></a>
+<!--
+                            <li class="dropdown nav-item">
+                                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="fa fa-suitcase"></i> Tour Packages</a>
                                 <ul class="dropdown-menu">
-                                  <li><a href="#">Page 1-1</a></li>
-                                  <li><a href="#">Page 1-2</a></li>
-                                  <li><a href="#">Page 1-3</a></li>
+                                  <li><a href="#" class="dropdown-item">Page 1-1</a></li>
+                                  <li><a href="#" class="dropdown-item">Page 1-2</a></li>
+                                  <li><a href="#" class="dropdown-item">Page 1-3</a></li>
                                 </ul>
                             </li>
+-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-suitcase"></i> Tour Packages</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item text-secondary" href="#" style="font-size: large;"><i class="fa fa-suitcase fa-sm"></i> Domestic</a>
+                                  <a class="dropdown-item text-secondary" href="#" style="font-size: large;"><i class="fa fa-suitcase"></i> International</a>
+                                </div>
+                              </li>
                             <li class="nav-item">
                                 <a href="flight.php" class="nav-link"><i class="fa fa-send"></i> Flights</a>
                             </li>
