@@ -23,7 +23,7 @@
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<!-- Date Picker -->
-	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	
 	<!-- CS Select -->
 	<link rel="stylesheet" href="css/cs-select.css">
 	<link rel="stylesheet" href="css/cs-skin-border.css">
@@ -63,7 +63,6 @@
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
-	</head>
 	<body>
 
 
@@ -560,6 +559,7 @@
 	
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
+
 
 	<!-- START sticky footer --><script src="../demoscript.js"></script><!-- END sticky footer -->
 

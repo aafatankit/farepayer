@@ -41,8 +41,8 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-suitcase"></i> Tour Packages</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                  <a class="dropdown-item text-secondary" href="#" style="font-size: large;"><i class="fa fa-suitcase fa-sm"></i> Domestic</a>
-                                  <a class="dropdown-item text-secondary" href="#" style="font-size: large;"><i class="fa fa-suitcase"></i> International</a>
+                                  <a class="dropdown-item text-secondary" href="#" style="font-size: 16px;"><i class="fa fa-home fa-sm"></i> Domestic</a>
+                                  <a class="dropdown-item text-secondary" href="#" style="font-size: 16px;"><i class="fa fa-globe"></i> International</a>
                                 </div>
                               </li>
                             <li class="nav-item">
