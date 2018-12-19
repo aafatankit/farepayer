@@ -70,7 +70,9 @@
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
                   <img src="images/offers/offers1.jpg" alt="slider 01">
                   <div class="team_columns_item_caption">
-                     Delhi To Goa
+                      <h4>Lahore</h4>
+                     <hr>
+                     <h5>PAKISTAN</h5>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
@@ -104,9 +106,9 @@
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
-                     <h4>Lahore</h4>
+                     <h4>Lahor</h4>
                      <hr>
-                     <h5>PAKISTAN</h5>
+                     <h5>PAKISTA</h5>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
@@ -135,111 +137,7 @@
                </div>
             </div>
             <!--========= 3rd slide =========-->
-            <div class="item">
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
-                  <img src="images/offers/offers1.jpg" alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Karachi</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
-                  <img src="images/offers/offers1.jpg" alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Lahore</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
-                  <img src="images/offers/offers1.jpg"alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Karachi</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
-                  <img src="images/offers/offers1.jpg" alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Lahore</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-            </div>
-            <!--========= 4th slide =========-->
-            <div class="item">
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
-                  <img src="images/offers/offers1.jpg" alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Lahore</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
-                  <img src="images/offers/offers1.jpg" alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Karachi</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
-                  <img src="images/offers/offers1.jpg" alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Lahore</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
-                  <img src="images/offers/offers1.jpg"alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Karachi</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-            </div>
-            <!--========= 5th Slide =========-->
-            <div class="item">
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image">
-                  <img src="images/offers/offers1.jpg" alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Karachi</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
-                  <img src="images/offers/offers1.jpg"alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Lahore</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-2">
-                  <img src="images/offers/offers1.jpg" alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Karachi</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-               <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-3">
-                  <img src="images/offers/offers1.jpg" alt="slider 02">
-                  <div class="team_columns_item_caption">
-                     <h4>Lahore</h4>
-                     <hr>
-                     <h5>PAKISTAN</h5>
-                  </div>
-               </div>
-            </div>
-      
+
          </div>
          <!--======= Navigation Buttons =========-->
          <!--======= Left Button =========-->
@@ -254,45 +152,178 @@
          </a>
       </div>
    </div>
-</div>	     
+ 
                                 
                                       
                                             
                                                   
-                                                        
-                                                              
+                                                    
                                                                     
                                                                           
                                                                                 
                                                                                       
                                                                                                   
 
-<div class="row">
-	
-	
-</div>
 
 <div class="row" style="background: #f2f2f2;">
 <div class="container" style="background: white ;margin-top: 25px;background: white;padding-top: 30px">
-	<div class="col-md-4 col-sm-6 col-xs-12"><img src="images/offers/offers1.jpg" alt""><br><b>Delhi To Toronto</b></div>			
+<div class="col-md-12 text-center">
 			
+		<h1><b>Flight Deals</b> <br><img src="images/line.jpg"</h1>	
+			<br><p></p>
+		</div>
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	<img src="images/offers/offers1.jpg" alt"">
+	<div class="row" style="margin-bottom: 20px;padding-bottom: 10px;margin-left: 0PX;margin-right: -10px;border: #9c9c9c solid 1px;"> 
+	<div class="col-md-12">
+	<h2><p></p><b>Delhi To Toronto</b></h2>
+	<p class="text-secondary">BOM Mumbai to SFO San Francisco<br>8 Mar – 23 Mar • 15 days	
+	<br></p>
 	
-<div class="col-md-4 col-sm-6 col-xs-12"><img src="images/offers/offers1.jpg" alt""><br>
-ydtfjk
-				
-</div>
+	<div class="col-md-7">
+	<i class="fa fa-plane fa-3x text-primary"></i>
+	<b class="text-dark text-capitalize "style="
+    font-size: x-large;"> 	&nbsp; &#8377; 9580</b>	
+	</div>
+		<div class="col-md-5" style="text-align: center;">
+		<a href="#" class="btn btn-outline-primary btn-lg" Style="padding:10px">View Details</a></div>
+		</div>
 
-<div class="col-md-4 col-sm-6 col-xs-12"><img src="images/offers/offers1.jpg" alt""><br>
-ydtfjk
-				
-</div>
-							
-								
-							</div>
-		</div>	
+		
+		</div>
+		</div>
+		
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	<img src="images/offers/offers1.jpg" alt"">
+	<div class="row" style="margin-bottom: 20px;padding-bottom: 10px;margin-left: 0PX;margin-right: -10px;border: #9c9c9c solid 1px;"> 
+	<div class="col-md-12">
+	<h2><p></p><b>Delhi To Toronto</b></h2>
+	<p class="text-secondary">BOM Mumbai to SFO San Francisco<br>8 Mar – 23 Mar • 15 days	
+	<br></p>
+	
+	<div class="col-md-7">
+	<i class="fa fa-plane fa-3x text-primary"></i>
+	<b class="text-dark text-capitalize "style="
+    font-size: x-large;"> 	&nbsp; &#8377; 9580</b>	
+	</div>
+		<div class="col-md-5" style="text-align: center;">
+		<a href="#" class="btn btn-outline-primary btn-lg" Style="padding:10px">View Details</a></div>
+		</div>
+
+		
+		</div>
+		</div>
+
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	<img src="images/offers/offers1.jpg" alt"">
+	<div class="row" style="margin-bottom: 20px;padding-bottom: 10px;margin-left: 0PX;margin-right: -10px;border: #9c9c9c solid 1px;"> 
+	<div class="col-md-12">
+	<h2><p></p><b>Delhi To Toronto</b></h2>
+	<p class="text-secondary">BOM Mumbai to SFO San Francisco<br>8 Mar – 23 Mar • 15 days	
+	<br></p>
+	
+	<div class="col-md-7">
+	<i class="fa fa-plane fa-3x text-primary"></i>
+	<b class="text-dark text-capitalize "style="
+    font-size: x-large;"> 	&nbsp; &#8377; 9580</b>	
+	</div>
+		<div class="col-md-5" style="text-align: center;">
+		<a href="#" class="btn btn-outline-primary btn-lg" Style="padding:10px">View Details</a></div>
+		</div>
+
+		
+		</div>
+		</div>
+	
+	
+	
+		<div class="col-md-12 text-center">
+			
+		<h1><b>Coupon and Deals</b> <br><img src="images/line.jpg"</h1>	
+			<br><p></p>
+		</div>
+		
+	
+		
+	<div class="col-md-4 col-sm-6 col-xs-12">
+	<img src="images/offers/offers2.jpg" alt"">
+	<div class="row" style="margin-bottom: 20px;padding-bottom: 10px;margin-left: 0PX;margin-right: -10px;border: #9c9c9c solid 1px;"> 
+	<div class="col-md-12">
+	
+	<p></p>
+	<b><h3> &nbsp;Amazing discounts </h3></b>
+	<p class="text-secondary"> &nbsp;Coupon Code : FREE10</p>
+	
+	<div class="col-md-7">
+	<b class="text-dark text-capitalize"><h4 class="text-secondary">Validity:	<br>
+	Dec 23, 2018</h4></b>	
+	</div>
+		<div class="col-md-5"  style="text-align: center;">
+		<a href="#" class="btn btn-outline-primary btn-lg" Style="padding:10px">View Details</a></div>
+		</div>
+
+		
+		</div>
+		</div>
+
+
+<div class="col-md-4 col-sm-6 col-xs-12">
+	<img src="images/offers/offers2.jpg" alt"">
+	<div class="row" style="margin-bottom: 20px;padding-bottom: 10px;margin-left: 0PX;margin-right: -10px;border: #9c9c9c solid 1px;"> 
+	<div class="col-md-12">
+	
+	<p></p>
+	<b><h3> &nbsp;Amazing discounts </h3></b>
+	<p class="text-secondary"> &nbsp;Coupon Code : FREE10</p>
+	
+	<div class="col-md-7">
+	<b class="text-dark text-capitalize"><h4 class="text-secondary">Validity:	<br>
+	Dec 23, 2018</h4></b>	
+	</div>
+		<div class="col-md-5"  style="text-align: center;">
+		<a href="#" class="btn btn-outline-primary btn-lg" Style="padding:10px">View Details</a></div>
+		</div>
+
+		
+		</div>
+		</div>
+		
+		
+		<div class="col-md-4 col-sm-6 col-xs-12">
+	<img src="images/offers/offers2.jpg" alt"">
+	<div class="row" style="margin-bottom: 20px;padding-bottom: 10px;margin-left: 0PX;margin-right: -10px;border: #9c9c9c solid 1px;"> 
+	<div class="col-md-12">
+	
+	<p></p>
+	<b><h3> &nbsp;Amazing discounts </h3></b>
+	<p class="text-secondary"> &nbsp;Coupon Code : FREE10</p>
+	
+	<div class="col-md-7">
+	<b class="text-dark text-capitalize"><h4 class="text-secondary">Validity:	<br>
+	Dec 23, 2018</h4></b>	
+	</div>
+		<div class="col-md-5"  style="text-align: center;">
+		<a href="#" class="btn btn-outline-primary btn-lg" Style="padding:10px">View Details</a></div>
+		</div>
+
+		
+		</div>
+		</div>
+	
+	
+	</div>
+	</div>	
 					
 				
 				
+
+
+
+
+
+
+
+
 
 
 
