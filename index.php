@@ -12,9 +12,7 @@
 
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css">
-	<!--water-->
-	
-	
+
 	
 	
 	<!-- Animate.css -->
@@ -51,11 +49,30 @@
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+
+
+
+<link rel="stylesheet" href="js/jquery-ui.js">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+
+
+
+
+
+
+
+
+
+
  <style>
-  /* Make the image fully responsive */
+
   .carousel-inner img {
       width: 100%;
       height: 100%;
@@ -156,20 +173,11 @@
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
-												<div class="input-field">
-													<label for="date-start">Departure Date</label>
-													<input type="date" class="form-control" id="date-start" placeholder="mm/dd/yyy"/>
-												</div>
+												<div id="showcatdiv">
+							<input type="text" id="ddd" autocomplete="off" name="depart" class="hotel-input-first hasDatepicker" required="" placeholder="Departure date">
+							</div>
 											</div>
-											
-<!--
-											<div class="col-xxs-12 col-xs-6 mt alternate">
-												<div class="input-field">
-													<label for="date-end">Check Out:</label>
-													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
-												</div>
-											</div>
--->
+	
 											<div class="col-sm-12 mt">
 												<section>
 													<label for="class">Class:</label>
@@ -298,6 +306,9 @@
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
+													<label for="date-start">Departs:</label>
+													<input type="text" class="form-control" id="date-start6" placeholder="mm/dd/yyyy"/>
+												</div><div class="input-field">
 													<label for="date-start">Departs:</label>
 													<input type="text" class="form-control" id="date-start6" placeholder="mm/dd/yyyy"/>
 												</div>
@@ -482,81 +493,16 @@
 
 <!--slider end-->
 
-<!--Start Service-->	
-				
-<div class="container-fluid sBackground">
-						<div class="row">
-						<div class="col-md-12 oServices">
-						<img src="images/service/line.jpg" alt="">
-						<b>Our Services</b>&nbsp;<img src="images/service/line.jpg" alt=""/>
-						</div>	
-						
-<div class="container">
-<div class="col-md-3">
-<div class="container">
-<div class="row">
-<div class="col-md-12 text-center sTab hvr-grow-shadow">
-<img src="images/service/service4.jpg" alt=""/>
-<br><p></p><h3>Air Ticket Booking</h3>
-<br><h5>over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-</h5>
-	
-</div>	
-</div>
-</div>
-</div>
-
-<div class="col-md-3">
-<div class="container">
-<div class="row">
-<div class="col-md-12 text-center sTab hvr-grow-shadow">
-<img src="images/service/service3.jpg" alt=""/>
-<br><p></p><h3>Hotel Booking</h3>
-<br><h5>over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-</h5>
-	
-</div>	
-</div>
-</div>
-</div>
-
-<div class="col-md-3">
-<div class="container">
-<div class="row">
-<div class="col-md-12 text-center sTab hvr-grow-shadow">
-<img src="images/service/service2.jpg" alt="">
-<br><p></p><h3>Honeymoon Packages</h3>
-<br><h5>over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-</h5>
-	
-	
-</div>	
-</div>
-</div>
-</div>
-
-<div class="col-md-3">
-<div class="container">
-<div class="row">
-<div class="col-md-12 text-center sTab hvr-grow-shadow">
-<img src="images/service/service1.jpg" alt="">
-<br><p></p><h3>Cabs Booking</h3>
-<br><h5>over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-</h5>
-	
-</div>	
-</div>
-</div>
-</div>
-</div>
 
 
-</div>
-</div>
 
-<!--end Service-->
-<br>
-<p></p>
+
+
+
+
+
+
+
 
 
 <!-- Tour Packages start-->
@@ -565,7 +511,7 @@
 						<div class="container">
 						<div class="col-md-12 tBackground">
 						
-						<b>Let’s Enjoy Excellent Tour Packages</b>
+						<b>SELECT YOUR CUSTOMIZED PACKAGES</b>
 						<br>
 						<img src="images/service/line.jpg" alt="">
 						</div>	
@@ -606,13 +552,177 @@
 						</div>
 					</div>
 					<div class="col-md-12 text-center animate-box">
-						<p><a class="btn btn-primary btn-outline btn-lg" href="#" style="margin-top: 30px;">
-						<b>See All Offers </b><i class="fa fa-map-marker"></i></a></p>
+						<p><a class="btn btn-primary btn-outline btn-lg" href="#" style="margin-top: 30px;" data-toggle="collapse" data-target="#demo">
+						<b>More Offers </b><i class="fa fa-map-marker"></i></a></p>
 					</div>
+					<div class="card" style="    border: 1px solid rgba(255, 255, 255, 0.125);">
+
+					<br>
+					<br>
+					  <div id="demo" class="collapse">
+						  <div class="row">
+							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-1.jpg" alt="" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3>New York</h3>
+								<span><h5>3 nights + Flight 5*Hotel</h5></span>
+								<span class="price">45,000</span>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="	fa fa-map-marker"></i></h4></a>
+							</div>
+						</div>
+					</div>
+							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-2.jpg" alt="" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3>Philippines</h3>
+								<span><h5>4 nights + Flight 5*Hotel</h5></span>
+								<span class="price">50,000</span>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
+							</div>
+						</div>
+					</div>
+							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-3.jpg" alt="" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3>Hongkong</h3>
+								<span><h5>2 nights + Flight 4*Hotel</h5></span>
+								<span class="price">60,000</span>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
+							</div>
+						</div>
+					</div>
+				  		  </div>
+<!--
+				  		  <div class="row">
+							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-1.jpg" alt="" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3>New York</h3>
+								<span><h5>3 nights + Flight 5*Hotel</h5></span>
+								<span class="price">45,000</span>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="	fa fa-map-marker"></i></h4></a>
+							</div>
+						</div>
+					</div>
+							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-2.jpg" alt="" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3>Philippines</h3>
+								<span><h5>4 nights + Flight 5*Hotel</h5></span>
+								<span class="price">50,000</span>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
+							</div>
+						</div>
+					</div>
+							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-3.jpg" alt="" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3>Hongkong</h3>
+								<span><h5>2 nights + Flight 4*Hotel</h5></span>
+								<span class="price">60,000</span>
+								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
+							</div>
+						</div>
+					</div>
+				  		  </div>
+				  		  
+-->
+				  		  
+					  </div>
+					  <p></p>
+				  </div>
+					
+					
 			</div>
 		</div>
 </div>
 <!-- Tour Packages start-->	
+
+<!--Start Service-->	
+				
+<div class="container-fluid sBackground">
+						<div class="row">
+						<div class="col-md-12 oServices">
+						<img src="images/service/line.jpg" alt="">
+						<b>Our Services</b>&nbsp;<img src="images/service/line.jpg" alt=""/>
+						</div>	
+						
+<div class="container">
+<div class="col-md-3">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center sTab hvr-grow-shadow">
+<img src="images/service/service4.jpg" alt=""/>
+<br><p></p><h3>Air Ticket Booking</h3>
+<br><h5>Book Cheap International & Domestic air tickets to any destination across the world
+</h5>
+	
+</div>	
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center sTab hvr-grow-shadow">
+<img src="images/service/service3.jpg" alt=""/>
+<br><p></p><h3>Hotel Booking</h3>
+<br><h5> Get the Best Rate for Your Next Hotel Booking. Start Your Travel Planning Today!
+</h5>
+	
+</div>	
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center sTab hvr-grow-shadow">
+<img src="images/service/service2.jpg" alt="">
+<br><p></p><h3>Holiday Packages</h3>
+<br><h5>Plan your Perfect Dream Vacation with Us Best Holiday Packages<br><br>
+</h5>
+	
+	
+</div>	
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center sTab hvr-grow-shadow">
+<img src="images/service/service1.jpg" alt="">
+<br><p></p><h3>Cabs Booking</h3>
+<br><h5>We offers a hassle-free, comfortable and affordable  Cabs Booking <br>
+	<br>
+</h5>
+	
+</div>	
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+<!--end Service-->
+<br>
+<p></p>
+
+
+
 
 <!-- Most Popular Destination start-->
 <div class="container-fluid">
@@ -742,22 +852,28 @@
 			
 <!--counter start-->	
 	<div class="row bgCOUNTER">
-	<div class="container">
+
 	<div class="col-md-12 wChoose hvr-grow-shadow"><h1><strong>Why Choose Farepayer</strong></h1>
 	</div>
-	<div class="col-md-3 clINE hvr-grow-shadow"><img src="images/counter/0 [3].png" alt=""><br>
+	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/best.png" alt=""><br>
 	<h2>Best Price Gurantee</h2></div>	
 
-	<div class="col-md-3 clINE hvr-grow-shadow"><img src="images/counter/2.png" alt=""><br>
+	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/trust.png" alt=""><br>
 	<h2>Trust online travel Brand</h2></div>
 	
-		<div class="col-md-3 clINE hvr-grow-shadow"><img src="images/counter/3.png" alt=""><br>
+		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/trustedp.png" alt=""><br>
 	<h2>Trusted by Over 4.5 Million 
 Happy Travellers</h2></div>
 	
-		<div class="col-md-3 clINE hvr-grow-shadow"><img src="images/counter/0 [3].png" alt=""><br>
-	<h2>Best Price Gurantee</h2></div>	
+		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/fastbooking.png" alt=""><br>
+	<h2>Fast Booking</h2></div>	
 		
+		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/support.png" alt=""><br>
+	<h2>Support Team</h2></div>	
+	
+	
+	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/holiday.png" alt=""><br>
+	<h2>Hassle Free Holiday Planning</h2></div>	
 	</div>	
 		
 		
