@@ -68,19 +68,19 @@
 
 	<!-- end:header-top -->
 
-
-        <!-- The Modal -->
+<!--
+       
         <div class="modal fade" id="myModal">
           <div class="modal-dialog">
             <div class="modal-content">
 
-              <!-- Modal Header -->
+              
               <div class="modal-header">
                 <h4 class="modal-title">LOGIN</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
 
-              <!-- Modal body -->
+              
               <form class="form" action="#" method="post" onsubmit="return all_ok_login()">
                 <div class="modal-body">
                     <div class="form-group">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
 
-                <!-- Modal footer -->
+              
                 <div class="modal-footer">
                     <input type="submit" class="btn btn-success" value="Login"><br>
                     <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#mysignup" >Sign Up</a> | <a href="#">Forgot Password</a>
@@ -108,18 +108,17 @@
 
 
 
-
         <div class="modal fade" id="mysignup">
           <div class="modal-dialog">
             <div class="modal-content">
 
-              <!-- Modal Header -->
+             
               <div class="modal-header">
                 <h4 class="modal-title">SIGN UP</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
 
-              <!-- Modal body -->
+          
               <form class="form" action="#" method="post" onsubmit="return all_ok()">
                   <div class="modal-body">
                     <div class="form-group">
@@ -150,7 +149,7 @@
                         <input type="text" name="orgname" class="form-control" placeholder="School/College/Company Name" id="sorg" value="">
                         <span id="checksorg" class="text-danger"></span>
                     </div>
-    -->
+  
                     <div class="form-group">
                         <label>Password<span class="text-danger">*</span></label>
                         <input type="password" name="pswd" class="form-control" placeholder="Enter Password" id="spswd" value="">
@@ -167,10 +166,10 @@
                         <input type="text" name="promo" class="form-control" placeholder="ABCDEFG" id="spromo" value="">
                         <span id="checkspromo" class="text-danger"></span>
                     </div>
-    -->
+
                   </div>
 
-                  <!-- Modal footer -->
+                  <!-- Modal footer
                   <div class="modal-footer">
                     <input type="submit" class="btn btn-info" value="Sign Up"><br>
                     <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myModal" >Already Have an Account?</a>
@@ -178,4 +177,4 @@
               </form>
             </div>
           </div>
-
+-->

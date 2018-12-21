@@ -64,13 +64,6 @@
 
 
 
-
-
-
-
-
-
-
  <style>
 
   .carousel-inner img {
@@ -106,9 +99,6 @@
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover">
-	
-
-		
 	
 	<div id="wowslider-container1">
 	<div class="ws_images"><ul>
@@ -376,19 +366,16 @@
 										</div>
 									 </div>
 									</div>
-
 								</div>
 							</div>
-							
-								
 							</div>
 						</div>
 					</div>
+					
 				</div>
 			</div>
 
-		</div>
-		</div>
+			
 	
 	<!-- end Banner -->
 	
@@ -397,7 +384,7 @@
 <!--Hot Tours start-->			
 
 <div id="fh5co-tours" class="fh5co-section-gray" style="
-    margin-bottom: -114px;">
+    margin-bottom: -11px;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
@@ -505,7 +492,7 @@
          <span class="sr-only">Next</span>
          </a>
       </div>
-   </div>
+   	  </div>
 
 <!--slider end-->
 
@@ -545,8 +532,6 @@
 							</div>
 						</div>
 					</div>
-					
-				
 					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-3.jpg" alt="" class="img-responsive">
 							<div class="desc">
@@ -558,20 +543,11 @@
 							</div>
 						</div>
 					</div>
-					
-					
-
-    
-               
-
-					
-					
-					
-					
-					
-					
-					
-					<div class="card" style="border: 1px solid rgba(255, 255, 255, 0.125);">
+					<div class="col-md-12 text-center animate-box">
+						<p><a class="btn btn-primary btn-outline btn-lg" href="#" style="margin-top: 30px;" data-toggle="collapse" data-target="#demo">
+						<b>More Offers </b><i class="fa fa-map-marker"></i></a></p>
+					</div>
+					<div class="card" style="    border: 1px solid rgba(255, 255, 255, 0.125);">
 
 					<br>
 					<br>
@@ -611,58 +587,15 @@
 						</div>
 					</div>
 				  		  </div>
-<!--
-				  		  <div class="row">
-							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
-						<div href="#"><img src="images/place-1.jpg" alt="" class="img-responsive">
-							<div class="desc">
-								<span></span>
-								<h3>New York</h3>
-								<span><h5>3 nights + Flight 5*Hotel</h5></span>
-								<span class="price">45,000</span>
-								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="	fa fa-map-marker"></i></h4></a>
-							</div>
-						</div>
-					</div>
-							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
-						<div href="#"><img src="images/place-2.jpg" alt="" class="img-responsive">
-							<div class="desc">
-								<span></span>
-								<h3>Philippines</h3>
-								<span><h5>4 nights + Flight 5*Hotel</h5></span>
-								<span class="price">50,000</span>
-								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
-							</div>
-						</div>
-					</div>
-							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
-						<div href="#"><img src="images/place-3.jpg" alt="" class="img-responsive">
-							<div class="desc">
-								<span></span>
-								<h3>Hongkong</h3>
-								<span><h5>2 nights + Flight 4*Hotel</h5></span>
-								<span class="price">60,000</span>
-								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
-							</div>
-						</div>
-					</div>
-				  		  </div>
-				  		  
--->
-				  		  
+
 					  </div>
 					  <p></p>
 				  </div>
-					<div class="col-md-12 text-center animate-box">
-						<p><a class="btn btn-primary btn-outline btn-lg" href="#" style="margin-top: 30px;" data-toggle="collapse" data-target="#demo">
-						<b>More Offers </b><i class="fa fa-map-marker"></i></a></p>
-					</div>
 					
-					
-					
+							</div>
 			</div>
 		</div>
-</div>
+ 
 <!-- Tour Packages start-->	
 
 <!--Start Service-->	
@@ -899,7 +832,7 @@ Happy Travellers</h2></div>
 		
 		
 	</div>
-	
+		</div>
 <!--counter end-->	
 	
 	
