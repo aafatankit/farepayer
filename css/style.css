@@ -659,7 +659,7 @@ figure {
 @media screen and (max-width: 768px) {
   .nav-tabs a {
     font-weight: normal;
-    font-size: 13px;
+    font-size: 13px !important;
     padding: 15px 10px !important;
   }
 }
@@ -689,8 +689,14 @@ div.cs-select span {
   padding: 10px 10px;
 }
 
-.cs-skin-border {
-  font-size: 16px;
+																/* from date */
+.mydate{
+border: solid 1px #989898;color: black;
+		Font-size:12px;background: #eaecf180;
+}
+
+.cs-skin-border {    margin-bottom: 11px;
+  font-size: 14px;
   color:#070606;
 }
 @media screen and (max-width: 829px) {
@@ -700,7 +706,7 @@ div.cs-select span {
 }
 @media screen and (max-width: 30em) {
   .cs-skin-border {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .cs-skin-border span {

@@ -172,15 +172,16 @@
 													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
 												</div>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt alternate">
-												<div id="showcatdiv">
-							<input type="text" id="ddd" autocomplete="off" name="depart" class="hotel-input-first hasDatepicker" required="" placeholder="Departure date">
-							</div>
+										 </div>
+										 <div class="row">
+											<div class="col-md-6">
+											<label for="class">Departure :</label>	
+												<input type="date" class="mydate" name="" required>					
 											</div>
 	
-											<div class="col-sm-12 mt">
+											<div class="col-md-6">
 												<section>
-													<label for="class">Class:</label>
+													<label for="class">Class:</label><br>
 													<select class="cs-select cs-skin-border">
 														<option value="Economy" selected> Economy</option>
 														<option value="Premium Economy">Premium Economy</option>
@@ -191,6 +192,8 @@
 													</select>
 												</section>
 											</div>
+										 </div>
+										 <div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
 												<section>
 													<label for="class">Adult:</label>
@@ -240,16 +243,19 @@
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-start">Check In :</label>
-													<input type="text" class="form-control" id="date-start2" placeholder="mm/dd/yyyy"/>
+												<input type="date" class="mydate" name="" required>
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-end">Check Out:</label>
-													<input type="text" class="form-control" id="date-end3" placeholder="mm/dd/yyyy"/>
+													
+												<input type="date" class="mydate" name="" required>
 												</div>
 											</div>
-											<div class="col-sm-12 mt">
+										 </div>
+											<div class="row" style="margin-top: 15px;">
+											<div class="col-md-4">
 												<section>
 													<label for="class">Rooms:</label>
 													<select class="cs-select cs-skin-border">
@@ -260,7 +266,9 @@
 													</select>
 												</section>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
+									
+										
+											<div class="col-md-4 mt">
 												<section>
 													<label for="class">Adult:</label>
 													<select class="cs-select cs-skin-border">
@@ -272,9 +280,9 @@
 													</select>
 												</section>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
+											<div class="col-md-4">
 												<section>
-													<label for="class">Children:</label>
+													<label for="class">Child:</label>
 													<select class="cs-select cs-skin-border">
 														<option value="" disabled selected>1</option>
 														<option value="1">1</option>
@@ -284,6 +292,8 @@
 													</select>
 												</section>
 											</div>
+											</div>
+											<div class="row">
 											<div class="col-xs-12">
 												<input type="submit" class="btn btn-primary btn-block" value="Search Hotel">
 											</div>
@@ -304,22 +314,24 @@
 													<input type="text" class="form-control" id="to-place5" placeholder="Tokyo, Japan"/>
 												</div>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt alternate">
+											 </div>
+											<div class="row">
+											<div class="col-md-6">
 												<div class="input-field">
 													<label for="date-start">Departs:</label>
-													<input type="text" class="form-control" id="date-start6" placeholder="mm/dd/yyyy"/>
-												</div><div class="input-field">
-													<label for="date-start">Departs:</label>
-													<input type="text" class="form-control" id="date-start6" placeholder="mm/dd/yyyy"/>
+													<input type="date" class="mydate" name="" required>
 												</div>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt alternate">
+										
+									<div class="col-md-6">
 												<div class="input-field">
 													<label for="date-end">Return:</label>
-													<input type="text" class="form-control" id="date-end7" placeholder="mm/dd/yyyy"/>
+													<input type="date" class="mydate" name="" required>
 												</div>
 											</div>
-											<div class="col-sm-12 mt">
+										 </div>
+										 <div class="row "style="margin-top: 15px;">
+											<div class="col-md-4">
 												<section>
 													<label for="class">Rooms:</label>
 													<select class="cs-select cs-skin-border">
@@ -330,7 +342,9 @@
 													</select>
 												</section>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
+									
+										
+											<div class="col-md-4 mt">
 												<section>
 													<label for="class">Adult:</label>
 													<select class="cs-select cs-skin-border">
@@ -342,9 +356,9 @@
 													</select>
 												</section>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
+											<div class="col-md-4">
 												<section>
-													<label for="class">Children:</label>
+													<label for="class">Child:</label>
 													<select class="cs-select cs-skin-border">
 														<option value="" disabled selected>1</option>
 														<option value="1">1</option>
@@ -354,6 +368,8 @@
 													</select>
 												</section>
 											</div>
+											</div>
+											<div class="row">
 											<div class="col-xs-12">
 												<input type="submit" class="btn btn-primary btn-block" value="Search Packages">
 											</div>
@@ -399,7 +415,8 @@
 	
 					
 <!--slider Start-->		
-				<div class="row">
+      
+      <div class="row">
 
       <div id="adv_team_4_columns_carousel" class="carousel slide four_shows_one_move team_columns_carousel_wrapper" data-ride="carousel" data-interval="2000" data-pause="hover">
          <!--========= Wrapper for slides =========-->
@@ -490,19 +507,7 @@
       </div>
    </div>
 
-
 <!--slider end-->
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- Tour Packages start-->
