@@ -68,29 +68,114 @@
 
 	<!-- end:header-top -->
 
-<!-- The Modal -->
-<div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
+
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
                 <h4 class="modal-title">LOGIN</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body">
-                <form>
+              </div>
+
+              <!-- Modal body -->
+              <form class="form" action="#" method="post" onsubmit="return all_ok_login()">
+                <div class="modal-body">
                     <div class="form-group">
-                        <label>Email ID</label>
-                        <input type="email" name="cmail" placeholder="example@gmail.com">
+                        <label>Email<span class="text-danger">*</span></label>
+                        <input type="email" name="email" placeholder="example@gmail.com" class="form-control" id="userid" value="">
+                        <span id="userid_error" class="text-danger"></span>
                     </div>
-                </form>
+                    <div class="form-group">
+                        <label>Password<span class="text-danger">*</span></label>
+                        <input type="password" name="pswd" placeholder="password" class="form-control" id="userpswd" value="">
+                        <span id="userpswd_error" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-success" value="Login"><br>
+                    <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#mysignup" >Sign Up</a> | <a href="#">Forgot Password</a>
+                </div>
+              </form>
             </div>
-            <!-- Modal footer -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
+          </div>
         </div>
-    </div>
-</div>
+
+
+
+
+
+        <div class="modal fade" id="mysignup">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">SIGN UP</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <form class="form" action="#" method="post" onsubmit="return all_ok()">
+                  <div class="modal-body">
+                    <div class="form-group">
+                        <label>Full Name<span class="text-danger">*</span></label>
+                        <input type="text" name="fname" class="form-control" placeholder="e.g Ankit" id="sfname" value="">
+                        <span id="checksfname" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address<span class="text-danger">*</span></label>
+                        <input type="email" name="email" class="form-control" placeholder="example@gmail.com" id="semail" value="">
+                        <span id="checksemail" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Mobile No.<span class="text-danger">*</span></label>
+                        <input type="text" name="mobile" class="form-control" placeholder="9876543219" id="smobile" value=""> 
+                        <span id="checksmobile" class="text-danger"></span>
+                    </div>
+    <!--
+                    <div class="form-group">
+                        <label>Date of Birth<span class="text-danger">*</span></label>
+                        <input type="date" name="dob" class="form-control" placeholder="DD/MM/YYYY" id="sdob" value="">
+                        <span id="checksdob" class="text-danger"></span>
+                    </div>
+    -->
+    <!--
+                    <div class="form-group">
+                        <label>Organisation Name<span class="text-danger">*</span></label>
+                        <input type="text" name="orgname" class="form-control" placeholder="School/College/Company Name" id="sorg" value="">
+                        <span id="checksorg" class="text-danger"></span>
+                    </div>
+    -->
+                    <div class="form-group">
+                        <label>Password<span class="text-danger">*</span></label>
+                        <input type="password" name="pswd" class="form-control" placeholder="Enter Password" id="spswd" value="">
+                        <span id="checkspswd" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Confirm Password<span class="text-danger">*</span></label>
+                        <input type="password" name="cpswd" class="form-control" placeholder="Re-Enter Password" id="scpswd" value="">
+                        <span id="checkscpswd" class="text-danger"></span>
+                    </div>
+    <!--
+                    <div class="form-group">
+                        <label>Promo Code</label>
+                        <input type="text" name="promo" class="form-control" placeholder="ABCDEFG" id="spromo" value="">
+                        <span id="checkspromo" class="text-danger"></span>
+                    </div>
+    -->
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <input type="submit" class="btn btn-info" value="Sign Up"><br>
+                    <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myModal" >Already Have an Account?</a>
+                  </div>
+              </form>
+            </div>
+          </div>
 
