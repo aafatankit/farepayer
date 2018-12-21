@@ -560,84 +560,8 @@
 					</div>
 					
 					
-					
-					
-					
-					
-					<div class="text-overflow" style="font-family: 'arial'; color: #797979; font-size: 14px; font-style: italic; width: 1062px; margin: 0 auto; padding: 10px 0 0 0;">
-            <b style="font-size: 16px;">Utazzo Offers the Best Budget Honeymoon Destinations </b>
-            <br />
-            <br />
-            There are certain factors that a traveler considers while planning a holiday and one of them is budget. But in case of <b>honeymoon holidays,</b> couples want something which fits their finances and is still the best. And Utazzo is an online platform where you will find some of the top <b>budget honeymoon destinations </b>from around the world that you would love to explore.
-            <br />
-            <br />
 
-            Whether you are looking for a romantic beach vacation, an adventurous escape to the mountains, luxurious getaway to the islands or a mix of everything, you will find all kinds of choices in world-famous destinations at Utazzo.com. The range of domestic <b>honeymoon tour packages </b>starts from Rs.7800 while <b>international honeymoon packages</b>start from Rs.29999.
-            <br />
-            <br />
-
-            <b style="font-size: 16px;">Select from a Range of Domestic and International Honeymoon Packages Online </b>
-            <br />
-            <br />
-
-            At Utazzo, you can choose from a variety of <b>romantic honeymoon destinations</b> from across the world. There are both- domestic as well as<b>  international honeymoon packages </b>available online.
-            <br />
-            <br />
-
-            If searching for <b>honeymoon packages in India, </b>you will find multiple options in destinations that include Nainital, Manali, Shimla, Kerala, Darjeeling, Gangtok, and Tamil Nadu. In international destinations, you can choose from a range of the most sought-after international locations like Bangkok, Mauritius, Singapore, Maldives, Greece, Paris, Reunion, and Spain.
-            <br />
-            <br />
-
-            <b style="font-size: 16px;">Plan a Romantic Vacation with Utazzo’s All Inclusive Honeymoon Packages</b><br />
-            <br />
-
-            Nowadays, couples have become very choosy in selecting a destination for their<b>  honeymoon vacation. </b>And why not, after all, honeymoon is the most memorable moment in a newly-wed couple’s life. Isn’t it?  Once the hectic schedule of wedding gets over, they feel like escaping to a secluded place to spend some time alone away from the hustle-bustle of the city life and coming back with precious memories and a new beginning.
-            <br />
-            <br />
-
-            If you too are planning a <b>romantic vacation</b>  with your better half, Utazzo.com brings to you an exclusive selection of <b>all inclusive honeymoon packages </b>online just for you. When you opt for these, you get a chance to enjoy a budget-vacation which not only provides you with best deals in hotels and airplane tickets but also takes care of everything else like to-do activities, meals, airport transfers, accommodation, etc.
-            <br />
-            <br />
-
-            <b style="font-size: 16px;">Why Buy Honeymoon Packages from Utazzo.com? </b>
-            <br />
-            <br />
-
-            Utazzo.com is one of India’s leading travel websites which uses the latest technology to give you an unmatched travel booking experience online. Through our <b>honeymoon packages </b>you can explore the world’s famous honeymoon destinations in best prices. You can browse through the two categories- domestic and international to select your favorite location.
-            <br />
-            <br />
-
-            In case, you have some special requirements, we have the option of customizing your holiday as per your needs. We have access to over 200 airlines and 80,000 hotels in the world to make sure your overall travel experience is beyond perfect.  
     
-
-
-        </div>
-
-					 <div style="margin: 0 auto; width: 1062px;"><a class="btn-overflow" href="javascript:void(0);">Read more...</a></div>
-        <div class="container t-holiday inner-page">
-            <div class="row">
-                <div class="col-md-12" id="divInternationalHoneymoonPackage">
-                </div>
-            </div>
-        </div>
-        <div class="container t-holiday inner-page">
-            <div class="row">
-                <div class="col-md-12" id="divDomesticHoneymoonPackage">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--end MAIN WRAPPER-->
-    <!--Modal Query Form Popup-->
-    <div class="modal fade enquiryform" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    </div>
-    <div id="myModalPopup" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content" style="height: 500px; width: 418px; margin: 100px 0 0 45px;">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Send Enquiry</h4>
-                </div>
                
 
 					
