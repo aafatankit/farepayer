@@ -1,3 +1,3052 @@
+
+23323,1,Renens,CH,
+23070,1,Reussbuehl,CH,
+23324,1,Rheinau,CH,
+23429,1,Rheinfelden,CH,
+23071,1,Riederalp,CH,
+23072,1,Riesbach,CH,
+23073,1,Rigi Kaltbad,CH,
+865,1,Rigi-Kaltbad,CH,
+23325,1,Ringgenberg,CH,
+37345,1,Rohr,CH,
+23326,1,Rolle,CH,
+39217,1,Romainmotier,CH,
+23327,1,Romanshorn,CH,
+23328,1,Ronco Bedretto,CH,
+23475,1,Rorschach,CH,
+23074,1,Rorschacherberg,CH,
+23329,1,Rossens,CH,
+23330,1,Rossiniere,CH,
+23075,1,Rothenburg,CH,
+23430,1,Rothrist,CH,
+23331,1,Rougemont,CH,
+23332,1,Rovio,CH,
+23431,1,Rudolfstetten,CH,
+23076,1,Rueschlikon,CH,
+23333,1,Rumlang,CH,
+41219,1,Ruschlikon,CH,
+23077,1,Rute,CH,
+38211,1,S-chanf,CH,
+22989,1,Saanen,CH,
+23078,1,Saanenmoeser,CH,
+23079,1,Saas,CH,
+23464,1,Saas Fee,CH,
+23080,1,Saas Grund,CH,
+35994,1,Saas-Fee,CH,
+23334,1,Sachseln,CH,
+23335,1,Saignelegier,CH,
+23336,1,Saillon,CH,
+861,1,Saint Gallen,CH,
+862,1,Saint Moritz,CH,
+38656,1,Saint-Léonard,CH,
+23337,1,Saint-Maurice,CH,
+23338,1,Saint-Sulpice,CH,
+23339,1,Salgesch,CH,
+23081,1,Samedan,CH,
+23340,1,Samnaun,CH,
+23341,1,San Bernardino,CH,
+23342,1,Sankt Antonien,CH,
+23343,1,Sankt Gallen,CH,
+23344,1,Sankt Margrethen,CH,
+23345,1,Sankt Niklaus,CH,
+23346,1,Sarnen,CH,
+23438,1,Satigny,CH,
+23347,1,Savigny,CH,
+23348,1,Savognin,CH,
+23349,1,Schaffhausen,CH,
+23350,1,Schangnau,CH,
+40584,1,Schindellegi,CH,
+23351,1,Schlatt,CH,
+23352,1,Schlieren,CH,
+23082,1,Schoenengrund,CH,
+23353,1,Schonenwerd,CH,
+36,1,Schonried,CH,
+23354,1,Schupfen,CH,
+23083,1,Schwamendingen,CH,
+23355,1,Schwarzenburg,CH,
+23356,1,Schwefelbergbad,CH,
+23357,1,Schwyz,CH,
+23358,1,Scuol,CH,
+23359,1,Sedrun,CH,
+23360,1,Seebach,CH,
+23361,1,Sent,CH,
+38210,1,Sessa,CH,
+23362,1,Sierre,CH,
+23363,1,Sigriswil,CH,
+44280,1,Sils im Engadin-Segl,CH,
+42630,1,Sils Maria,CH,
+23084,1,Sils-Maria,CH,
+23364,1,Silvaplana,CH,
+37715,1,Sins,CH,
+23365,1,Sion,CH,
+23366,1,Siselen,CH,
+23367,1,Sisikon,CH,
+23368,1,Soazza,CH,
+23369,1,Solothurn,CH,
+23085,1,Sörenberg,CH,
+23370,1,Speicher,CH,
+23451,1,Spiez,CH,
+23371,1,Spreitenbach,CH,
+35996,1,St Gallen,CH,
+42830,1,St Leonard,CH,
+35995,1,St Moritz,CH,
+41218,1,St-antonien,CH,
+23086,1,St. Gallen area,CH,
+23087,1,St. Luc,CH,
+23088,1,St. Moritz,CH,
+41217,1,Staad,CH,
+23372,1,Stafa,CH,
+23373,1,Stalden,CH,
+23374,1,Stans,CH,
+23375,1,Stansstad,CH,
+23376,1,Steckborn,CH,
+23377,1,Stein am Rhein,CH,
+23378,1,Stettlen,CH,
+23468,1,Stoos,CH,
+37271,1,Studen,CH,
+23379,1,Suhr,CH,
+23089,1,Sursee,CH,
+35997,1,Taesch,CH,
+23380,1,Tarasp,CH,
+23381,1,Tasch,CH,
+23382,1,Territet,CH,
+23383,1,Tesserete,CH,
+23384,1,Teufen,CH,
+23385,1,Thal,CH,
+23386,1,Thalwil,CH,
+23387,1,Thielle,CH,
+23439,1,Thonex,CH,
+23453,1,Thun,CH,
+23090,1,Thurgau,CH,
+23091,1,Ticino,CH,
+39474,1,Tiefencastel,CH,
+23388,1,Twann,CH,
+23389,1,Uitikon,CH,
+23390,1,Unterageri,CH,
+23391,1,Unteriberg,CH,
+23392,1,Unterseen,CH,
+23092,1,Unterstrass,CH,
+23393,1,Untervaz,CH,
+37938,1,Unterwasser,CH,
+23093,1,Uri,CH,
+23394,1,Uster,CH,
+23474,1,Uzwil,CH,
+38268,1,Val dIlliez,CH,
+23094,1,Valais,CH,
+23395,1,Valbella,CH,
+40888,1,Valle de Joux,CH,
+23396,1,Vallorbe,CH,
+23095,1,Vaudois Alps,CH,
+44281,1,Vaz-Obervaz,CH,
+23397,1,Verbier,CH,
+23398,1,Vermala,CH,
+23441,1,Vernier,CH,
+37641,1,Versoix,CH,
+23096,1,Vevey,CH,
+23440,1,Veyrier,CH,
+23399,1,Veysonnaz,CH,
+23400,1,Veytaux,CH,
+23097,1,Vezia,CH,
+23098,1,Villa,CH,
+23099,1,Villars,CH,
+23401,1,Villars-sur-Ollon,CH,
+23402,1,Vira,CH,
+23403,1,Visp,CH,
+23404,1,Visperterminen,CH,
+23100,1,Vitznau,CH,
+23101,1,Vufflens Le Chateau,CH,
+23470,1,Vulpera,CH,
+23405,1,Wallisellen,CH,
+23406,1,Walzenhausen,CH,
+23407,1,Weesen,CH,
+23408,1,Weggis,CH,
+23409,1,Weinfelden,CH,
+23410,1,Weissbad,CH,
+38336,1,Welschenrohr,CH,
+23411,1,Wengen,CH,
+23412,1,Wiedikon,CH,
+23102,1,Wienacht-Tobel,CH,
+23413,1,Wiesen,CH,
+23414,1,Wildegg,CH,
+23458,1,Wilderswil,CH,
+23415,1,Wildhaus,CH,
+23103,1,Wilen,CH,
+23104,1,Winterthur,CH,
+23105,1,Wipkingen,CH,
+23416,1,Wolfenschiessen,CH,
+23106,1,Wollishofen,CH,
+23417,1,Yverdon,CH,
+43333,1,Yverdon-les-Bains,CH,
+23418,1,Zermatt,CH,
+23419,1,Zernez,CH,
+23420,1,Zinal,CH,
+23421,1,Zollikofen,CH,
+23422,1,Zollikon,CH,
+23423,1,Zug,CH,
+23107,1,Zug - Schwyz,CH,
+23471,1,Zuoz,CH,
+23424,1,Zurich,CH,
+23425,1,Zurzach,CH,
+23455,1,Zweisimmen,CH,
+16926,1,Aleppo,SY,
+36713,1,Bloudan,SY,
+36714,1,Bosra,SY,
+16925,1,Damascus,SY,
+36715,1,Deie Ez Zor,SY,
+1274,1,Deir Ez Zor,SY,
+16927,1,Deirezzor,SY,
+16928,1,Hama,SY,
+16929,1,Homs,SY,
+1305,1,Idleb,SY,
+36716,1,Idlib,SY,
+36717,1,Jedaidet al Shebani,SY,
+16930,1,Kameshli,SY,
+43127,1,Kassab,SY,
+16931,1,Latakia,SY,
+36719,1,Ma Aret Seynaya,SY,
+1083,1,Maaloula,SY,
+36718,1,Maalula,SY,
+16932,1,Palmyra,SY,
+36721,1,Safita,SY,
+41216,1,Saidnaya,SY,
+36720,1,Tartous,SY,
+43153,1,Banciao,TW,
+36815,1,Beitou,TW,
+36820,1,Chang Hua,TW,
+17377,1,Changhua,TW,
+42299,1,Changhua City,TW,
+44026,1,Checheng,TW,
+36817,1,Cheng Ching Lake,TW,
+17378,1,Chi Mei,TW,
+36818,1,Chiao-Hsi,TW,
+17379,1,Chiayi,TW,
+17380,1,Chulu,TW,
+37733,1,Chunan,TW,
+926,1,Chung Ho City,TW,
+17381,1,Chungli,TW,
+17445,1,Danshuei,TW,
+42304,1,Danshui,TW,
+38949,1,Dashu,TW,
+39673,1,Dayuan,TW,
+17382,1,Douliou,TW,
+17383,1,Fangliao,TW,
+17384,1,Gongliao,TW,
+17385,1,Green Island,TW,
+17386,1,Guan Zi Ling,TW,
+17387,1,Guanshan,TW,
+44027,1,Guanxi,TW,
+17388,1,Hengchun,TW,
+40406,1,Hsin Shih,TW,
+17442,1,Hsinchu,TW,
+17389,1,Hsinchuang,TW,
+17390,1,Hualien,TW,
+17391,1,Jhihbin Hot Springs,TW,
+17392,1,Jiaosi,TW,
+42300,1,Jiaoxi,TW,
+42302,1,Jinshan,TW,
+17440,1,Kaohsiung,TW,
+17443,1,Keelung,TW,
+17393,1,Kenting,TW,
+17394,1,Kinmen,TW,
+17395,1,Ku Keng,TW,
+17396,1,Ku Kuan,TW,
+37850,1,Liouciou,TW,
+17397,1,Lishan,TW,
+36823,1,Longtan,TW,
+36824,1,Lotung,TW,
+17398,1,Luchou,TW,
+36825,1,Lugang,TW,
+17399,1,Lukang,TW,
+17400,1,Luodong,TW,
+17401,1,Lushan,TW,
+17402,1,Luye,TW,
+42303,1,Magong,TW,
+17403,1,Makung,TW,
+17404,1,Manjou,TW,
+17405,1,Mi Chih,TW,
+17444,1,Miaoli,TW,
+36826,1,Nan Tou,TW,
+17406,1,Nantou,TW,
+17407,1,Orchid Island,TW,
+17408,1,Panchiao,TW,
+17409,1,Peinan,TW,
+17410,1,Peitou,TW,
+17411,1,Pingtung,TW,
+43152,1,Pingtung City,TW,
+17412,1,Puli,TW,
+17413,1,Rueili Village,TW,
+17414,1,Sanchung,TW,
+36829,1,Sanhsia,TW,
+17415,1,Sansia,TW,
+17446,1,Shihlin,TW,
+17416,1,Shindian,TW,
+17417,1,Shioulin,TW,
+17418,1,Shoufeng,TW,
+38456,1,Sinjhuang,TW,
+36828,1,Sitou,TW,
+17419,1,Sun Moon Lake,TW,
+925,1,Ta pei,TW,
+36832,1,Ta Shee,TW,
+17441,1,Taichung,TW,
+17449,1,Tainan,TW,
+36834,1,Tainan-Yongkang,TW,
+17439,1,Taipei,TW,
+36816,1,Taipei-Banchiao,TW,
+36819,1,Taipei-Chung Ho,TW,
+36821,1,Taipei-Hsintien,TW,
+36827,1,Taipei-Sanchong,TW,
+17421,1,Taitung,TW,
+17422,1,Talintsun,TW,
+36830,1,Tamsui,TW,
+17447,1,Taoyuan,TW,
+36831,1,Taroko,TW,
+17423,1,Taroko Gorge,TW,
+17424,1,Toucheng,TW,
+44028,1,Toufen,TW,
+17425,1,Tsaoling,TW,
+17426,1,Tung Po,TW,
+36833,1,Wan Li,TW,
+17427,1,Wanli,TW,
+17428,1,Wonan,TW,
+17429,1,Wujie,TW,
+17430,1,Wulai,TW,
+17431,1,Wuling,TW,
+17432,1,Wulu Hot Springs,TW,
+17433,1,Wushe,TW,
+17434,1,Xitou,TW,
+17376,1,Yilan,TW,
+17448,1,Yuenlin,TW,
+17437,1,Yungho,TW,
+17438,1,Yungkang,TW,
+36835,1,Yunlin,TW,
+42301,1,Zhongli,TW,
+17104,1,Dushanbe,TJ,
+17103,1,Khudzhand,TJ,
+17453,1,Arusha,TZ,
+17454,1,Bukoba,TZ,
+17455,1,Dar es Salaam,TZ,
+36836,1,Dar-Es-Salaam,TZ,
+17456,1,Dodoma,TZ,
+17457,1,Iringa,TZ,
+17458,1,Jambiani,TZ,
+41207,1,Jambiani -zanzibar,TZ,
+44009,1,Karatu,TZ,
+17459,1,Kilimanjaro,TZ,
+17460,1,Kilwa,TZ,
+41212,1,Kiwengwa -zanzibar,TZ,
+39633,1,Kogatende,TZ,
+17450,1,Lake Manyara,TZ,
+41208,1,Lake Manyara National Park,TZ,
+17461,1,Lindi,TZ,
+17451,1,Mafia Island,TZ,
+41210,1,Marine Park,TZ,
+17462,1,Masasi,TZ,
+17463,1,Mbeya,TZ,
+37910,1,Moshi,TZ,
+17464,1,Mtwara,TZ,
+17465,1,Musoma,TZ,
+17466,1,Mwanza,TZ,
+17467,1,Nachingwea,TZ,
+17468,1,Ngorongoro,TZ,
+38575,1,Olakira Camp,TZ,
+17469,1,Oyster Bay,TZ,
+17452,1,Pemba Island,TZ,
+44010,1,Selous Game Reserve,TZ,
+40402,1,Selous Reserve,TZ,
+41209,1,Serengeti National Park,TZ,
+40575,1,Serengeti Reserve,TZ,
+17470,1,Shinyanga,TZ,
+17471,1,Songea,TZ,
+41213,1,Stone Town -zanzibar,TZ,
+17472,1,Sumbawanga,TZ,
+17473,1,Tabora,TZ,
+17474,1,Tanga,TZ,
+38756,1,Tarangire,TZ,
+44011,1,Tarangire National Park,TZ,
+41211,1,Uroa -zanzibar,TZ,
+17475,1,Zanzibar,TZ,
+16951,1,THAI MUANG,TH,
+1798,1,Amphur Mueng,TH,
+42052,1,Ang Thong,TH,
+36725,1,Ang Thong M.N.P,TH,
+38595,1,Angkhang,TH,
+16966,1,Ao Namao,TH,
+16967,1,Ao Nang,TH,
+16968,1,Arunothai Beach,TH,
+16969,1,Ayuthaya,TH,
+36726,1,Ayutthaya,TH,
+16970,1,Bai Lan,TH,
+17084,1,Ban Khlong Tan,TH,
+17082,1,Ban Lat Phrao,TH,
+17032,1,Ban Pao,TH,
+17080,1,Ban Phe,TH,
+38403,1,Ban Pong,TH,
+37491,1,Ban Rai,TH,
+44200,1,Ban Thi,TH,
+17033,1,Bang Kapi,TH,
+17034,1,Bang Khen,TH,
+17035,1,Bang Khun Thian,TH,
+17073,1,Bang Kruai,TH,
+16971,1,Bang Phli,TH,
+17036,1,Bang Rak,TH,
+36732,1,Bang Saen,TH,
+16972,1,Bang Saphan,TH,
+16973,1,Bangbao Beach,TH,
+16974,1,Bangkok,TH,
+41205,1,Bo Phut,TH,
+40564,1,Buri Ram,TH,
+42258,1,Burirum,TH,
+41065,1,Cape Panwa,TH,
+39177,1,Cape Yamu,TH,
+36734,1,Cha Am,TH,
+1296,1,Cha Am Hua Hin and West,TH,
+16952,1,Cha-Am,TH,
+42408,1,Chachoengsao,TH,
+16975,1,Changlang Beach,TH,
+41709,1,Chanthaburi,TH,
+41066,1,Chaweng,TH,
+16976,1,Chaweng Beach,TH,
+17048,1,Chiang Dao,TH,
+17049,1,Chiang Mai,TH,
+16977,1,Chiang Mai area,TH,
+36738,1,Chiang Mai-Hang Dong,TH,
+36763,1,Chiang Mai-Mae Rim,TH,
+17054,1,Chiang Rai,TH,
+17055,1,Chiang Saen,TH,
+43359,1,Choeng Mon,TH,
+17079,1,Chon Buri,TH,
+36736,1,Chonburi,TH,
+16953,1,Chumphon,TH,
+16978,1,Chumphon Province,TH,
+16979,1,Chumpon Province,TH,
+16980,1,Cua Dia Beach,TH,
+16981,1,Dan Markham Tia,TH,
+40474,1,Dan Sai,TH,
+16982,1,District 1 - Dong Khoi,TH,
+16983,1,District 5 - Cholon,TH,
+17050,1,Doi Saket,TH,
+17051,1,Fang,TH,
+16984,1,Golden Triangle,TH,
+17052,1,Hang Dong,TH,
+16954,1,Hat Yai,TH,
+17085,1,Hua Hin,TH,
+42167,1,Hua Hin and Cha Am,TH,
+40091,1,Huai Yang,TH,
+36780,1,Insula Rayong-Samet,TH,
+16986,1,Jomtien Beach,TH,
+42824,1,Kaeng Krachan,TH,
+16987,1,Kai Be Beach,TH,
+42051,1,Kamala,TH,
+17063,1,Kamphaeng Phet,TH,
+16955,1,Kanchanaburi,TH,
+1373,1,Kanchanaburi - Central,TH,
+36787,1,Kanchanaburi-Tha Sao,TH,
+41067,1,Karon,TH,
+17092,1,Kathu,TH,
+36746,1,Khanom,TH,
+17065,1,Khao Kho,TH,
+16988,1,Khao Lak,TH,
+16989,1,Khao Lak - Phangnga Coast,TH,
+1376,1,Khao Lak and Phang Nga,TH,
+36750,1,Khao Lak-Lam Ru,TH,
+36756,1,Khao Sam Roi Yod,TH,
+1796,1,Khao Sok,TH,
+36755,1,Khao Sok N.P.,TH,
+36743,1,Khao Yai,TH,
+41708,1,Khao Yai - Nakhon Ratchasima,TH,
+16990,1,Khao Yai National Park,TH,
+16991,1,Khlong Muang Beach,TH,
+17039,1,Khlong San,TH,
+17040,1,Khlong Toei,TH,
+17069,1,Khon Kaen,TH,
+36748,1,Khong Jiam,TH,
+38576,1,Klaeng,TH,
+16992,1,Klong Prao Beach,TH,
+16993,1,Klong Son Bay,TH,
+43617,1,Klongtoey,TH,
+16994,1,Klung Son Bay,TH,
+1371,1,Ko Chang and Trat,TH,
+16995,1,Ko Hong,TH,
+16996,1,Ko Khao,TH,
+16997,1,Ko Kood,TH,
+17095,1,Ko Lanta,TH,
+44201,1,Ko Mook,TH,
+37796,1,Ko Payam,TH,
+16998,1,Ko Phi Phi,TH,
+16999,1,Ko Racha Yai,TH,
+17089,1,Ko Samui,TH,
+1398,1,Ko Samui and Area,TH,
+17000,1,Ko Tao,TH,
+17001,1,Ko Yao Noi,TH,
+17002,1,Ko Yao Yai,TH,
+43075,1,Koh Bulon Lae,TH,
+16956,1,Koh Chang,TH,
+42050,1,Koh Hae,TH,
+43341,1,Koh Hai - Trang,TH,
+42825,1,Koh Jum,TH,
+36747,1,Koh Kaew,TH,
+41877,1,Koh Khao,TH,
+42298,1,Koh Klang,TH,
+41204,1,Koh Kood,TH,
+39540,1,Koh Kradan,TH,
+42826,1,Koh Kut,TH,
+41203,1,Koh Lak - Phang Nga,TH,
+36749,1,Koh Lanta,TH,
+38994,1,Koh Lipe,TH,
+42049,1,Koh Lone,TH,
+42827,1,Koh Mai Thon,TH,
+42048,1,Koh Mak,TH,
+42828,1,Koh Maphrao,TH,
+37261,1,Koh Mook,TH,
+42047,1,Koh Nang Yuan,TH,
+42046,1,Koh Ngai,TH,
+36754,1,Koh Phangan,TH,
+42045,1,Koh Racha Yai,TH,
+1801,1,Koh Samed,TH,
+37551,1,Koh Samet,TH,
+36789,1,Koh Samui,TH,
+43076,1,Koh Sukorn,TH,
+43340,1,Koh Tao,TH,
+36786,1,Koh Tao Island,TH,
+42829,1,Koh Tarutao,TH,
+1795,1,Koh Yao,TH,
+36790,1,Koh Yao Noi,TH,
+17096,1,Krabi,TH,
+17086,1,Kui Buri,TH,
+17003,1,Laem Chabang,TH,
+17059,1,Lampang,TH,
+41707,1,Lampoon,TH,
+42040,1,Lipa Noi,TH,
+17067,1,Loei,TH,
+17004,1,Lon Island,TH,
+36758,1,Lopburi,TH,
+17056,1,Mae Chan,TH,
+43120,1,Mae Chang,TH,
+17046,1,Mae Hong Son,TH,
+1374,1,Mae Hong Son and North,TH,
+42039,1,Mae Nam,TH,
+17053,1,Mae Rim,TH,
+37259,1,Mae Sariang,TH,
+16957,1,Mae Sot,TH,
+17057,1,Mae Suai,TH,
+42038,1,Mai Khao,TH,
+17005,1,Minburi,TH,
+42297,1,Muak Lek,TH,
+17006,1,Mui Ne Beach,TH,
+36764,1,Mukdahaan,TH,
+43073,1,Mukdahan,TH,
+42036,1,Na Muang,TH,
+17007,1,Na Thon,TH,
+42035,1,Nai Yang,TH,
+42634,1,Nakhon Nayok,TH,
+41706,1,Nakhon Pathom,TH,
+17101,1,Nakhon Phanom,TH,
+42084,1,Nakhon Phnom,TH,
+17070,1,Nakhon Ratchasima,TH,
+36767,1,Nakhon Sawan,TH,
+17097,1,Nakhon Si Thammarat,TH,
+41705,1,Nakhon Sithammarat,TH,
+1242,1,Nakhorn Ratchasima - North East,TH,
+36768,1,Nakorn Pathom,TH,
+1794,1,Nakorn Ratchasima,TH,
+1797,1,Nakorn Sawan,TH,
+43348,1,Nakorn Sri Thammarat,TH,
+17058,1,Nan,TH,
+17072,1,Narathiwat,TH,
+17060,1,Ngao,TH,
+17066,1,Nong Khai,TH,
+42082,1,Nongkhai,TH,
+17074,1,Nonthaburi,TH,
+17009,1,Old Quarter - Hoan Kiem Lake,TH,
+17010,1,Ong Lang Beach,TH,
+42034,1,Pa Khlok,TH,
+41068,1,Pa tong,TH,
+17047,1,Pai,TH,
+17071,1,Pak Chong,TH,
+42033,1,Pansea,TH,
+17075,1,Pathum Thani,TH,
+43339,1,Pathumthani,TH,
+38275,1,Pathumwan,TH,
+17011,1,Pattaya,TH,
+1793,1,Petchburi,TH,
+17012,1,Phala Beach,TH,
+36776,1,Phang Nga,TH,
+16958,1,Phangnga,TH,
+17041,1,Phasi Charoen,TH,
+41704,1,Phayao,TH,
+1792,1,Phetchaboon,TH,
+16959,1,Phetchabun,TH,
+16960,1,Phetchaburi,TH,
+1333,1,Phi Phi,TH,
+36775,1,Phi Phi Island,TH,
+17064,1,Phitsanulok,TH,
+36777,1,Phitsanuloke,TH,
+17042,1,Phra Khanong,TH,
+17013,1,Phra Nakhon,TH,
+17076,1,Phra Pradaeng,TH,
+17061,1,Phrae,TH,
+17093,1,Phuket,TH,
+17014,1,Pom Prap Sattru Phai,TH,
+42083,1,Prachinburi,TH,
+1799,1,Prachuabkirikhan,TH,
+17087,1,Prachuap Khiri Khan,TH,
+16961,1,Pran Buri,TH,
+41069,1,Pranburi,TH,
+64264,1,Pratunam,TH,
+17015,1,Railay Beach,TH,
+36778,1,Ranong,TH,
+17043,1,Rat Burana,TH,
+42032,1,Rawai,TH,
+17081,1,Rayong,TH,
+1375,1,Rayong and Ko Samet,TH,
+36728,1,Rayong-Ban Pae,TH,
+36781,1,Roi Et,TH,
+41703,1,Roi-et,TH,
+42645,1,Sa Kaeo,TH,
+42257,1,Sa Kaew,TH,
+17016,1,Saiyoke,TH,
+17068,1,Sakon Nakhon,TH,
+17017,1,Saladan,TH,
+17018,1,Salak Kok,TH,
+17019,1,Sam Phan,TH,
+17083,1,Sam Phran,TH,
+42031,1,Sam Roi Yot,TH,
+17077,1,Samut Prakan,TH,
+36782,1,Samut Prakarn,TH,
+41711,1,Samut Songkhram,TH,
+17020,1,San Kampaeng,TH,
+17021,1,San Pa Thong,TH,
+17022,1,Sansai,TH,
+43074,1,Saraburi,TH,
+41702,1,Satun,TH,
+42296,1,Si Racha,TH,
+36783,1,Si Saket,TH,
+17098,1,Sikao,TH,
+17023,1,Silom - Sathom,TH,
+42646,1,Sisaket,TH,
+17099,1,Songkhla,TH,
+17024,1,Sop Ruak,TH,
+42409,1,Srisaket,TH,
+17025,1,Sukhothai,TH,
+17090,1,Surat Thani,TH,
+42030,1,Surin,TH,
+17026,1,Suvarnabhumi Airport,TH,
+17062,1,Tak,TH,
+16962,1,Takua Pa,TH,
+16963,1,TAKUAPA,TH,
+17027,1,Talat Takua Pa,TH,
+17044,1,Taling Chan,TH,
+42029,1,Taling Ngam,TH,
+38033,1,Talingchan,TH,
+17091,1,Thai Muang,TH,
+17094,1,Thalang,TH,
+17078,1,Thon Buri,TH,
+16964,1,Trang,TH,
+1391,1,Trang and South,TH,
+16965,1,Trat,TH,
+41793,1,Tri Trang,TH,
+38788,1,Tub Kaek Beach,TH,
+17102,1,Ubon Ratchathani,TH,
+17028,1,Udon Thani,TH,
+17029,1,Utapao,TH,
+43400,1,Uthai Thani,TH,
+1800,1,Uthaithani,TH,
+17030,1,Wang Nam Khieo,TH,
+17031,1,White Sand Beach,TH,
+17045,1,Yan Nawa,TH,
+16950,1,Lome,TG,
+36795,1,Atata Island,TO,
+17111,1,Eua Island,TO,
+36796,1,Fafa Island,TO,
+39014,1,Kanokupolu,TO,
+17112,1,Lifuka Island,TO,
+17113,1,Niuafo Ou,TO,
+17114,1,Niuatoputapu,TO,
+17115,1,Nuku Alofa,TO,
+36797,1,Nuku'Alofa,TO,
+42756,1,Tongatapu,TO,
+17116,1,Tongatapu Island,TO,
+17117,1,Vava'u,TO,
+17125,1,Arima,TT,
+17128,1,Arouca,TT,
+17134,1,Black Rock,TT,
+17135,1,Carnbee,TT,
+17136,1,Charlotteville,TT,
+17126,1,Claxton Bay,TT,
+17119,1,Crown Point,TT,
+17129,1,Diego Martin,TT,
+38243,1,Les Coteaux,TT,
+17137,1,Lowlands,TT,
+17130,1,Maraval,TT,
+17131,1,Piarco,TT,
+17120,1,Pigeon Point,TT,
+17138,1,Plymouth,TT,
+17121,1,Port of Spain,TT,
+17122,1,Rampalnagas Village,TT,
+44001,1,Salybia,TT,
+17123,1,San Fernando,TT,
+17139,1,Scarborough,TT,
+17140,1,Speyside,TT,
+17118,1,Tobago,TT,
+36814,1,Tobago Island,TT,
+17127,1,Toco,TT,
+17124,1,Trinidad,TT,
+17132,1,Tunapuna,TT,
+17133,1,Valsayn,TT,
+17172,1,Aghir,TN,
+17149,1,Ain Draham,TN,
+17150,1,Bir El Bey,TN,
+17166,1,Bizerte,TN,
+17141,1,Borj Cedria,TN,
+17182,1,Carthage,TN,
+17151,1,Djerba,TN,
+17177,1,Douz,TN,
+38604,1,Douz Area,TN,
+17152,1,El Kantaoui,TN,
+40516,1,Enfidha,TN,
+39114,1,Erriadh,TN,
+17153,1,Ezzahra,TN,
+17175,1,Gabes,TN,
+17142,1,Gabès,TN,
+17143,1,Gammarth,TN,
+17154,1,Halq al Wadi,TN,
+17169,1,Hammam Sousse,TN,
+17183,1,Hammamet,TN,
+17155,1,Hammamet area,TN,
+43450,1,Hammamet Yasmine,TN,
+41198,1,Houmt Souk - djerba,TN,
+17156,1,Houmt Souq,TN,
+17157,1,Jarjis,TN,
+17163,1,Kairouan,TN,
+17178,1,Kebili,TN,
+17158,1,La Marsa,TN,
+17164,1,Mahdia,TN,
+17176,1,Matmata,TN,
+17173,1,Medenine,TN,
+17174,1,Midoun,TN,
+41196,1,Midoun Djerba,TN,
+17165,1,Monastir,TN,
+17159,1,Monastir area,TN,
+1470,1,Monastir- Skanes,TN,
+36792,1,Nabeul,TN,
+17144,1,Nabul,TN,
+17145,1,Nefta,TN,
+36793,1,Port el Kantaoui,TN,
+1383,1,Port El Kantaoui-Sousse,TN,
+17160,1,Port El Kantara,TN,
+17179,1,Sfax,TN,
+17167,1,Sidi Bou Said,TN,
+17161,1,Sidi Fredj,TN,
+1742,1,Sidi-Bou-Said,TN,
+43451,1,Skanes,TN,
+17168,1,Soliman,TN,
+17170,1,Sousse,TN,
+17146,1,Tabarka,TN,
+40528,1,Tabarka Area,TN,
+36794,1,Tatahouine,TN,
+17180,1,Tataouine,TN,
+17147,1,Tatawin,TN,
+17181,1,Tozeur,TN,
+39322,1,Tozeur Area,TN,
+17171,1,Tunis,TN,
+17162,1,Tunis area,TN,
+1384,1,Tunis-Carthage Coast,TN,
+17148,1,Zarzis,TN,
+16942,1,Bambarra,TC,
+16943,1,Blue Hills,TC,
+16944,1,Bottle Creek,TC,
+16933,1,Cockburn Town,TC,
+16945,1,Conch Bar,TC,
+16946,1,Five Cays,TC,
+16934,1,Grace Bay,TC,
+16947,1,Grand Turk,TC,
+16948,1,Lorimers,TC,
+16935,1,Northwest Point,TC,
+16936,1,Parrot Cay,TC,
+16937,1,Pine Cay,TC,
+16938,1,Providenciales,TC,
+16939,1,Salt Cay,TC,
+16949,1,Sandy Point,TC,
+16940,1,Turks and Caicos,TC,
+889,1,Turks and Caicos Isl,TC,
+16941,1,Whitby,TC,
+42218,1,Abant,TR,
+17374,1,Adana,TR,
+17236,1,Adiyaman,TR,
+42681,1,Adrasan,TR,
+17238,1,Afyon,TR,
+41079,1,Agri,TR,
+43690,1,Agva,TR,
+39998,1,Akbuk,TR,
+17271,1,Akcakoca,TR,
+40317,1,Akhisar,TR,
+17326,1,Akkoy,TR,
+17352,1,Aksaray,TR,
+17336,1,Akyaka,TR,
+17313,1,Alacati,TR,
+17248,1,Alanya,TR,
+17193,1,Alanya - East Gulf,TR,
+17303,1,Alibeykoy,TR,
+17194,1,Altinkum,TR,
+36798,1,Altinoluk,TR,
+17242,1,Amasya,TR,
+17299,1,Anamur,TR,
+17371,1,Ankara,TR,
+36799,1,Ankara Airport,TR,
+17195,1,Ankara area,TR,
+36800,1,Antakya,TR,
+17249,1,Antalya,TR,
+17261,1,Arnavutkoy,TR,
+43618,1,Artvin,TR,
+36801,1,Assos,TR,
+17196,1,Ataturk International Airport (IST),TR,
+17184,1,Avanos,TR,
+17324,1,Aydin,TR,
+17348,1,Ayvali,TR,
+17232,1,Ayvalik,TR,
+1644,1,Balikesir,TR,
+17262,1,Bandirma,TR,
+17359,1,Batman,TR,
+17296,1,Bayburt,TR,
+17244,1,Bayirkoy,TR,
+17250,1,Beldibi,TR,
+17251,1,Belek,TR,
+17314,1,Bergama,TR,
+17197,1,Beykoy,TR,
+17282,1,Beylerbeyi,TR,
+37469,1,Beylikduzu,TR,
+17198,1,Beyoglu - Taksim,TR,
+17264,1,Bilecik,TR,
+17265,1,Bingol,TR,
+17268,1,Bitlis,TR,
+17337,1,Bodrum,TR,
+17199,1,Bodrum area,TR,
+36805,1,Bodrum-Gumbet,TR,
+36803,1,Bodrum-Ortakent,TR,
+36812,1,Bodrum-Turgutreis,TR,
+36813,1,Bodrum-Yaliciftlik,TR,
+40111,1,Bogazici,TR,
+17272,1,Bolu,TR,
+17259,1,Bostanci,TR,
+17273,1,Burdur,TR,
+17263,1,Burhaniye,TR,
+17274,1,Bursa,TR,
+38590,1,Buyukada,TR,
+38540,1,Buyukeceli,TR,
+17252,1,Calkaya,TR,
+17365,1,Camyuva,TR,
+17276,1,Canakkale,TR,
+17279,1,Cankiri,TR,
+1206,1,Cappadocia,TR,
+42193,1,Cerkezkoy,TR,
+17253,1,Cesme,TR,
+17241,1,Ciftlik,TR,
+17200,1,Cirali,TR,
+17233,1,Colakli,TR,
+17280,1,Corum,TR,
+39043,1,Daday,TR,
+17201,1,Dalaman,TR,
+17202,1,Dalyan,TR,
+17338,1,Datca,TR,
+40151,1,Davutlar,TR,
+37451,1,Demre,TR,
+17283,1,Denizli,TR,
+17203,1,Denizyaka,TR,
+17204,1,Didim,TR,
+17315,1,Dikili,TR,
+17284,1,Diyarbakir,TR,
+41078,1,Duzce,TR,
+38194,1,Eceabat,TR,
+17285,1,Edirne,TR,
+41077,1,Edremit,TR,
+17301,1,Egridir,TR,
+17287,1,Elazig,TR,
+42270,1,Erciyes,TR,
+41076,1,Erdek,TR,
+42683,1,Erdemli,TR,
+43620,1,Eregli,TR,
+17289,1,Erzincan,TR,
+17291,1,Erzurum,TR,
+17245,1,Esenboga,TR,
+17290,1,Esenyurt,TR,
+17293,1,Eskisehir,TR,
+17205,1,Faralya,TR,
+17185,1,Fethiye,TR,
+37134,1,Fethiye-Oludeniz,TR,
+17254,1,Finike,TR,
+17316,1,Foca,TR,
+17294,1,Gaziantep,TR,
+40557,1,Gebze,TR,
+17295,1,Giresun,TR,
+17206,1,Gocek,TR,
+39967,1,Golbasi,TR,
+17207,1,Golturkbuku,TR,
+41075,1,Gonen,TR,
+17208,1,Goreme,TR,
+17186,1,Goynuk,TR,
+17339,1,Gulluk,TR,
+43508,1,Gumbet,TR,
+17209,1,Gumuldur,TR,
+17297,1,Gumushane,TR,
+37871,1,Gumusluk,TR,
+17355,1,Gundogan,TR,
+17266,1,Gungoren,TR,
+38664,1,Guzelyali,TR,
+17373,1,Hakkari,TR,
+41732,1,Hatay,TR,
+40485,1,Heybeliada,TR,
+17210,1,Hisaronu,TR,
+43509,1,Hisaronu-Ovacik,TR,
+17305,1,Icmeler,TR,
+17292,1,Ildir,TR,
+41074,1,Ilgaz,TR,
+17357,1,Ilica,TR,
+17211,1,Incekum,TR,
+17286,1,Ipsala,TR,
+17298,1,Iskenderun,TR,
+17302,1,Isparta,TR,
+17306,1,Istanbul,TR,
+17317,1,Izmir,TR,
+17213,1,Izmit,TR,
+17275,1,Iznik,TR,
+17214,1,Kadikoy - Uskudar (Asian Side),TR,
+17307,1,Kagithane,TR,
+17255,1,Kalkan,TR,
+37698,1,Kapikiri,TR,
+17288,1,Karabuk,TR,
+44278,1,Karaman,TR,
+43068,1,Kargicak,TR,
+17323,1,Kars,TR,
+38700,1,Kartal,TR,
+42271,1,Kartalkaya,TR,
+37736,1,Kartepe,TR,
+17187,1,Kas,TR,
+17325,1,Kastamonu,TR,
+17327,1,Kayseri,TR,
+17215,1,Keciler,TR,
+17256,1,Kemer,TR,
+17216,1,Kemer - West Gulf,TR,
+37810,1,Kilyos,TR,
+17260,1,Kirazli,TR,
+17246,1,Kirikkale,TR,
+17217,1,Kiris,TR,
+17328,1,Kirklareli,TR,
+17329,1,Kirsehir,TR,
+17269,1,Kisikli,TR,
+17267,1,Kizilagac,TR,
+42757,1,Kizilcahamam,TR,
+41073,1,Kocaeli,TR,
+17257,1,Konakli,TR,
+17188,1,Konya,TR,
+38213,1,Kucukkuyu,TR,
+39647,1,Kula,TR,
+37625,1,Kumburgaz,TR,
+37344,1,Kumluca,TR,
+40304,1,Kursunlu,TR,
+17318,1,Kusadasi,TR,
+17330,1,Kutahya,TR,
+41072,1,Lara,TR,
+37438,1,Macka,TR,
+17332,1,Malatya,TR,
+17239,1,Maltepe,TR,
+17189,1,Manavgat,TR,
+17334,1,Manisa,TR,
+17335,1,Mardin,TR,
+17340,1,Marmaris,TR,
+17218,1,Marmaris - Fethiye,TR,
+36806,1,Marmaris-Icmeler,TR,
+17363,1,Mersin,TR,
+17243,1,Merzifon,TR,
+17341,1,Milas,TR,
+36810,1,Mordogan,TR,
+17219,1,Mt. Erciyes,TR,
+17342,1,Mugla,TR,
+17333,1,Mus,TR,
+40379,1,Mustafapasa,TR,
+17349,1,Nevsehir,TR,
+36809,1,Nevshehir,TR,
+36808,1,Nevshehir-Kaymakli,TR,
+17353,1,Nigde,TR,
+17220,1,Okurcalar,TR,
+17221,1,Oludeniz,TR,
+17354,1,Ordu,TR,
+41071,1,Oren,TR,
+17343,1,Ortaca,TR,
+17319,1,Ozdere,TR,
+42272,1,Palandoken,TR,
+17190,1,Pamukkale,TR,
+17222,1,Patara,TR,
+17310,1,Pendik,TR,
+17356,1,Rize,TR,
+17223,1,Rumelihisarc,TR,
+17369,1,Safranbolu,TR,
+17372,1,Sakarya,TR,
+17311,1,Samatya,TR,
+17358,1,Samsun,TR,
+17364,1,Sanliurfa,TR,
+17277,1,Sapanca,TR,
+17224,1,Sarigerme,TR,
+44317,1,Sarikamis,TR,
+40619,1,Sarkisla,TR,
+17191,1,Seferihisar,TR,
+17320,1,Selcuk,TR,
+17240,1,Selimiye,TR,
+17225,1,Side,TR,
+17360,1,Siirt,TR,
+41070,1,Sile,TR,
+17300,1,Silifke,TR,
+17312,1,Silivri,TR,
+44313,1,Sinop,TR,
+17226,1,Sisli - Congress Area,TR,
+17361,1,Sivas,TR,
+17344,1,Tasbuku,TR,
+17270,1,Tatvan,TR,
+17362,1,Tekirdag,TR,
+17258,1,Tekirova,TR,
+17227,1,Termessos,TR,
+17228,1,Thrace,TR,
+17229,1,Titreyengol,TR,
+17331,1,Tokat,TR,
+40704,1,Torba,TR,
+17321,1,Torbali,TR,
+17192,1,Trabzon,TR,
+17230,1,Turgutreis,TR,
+17345,1,Turkbuku,TR,
+17281,1,Turkler,TR,
+17346,1,Turunc,TR,
+39835,1,Tuzla,TR,
+17350,1,Uchisar,TR,
+39708,1,Uludag,TR,
+17247,1,Ulus,TR,
+17351,1,Urgup,TR,
+17366,1,Usak,TR,
+17367,1,Van,TR,
+17347,1,Yalikavak,TR,
+17278,1,Yalova,TR,
+17234,1,Yenikoy,TR,
+17322,1,Yenisakran,TR,
+17368,1,Yozgat,TR,
+17235,1,Zeytinbeli,TR,
+17231,1,Zeytinlikahve,TR,
+40384,1,Zeytinlikoy,TR,
+17370,1,Zonguldak,TR,
+17108,1,Ashgabat,TM,
+17105,1,Ashkhabad,TM,
+44310,1,Avaza,TM,
+44307,1,Balkanabat,TM,
+17106,1,Chardzhou,TM,
+44309,1,Dashoguz,TM,
+17107,1,Krasnovodsk,TM,
+17109,1,Mary,TM,
+44308,1,Turkmenabat,TM,
+44312,1,Turkmenbashi,TM,
+17375,1,Funafuti,TV,
+17476,1,Arua,UG,
+17477,1,Entebbe,UG,
+17478,1,Gulu,UG,
+37681,1,Jinja,UG,
+41126,1,Kabale,UG,
+17479,1,Kampala,UG,
+17480,1,Kasese,UG,
+40285,1,Katwe Town,UG,
+17481,1,Mbarara,UG,
+44002,1,Mukono,UG,
+44003,1,Ngamba Island,UG,
+17506,1,Akhtyrka,UA,
+43162,1,Alupka,UA,
+17514,1,Alushta,UA,
+17483,1,Atman,UA,
+39297,1,Borispol,UA,
+17484,1,Charkiv,UA,
+17485,1,Cherkassy,UA,
+42073,1,Cherkasy,UA,
+17486,1,Chernovtsy,UA,
+17487,1,Dnepropetrovsk,UA,
+17488,1,Donetsk,UA,
+17515,1,Feodosiya,UA,
+17489,1,Ivano-Frankovsk,UA,
+17490,1,Kamenets-Podol'skiy,UA,
+17516,1,Kerch,UA,
+17512,1,Kharkiv,UA,
+17491,1,Kharkov,UA,
+17513,1,Kherson,UA,
+17492,1,Khmelnitskiy,UA,
+17493,1,Kiev,UA,
+17494,1,Kirovograd,UA,
+41124,1,Koreiz,UA,
+40010,1,Koropove,UA,
+17507,1,Krivoy Rog,UA,
+44005,1,Kryvyi Rih,UA,
+17482,1,L'Viv,UA,
+17508,1,Lugansk,UA,
+17495,1,Lutsk,UA,
+17518,1,Lviv,UA,
+36837,1,Lvov,UA,
+17496,1,Lwo,UA,
+37444,1,Mykolaiv (Black Sea Coast),UA,
+17497,1,Nikolaev,UA,
+17498,1,Odessa,UA,
+17509,1,Orel,UA,
+38725,1,Pidhirtsi,UA,
+39154,1,Pischanka,UA,
+44006,1,Pochaiv,UA,
+17519,1,Poltava,UA,
+17499,1,Rovno,UA,
+17520,1,Sevastopol,UA,
+17500,1,Severodoneck,UA,
+17517,1,Simferopol,UA,
+17521,1,Sumy,UA,
+39497,1,Sviatohirsk,UA,
+17522,1,Ternopil',UA,
+17501,1,Ternopol,UA,
+17510,1,Truskavets,UA,
+17502,1,Uzhgorod,UA,
+40550,1,Uzhhorod,UA,
+1645,1,Vinnica,UA,
+17503,1,Vinnitsa,UA,
+17511,1,Yalta,UA,
+41125,1,Zaporizhia,UA,
+41813,1,Zaporozhie,UA,
+17504,1,Zaporozhye,UA,
+44007,1,Zhdeniyevo,UA,
+17505,1,Zhitomir,UA,
+7441,1,Abberley,GB,
+6860,1,Abbeyhill,GB,
+7442,1,Abbots Ripton,GB,
+6861,1,Abbots Salford,GB,
+9253,1,Aberaeron,GB,
+7443,1,Aberdare,GB,
+7444,1,Aberdeen,GB,
+35211,1,Aberdeen Airport,GB,
+6862,1,Aberdeen Airport (ABZ),GB,
+6863,1,Aberdeen area,GB,
+6864,1,Aberdeenshire,GB,
+7445,1,Aberdour,GB,
+6865,1,Aberdovey,GB,
+7446,1,Aberfeldy,GB,
+9300,1,Aberfoyle,GB,
+7447,1,Abergavenny,GB,
+7448,1,Abergele,GB,
+7449,1,Aberlady,GB,
+7450,1,Aberlour,GB,
+7451,1,Aberporth,GB,
+7452,1,Abersoch,GB,
+7453,1,Abertillery,GB,
+7454,1,Aberystwyth,GB,
+7455,1,Abingdon,GB,
+7456,1,Abington,GB,
+6866,1,Abington,GB,
+7457,1,Aboyne,GB,
+7458,1,Accrington,GB,
+7459,1,Achiltibuie,GB,
+7460,1,Achnasheen,GB,
+7461,1,Acle,GB,
+7462,1,Acton,GB,
+40543,1,Acton Bridge,GB,
+7463,1,Adderbury,GB,
+7464,1,Aghadowey,GB,
+7465,1,Ainstable,GB,
+7466,1,Aird of Sleat,GB,
+7467,1,Airdrie,GB,
+7468,1,Airth,GB,
+7469,1,Alcester,GB,
+6867,1,Alcombe,GB,
+7470,1,Aldbrough St. John,GB,
+6868,1,Aldbury,GB,
+7471,1,Aldeburgh,GB,
+7472,1,Alderley Edge,GB,
+7473,1,Alderminster,GB,
+6869,1,Alderney,GB,
+7474,1,Aldershot,GB,
+7475,1,Alderton,GB,
+7476,1,Aldford,GB,
+38319,1,Aldingbourne,GB,
+7477,1,Aldridge,GB,
+7478,1,Aldwark,GB,
+6870,1,Alexandria,GB,
+7479,1,Alford,GB,
+7480,1,Alfreton,GB,
+7481,1,Alfriston,GB,
+6871,1,Allendale,GB,
+6872,1,Allensford,GB,
+7482,1,Allesley,GB,
+7483,1,Alloa,GB,
+7484,1,Alne,GB,
+7485,1,Alnmouth,GB,
+7486,1,Alnwick,GB,
+43565,1,Alresford,GB,
+7487,1,Alsager,GB,
+7488,1,Alston,GB,
+7489,1,Alton,GB,
+6873,1,Alton (Hampshire),GB,
+7490,1,Altrincham,GB,
+7491,1,Alveston,GB,
+40097,1,Alyth,GB,
+7492,1,Amberley,GB,
+7493,1,Amble,GB,
+7494,1,Ambleside,GB,
+7495,1,Amersham,GB,
+7496,1,Amesbury,GB,
+6874,1,Amesbury (Stonehenge),GB,
+7497,1,Amlwch,GB,
+44182,1,Ammanford,GB,
+6875,1,Ampfield,GB,
+7498,1,Amroth,GB,
+7499,1,Andover,GB,
+7500,1,Annalong,GB,
+7501,1,Annan,GB,
+7502,1,Annbank,GB,
+6876,1,Annesley Woodhouse,GB,
+7503,1,Anstruther,GB,
+6877,1,Ansty (Dorset),GB,
+7504,1,Ansty (Warwickshire),GB,
+9250,1,Antrim,GB,
+6878,1,Appin,GB,
+7505,1,Appleby,GB,
+7506,1,Appleby Magna,GB,
+6879,1,Appledore,GB,
+7507,1,Arbroath,GB,
+6880,1,Arden,GB,
+39144,1,Ardersier,GB,
+39639,1,Ardgay,GB,South Carolina
+37355,1,Ardgour,GB,
+7508,1,Ardley,GB,
+7509,1,Ardrishaig,GB,
+39266,1,Ardrossan,GB,
+7510,1,Ardsley,GB,
+6881,1,arduaine,GB,
+6882,1,arduanine,GB,
+43402,1,Argyll,GB,
+6883,1,Argyll and Bute,GB,
+7511,1,Arisaig,GB,
+7512,1,Armagh,GB,
+6884,1,Arncott,GB,
+6885,1,Arniston,GB,
+7513,1,Arnold,GB,
+6886,1,Arrathorne,GB,
+7514,1,Arrochar,GB,
+9276,1,Arundel,GB,
+7515,1,Ascot,GB,
+7516,1,Ash,GB,
+7517,1,Ashbourne,GB,
+7518,1,Ashburton,GB,
+7519,1,Ashby de la Zouch,GB,
+44183,1,Ashby-de-la-Zouch,GB,
+7520,1,Ashford,GB,
+7521,1,Ashington,GB,
+40264,1,Ashington (Sussex),GB,
+7522,1,Ashton in Makerfield,GB,
+6887,1,Ashton-under-Lyne,GB,
+7523,1,Askrigg,GB,
+7524,1,Aspatria,GB,
+7525,1,Aspley Guise,GB,
+6888,1,Aston,GB,
+7526,1,Aston Clinton,GB,
+7527,1,Atherstone,GB,
+6889,1,Atherton,GB,
+37476,1,Attleborough,GB,
+7528,1,Auchterarder,GB,
+9314,1,Audenshaw,GB,
+7529,1,Aultbea,GB,
+7530,1,Avebury,GB,
+7531,1,Aviemore,GB,
+9260,1,Axbridge,GB,
+7532,1,Axminster,GB,
+7533,1,Aylesbury,GB,
+43232,1,Aylesford,GB,
+7534,1,Aylmerton,GB,
+7535,1,Ayr,GB,
+6890,1,Ayrshire,GB,
+6891,1,Backbarrow,GB,
+7536,1,Bacton,GB,
+6892,1,Badminton,GB,
+7537,1,Badsworth,GB,
+7538,1,Bagshot,GB,
+7539,1,Bakewell,GB,
+7540,1,Bala,GB,
+35215,1,Balcombe,GB,
+7541,1,Baldock,GB,
+7542,1,Ballachulish,GB,
+7543,1,Ballantrae,GB,
+1627,1,Ballatar,GB,
+7544,1,Ballater,GB,
+41187,1,Ballindalloch,GB,
+43275,1,Balloch,GB,
+7545,1,Ballycastle,GB,
+7546,1,Ballyclare,GB,
+35216,1,Ballygalley,GB,
+9249,1,Ballygally,GB,
+7547,1,Ballygawley,GB,
+7548,1,Ballymena,GB,
+37384,1,Ballymoney,GB,
+7549,1,Ballynahinch,GB,
+7550,1,Balmaha,GB,
+7551,1,Bamburgh,GB,
+7552,1,Bamford,GB,
+7553,1,Bampton (Cumbria),GB,
+7554,1,Bampton (Devon),GB,
+7555,1,Banbury,GB,
+7556,1,Banchory,GB,
+7557,1,Banff,GB,
+7558,1,Bangor,GB,
+6893,1,Bangor,GB,
+7559,1,Banham,GB,
+6894,1,Bar Hill,GB,
+7560,1,Barbon,GB,
+7561,1,Bardon Mill,GB,
+7562,1,Barford,GB,
+6895,1,Barham,GB,
+7563,1,Barking,GB,
+7564,1,Barlborough,GB,
+6896,1,Barlby,GB,
+7565,1,Barmouth,GB,
+7566,1,Barnard Castle,GB,
+38926,1,Barnby in the Willows,GB,
+7567,1,Barnet,GB,
+6897,1,Barnetby,GB,
+37509,1,Barnham Broom,GB,
+7568,1,Barningham,GB,
+7569,1,Barnsley,GB,
+7570,1,Barnstaple,GB,
+6898,1,Barnton,GB,
+6899,1,Barnwood,GB,
+6900,1,Barra,GB,
+7571,1,Barrhead,GB,
+6901,1,Barrow-in-Furness,GB,
+7572,1,Barry,GB,
+7573,1,Barton,GB,
+7574,1,Barton Stacey,GB,
+7575,1,Barton under Needwood,GB,
+42769,1,Barton upon Humber,GB,
+38323,1,Barton-on-Sea,GB,
+6902,1,Barton-upon-Humber,GB,
+7576,1,Basildon,GB,
+7577,1,Basingstoke,GB,
+7578,1,Baslow,GB,
+6903,1,Bassenthwaite,GB,
+7580,1,Bathgate,GB,
+7581,1,Batley,GB,
+7582,1,Battle,GB,
+7583,1,Battlesbridge,GB,
+7584,1,Bawtry,GB,
+7585,1,Baydon,GB,
+6906,1,Bayswater,GB,
+6907,1,Bayswater - Paddington,GB,
+6908,1,Beacon Hill,GB,
+7586,1,Beaconsfield,GB,
+7587,1,Beadnell,GB,
+7588,1,Beaminster,GB,
+38651,1,Beamish,GB,
+6909,1,Beare Green,GB,
+40758,1,Bearsden,GB,
+7589,1,Beattock,GB,
+7590,1,Beaulieu,GB,
+7591,1,Beauly,GB,
+7592,1,Beaumaris,GB,
+43573,1,Beaworthy,GB,
+7593,1,Beccles,GB,
+7594,1,Beckington,GB,
+7595,1,Bedale,GB,
+7596,1,Beddgelert,GB,
+6910,1,Bedford,GB,
+6911,1,Bedfordshire,GB,
+7597,1,Bedworth,GB,
+43574,1,Beer,GB,
+7598,1,Beeston,GB,
+7599,1,Begelly,GB,
+41185,1,Beith,GB,
+64762,1,Belfast International Airport,GB,
+35213,1,Belfast-Int'l Apt,GB,
+7600,1,Belford,GB,
+6915,1,Belgravia,GB,
+35212,1,Belleek,GB,
+7601,1,Bellingham,GB,
+7602,1,Bellshill,GB,
+35218,1,Bellshill (N Lanark),GB,
+7603,1,Belper,GB,
+7604,1,Belton (Leicestershire),GB,
+7605,1,Belton (Lincolnshire),GB,
+7606,1,Bembridge,GB,
+6916,1,Benbecula,GB,
+7607,1,Bentley,GB,
+7608,1,Bere Regis,GB,
+7609,1,Berkeley,GB,
+37645,1,Berkhamsted,GB,
+6917,1,Berkshire,GB,
+7610,1,Berkswell,GB,
+7611,1,Berwick-Upon-Tweed,GB,
+7612,1,Betchworth,GB,
+40238,1,Betws Garmon,GB,
+6918,1,Betws-Y-Coed,GB,
+7613,1,Beverley,GB,
+7614,1,Bewdley,GB,
+7615,1,Bexhill,GB,
+43575,1,Bexhill On Sea,GB,
+7616,1,Bexley,GB,
+7617,1,Bexleyheath,GB,
+7618,1,Bibury,GB,
+7619,1,Bicester,GB,
+6919,1,Bicker Bar,GB,
+7620,1,Biddenden,GB,
+7621,1,Bideford,GB,
+7622,1,Bieldside,GB,
+7623,1,Biggar,GB,
+7624,1,Biggin Hill,GB,
+7625,1,Biggleswade,GB,
+7626,1,Bilbrough,GB,
+9255,1,BILLESLEY,GB,
+7627,1,Billingshurst,GB,
+7628,1,Billington,GB,
+7629,1,Binfield,GB,
+7630,1,Bingham,GB,
+7631,1,Bingley,GB,
+7632,1,Birch,GB,
+37523,1,Birch Vale,GB,
+7633,1,Birdlip,GB,
+7634,1,Birkenhead,GB,
+7635,1,Birmingham,GB,
+7636,1,Birtley,GB,
+7637,1,Bishop Auckland,GB,
+6922,1,Bishop's Stortford,GB,
+40377,1,Bishops Castle,GB,
+7638,1,Bishopsteignton,GB,
+37932,1,Bishopston,GB,
+7639,1,Bishopstone,GB,
+7640,1,Bishopton,GB,
+7641,1,Blaby,GB,
+6923,1,Black Bourton,GB,
+7642,1,Blackawton,GB,
+6924,1,Blackbeck,GB,
+7643,1,Blackburn,GB,
+7644,1,Blackpool,GB,
+7645,1,Blackwater,GB,
+7646,1,Blackwaterfoot,GB,
+37626,1,Blackwood,GB,Washington
+7647,1,Blair Atholl,GB,
+6925,1,Blair Drummond,GB,
+7648,1,Blairgowrie,GB,
+7649,1,Blakeney,GB,
+7650,1,Blanchland,GB,
+7651,1,Blandford Forum,GB,
+7652,1,Blaydon on Tyne,GB,
+40405,1,Bledington,GB,
+7653,1,Blockley,GB,
+7654,1,Bloomsbury,GB,
+6926,1,Bloomsbury - Soho,GB,
+7655,1,Blue Anchor,GB,
+7656,1,Blunsdon,GB,
+42962,1,Blyth,GB,
+6927,1,Blyth (Northumberland),GB,
+6929,1,Bo Ness,GB,
+7657,1,Boat of Garten,GB,
+7658,1,Bodelwyddan,GB,
+7659,1,Bodmin,GB,
+6930,1,Bodmin Moor,GB,
+7660,1,Bognor Regis,GB,
+7661,1,Boldon,GB,
+9316,1,Boldon Colliery,GB,Nebraska
+7662,1,Bolney,GB,
+7663,1,Bolton,GB,
+7664,1,Bolton le Sands,GB,
+7665,1,Bonchurch,GB,
+7666,1,Bonnyrigg,GB,
+7667,1,Bonsall,GB,
+6931,1,Bontddu,GB,
+7668,1,Bontnewydd,GB,
+7669,1,Bookham,GB,
+7670,1,Bootle,GB,
+7671,1,Bordesley,GB,
+7672,1,Borehamwood,GB,
+7673,1,Boroughbridge,GB,
+42770,1,Borxbourne,GB,
+7674,1,Boscastle,GB,
+7675,1,Boscombe,GB,
+39102,1,Bosham,GB,
+9320,1,Boston,GB,Prince Edward Island
+7676,1,Botley,GB,
+7677,1,Boughton,GB,
+7678,1,Bourn,GB,
+7679,1,Bourne,GB,
+35217,1,Bourne End,GB,
+9238,1,Bournemouth,GB,
+43576,1,Bourton On The Water,GB,
+36295,1,Bourton-on-the-Water,GB,
+6932,1,Bourton-on-Water,GB,
+7680,1,Bovey Tracey,GB,
+7681,1,Bovingdon,GB,
+41184,1,Bow Street,GB,
+6933,1,Bowburn,GB,
+7682,1,Bowdon,GB,
+42024,1,Bowmore,GB,
+43577,1,Bowness On Windermere,GB,
+1530,1,Bowness-on-Windermer,GB,
+7684,1,Brackley,GB,
+7685,1,Bracknell,GB,
+7686,1,Bradford,GB,
+42961,1,Bradford On Avon,GB,
+7687,1,Bradford-on-Avon,GB,
+7688,1,Bradworthy,GB,
+7689,1,Brae,GB,
+7690,1,Braemar,GB,
+7691,1,Braintree,GB,
+7692,1,Braithwaite,GB,
+42768,1,Bramber,GB,
+7693,1,Bramhall,GB,
+7694,1,Bramhope,GB,
+39938,1,Bramley,GB,
+7696,1,Brandon,GB,
+43350,1,Brandon Warwicks,GB,
+6935,1,Brands Hatch,GB,
+7697,1,Bransford,GB,
+7698,1,Bratton Fleming,GB,
+7699,1,Braunton,GB,
+7700,1,Bray,GB,
+41183,1,Brechin,GB,
+7701,1,Brecon,GB,
+6936,1,Brecon Beacons National Park,GB,
+43156,1,Breierley Hill,GB,
+7702,1,Brent,GB,
+6937,1,Brent Cross,GB,
+7703,1,Brent Knoll,GB,
+7704,1,Brentwood,GB,
+7705,1,Bridestowe,GB,
+7706,1,Bridge of Allan,GB,
+41182,1,Bridge Of Weir,GB,
+7707,1,Bridgend,GB,
+7708,1,Bridgnorth,GB,
+7709,1,Bridgwater,GB,
+7710,1,Bridlington,GB,
+7711,1,Bridport,GB,
+7712,1,Brierley Hill,GB,
+7713,1,Brigg,GB,
+7714,1,Brighouse,GB,
+7715,1,Brighton,GB,
+6938,1,Brighton and Hove,GB,
+7716,1,Bristol,GB,
+7717,1,Brixham,GB,
+7718,1,Brixton,GB,
+7719,1,Brize Norton,GB,
+7720,1,Broad Chalke,GB,
+39295,1,Broad Oak,GB,
+7721,1,Broadford,GB,
+7722,1,Broadstairs,GB,
+7723,1,Broadway,GB,
+7724,1,Broadwell,GB,
+39225,1,Broadwindsor,GB,
+7725,1,Brockenhurst,GB,
+7726,1,Brockworth,GB,
+7727,1,Brodick,GB,
+7728,1,Bromborough,GB,
+9259,1,Bromley,GB,
+7729,1,Bromley Cross,GB,
+7730,1,Brompton Regis,GB,
+7731,1,Bromsgrove,GB,
+7732,1,Bromyard,GB,
+7733,1,Broompark,GB,
+9327,1,Broomsgrove,GB,
+7734,1,Brora,GB,
+7735,1,Broseley,GB,
+7736,1,Brotton,GB,
+40913,1,Broughton,GB,
+7737,1,Broughton Astley,GB,
+7738,1,Broughton in Furness,GB,
+7739,1,Broughty Ferry,GB,
+7740,1,Broxbourne,GB,
+37671,1,Broxburn,GB,
+7741,1,Broxted,GB,
+7742,1,Broxton,GB,
+6940,1,Bruera,GB,
+6941,1,Brunstane,GB,
+41181,1,Brynsiencyn,GB,
+7743,1,Buckden,GB,
+7744,1,Buckfastleigh,GB,
+7745,1,Buckhurst Hill,GB,
+7746,1,Buckie,GB,
+7747,1,Buckingham,GB,
+6942,1,Buckinghamshire,GB,
+6943,1,Buckland,GB,
+7748,1,Bucksburn,GB,
+7749,1,Bude,GB,
+7750,1,Budleigh Salterton,GB,
+7751,1,Builth Wells,GB,
+7752,1,Bulkington,GB,
+7753,1,Buntingford,GB,
+7754,1,Burford,GB,
+7755,1,Burgess Hill,GB,
+7756,1,Burghfield,GB,
+7757,1,Burley,GB,
+7758,1,Burnham,GB,
+36293,1,Burnham Beeches,GB,
+43580,1,Burnham On Crouch,GB,
+7759,1,Burnham on Sea,GB,
+44184,1,Burnham-on-Sea,GB,
+6944,1,Burnhouse,GB,
+7760,1,Burnley,GB,
+7761,1,Burnsall,GB,
+7762,1,Burntisland,GB,
+37670,1,Burpham,GB,
+7763,1,Burrington,GB,
+7764,1,Burry Port,GB,
+7765,1,Burscough,GB,
+7766,1,Burslem,GB,
+7767,1,Burton,GB,
+37869,1,Burton (Wiltshire),GB,
+6945,1,Burton on Trent,GB,
+36294,1,Burton upon Trent,GB,
+6946,1,Burwardsley,GB,
+7768,1,Bury,GB,
+6947,1,Bury St Edmunds,GB,
+7769,1,Busby,GB,
+7770,1,Bushey,GB,
+7771,1,Bushmills,GB,
+42382,1,Buxted,GB,
+6948,1,Buxton,GB,
+6949,1,Cadmore End,GB,
+7772,1,Cadnam,GB,
+7773,1,Caernarfon,GB,
+38382,1,Caerphilly,GB,
+7774,1,Caersws,GB,
+7775,1,Cairnbaan,GB,
+41180,1,Cairndow,GB,
+7776,1,Cairnryan,GB,
+9278,1,Caistor St Edmund,GB,
+7777,1,Callaly,GB,
+7778,1,Callander,GB,
+36296,1,Callington,GB,
+7779,1,Calne,GB,
+7780,1,Calstock,GB,
+7781,1,Camberley,GB,
+6950,1,Camberwell,GB,
+7782,1,Camborne,GB,
+9279,1,Cambridge,GB,
+6952,1,Camden,GB,
+6953,1,Camden Town,GB,
+7783,1,Camelford,GB,
+7784,1,Campbeltown,GB,
+6954,1,Campsie,GB,
+6955,1,Canary Wharf - Docklands,GB,
+7785,1,Cannock,GB,
+7786,1,Canonbie,GB,
+7787,1,Canterbury,GB,
+6956,1,Canvey Island,GB,
+6957,1,Capel St. Mary,GB,
+6958,1,Capel-le-Ferne,GB,
+7788,1,Carbis Bay,GB,
+6959,1,Carcoft,GB,
+6960,1,Cardiff,GB,
+7789,1,Cardigan,GB,
+7790,1,Cardrona,GB,
+37254,1,Cark,GB,
+7791,1,Carlisle,GB,
+6963,1,Carlisle and Eden Valley,GB,
+44185,1,Carluke,GB,
+7792,1,Carmarthen,GB,
+1532,1,Carmarthenshire,GB,
+7793,1,Carnforth,GB,
+7794,1,Carnlough,GB,
+7795,1,Carno,GB,
+6964,1,Carnoustie,GB,
+7796,1,Carrbridge,GB,
+7797,1,Carrickfergus,GB,
+7798,1,Carrutherstown,GB,
+9280,1,Carrville,GB,
+7799,1,Cassington,GB,
+6965,1,Castel,GB,
+38594,1,Castle Carrock,GB,
+44187,1,Castle Cary,GB,
+7800,1,Castle Combe,GB,
+6966,1,Castle Donington,GB,
+7801,1,Castle Douglas,GB,
+6967,1,Castle Espie,GB,
+40915,1,Castlebar,GB,
+7802,1,Castlebay,GB,
+9337,1,Castleford,GB,
+7803,1,Castlereagh,GB,
+7804,1,Castleton,GB,
+7805,1,Castletown,GB,
+9281,1,Catshill,GB,
+43581,1,Cavendish,GB,
+6968,1,Chadderton,GB,
+7806,1,Chaddesley Corbett,GB,
+7807,1,Chadlington,GB,
+7808,1,Chagford,GB,
+7809,1,Chalford,GB,
+40914,1,Chandlers Cross,GB,
+1531,1,Chapel of Garioch,GB,
+7810,1,Chapeltown,GB,
+7811,1,Chard,GB,
+7812,1,Chardstock,GB,
+40011,1,Charing,GB,
+6969,1,Charingworth,GB,
+7813,1,Charlbury,GB,
+7814,1,Charlecote,GB,
+40395,1,Charlestown,GB,
+6970,1,Charnock Richard,GB,
+6971,1,Charter Alley,GB,
+7815,1,Charwelton,GB,
+7816,1,Chatham,GB,
+6972,1,Chathill,GB,
+7817,1,Chatton,GB,
+7818,1,Cheadle,GB,
+7819,1,Cheddar,GB,
+7820,1,Chelmsford,GB,
+6973,1,Chelsea,GB,
+6974,1,Chelsea - Knightsbridge,GB,
+7821,1,Cheltenham,GB,
+7822,1,Chenies,GB,
+7823,1,Chepstow,GB,
+7824,1,Cheriton Bishop,GB,
+7825,1,Cherry Hinton,GB,
+7826,1,Chertsey,GB,
+7827,1,Chesham,GB,
+6975,1,Cheshire,GB,
+7828,1,Cheshunt,GB,
+7829,1,Chessington,GB,
+7830,1,Chester,GB,
+7831,1,Chesterfield,GB,
+9282,1,Chichester,GB,
+37518,1,Chiddingfold,GB,
+37465,1,Chieveley,GB,
+7834,1,Chillaton,GB,
+7835,1,Chilwell,GB,
+6977,1,Chinatown,GB,
+7836,1,Chingford,GB,
+7837,1,Chippenham,GB,
+7838,1,Chipperfield,GB,
+7839,1,Chipping Campden,GB,
+7840,1,Chipping Norton,GB,
+7841,1,Chipping Sodbury,GB,
+6978,1,Chiseldon,GB,
+7842,1,Chislehurst,GB,
+6979,1,Chisworth,GB,
+40152,1,Chittlehamholt,GB,
+7843,1,Cholderton,GB,
+7844,1,Chollerford,GB,
+7845,1,Choppington,GB,
+7846,1,Chorley,GB,
+6980,1,Christchurch,GB,
+7847,1,Chryston,GB,
+7848,1,Chudleigh,GB,
+7849,1,Chulmleigh,GB,
+7850,1,Church Stretton,GB,
+6981,1,Churt,GB,
+7851,1,Cilcennin,GB,
+7852,1,Cirencester,GB,
+6982,1,City of Westminster,GB,
+7853,1,Clackmannan,GB,
+34691,1,Clacton On Sea,GB,Colorado
+42381,1,Clacton-on-Sea,GB,
+7854,1,Clanfield,GB,
+7855,1,Clapham,GB,
+6983,1,Clapham,GB,
+7856,1,Clare,GB,
+7857,1,Clarencefield,GB,
+41178,1,Clarkston,GB,
+7858,1,Claverdon,GB,
+7859,1,Clawton,GB,
+7860,1,Claydon,GB,
+7861,1,Clayton le Moors,GB,
+1528,1,Clayton-le-Moors,GB,
+6985,1,Clayton-le-Woods,GB,
+6986,1,Clearwell,GB,
+7862,1,Cleator,GB,
+7863,1,Cleator Moor,GB,
+7864,1,Cleckheaton,GB,
+7865,1,Cleethorpes,GB,
+6987,1,Cleeve Hill,GB,
+6988,1,Cleish,GB,
+7866,1,Cleobury Mortimer,GB,
+7867,1,Clevedon,GB,
+42767,1,Cley next the Sea,GB,
+6989,1,Clifford Chambers,GB,
+38685,1,Climping,GB,
+7868,1,Clitheroe,GB,
+7869,1,Clovelly,GB,
+40281,1,Clun,GB,
+7870,1,Clydebank,GB,
+7871,1,Clyro,GB,
+38141,1,Coalville,GB,
+6990,1,Coatham Mundeville,GB,
+7872,1,Cobham,GB,
+7873,1,Cockermouth,GB,
+7874,1,Coggeshall,GB,
+7875,1,Colchester,GB,
+7876,1,Coleford,GB,
+7877,1,Coleraine,GB,
+7878,1,Colerne,GB,
+7879,1,Coleshill,GB,
+38218,1,Coln Saint Aldwyn,GB,
+43583,1,Colne,GB,
+7880,1,Colwyn Bay,GB,
+7881,1,Colyton,GB,
+38148,1,Combe Martin,GB,
+43216,1,Comber,GB,
+7882,1,Comber Newtownards,GB,
+40239,1,Compton Bassett,GB,
+7883,1,Comrie,GB,
+7884,1,Congleton,GB,
+7885,1,Coniston,GB,
+43584,1,Consett,GB,
+6991,1,Constantine Bay,GB,
+9309,1,Contin,GB,
+7886,1,Conwy,GB,
+6992,1,Cooden,GB,
+7887,1,Cookstown,GB,
+6993,1,Copthorne,GB,
+7888,1,Corbridge,GB,
+7889,1,Corby,GB,
+9239,1,Corfe Castle,GB,
+42380,1,Corgarff,GB,
+7890,1,Corley,GB,
+6994,1,Cornhill on Tweed,GB,
+6995,1,Cornwall,GB,
+36297,1,Cornwell,GB,
+7891,1,Corsham,GB,
+7892,1,Corstorphine,GB,
+7893,1,Corwen,GB,
+6996,1,Cotswolds,GB,
+40344,1,Cottesmore,GB,
+9265,1,Coulsdon,GB,
+43186,1,County Down,GB,
+7894,1,Coupar Angus,GB,
+7895,1,Cove (Aberdeen),GB,
+6997,1,Cove (Argyll and Bute),GB,
+7896,1,Coventry,GB,
+40437,1,Cowan Bridge,GB,
+41176,1,Cowbridge,GB,
+7897,1,Cowden,GB,
+7898,1,Cowes,GB,
+6998,1,Cowshill,GB,
+6999,1,Craigavon,GB,
+7899,1,Craigellachie,GB,
+7000,1,Craigleith,GB,
+7001,1,Craiglockhart,GB,
+7900,1,Craigmillar,GB,
+7901,1,Craignure,GB,
+41175,1,Crail,GB,
+37667,1,Cranborne,GB,
+7902,1,Cranbrook,GB,
+7903,1,Cranford,GB,
+7904,1,Cranford,GB,
+7905,1,Crathorne,GB,
+7906,1,Crawfordsburn,GB,
+7907,1,Crawley,GB,
+7908,1,Crayke,GB,
+7002,1,Creaton,GB,
+43585,1,Crediton,GB,
+7909,1,Crewe,GB,
+7910,1,Crewkerne,GB,
+7911,1,Crianlarich,GB,
+7912,1,Criccieth,GB,
+7913,1,Crick,GB,
+7914,1,Crickhowell,GB,
+7915,1,Cricklade,GB,
+7916,1,Crieff,GB,
+7917,1,Crinan,GB,
+39719,1,Croachy,GB,
+7918,1,Cromarty,GB,
+7919,1,Cromer,GB,
+9332,1,Cronton,GB,Washington
+7920,1,Crook,GB,
+7921,1,Crooklands,GB,
+7922,1,Crosby,GB,
+7003,1,Crosby-on-Eden,GB,
+7004,1,Crossgates,GB,
+7923,1,Crosshouse,GB,
+7005,1,Crosthwaite,GB,
+7924,1,Croston,GB,
+7925,1,Crowborough,GB,
+7926,1,Crowthorne,GB,
+7927,1,Croxdale,GB,
+7928,1,Croyde,GB,
+7929,1,Croydon,GB,
+7930,1,Crudwell,GB,
+37916,1,Crumlin,GB,
+7931,1,Cuckfield,GB,
+7932,1,Cuddington,GB,
+7933,1,Cullen,GB,
+37470,1,Cullompton,GB,
+7934,1,Culrain,GB,
+7935,1,Cultra,GB,
+7936,1,Cults,GB,
+7937,1,Cumbernauld,GB,
+7006,1,Cumbria,GB,
+7938,1,Cumnock,GB,
+7939,1,Cupar,GB,
+7007,1,Cwmbran,GB,
+36299,1,Dailly,GB,
+7940,1,Dalbeattie,GB,
+7941,1,Dalkeith,GB,
+41173,1,Dalmally,GB,
+7942,1,Dalry,GB,
+7943,1,Dalwhinnie,GB,
+7008,1,Danby,GB,
+9333,1,Daresbury,GB,Washington
+7944,1,Darlington,GB,
+9267,1,Dartford,GB,
+7009,1,Dartford - Ebbsfleet,GB,
+7010,1,Dartmeet,GB,
+7011,1,Dartmoor,GB,
+7945,1,Dartmouth,GB,
+9252,1,Darwen,GB,
+7946,1,Datchet,GB,
+7947,1,Daventry,GB,
+7948,1,Daviot,GB,
+7949,1,Dawlish,GB,
+7950,1,Deal,GB,
+7951,1,Deanshanger,GB,
+9318,1,Deddington,GB,
+7952,1,Dedham,GB,
+38049,1,Deerhurst,GB,
+44188,1,Deeside,GB,
+7953,1,Deganwy,GB,
+7954,1,Denbigh,GB,
+38516,1,Denby Dale,GB,
+7955,1,Denham,GB,
+41172,1,Denny,GB,
+7012,1,Denshaw,GB,
+7956,1,Denton,GB,
+7957,1,Deptford,GB,
+7958,1,Derby,GB,
+1533,1,Derry,GB,
+40916,1,Derry City,GB,
+7959,1,Desborough,GB,
+7960,1,Devils Bridge,GB,
+7961,1,Devizes,GB,
+7014,1,Devon,GB,
+43312,1,Devon-Moretonhampstead,GB,
+43588,1,Didcot,GB,
+7962,1,Dinas Mawddwy,GB,
+7963,1,Dingwall,GB,
+7964,1,Dinnet,GB,
+7015,1,Dinnington,GB,
+7965,1,Dirleton,GB,
+38546,1,Diseworth,GB,
+9326,1,Disley,GB,Saskatchewan
+7966,1,Diss,GB,
+7967,1,Dittisham,GB,
+7968,1,Dockray,GB,
+7969,1,Doddington,GB,
+7016,1,Dogmersfield,GB,
+7017,1,Dolgellau,GB,
+41171,1,Dollar,GB,
+7970,1,Dolton,GB,
+7971,1,Doncaster,GB,
+7018,1,Donington,GB,
+7972,1,Dorchester,GB,
+7019,1,Dorchester (Dorset),GB,
+7973,1,Dorking,GB,
+7974,1,Dornie,GB,
+7975,1,Dornoch,GB,
+7021,1,Dorset,GB,
+7022,1,Douglas,GB,
+7023,1,Douglas and Angus,GB,
+7024,1,Dounby,GB,
+7025,1,Dovedale,GB,
+7976,1,Dover,GB,
+7026,1,Down,GB,
+7977,1,Down Hatherley,GB,
+37971,1,Downham Market,GB,
+7978,1,Downpatrick,GB,
+7027,1,Downton on the Rock,GB,
+7979,1,Dreghorn,GB,
+7028,1,Driffield,GB,
+7980,1,Droitwich,GB,
+7981,1,Droylsden,GB,
+7982,1,Drumnadrochit,GB,
+7029,1,Drylaw,GB,
+7983,1,Drymen,GB,
+7030,1,Duchally,GB,
+7031,1,Duddingston,GB,
+7984,1,Dudley,GB,
+41170,1,Dufftown,GB,
+7032,1,Duisdalemore,GB,
+7985,1,Dukinfield,GB,
+7986,1,Duloe,GB,
+7987,1,Dulverton,GB,
+7988,1,Dulwich,GB,
+7989,1,Dumbarton,GB,
+40236,1,Dumbleton,GB,
+7990,1,Dumfries,GB,
+7991,1,Dunadry,GB,
+7992,1,Dunbar,GB,
+7033,1,Dunbartonshire,GB,
+7993,1,Dunblane,GB,
+7034,1,Dunchideock,GB,
+7994,1,Dunchurch,GB,
+7995,1,Dundee,GB,
+7996,1,Dundonald,GB,
+7035,1,Dundonnell,GB,
+7997,1,Dunfermline,GB,
+7998,1,Dungannon,GB,
+7999,1,Dungiven,GB,
+8000,1,Dunkeld,GB,
+8001,1,Dunkirk,GB,
+9283,1,Dunmow,GB,
+8002,1,Dunmurry,GB,
+8003,1,Dunoon,GB,
+8004,1,Duns,GB,
+38661,1,Duns Tew,GB,
+8005,1,Dunstable,GB,
+8006,1,Dunster,GB,
+8007,1,Dunvegan,GB,
+8008,1,Durham,GB,
+36330,1,Durham Tees Valley A,GB,
+36303,1,Dursley,GB,
+39826,1,Duxford,GB,
+8009,1,Dyce,GB,
+7036,1,Dyfed,GB,
+9334,1,Dyffryn Ardudwy,GB,Washington
+7037,1,Eaglescliffe,GB,
+39241,1,Eaglesham,GB,
+8010,1,Ealing,GB,
+42963,1,Earl Shilton,GB,
+8011,1,Earley,GB,
+8012,1,Earls Colne,GB,
+38776,1,Easington,GB,
+43589,1,Easingwold,GB,
+8013,1,East Coker,GB,
+8014,1,East Dereham,GB,
+7038,1,East End,GB,
+8015,1,East Grinstead,GB,
+8016,1,East Horndon,GB,
+8017,1,East Horsley,GB,
+8018,1,East Kilbride,GB,
+7039,1,East Lothian,GB,
+1625,1,East Midlands,GB,
+36307,1,East Midlands Airpor,GB,
+7040,1,East Midlands Airport (EMA),GB,
+8019,1,East Molesey,GB,
+7042,1,East Sussex,GB,
+8020,1,East Tisted,GB,
+8021,1,Eastbourne,GB,
+8022,1,Eastchurch,GB,
+7043,1,Eastington,GB,
+1525,1,Eastleigh,GB,
+7044,1,Eastleigh (Devon),GB,
+7045,1,Eastleigh (Hampshire),GB,
+38478,1,Easton,GB,
+8023,1,Ebberston,GB,
+8024,1,Ecclefechan,GB,
+8025,1,Eccles,GB,
+8027,1,Eckington (Worcestershire),GB,
+7046,1,Eday,GB,
+8028,1,Edenbridge,GB,
+8029,1,Edgware,GB,
+8030,1,Edinburgh,GB,
+8031,1,Egerton,GB,
+8032,1,Egham,GB,
+7049,1,elcot,GB,
+8033,1,Elgin,GB,
+8034,1,Ellesmere Port,GB,
+8035,1,Ellingham,GB,
+8036,1,Ellon,GB,
+8037,1,Elsenham,GB,
+8038,1,Elstow,GB,
+8039,1,Elstree,GB,
+8040,1,Elterwater,GB,
+8041,1,Ely,GB,
+7050,1,Empingham,GB,
+8042,1,Emsworth,GB,
+8044,1,Enfield,GB,
+7051,1,English Riviera,GB,
+7052,1,Ennerdale Bridge,GB,
+8045,1,Enniskillen,GB,
+8046,1,Enstone,GB,
+8047,1,Epping,GB,
+8048,1,Epsom,GB,
+7053,1,Eriskay,GB,
+7054,1,Erskine,GB,
+8049,1,Escrick,GB,
+8050,1,Esher,GB,
+7055,1,Eskbank,GB,
+7056,1,Essex,GB,
+7057,1,Essington,GB,
+8051,1,Eton,GB,
+39152,1,Ettington,GB,
+8052,1,Evanton,GB,
+8053,1,Evershot,GB,
+7058,1,Eversley,GB,
+8054,1,Evesham,GB,
+7059,1,Ewloe,GB,
+8055,1,Exeter,GB,
+8056,1,Exford,GB,
+7060,1,Exmoor National Park,GB,
+8057,1,Exmouth,GB,
+7061,1,Exton,GB,
+8058,1,Eye,GB,
+8059,1,Eyemouth,GB,
+7062,1,Failand,GB,
+8060,1,Failsworth,GB,
+7063,1,fair isle,GB,
+8061,1,Fairford,GB,
+8062,1,Fakenham,GB,
+8063,1,Falkirk,GB,
+8064,1,Falkland,GB,
+7064,1,Fallin,GB,
+8065,1,Falmouth,GB,
+8066,1,Falstone,GB,
+8067,1,Fareham,GB,
+1526,1,Farehamn,GB,
+8068,1,Faringdon,GB,
+8069,1,Farnborough,GB,
+8070,1,Farnham,GB,
+43591,1,Farnham - Surrey,GB,
+8071,1,Farnworth,GB,
+8072,1,Farr,GB,
+8073,1,Faversham,GB,
+8074,1,Fawkham,GB,
+7065,1,Fearn,GB,
+8075,1,Featherstone,GB,
+8076,1,Feering,GB,
+7066,1,Felindre Farchog,GB,
+8077,1,Felixstowe,GB,
+42964,1,Felpham,GB,
+8078,1,Feltham,GB,
+38775,1,Felton,GB,
+8079,1,Fen Stanton,GB,
+8080,1,Fenwick (Ayershire),GB,
+8081,1,Fenwick (Northumberland),GB,
+7067,1,Fermain Bay,GB,
+7068,1,Fermanagh,GB,
+7069,1,Ferndown,GB,
+8082,1,Ferryhill,GB,
+7070,1,Fetlar,GB,
+7071,1,Fife,GB,
+8083,1,Fifield,GB,
+8084,1,Filton,GB,
+37729,1,Finchley,GB,
+8085,1,Finedon,GB,
+41169,1,Fintry,GB,
+8086,1,Fishguard,GB,
+8087,1,Fitzhead,GB,
+8088,1,Fivemiletown,GB,
+7072,1,Flamborough,GB,
+8089,1,Flamstead,GB,
+8090,1,Fleet,GB,
+39617,1,Flichity,GB,
+8091,1,Flint,GB,
+8092,1,Flitwick,GB,
+7073,1,Flore,GB,
+7074,1,Flotta Isle,GB,
+9266,1,Folkestone,GB,Connecticut
+9284,1,Fontwell,GB,
+8093,1,Fordingbridge,GB,
+7075,1,Forest of Dean,GB,
+9323,1,Forest Row,GB,
+8094,1,Forfar,GB,
+8095,1,Formby,GB,
+39400,1,Forncett End,GB,
+8096,1,Forres,GB,
+8097,1,Fort Augustus,GB,
+7076,1,Fort William,GB,
+8098,1,Four Marks,GB,
+8099,1,Fowey,GB,
+9285,1,Foxhill,GB,
+8100,1,Foyers,GB,
+8101,1,Framlingham,GB,
+7077,1,Freshwater Bay,GB,
+8102,1,Frinton-on-Sea,GB,
+8103,1,Frizington,GB,
+37461,1,Frodsham,GB,
+8104,1,Frome,GB,
+8105,1,Fulford,GB,
+8106,1,Fulham,GB,
+8107,1,Gainsborough,GB,
+8108,1,Gairloch,GB,
+8109,1,Galashiels,GB,
+8110,1,Ganllwyd,GB,
+8111,1,Ganton,GB,
+7078,1,Garden City,GB,
+8112,1,Garforth,GB,
+8113,1,Garstang,GB,
+8114,1,Gartmore,GB,
+8115,1,Garve,GB,
+7079,1,Gatehouse-of-Fleet,GB,
+9317,1,Gateshead,GB,Nebraska
+8116,1,Gatwick,GB,
+7080,1,Gatwick Airport (LGW),GB,
+7081,1,Gerrards Cross,GB,
+41168,1,Gibraltar,GB,
+8117,1,Gidleigh,GB,
+8118,1,Giffnock,GB,
+8119,1,Gifford,GB,
+36310,1,Gillingham,GB,
+8120,1,Gillingham (Dorset),GB,
+7082,1,Gillingham (Kent),GB,
+8121,1,Gilmerton,GB,
+8122,1,Gilsland,GB,
+8123,1,Girvan,GB,
+8124,1,Gisburn,GB,
+8125,1,Gissing,GB,
+8126,1,Glangrwyney,GB,
+8128,1,Glastonbury,GB,
+8129,1,Glenborrodale,GB,
+8130,1,Glencarse,GB,
+41167,1,Glencoe,GB,
+7084,1,Glendale,GB,
+7085,1,Gleneagles,GB,
+8131,1,Glenfarg,GB,
+38102,1,Glenfinnan,GB,
+8132,1,Glenridding,GB,
+8133,1,Glenrothes,GB,
+36309,1,Glenshee,GB,
+8134,1,Glossop,GB,
+9302,1,Gloucester,GB,
+7086,1,Gloucestershire,GB,
+7087,1,Glyn Ceiriog,GB,
+8135,1,Goathland,GB,
+8136,1,Gobowen,GB,
+8137,1,Godalming,GB,
+8138,1,Gomersal,GB,
+8139,1,Goodrich,GB,
+37525,1,Goole,GB,
+8140,1,Goosnargh,GB,
+43297,1,Gorebridge,GB,
+7088,1,Gorey,GB,
+8141,1,Goring,GB,
+8142,1,Gosport,GB,
+7089,1,Gotherington,GB,
+8143,1,Gourock,GB,
+38976,1,Grampound Road,GB,
+36312,1,Grange over Sands,GB,
+7090,1,Grange-over-Sands,GB,
+9301,1,Grangemouth,GB,
+8144,1,Grantham,GB,
+8145,1,Granton,GB,
+36313,1,Grantown on Spey,GB,
+7091,1,Grantown-on-Spey,GB,
+8146,1,Grasmere,GB,
+8147,1,Gravesend,GB,
+9298,1,Grays,GB,
+7092,1,Grayshott,GB,
+8148,1,Great Barr,GB,
+9330,1,Great Broughton,GB,Tasmania
+38156,1,Great Cheverell,GB,
+8149,1,Great Dunmow,GB,
+8150,1,Great Malvern,GB,
+8151,1,Great Milton,GB,
+39763,1,Great Missenden,GB,
+8152,1,Great Yarmouth,GB,
+8153,1,Great Yeldham,GB,
+9331,1,Greenford,GB,
+39785,1,Greenhaugh,GB,
+38379,1,Greenhead,GB,
+7095,1,Greenholme,GB,
+8154,1,Greenock,GB,
+8155,1,Greenwich,GB,
+8156,1,Greetham,GB,
+8157,1,Gretna Green,GB,
+8158,1,Grimsby,GB,
+8159,1,Grimston,GB,
+37209,1,Grittleton,GB,
+6859,1,Grouville,GB,
+9304,1,Guernsey,GB,
+7096,1,Guilden Sutton,GB,
+8160,1,Guildford,GB,
+8161,1,Guilsborough,GB,
+8162,1,Guisborough,GB,
+8163,1,Guiting Power,GB,
+8164,1,Gullane,GB,
+42183,1,Gwent,GB,
+8165,1,Hackney,GB,
+8166,1,Haddington,GB,
+7097,1,Hadley Wood,GB,
+8167,1,Hailsham,GB,
+8168,1,Hale,GB,
+8169,1,Halesworth,GB,
+8170,1,Halifax,GB,
+41166,1,Halkirk,GB,
+8171,1,Halkyn,GB,
+7098,1,Hallbankgate,GB,
+37217,1,Halstead,GB,
+43594,1,Halstead - Essex,GB,
+8172,1,Haltwhistle,GB,
+8173,1,Halvergate,GB,
+8174,1,Hambleton,GB,
+8175,1,Hambrook,GB,
+8176,1,Hamilton,GB,
+8177,1,Hammersmith,GB,
+7099,1,Hammersmith - Fulham,GB,
+7100,1,Hampshire,GB,
+42182,1,Hampshire - The New Forest,GB,
+8178,1,Hampstead,GB,
+7101,1,Hampstead - Camden Town,GB,
+7102,1,Hampton Court,GB,
+8179,1,Hamsterley,GB,
+8180,1,Hanley Swan,GB,
+8181,1,Hanslope,GB,
+8182,1,Haringey,GB,
+8183,1,Harlech,GB,
+8184,1,Harlow,GB,
+8185,1,Harpenden,GB,
+43595,1,Harpender,GB,
+8186,1,Harrogate,GB,
+8187,1,Harrow,GB,
+8188,1,Hartington,GB,
+8189,1,Hartland,GB,
+8190,1,Hartlebury,GB,
+8191,1,Hartlepool,GB,
+37982,1,Hartpury,GB,
+8192,1,Harwich,GB,
+8193,1,Haslemere,GB,
+43596,1,Hassocks,GB,
+8194,1,Hastings,GB,
+7103,1,Haswell Plough,GB,
+8195,1,Hatch Beauchamp,GB,
+9254,1,Hatfield,GB,Alabama
+8196,1,Hatfield Heath,GB,
+8197,1,Hathersage,GB,
+8198,1,Havant,GB,
+8199,1,Haverfordwest,GB,
+8200,1,Haverhill,GB,
+7104,1,Havering,GB,
+8201,1,Hawes,GB,
+8202,1,Hawick,GB,
+8203,1,Hawkchurch,GB,
+8204,1,Hawkshead,GB,
+39366,1,Hawkswick,GB,
+8205,1,Hawnby,GB,
+8206,1,Haworth,GB,
+7106,1,Hay-on-Wye,GB,
+8207,1,Haydock,GB,
+8208,1,Haydon Bridge,GB,
+8209,1,Hayes,GB,
+8210,1,Hayle,GB,
+7105,1,Hayling Island,GB,
+8211,1,Haywards Heath,GB,
+7107,1,Hazlerigg,GB,
+39674,1,Headingley,GB,
+8212,1,Headington,GB,
+7108,1,Headlam,GB,
+8213,1,Heathfield,GB,
+8214,1,Heathrow,GB,
+7109,1,Heathrow Airport (LHR),GB,
+8215,1,Hebden Bridge,GB,
+8216,1,Heddon-on-the-Wall,GB,
+8217,1,Helensburgh,GB,
+7110,1,Hellaby,GB,
+8218,1,Hellesdon,GB,
+8219,1,Hellidon,GB,
+8220,1,Hellingly,GB,
+8221,1,Helmsley,GB,
+8222,1,Helston,GB,
+8223,1,Hemel Hempstead,GB,
+43597,1,Henfield,GB,
+7111,1,Henlade,GB,
+8224,1,Henley in Arden,GB,
+7112,1,Henley-on-Thames,GB,
+8225,1,Henlow,GB,
+9263,1,Hensol,GB,
+8226,1,Hereford,GB,
+7113,1,Herefordshire,GB,
+7114,1,Hermiston,GB,
+8227,1,Herstmonceux,GB,
+8228,1,Hertford,GB,
+7115,1,Hertfordshire,GB,
+8229,1,Hertingfordbury,GB,
+8230,1,Heston,GB,
+8231,1,Hethersett,GB,
+8232,1,Hexham,GB,
+7116,1,Hexworthy,GB,
+8233,1,Heywood,GB,
+7117,1,Hickstead,GB,
+7118,1,High Littleton,GB,
+8234,1,High Wycombe,GB,
+8235,1,Highbridge,GB,
+38123,1,Highcliffe-on-Sea,GB,
+8236,1,Highlands & Islands,GB,
+38169,1,Highworth,GB,
+8237,1,Hillingdon,GB,
+8238,1,Hillsborough (North Ireland),GB,
+8240,1,Hillswick,GB,
+9273,1,Himley,GB,
+9312,1,Hinckley,GB,
+8241,1,Hindhead,GB,
+8242,1,Hindon,GB,
+37468,1,Hinstock,GB,
+8243,1,Hintlesham,GB,
+8244,1,Hinxworth,GB,
+8245,1,Hitchin,GB,
+7119,1,Hockley Heath,GB,
+8246,1,Hockliffe,GB,
+8247,1,Holbeach,GB,
+8248,1,Holbeton,GB,
+8249,1,Holborn,GB,
+8250,1,Holford,GB,
+7120,1,Holland-On-Sea,GB,
+8251,1,Holmes Chapel,GB,
+7121,1,Holmrook,GB,
+8252,1,Holsworthy,GB,
+8253,1,Holyhead,GB,
+41165,1,Holyhead - holy Island,GB,
+8254,1,Holywell,GB,
+8255,1,Holywood,GB,
+8256,1,Honiley,GB,
+8257,1,Honiton,GB,
+43286,1,Hook,GB,
+7122,1,Hook (Hampshire),GB,
+7123,1,Hook (Wiltshire),GB,
+7124,1,Hoole,GB,
+8258,1,Hope,GB,
+44189,1,Hope Valley,GB,
+8259,1,Hopton Wafers,GB,
+8260,1,Horley,GB,
+8261,1,Horncastle,GB,
+8262,1,Hornchurch,GB,
+39358,1,Horningsham,GB,
+9299,1,Horns Cross,GB,
+8263,1,Hornsea,GB,
+8264,1,Horringford,GB,
+40014,1,Horsemans Green,GB,
+8265,1,Horsham,GB,
+39200,1,Horsley,GB,
+8266,1,Horton (Dorset),GB,
+8267,1,Horton (Northamptonshire),GB,
+7125,1,Horton-Cum-Studley,GB,
+8268,1,Horwich,GB,
+8269,1,Houghton,GB,
+37368,1,Houghton le Spring,GB,
+8270,1,Hounslow,GB,
+8271,1,Hove,GB,
+8272,1,Hovingham,GB,
+8273,1,Howden,GB,
+7126,1,Howtown,GB,
+36316,1,Howwood,GB,
+7127,1,Hoy Island,GB,
+40176,1,Hoylake,GB,
+8274,1,Huddersfield,GB,
+8275,1,Hugh Town,GB,
+9306,1,Hull,GB,
+7128,1,Humberside,GB,
+8276,1,Humbie,GB,
+8277,1,Hundleton,GB,
+43598,1,Hundon,GB,
+8278,1,Hungerford,GB,
+8279,1,Hunmanby,GB,
+8280,1,Hunstanton,GB,
+7129,1,Hunstrete,GB,
+8281,1,Huntingdon,GB,
+8282,1,Huntly,GB,
+8283,1,Hunton,GB,
+7130,1,Hunts Cross,GB,
+8284,1,Hurley,GB,
+8285,1,Huxley,GB,
+8286,1,Hyde,GB,
+8287,1,Hythe,GB,
+38423,1,Hythe (Hampshire),GB,
+8288,1,Ibstone,GB,
+8289,1,Icklesham,GB,
+42379,1,Iikley,GB,
+8290,1,Ilchester,GB,
+8291,1,Ilford,GB,
+8292,1,Ilfracombe,GB,
+8293,1,Ilkeston,GB,
+8294,1,Ilkley,GB,
+8295,1,Ilminster,GB,
+8296,1,Ilsington,GB,
+38394,1,Immingham,GB,
+9325,1,Inchinnan,GB,South Carolina
+8297,1,Inchture,GB,
+8298,1,Ingatestone,GB,
+38048,1,Ingliston,GB,
+7131,1,Inner Hebrides,GB,
+8299,1,Innerleithen,GB,
+8300,1,Instow,GB,
+8301,1,Inveraray,GB,
+7132,1,Inverclyde,GB,
+8302,1,Invergarry,GB,
+8303,1,Invergordon,GB,
+8304,1,Inverkeithing,GB,
+7133,1,Inverleith,GB,
+9251,1,Inverurie,GB,
+7135,1,Iona,GB,
+8305,1,Ipswich,GB,
+8306,1,Ironbridge,GB,
+8307,1,Irvine,GB,
+8308,1,Irvinestown,GB,
+7136,1,Islay Island,GB,
+7137,1,Isle of Anglesey,GB,
+7138,1,Isle of Arran,GB,
+43296,1,Isle of Benbecula,GB,
+7139,1,Isle of Colonsay,GB,
+7140,1,Isle of Eriska,GB,
+43357,1,Isle of Harris,GB,
+43358,1,Isle of Islay,GB,
+43559,1,Isle of Lewis,GB,
+9307,1,Isle of Man,GB,
+36318,1,Isle of Scilly,GB,
+7142,1,Isle of Skye,GB,
+43342,1,Isle of South Uist,GB,
+7143,1,Isle of Wight,GB,
+7144,1,Isles of Scilly,GB,
+8309,1,Isleworth,GB,
+8310,1,Islington,GB,
+8311,1,Jedburgh,GB,
+9311,1,Jersey,GB,
+8312,1,Jesmond,GB,
+8313,1,Johnstone,GB,
+8314,1,Joppa,GB,
+8315,1,Kegworth,GB,
+8316,1,Keighley,GB,
+8317,1,Keiss,GB,
+41164,1,Keith,GB,
+7145,1,Kellington,GB,
+7146,1,Kelsick,GB,
+8318,1,Kelso,GB,
+8319,1,Kendal,GB,
+8320,1,Kenilworth,GB,
+41163,1,Kenley,GB,
+8321,1,Kenmore,GB,
+7147,1,Kenn,GB,
+7148,1,Kennford,GB,
+8322,1,Kennington,GB,
+8323,1,Kensington,GB,
+7149,1,Kensington - Earl's Court,GB,
+7150,1,Kent,GB,
+8324,1,Kentallen,GB,
+8325,1,Kenton,GB,
+8326,1,Keresley,GB,
+8327,1,Keswick,GB,
+8328,1,Kettering,GB,
+7151,1,Kewstoke,GB,
+8329,1,Kexby,GB,
+8330,1,Keynsham,GB,
+7152,1,Kibblesworth,GB,
+8331,1,Kidderminster,GB,
+8332,1,Kidlington,GB,
+8333,1,Kidmore End,GB,
+8334,1,Kidwelly,GB,
+7153,1,Kielder,GB,
+41162,1,Kilbirnie,GB,
+42377,1,Kilchrenan,GB,
+8335,1,Kildonan,GB,
+8336,1,Kildrummy,GB,
+8337,1,Kilfinan,GB,
+39888,1,Kilgetty,GB,
+8338,1,Kilkeel,GB,
+41876,1,Killearn,GB,
+7154,1,Killiechronan,GB,
+8339,1,Killin,GB,
+8340,1,Kilmarnock,GB,
+8341,1,Kilmelfort,GB,
+38765,1,Kilsyth,GB,
+7155,1,Kilve,GB,
+8342,1,Kilwinning,GB,
+8343,1,Kinbuck,GB,
+8344,1,Kincardine,GB,
+8345,1,Kinclaven,GB,
+8346,1,Kincraig,GB,
+7156,1,Kincraigie,GB,
+8349,1,King's Lynn,GB,
+8347,1,Kingham,GB,
+7157,1,Kings Coughton,GB,
+8348,1,Kings Langley,GB,
+36319,1,Kings Lynn,GB,
+8350,1,Kingsbridge,GB,
+41161,1,Kingsbridge - Devon,GB,
+8351,1,Kingsteignton,GB,
+8352,1,Kingston,GB,
+7158,1,Kingston Bagpuize,GB,
+43551,1,Kingston Upon Hull,GB,
+40920,1,Kingston Upon Thames,GB,
+9286,1,Kingston-Upon-Thames,GB,
+8353,1,Kington,GB,
+8354,1,Kingussie,GB,
+8355,1,Kinloch,GB,
+8356,1,Kinloch Rannoch,GB,
+7159,1,Kinlochard,GB,
+8357,1,Kinlochbervie,GB,
+8358,1,Kinlochleven,GB,
+8359,1,Kinross,GB,
+8360,1,Kintore,GB,
+8361,1,Kirk Leavington,GB,
+7160,1,Kirkbean,GB,
+8362,1,Kirkburton,GB,
+8363,1,Kirkby Lonsdale,GB,
+8364,1,Kirkby Moorside,GB,
+8365,1,Kirkby Stephen,GB,
+8366,1,Kirkcaldy,GB,
+8367,1,Kirkcudbright,GB,
+8368,1,Kirkintilloch,GB,
+8369,1,Kirknewton,GB,
+8370,1,Kirkwall,GB,
+8371,1,Kirriemuir,GB,
+40579,1,Kirtlington,GB,
+8372,1,Knaresborough,GB,
+8373,1,Knebworth,GB,
+8374,1,Knighton,GB,
+7161,1,Knightsbridge,GB,
+8375,1,Knottingley,GB,
+8376,1,Knowsley,GB,
+8377,1,Knutsford,GB,
+44190,1,Kyle,GB,
+8378,1,Kyle of Lochalsh,GB,
+8379,1,Kyleakin,GB,
+7162,1,La Greve de Lecq,GB,
+38179,1,La Seigneurie,GB,
+8380,1,Laceby,GB,
+8381,1,Lacock,GB,
+8382,1,Lairg,GB,
+8383,1,Lake District,GB,
+43295,1,Lake District Grasmere,GB,
+43294,1,Lake District-Windermere,GB,
+7163,1,Lakeside,GB,
+7164,1,Laleston,GB,
+8384,1,Lambeth,GB,
+8385,1,Lambourn,GB,
+40307,1,Lamesly,GB,
+8386,1,Lampeter,GB,
+8387,1,Lamphey,GB,
+8388,1,Lanark,GB,
+7165,1,Lanarkshire,GB,
+7166,1,Lancashire,GB,
+8390,1,Lancing,GB,
+8391,1,Landford,GB,
+7167,1,Lands End,GB,
+8392,1,Laneshaw Bridge,GB,
+8393,1,Langbank,GB,
+7168,1,Langdale,GB,
+9329,1,Langford Budville,GB,
+8394,1,Langholm,GB,
+7169,1,Lanner,GB,
+8395,1,Lanreath,GB,
+39136,1,Larbert,GB,
+7170,1,Largs,GB,
+7171,1,Larkfield,GB,
+37911,1,Larkhall,GB,
+8396,1,Larne,GB,
+39039,1,Lasswade,GB,
+1529,1,Last Drop Village,GB,
+40050,1,Lastingham,GB,
+41157,1,Latheron,GB,
+7172,1,Lathones,GB,
+8397,1,Latimer,GB,
+39599,1,Lauder,GB,
+8398,1,Laugharne,GB,
+8399,1,Launceston,GB,
+8400,1,Lavenham,GB,
+7173,1,Laxton,GB,
+8401,1,Lea Marston,GB,
+41156,1,Leafield,GB,
+36321,1,Leamington Spa,GB,
+8402,1,Leatherhead,GB,
+7174,1,Ledaig,GB,
+8403,1,Ledbury,GB,
+9264,1,Ledsham,GB,
+7175,1,Leicestershire,GB,
+7176,1,Leigh,GB,
+7177,1,Leigh Delamere,GB,
+8406,1,Leighton Buzzard,GB,
+39920,1,Leintwardine,GB,
+8407,1,Leiston,GB,
+8408,1,Leith,GB,
+8409,1,Lenham,GB,
+37181,1,Lennoxtown,GB,
+8410,1,Leominster,GB,
+8411,1,Lerwick,GB,
+8412,1,Letchworth,GB,
+8413,1,Letcombe Regis,GB,
+8414,1,Letham,GB,
+8415,1,Leuchars,GB,
+8416,1,Leven,GB,
+7178,1,Lewdown,GB,
+8417,1,Lewes,GB,
+8418,1,Lewisham,GB,
+8419,1,Leyburn,GB,
+9321,1,Leyland,GB,
+8420,1,Leyton,GB,
+8421,1,Liberton,GB,
+8422,1,Lichfield,GB,
+8423,1,Lifton,GB,
+8424,1,Limavady,GB,
+8425,1,Limpley Stoke,GB,
+8426,1,Lincoln,GB,
+7179,1,Lincolnshire,GB,
+8427,1,Lindale,GB,
+40685,1,Lingfield,GB,
+8428,1,Linlithgow,GB,
+8429,1,Liphook,GB,
+8430,1,Liskeard,GB,
+8431,1,Liss,GB,
+38479,1,Little Horwood,GB,
+8432,1,Little Hulton,GB,
+7180,1,Little Langdale,GB,
+8433,1,Little Malvern,GB,
+8434,1,Little Sutton,GB,
+8435,1,Littlehampton,GB,
+7181,1,Littleton Panell,GB,
+8436,1,Liverpool,GB,
+8437,1,Livingston,GB,
+8438,1,Lizard,GB,
+8439,1,Llanarmon Dyffryn-Ceiriog,GB,
+8440,1,Llanberis,GB,
+8441,1,Llandegla,GB,
+8442,1,Llandeilo,GB,
+8443,1,Llandovery,GB,
+8444,1,Llandrindod Wells,GB,
+8445,1,Llandudno,GB,
+39879,1,Llandybie,GB,
+8446,1,Llandyssul,GB,
+41151,1,Llandysul,GB,
+8447,1,Llanelli,GB,
+8448,1,Llanfairpwllgwyngyll,GB,
+7183,1,Llanfarian,GB,
+8449,1,Llanfyllin,GB,
+41108,1,Llangadog,GB,
+8450,1,Llangammarch Wells,GB,
+8451,1,Llangefni,GB,
+8452,1,Llangollen,GB,
+8453,1,Llangurig,GB,
+8454,1,Llangybi,GB,
+7184,1,Llanrhaedr,GB,
+8455,1,Llanrug,GB,
+8456,1,Llanrwst,GB,
+8457,1,Llantwit Major,GB,
+8458,1,Llanvair Waterdine,GB,
+8459,1,Llanwddyn,GB,
+8460,1,Llanwrtyd Wells,GB,
+8461,1,Llanybydder,GB,
+41107,1,Llanymynech,GB,
+8462,1,Llyswen,GB,
+8463,1,Loanhead,GB,
+43519,1,Loch Fyne,GB,
+7186,1,Loch Ness,GB,
+41816,1,Loch Torridon,GB,
+41106,1,Lochailort,GB,
+8464,1,Lochearnhead,GB,
+8465,1,Lochgilphead,GB,
+8466,1,Lochinver,GB,
+8467,1,Lochmaddy,GB,
+8468,1,Lockerbie,GB,
+7187,1,Locks Heath,GB,
+8469,1,Lolworth,GB,
+9245,1,London,GB,
+36323,1,London Heathrow,GB,
+36314,1,London-Hendon,GB,
+9262,1,Londonderry,GB,
+8470,1,Long Eaton,GB,
+8471,1,Long Melford,GB,
+8472,1,Long Newton,GB,
+8473,1,Long Preston,GB,
+8474,1,Long Sutton,GB,
+8475,1,Longbridge,GB,
+8476,1,Longforgan,GB,
+8477,1,Longframlington,GB,
+8478,1,Longhirst,GB,
+8479,1,Longhorsley,GB,
+7189,1,Looe,GB,
+8480,1,Lorton,GB,
+8481,1,Lossiemouth,GB,
+8482,1,Lostwithiel,GB,
+8483,1,Loughborough,GB,
+7190,1,Louth,GB,
+8484,1,Lower Beeding,GB,
+8485,1,Lower Slaughter,GB,
+8486,1,Lowestoft,GB,
+8487,1,Lowick,GB,
+36325,1,Loxton,GB,
+8488,1,Ludlow,GB,
+7191,1,Lulworth,GB,
+8489,1,Lundin Links,GB,
+8490,1,Luss,GB,
+8491,1,Lustleigh,GB,
+8492,1,Luton,GB,
+8493,1,Lutterworth,GB,
+8494,1,Lybster,GB,
+8495,1,Lydd,GB,
+8496,1,Lydford,GB,
+8497,1,Lydney,GB,
+8498,1,Lyme Regis,GB,
+8499,1,Lymington,GB,
+8500,1,Lymm,GB,
+8501,1,Lyndhurst,GB,
+8502,1,Lynmouth,GB,
+8503,1,Lynton,GB,
+7192,1,Lytham St Annes,GB,
+8504,1,Macclesfield,GB,
+8505,1,Macduff,GB,
+8506,1,Machynlleth,GB,
+7193,1,Madeley,GB,
+8507,1,Maentwrog,GB,
+40679,1,Maesycwmmer,GB,
+36327,1,Maghera,GB,
+8508,1,Magor,GB,
+7194,1,Maida Vale-St. John's Wood,GB,
+8510,1,Maidstone,GB,
+7195,1,Makeney,GB,
+8511,1,Maldon,GB,
+8512,1,Mallaig,GB,
+8513,1,Malmesbury,GB,
+8514,1,Malpas,GB,
+41105,1,Malpas - Cheshire,GB,
+8515,1,Malton,GB,
+7196,1,Malvern,GB,
+7197,1,Man,GB,
+8516,1,Manaton,GB,
+8517,1,Manchester,GB,
+36331,1,Manchester Airport,GB,
+8518,1,Mansfield,GB,
+8519,1,Manston,GB,
+8520,1,Marazion,GB,
+8521,1,Marchwiel,GB,
+42965,1,Margaretting,GB,
+8522,1,Margate,GB,
+7200,1,Marianglas,GB,
+8523,1,Market Bosworth,GB,
+8524,1,Market Deeping,GB,
+8525,1,Market Harborough,GB,
+8526,1,Market Lavington,GB,
+8527,1,Markfield,GB,
+34692,1,Markinch,GB,Kentucky
+8528,1,Marks Tey,GB,
+8529,1,Markyate,GB,
+8530,1,Marlborough,GB,
+8531,1,Marlow,GB,
+1524,1,Marlow on Thames,GB,
+36328,1,Marlow-on-Thames,GB,
+38633,1,Marnhull,GB,
+8532,1,Marsden,GB,
+38623,1,Marsham,GB,
+8533,1,Marston,GB,
+8534,1,Marston Moretaine,GB,
+8535,1,Martock,GB,
+8536,1,Maryculter,GB,
+7201,1,Marylebone,GB,
+8537,1,Masham,GB,
+7202,1,Matchams,GB,
+8538,1,Matfen,GB,
+8539,1,Matlock,GB,
+8540,1,Mawdesley,GB,
+8541,1,Mayfair,GB,
+7203,1,Mayfair - Marylebone,GB,
+37986,1,Melbourn,GB,
+8542,1,Melksham,GB,
+8543,1,Mellor,GB,
+8544,1,Melrose,GB,
+8545,1,Meltham,GB,
+8546,1,Melton Mowbray,GB,
+42682,1,Melvich,GB,
+39875,1,Mendham,GB,
+8547,1,Meppershall,GB,
+7204,1,Merchiston,GB,
+8548,1,Meriden,GB,
+8549,1,Merthyr Tydfil,GB,
+8550,1,Merton (Devon),GB,
+8552,1,Merton (Norfolk),GB,
+42966,1,Mexborough,GB,
+7205,1,Michaelwood,GB,
+7207,1,Mid-Wales,GB,
+8553,1,Middleham,GB,
+36329,1,Middlesborough,GB,
+8555,1,Middleton,GB,
+8556,1,Middleton in Teesdale,GB,
+8557,1,Middleton Stoney,GB,
+8558,1,Middlewich,GB,
+42967,1,Midgham,GB,
+8559,1,Midhurst,GB,
+7206,1,Midlothian,GB,
+40729,1,Midsomer Norton,GB,
+8560,1,Mildenhall,GB,
+8561,1,Milford,GB,
+8562,1,Milford Haven,GB,
+9246,1,Milford on Sea,GB,
+39324,1,Millom,GB,
+8563,1,Milngavie,GB,
+8566,1,Milton Abbot,GB,
+9288,1,Milton Common,GB,
+8567,1,Milton Damerel,GB,
+7208,1,Milton-under-Wychwood,GB,
+8569,1,Minchinhampton,GB,
+8570,1,Minehead,GB,
+8571,1,Minster,GB,
+42766,1,Minster Lovell,GB,
+8572,1,Mirfield,GB,
+7209,1,Miskin,GB,
+8573,1,Mistley,GB,
+8574,1,Moffat,GB,
+8575,1,Mold,GB,
+8576,1,Molland,GB,
+8577,1,Mollington,GB,
+44191,1,Moneymore,GB,
+8578,1,Moneyreagh,GB,
+8579,1,Monifieth,GB,
+8580,1,Monkton,GB,
+7210,1,Monkton Combe,GB,
+8581,1,Monmouth,GB,
+8582,1,Montacute,GB,
+8583,1,Montgomery,GB,
+8584,1,Montrose,GB,
+7211,1,Moray,GB,
+8585,1,Morden,GB,
+8586,1,Morecambe,GB,
+7212,1,Moreton-in-Marsh,GB,
+8587,1,Moretonhampstead,GB,
+7213,1,Morley,GB,
+8588,1,Morningside,GB,
+8589,1,Morpeth,GB,
+8590,1,Motherwell,GB,
+40925,1,Mottram St Andrew,GB,
+8591,1,Mousehole,GB,
+38114,1,Much Hadham,GB,
+8592,1,Much Wenlock,GB,
+7215,1,Mudeford,GB,
+8593,1,Muir of Ord,GB,
+7216,1,Muirhouse,GB,
+1623,1,Mull,GB,
+8594,1,Mullion,GB,
+8595,1,Mumbles,GB,
+8596,1,Mundesley,GB,
+40139,1,Mundford,GB,
+7217,1,Murrayfield,GB,
+9274,1,Musselburgh,GB,
+8597,1,Muthill,GB,
+8598,1,Muxton,GB,
+8599,1,Mytholmroyd,GB,
+8600,1,Nailsworth,GB,
+8601,1,Nairn,GB,
+8602,1,Nantwich,GB,
+40003,1,Narberth,GB,
+8603,1,Neath,GB,
+8604,1,Needham Market,GB,
+8605,1,Nether Stowey,GB,
+8606,1,Netherton,GB,
+7218,1,Nethy Bridge,GB,
+7219,1,New Forest,GB,
+8607,1,New Mills,GB,
+9247,1,New Milton,GB,
+7220,1,New Town,GB,
+39992,1,Newark,GB,
+7221,1,Newark-on-Trent,GB,
+8608,1,Newbridge,GB,
+8609,1,Newburgh,GB,
+8610,1,Newbury,GB,
+8611,1,Newby Bridge,GB,
+8612,1,Newby Wiske,GB,
+8613,1,Newcastle,GB,
+43292,1,Newcastle -Ulster,GB,
+36333,1,Newcastle Airport,GB,
+1629,1,Newcastle Upon Tyne,GB,
+7222,1,Newcastle-Under-Lyme,GB,
+41104,1,Newcastleton,GB,
+7223,1,Newcraighall,GB,
+8615,1,Newent,GB,
+8616,1,Newham,GB,
+8617,1,Newhaven,GB,
+8618,1,Newington,GB,
+9289,1,Newmarket,GB,
+7224,1,Newnham on Severn,GB,
+36334,1,Newport (Wales),GB,
+43291,1,Newport Gwent,GB,
+8619,1,Newport Pagnell,GB,
+8621,1,Newry,GB,
+9322,1,Newton Abbot,GB,
+9270,1,Newton Aycliffe,GB,
+1527,1,Newton Le Willows,GB,
+41103,1,Newton Le Willows - Lancashire,GB,
+8622,1,Newton on the Moor,GB,
+8623,1,Newton Stewart,GB,
+8624,1,Newton Tracey,GB,
+8625,1,Newton-le-Willows,GB,
+8626,1,Newtonmore,GB,
+41102,1,Newtown,GB,
+7226,1,Newtown (Hampshire),GB,
+8627,1,Newtown (Wales),GB,
+8628,1,Newtownabbey,GB,
+8629,1,Newtownards,GB,
+8630,1,Newtownbreda,GB,
+7227,1,Niddrie,GB,
+7228,1,Norfolk,GB,
+7229,1,Norman Cross,GB,
+8631,1,North Berwick,GB,
+8632,1,North Bovey,GB,
+7230,1,North Cornish Coast,GB,
+7231,1,North Devon Coast,GB,
+8633,1,North Kilworth,GB,
+8634,1,North Leigh,GB,
+8635,1,North Muskham,GB,
+8636,1,North Petherton,GB,
+8637,1,North Queensferry,GB,
+7232,1,North Ronaldsay,GB,
+7233,1,North Stifford,GB,
+8638,1,North Stoke,GB,
+42378,1,North Uist,GB,
+7234,1,North Wales,GB,
+8639,1,North Walsham,GB,
+7235,1,North Yorkshire,GB,
+8640,1,Northallerton,GB,
+7236,1,Northamptonshire,GB,
+8642,1,Northfield,GB,
+40310,1,Northington,GB,
+8643,1,Northleach,GB,
+8644,1,Northop,GB,
+7237,1,Northop Hall,GB,
+7238,1,Northumberland,GB,
+36335,1,Northumberland N.P,GB,
+8645,1,Northwich,GB,
+8646,1,Northwold,GB,
+7239,1,Norton,GB,
+8647,1,Norton Disney,GB,
+38630,1,Norton St Philip,GB,
+8649,1,Nuneaton,GB,
+8650,1,Nutfield,GB,
+8651,1,Oadby,GB,
+8652,1,Oakham,GB,
+37596,1,Oakley,GB,
+7242,1,Oakmere,GB,
+8654,1,Odiham,GB,
+8655,1,Okehampton,GB,
+9275,1,Old Craighall,GB,
+7243,1,Old Harlow,GB,
+8656,1,Old Town,GB,
+7244,1,Old Trafford,GB,
+8657,1,Old Windsor,GB,
+8658,1,Oldbury,GB,
+8659,1,Oldham,GB,
+8660,1,Oldmeldrum,GB,
+8661,1,Omagh,GB,
+8662,1,Onich,GB,
+8663,1,Orford,GB,
+43343,1,Orkney,GB,
+7245,1,Orkney Islands,GB,
+8664,1,Ormskirk,GB,
+8665,1,Orphir,GB,
+41101,1,Orphir - orkney,GB,
+8666,1,Orton,GB,
+43234,1,Ossett,GB,
+40927,1,Osterley,GB,
+8667,1,Oswestry,GB,
+8668,1,Otley,GB,
+8669,1,Otterburn,GB,
+8670,1,Ottershaw,GB,
+7246,1,Ottery St Mary,GB,
+8671,1,Oulton,GB,
+7247,1,Oulton Broad,GB,
+8672,1,Oundle,GB,
+7248,1,Outer Hebrides,GB,
+41100,1,Outlane,GB,
+8673,1,Overstrand,GB,
+8674,1,Ovington,GB,
+8676,1,Packington,GB,
+8677,1,Padstow,GB,
+7250,1,Padworth,GB,
+8678,1,Paignton,GB,
+8679,1,Painswick,GB,
+8680,1,Paisley,GB,
+8681,1,Pangbourne,GB,
+7251,1,Papa Westray,GB,
+7252,1,Par,GB,
+8682,1,Parkgate,GB,
+8683,1,Parracombe,GB,
+8684,1,Patchway,GB,
+38380,1,Pateley Bridge,GB,
+8685,1,Pattingham,GB,
+7253,1,Peak District,GB,
+7254,1,Peaslake,GB,
+8686,1,Peasmarsh,GB,
+8688,1,Pelynt,GB,
+8689,1,Pembroke,GB,
+8690,1,Pembroke Dock,GB,
 7255,1,Pembrokeshire Coast National Park,GB,
 8691,1,Penally,GB,
 8692,1,Penarth,GB,
@@ -5949,2107 +8998,3 @@
 21215,1,Kenner - Louis Armstrong International Airport,US,Louisiana
 19844,1,Kennesaw,US,Georgia
 27680,1,Kennett,US,Missouri
-30001,1,Kennett Square,US,Pennsylvania
-31527,1,Kennewick,US,Washington
-17666,1,Kennicott,US,Alaska
-31780,1,Kenosha,US,Wisconsin
-31781,1,Kenosha - Pleasant Prairie,US,Wisconsin
-32000,1,Kenova,US,West Virginia
-31528,1,Kent,US,Washington
-29387,1,Kent,US,Ohio
-19096,1,Kent,US,Connecticut
-20915,1,Kentland,US,Indiana
-29388,1,Kenton,US,Ohio
-33666,1,Kentucky Lake,US,Kentucky
-22132,1,Kentwood,US,Michigan
-18565,1,Kenwood,US,California
-29389,1,Kenwood,US,Ohio
-20232,1,Keokuk,US,Iowa
-20049,1,Keoneoio,US,Hawaii
-28888,1,Kerhonkson,US,New York
-30720,1,Kermit,US,Texas
-33900,1,Kernersville,US,North Carolina
-18566,1,Kernville,US,California
-30721,1,Kerrville,US,Texas
-31136,1,Keswick,US,Virginia
-17667,1,Ketchikan,US,Alaska
-20369,1,Ketchum,US,Idaho
-31529,1,Kettle Falls,US,Washington
-18567,1,Kettleman City,US,California
-39022,1,Kewadin,US,Michigan
-20608,1,Kewanee,US,Illinois
-20609,1,Kewanee area,US,Illinois
-31782,1,Kewaunee,US,Wisconsin
-19428,1,Key Biscayne,US,Florida
-19429,1,Key Colony Beach,US,Florida
-19430,1,Key Largo,US,Florida
-19431,1,Key West,US,Florida
-21723,1,Keymar,US,Maryland
-32001,1,Keyser,US,West Virginia
-33468,1,Keystone,US,Colorado
-33020,1,Keystone,US,South Dakota
-19432,1,Keystone Heights,US,Florida
-31137,1,Keysville,US,Virginia
-28889,1,Kiamesha Lake,US,New York
-17668,1,Kiana,US,Alaska
-30351,1,Kiawah Island,US,South Carolina
-20050,1,Kihei,US,Hawaii
-30722,1,Kilgore,US,Texas
-33901,1,Kill Devil Hills,US,North Carolina
-30723,1,Killeen,US,Texas
-30724,1,Killeen area,US,Texas
-31341,1,Killington,US,Vermont
-19097,1,Killingworth,US,Connecticut
-31138,1,Kilmarnock,US,Virginia
-28132,1,Kimball,US,Nebraska
-22133,1,Kimball,US,Michigan
-33021,1,Kimball,US,South Dakota
-33178,1,Kimball,US,Tennessee
-31783,1,Kimberly,US,Wisconsin
-21216,1,Kinder,US,Louisiana
-28890,1,Kinderhook,US,New York
-33902,1,King,US,North Carolina
-29688,1,King City,US,Oregon
-18568,1,King City,US,California
-17669,1,King Cove,US,Alaska
-31139,1,King George,US,Virginia
-30002,1,King of Prussia,US,Pennsylvania
-17670,1,King Salmon,US,Alaska
-27682,1,Kingdom City,US,Missouri
-21886,1,Kingfield,US,Maine
-21075,1,Kingman,US,Kansas
-18155,1,Kingman,US,Arizona
-18569,1,Kings Beach,US,California
-29390,1,Kings Island,US,Ohio
-33903,1,Kings Mountain,US,North Carolina
-18570,1,Kingsburg,US,California
-19845,1,Kingsland,US,Georgia
-33179,1,Kingsport,US,Tennessee
-21407,1,Kingston,US,Massachusetts
-20370,1,Kingston,US,Idaho
-28891,1,Kingston,US,New York
-28534,1,Kingston,US,New Mexico
-30250,1,Kingston,US,Rhode Island
-33180,1,Kingston,US,Tennessee
-32919,1,Kingston,US,Oklahoma
-28892,1,Kingston area,US,New York
-33181,1,Kingston Springs,US,Tennessee
-30352,1,Kingstree,US,South Carolina
-30725,1,Kingsville,US,Texas
-30726,1,Kingsville area,US,Texas
-30727,1,Kingwood,US,Texas
-32002,1,Kingwood,US,West Virginia
-29391,1,Kinsman,US,Ohio
-33904,1,Kinston,US,North Carolina
-30003,1,Kintnersville,US,Pennsylvania
-21076,1,Kiowa,US,Kansas
-20051,1,Kipahula,US,Hawaii
-17671,1,Kipnuk,US,Alaska
-30728,1,Kirby,US,Texas
-31530,1,Kirkland,US,Washington
-27683,1,Kirksville,US,Missouri
-27684,1,Kirkwood,US,Missouri
-18571,1,Kirkwood,US,California
-27685,1,Kissee Mills,US,Missouri
-19433,1,Kissimmee,US,Florida
-17672,1,Kitoi,US,Alaska
-31531,1,Kitsap Peninsula,US,Washington
-30004,1,Kittanning,US,Pennsylvania
-21887,1,Kittery,US,Maine
-33905,1,Kitty Hawk,US,North Carolina
-17673,1,Kivalina,US,Alaska
-18572,1,Klamath,US,California
-29689,1,Klamath Falls,US,Oregon
-17674,1,Klawock,US,Alaska
-19846,1,Klondike,US,Georgia
-33906,1,Knightdale,US,North Carolina
-27686,1,Knob Noster,US,Missouri
-20916,1,Knox,US,Indiana
-20233,1,Knoxville,US,Iowa
-33182,1,Knoxville,US,Tennessee
-33183,1,Knoxville area,US,Tennessee
-17675,1,Kobuk,US,Alaska
-33184,1,Kodak,US,Tennessee
-40556,1,Kodak - Sevierville,US,Tennessee
-17676,1,Kodiak,US,Alaska
-17677,1,Kodiak Island,US,Alaska
-20052,1,Kohala Coast - Waikoloa,US,Hawaii
-31784,1,Kohler,US,Wisconsin
-20053,1,Kokomo,US,Hawaii
-20917,1,Kokomo,US,Indiana
-20918,1,Kokomo area,US,Indiana
-17678,1,Koliganek,US,Alaska
-20054,1,Koloa,US,Hawaii
-20055,1,Kona - Big Island,US,Hawaii
-20056,1,Kona Coast,US,Hawaii
-20371,1,Kooskia,US,Idaho
-27873,1,Kosciusko,US,Mississippi
-17679,1,Kotlik,US,Alaska
-17680,1,Kotzebue,US,Alaska
-30729,1,Kountze,US,Texas
-17681,1,Koyuk,US,Alaska
-17682,1,Koyukuk,US,Alaska
-33469,1,Kremmling,US,Colorado
-20057,1,Kualapuu,US,Hawaii
-20058,1,Kukuihaele,US,Hawaii
-20059,1,Kula,US,Hawaii
-30005,1,Kulpsville,US,Pennsylvania
-33907,1,Kure Beach,US,North Carolina
-20060,1,Kurtistown,US,Hawaii
-33667,1,Kuttawa,US,Kentucky
-30006,1,Kutztown,US,Pennsylvania
-17683,1,Kwethluk,US,Alaska
-17684,1,Kwigillingok,US,Alaska
-30730,1,Kyle,US,Texas
-22137,1,L'Anse,US,Michigan
-32109,1,La Barge,US,Wyoming
-19434,1,La Belle,US,Florida
-18573,1,La Canada Flintridge,US,California
-28535,1,La Cienaga,US,New Mexico
-31532,1,La Conner,US,Washington
-18574,1,La Crescenta,US,California
-31785,1,La Crosse,US,Wisconsin
-31140,1,La Crosse,US,Virginia
-31786,1,La Crosse area,US,Wisconsin
-31787,1,La Farge,US,Wisconsin
-30731,1,La Feria,US,Texas
-33185,1,La Follette,US,Tennessee
-29690,1,La Grande,US,Oregon
-30732,1,La Grange,US,Texas
-20610,1,La Grange,US,Illinois
-33668,1,La Grange,US,Kentucky
-36960,1,La Grange (GA),US,
-18575,1,La Habra,US,California
-18576,1,La Jolla,US,California
-30733,1,La Joya,US,Texas
-33470,1,La Junta,US,Colorado
-30734,1,La Marque,US,Texas
-18577,1,La Mesa,US,California
-18578,1,La Mirada,US,California
-18579,1,La Palma,US,California
-29691,1,La Pine,US,Oregon
-21217,1,La Place,US,Louisiana
-21724,1,La Plata,US,Maryland
-20919,1,La Porte,US,Indiana
-30735,1,La Porte,US,Texas
-18580,1,La Puente,US,California
-18581,1,La Quinta,US,California
-20611,1,La Salle,US,Illinois
-28536,1,La Union,US,New Mexico
-1500,1,La Vale,US,
-33186,1,La Vergne,US,Tennessee
-18582,1,La Verne,US,California
-33471,1,La Veta,US,Colorado
-28133,1,La Vista,US,Nebraska
-17685,1,Labouchere Bay,US,Alaska
-17686,1,Labourchere Bay,US,Alaska
-31788,1,Lac du Flambeau,US,Wisconsin
-31533,1,Lacey,US,Washington
-28893,1,Lackawanna,US,New York
-30007,1,Lackawaxen,US,Pennsylvania
-32722,1,Laconia,US,New Hampshire
-32723,1,Laconia area,US,New Hampshire
-30736,1,Lacy-Lakeview,US,Texas
-20920,1,Ladoga,US,Indiana
-30353,1,Ladson,US,South Carolina
-19435,1,Lady Lake,US,Florida
-31789,1,Ladysmith,US,Wisconsin
-29692,1,Lafayette,US,Oregon
-19847,1,Lafayette,US,Georgia
-18583,1,Lafayette,US,California
-20921,1,Lafayette,US,Indiana
-21218,1,Lafayette,US,Louisiana
-33472,1,Lafayette,US,Colorado
-21219,1,Lafayette area,US,Louisiana
-20922,1,Lafayette area,US,Indiana
-30008,1,Lafayette Hill,US,Pennsylvania
-21220,1,Lafitte,US,Louisiana
-30737,1,Lago Vista,US,Texas
-20923,1,Lagrange,US,Indiana
-19848,1,LaGrange,US,Georgia
-19849,1,LaGrange area,US,Georgia
-28894,1,LaGuardia Airport (LGA),US,New York
-18584,1,Laguna - South Beaches,US,California
-18585,1,Laguna Beach,US,California
-18586,1,Laguna Hills,US,California
-18587,1,Laguna Niguel,US,California
-20061,1,Lahaina,US,Hawaii
-30009,1,Lahaska,US,Pennsylvania
-20062,1,Laie,US,Hawaii
-30738,1,Lajitas,US,Texas
-30010,1,Lake Ariel,US,Pennsylvania
-18588,1,Lake Arrowhead,US,California
-20612,1,Lake Bluff,US,Illinois
-30739,1,Lake Brownwood,US,Texas
-19436,1,Lake Buena Vista,US,Florida
-19437,1,Lake Cain Hills,US,Florida
-21221,1,Lake Charles,US,Louisiana
-21222,1,Lake Charles area,US,Louisiana
-22134,1,Lake City,US,Michigan
-27420,1,Lake City,US,Minnesota
-19438,1,Lake City,US,Florida
-19850,1,Lake City,US,Georgia
-30354,1,Lake City,US,South Carolina
-33473,1,Lake City,US,Colorado
-33187,1,Lake City,US,Tennessee
-19439,1,Lake City area,US,Florida
-33669,1,Lake Cumberland area,US,Kentucky
-30740,1,Lake Dallas,US,Texas
-31790,1,Lake Delton,US,Wisconsin
-27421,1,Lake Elmo,US,Minnesota
-18589,1,Lake Elsinore,US,California
-18590,1,Lake Forest,US,California
-20613,1,Lake Forest,US,Illinois
-31534,1,Lake Forest Park,US,Washington
-28895,1,Lake George,US,New York
-28896,1,Lake George area,US,New York
-30011,1,Lake Harmony,US,Pennsylvania
-18156,1,Lake Havasu City,US,Arizona
-19440,1,Lake Helen,US,Florida
-28897,1,Lake Huntington,US,New York
-30741,1,Lake Jackson,US,Texas
-30742,1,Lake Jackson area,US,Texas
-33908,1,Lake Junaluska,US,North Carolina
-29693,1,Lake Klamath area,US,Oregon
-33909,1,Lake Lure,US,North Carolina
-28898,1,Lake Luzerne,US,New York
-19441,1,Lake Mary,US,Florida
-31793,1,Lake Mills,US,Wisconsin
-17687,1,Lake Minchumina,US,Alaska
-18157,1,Lake Montezuma,US,Arizona
-19851,1,Lake Oconee area,US,Georgia
-22135,1,Lake Orion,US,Michigan
-29694,1,Lake Oswego,US,Oregon
-27687,1,Lake Ozark,US,Missouri
-19852,1,Lake Park,US,Georgia
-19442,1,Lake Placid,US,Florida
-28899,1,Lake Placid,US,New York
-28900,1,Lake Placid area,US,New York
-33350,1,Lake Point,US,Utah
-33351,1,Lake Powell,US,Utah
-18591,1,Lake San Marcos,US,California
-18592,1,Lake Shasta,US,California
-27688,1,Lake St Louis,US,Missouri
-28901,1,Lake Success,US,New York
-32826,1,Lake Tahoe,US,Nevada
-18593,1,Lake Tahoe area,US,California
-33910,1,Lake Toxaway,US,North Carolina
-18040,1,Lake Village,US,Arkansas
-19443,1,Lake Wales,US,Florida
-31794,1,Lake Winnebago,US,Wisconsin
-30743,1,Lake Worth,US,Texas
-19444,1,Lake Worth,US,Florida
-20614,1,Lake Zurich,US,Illinois
-28312,1,Lakehurst,US,New Jersey
-19445,1,Lakeland,US,Florida
-33188,1,Lakeland,US,Tennessee
-19446,1,Lakeland - Winter Haven,US,Florida
-19853,1,Lakemont,US,Georgia
-18594,1,Lakeport,US,California
-18595,1,Lakeshore,US,California
-18596,1,Lakeside,US,California
-18158,1,Lakeside,US,Arizona
-22136,1,Lakeside,US,Michigan
-27991,1,Lakeside,US,Montana
-30744,1,Lakeside,US,Texas
-29695,1,Lakeside,US,Oregon
-29392,1,Lakeside,US,Ohio
-33911,1,Lakeside,US,North Carolina
-29393,1,Lakeview,US,Ohio
-29696,1,Lakeview,US,Oregon
-27689,1,Lakeview,US,Missouri
-20615,1,Lakeview,US,Illinois
-18041,1,Lakeview,US,Arkansas
-19098,1,Lakeville,US,Connecticut
-27422,1,Lakeville,US,Minnesota
-30012,1,Lakeville,US,Pennsylvania
-28902,1,Lakeville,US,New York
-30745,1,Lakeway,US,Texas
-29394,1,Lakewood,US,Ohio
-28903,1,Lakewood,US,New York
-28313,1,Lakewood,US,New Jersey
-31795,1,Lakewood,US,Wisconsin
-31535,1,Lakewood,US,Washington
-18597,1,Lakewood,US,California
-33474,1,Lakewood,US,Colorado
-28066,1,Lakota,US,North Dakota
-30013,1,Lamar,US,Pennsylvania
-27690,1,Lamar,US,Missouri
-33475,1,Lamar,US,Colorado
-27691,1,Lambert - St. Louis International Airport (STL),US,Missouri
-28314,1,Lambertville,US,New Jersey
-30746,1,Lamesa,US,Texas
-21888,1,Lamoine Beach,US,Maine
-20234,1,Lamoni,US,Iowa
-19447,1,Lamont,US,Florida
-30747,1,Lampasas,US,Texas
-28537,1,Lamy,US,New Mexico
-20063,1,Lanai City,US,Hawaii
-20064,1,Lanai Island,US,Hawaii
-20616,1,Lanark,US,Illinois
-21408,1,Lancaster,US,Massachusetts
-18598,1,Lancaster,US,California
-30748,1,Lancaster,US,Texas
-30355,1,Lancaster,US,South Carolina
-30014,1,Lancaster,US,Pennsylvania
-29395,1,Lancaster,US,Ohio
-31796,1,Lancaster,US,Wisconsin
-32724,1,Lancaster,US,New Hampshire
-30015,1,Lancaster area,US,Pennsylvania
-18599,1,Lancaster area,US,California
-31797,1,Land O Lakes,US,Wisconsin
-19448,1,Land O' Lakes,US,Florida
-18600,1,Landcaster area,US,California
-32110,1,Lander,US,Wyoming
-31342,1,Landgrove,US,Vermont
-21725,1,Landover,US,Maryland
-21726,1,Landover Hills,US,Maryland
-30356,1,Landrum,US,South Carolina
-27423,1,Lanesboro,US,Minnesota
-17908,1,Lanett,US,Alabama
-28067,1,Langdon,US,North Dakota
-30016,1,Langhorne,US,Pennsylvania
-31536,1,Langley,US,Washington
-21727,1,Langley Park,US,Maryland
-21728,1,Lanham,US,Maryland
-30017,1,Lansdale,US,Pennsylvania
-21729,1,Lansdowne,US,Maryland
-28068,1,Lansford,US,North Dakota
-28904,1,Lansing,US,New York
-22138,1,Lansing,US,Michigan
-21077,1,Lansing,US,Kansas
-20617,1,Lansing,US,Illinois
-20235,1,Lansing,US,Iowa
-22139,1,Lansing area,US,Michigan
-19449,1,Lantana,US,Florida
-22140,1,Lapeer,US,Michigan
-27692,1,Laplata,US,Missouri
-32111,1,Laramie,US,Wyoming
-28905,1,Larchmont,US,New York
-30749,1,Laredo,US,Texas
-21730,1,Largo,US,Maryland
-19450,1,Largo,US,Florida
-18601,1,Larkspur,US,California
-21078,1,Larned,US,Kansas
-17688,1,Larsen Bay,US,Alaska
-33476,1,Las Animas,US,Colorado
-28538,1,Las Cruces,US,New Mexico
-28539,1,Las Vegas,US,New Mexico
-32827,1,Las Vegas,US,Nevada
-33189,1,Lascassas,US,Tennessee
-28906,1,Latham,US,New York
-18602,1,Lathrop,US,California
-32829,1,Lathrop Wells,US,Nevada
-30018,1,Latrobe,US,Pennsylvania
-30357,1,Latta,US,South Carolina
-19451,1,Lauderdale-by-the-Sea,US,Florida
-32830,1,Laughlin,US,Nevada
-39111,1,Laughlintown,US,Pennsylvania
-20065,1,Laupahoehoe,US,Hawaii
-21731,1,Laurel,US,Maryland
-27874,1,Laurel,US,Mississippi
-19225,1,Laurel,US,Delaware
-27992,1,Laurel,US,Montana
-30358,1,Laurel Bay,US,South Carolina
-31141,1,Laurel Fork,US,Virginia
-33912,1,Laurel Springs,US,North Carolina
-30019,1,Laureldale,US,Pennsylvania
-30359,1,Laurens,US,South Carolina
-27693,1,Laurie,US,Missouri
-33913,1,Laurinburg,US,North Carolina
-22141,1,Laurium,US,Michigan
-20372,1,Lava Hot Springs,US,Idaho
-21732,1,LaVale,US,Maryland
-19854,1,Lavonia,US,Georgia
-20066,1,Lawai,US,Hawaii
-18603,1,Lawndale,US,California
-20924,1,Lawrence,US,Indiana
-21079,1,Lawrence,US,Kansas
-21409,1,Lawrence,US,Massachusetts
-28907,1,Lawrence,US,New York
-20925,1,Lawrenceburg,US,Indiana
-33670,1,Lawrenceburg,US,Kentucky
-33190,1,Lawrenceburg,US,Tennessee
-20926,1,Lawrenceburg area,US,Indiana
-20618,1,Lawrenceville,US,Illinois
-19855,1,Lawrenceville,US,Georgia
-28315,1,Lawrenceville,US,New Jersey
-31142,1,Lawrenceville,US,Virginia
-32920,1,Lawton,US,Oklahoma
-33352,1,Layton,US,Utah
-20236,1,Le Claire,US,Iowa
-20237,1,Le Mars,US,Iowa
-20619,1,Le Roy,US,Illinois
-27424,1,Le Sueur,US,Minnesota
-33022,1,Lead,US,South Dakota
-33477,1,Leadville,US,Colorado
-30750,1,League City,US,Texas
-19452,1,Lealman,US,Florida
-20927,1,Leavenworth,US,Indiana
-21080,1,Leavenworth,US,Kansas
-31537,1,Leavenworth,US,Washington
-21081,1,Leawood,US,Kansas
-20928,1,Lebanon,US,Indiana
-20620,1,Lebanon,US,Illinois
-27694,1,Lebanon,US,Missouri
-31143,1,Lebanon,US,Virginia
-29697,1,Lebanon,US,Oregon
-30020,1,Lebanon,US,Pennsylvania
-29396,1,Lebanon,US,Ohio
-28316,1,Lebanon,US,New Jersey
-33671,1,Lebanon,US,Kentucky
-33191,1,Lebanon,US,Tennessee
-32725,1,Lebanon,US,New Hampshire
-30021,1,Lebanon - Pine Grove area,US,Pennsylvania
-32726,1,Lebanon area,US,New Hampshire
-33672,1,Lebanon area,US,Kentucky
-18604,1,Lebec,US,California
-21082,1,Lebo,US,Kansas
-19453,1,Lecanto,US,Florida
-30751,1,Ledbetter,US,Texas
-28317,1,Ledgewood,US,New Jersey
-19099,1,Ledyard Center,US,Connecticut
-21410,1,Lee,US,Massachusetts
-18605,1,Lee Vining,US,California
-17909,1,Leeds,US,Alabama
-28908,1,Leeds,US,New York
-27695,1,Lees Summit,US,Missouri
-19454,1,Leesburg,US,Florida
-31144,1,Leesburg,US,Virginia
-19455,1,Leesburg area,US,Florida
-21223,1,Leesville,US,Louisiana
-30360,1,Leesville,US,South Carolina
-33353,1,Lehi,US,Utah
-19456,1,Lehigh Acres,US,Florida
-30022,1,Lehighton,US,Pennsylvania
-33914,1,Leicester,US,North Carolina
-33673,1,Leitchfield,US,Kentucky
-22142,1,Leland,US,Michigan
-33023,1,Lemmon,US,South Dakota
-18606,1,Lemon Cove,US,California
-18607,1,Lemon Grove,US,California
-20621,1,Lemont,US,Illinois
-18608,1,Lemoore,US,California
-21083,1,Lenexa,US,Kansas
-18609,1,Lennox,US,California
-33915,1,Lenoir,US,North Carolina
-33192,1,Lenoir City,US,Tennessee
-19856,1,Lenox,US,Georgia
-21411,1,Lenox,US,Massachusetts
-28909,1,Lenox,US,New York
-33193,1,Lenox,US,Tennessee
-18610,1,Lenwood,US,California
-30023,1,Leola,US,Pennsylvania
-21412,1,Leominster,US,Massachusetts
-30752,1,Leon Valley,US,Texas
-21084,1,Leoti,US,Kansas
-30024,1,Lester,US,Pennsylvania
-18611,1,Leucadia,US,California
-30753,1,Levelland,US,Texas
-17689,1,Levelock,US,Alaska
-21413,1,Leverett,US,Massachusetts
-30025,1,Levittown,US,Pennsylvania
-28910,1,Levittown,US,New York
-28911,1,Lewbeach,US,New York
-19226,1,Lewes,US,Delaware
-30026,1,Lewisburg,US,Pennsylvania
-32003,1,Lewisburg,US,West Virginia
-33194,1,Lewisburg,US,Tennessee
-32004,1,Lewisburg area,US,West Virginia
-33674,1,Lewisport,US,Kentucky
-28912,1,Lewiston,US,New York
-20373,1,Lewiston,US,Idaho
-22143,1,Lewiston,US,Michigan
-21889,1,Lewiston,US,Maine
-18612,1,Lewiston,US,California
-20374,1,Lewiston area,US,Idaho
-27993,1,Lewistown,US,Montana
-30027,1,Lewistown,US,Pennsylvania
-30754,1,Lewisville,US,Texas
-20929,1,Lewisville,US,Indiana
-20622,1,Lexington,US,Illinois
-21414,1,Lexington,US,Massachusetts
-22144,1,Lexington,US,Michigan
-27696,1,Lexington,US,Missouri
-30361,1,Lexington,US,South Carolina
-28134,1,Lexington,US,Nebraska
-28913,1,Lexington,US,New York
-31145,1,Lexington,US,Virginia
-33675,1,Lexington,US,Kentucky
-33916,1,Lexington,US,North Carolina
-33195,1,Lexington,US,Tennessee
-32921,1,Lexington,US,Oklahoma
-33917,1,Lexington - Salisbury area,US,North Carolina
-31146,1,Lexington area,US,Virginia
-28135,1,Lexington area,US,Nebraska
-33676,1,Lexington area,US,Kentucky
-21733,1,Lexington Park,US,Maryland
-33478,1,Leyden,US,Colorado
-27994,1,Libby,US,Montana
-21085,1,Liberal,US,Kansas
-27697,1,Liberty,US,Missouri
-28914,1,Liberty,US,New York
-30362,1,Liberty,US,South Carolina
-30755,1,Liberty,US,Texas
-33677,1,Liberty,US,Kentucky
-33918,1,Liberty,US,North Carolina
-30756,1,Liberty (Liberty County),US,Texas
-39803,1,Liberty area,US,Texas
-30757,1,Liberty Hill,US,Texas
-31538,1,Liberty Lake,US,Washington
-21734,1,Liberty Manor,US,Maryland
-20623,1,Libertyville,US,Illinois
-30028,1,Lickdale,US,Pennsylvania
-27698,1,Licking,US,Missouri
-28915,1,Lido Beach,US,New York
-31147,1,Lightfoot,US,Virginia
-30029,1,Ligonier,US,Pennsylvania
-20930,1,Ligonier,US,Indiana
-20067,1,Lihue,US,Hawaii
-19857,1,Lilburn,US,Georgia
-33919,1,Lillington,US,North Carolina
-29397,1,Lima,US,Ohio
-29398,1,Lima area,US,Ohio
-19100,1,Lime Rock,US,Connecticut
-17690,1,Lime Village,US,Alaska
-37664,1,Limerick,US,Pennsylvania
-33196,1,Limestone Cove,US,Tennessee
-33479,1,Limon,US,Colorado
-17910,1,Lincoln,US,Alabama
-18613,1,Lincoln,US,California
-20624,1,Lincoln,US,Illinois
-21086,1,Lincoln,US,Kansas
-21415,1,Lincoln,US,Massachusetts
-27995,1,Lincoln,US,Montana
-28136,1,Lincoln,US,Nebraska
-28540,1,Lincoln,US,New Mexico
-30251,1,Lincoln,US,Rhode Island
-32727,1,Lincoln,US,New Hampshire
-28137,1,Lincoln area,US,Nebraska
-29698,1,Lincoln City,US,Oregon
-29399,1,Lincoln Heights,US,Ohio
-28138,1,Lincoln Municipal Airport,US,Nebraska
-22145,1,Lincoln Park,US,Michigan
-28916,1,Lincolndale,US,New York
-20625,1,Lincolnshire,US,Illinois
-33920,1,Lincolnton,US,North Carolina
-21890,1,Lincolnville,US,Maine
-20626,1,Lincolnwood,US,Illinois
-30758,1,Lindale,US,Texas
-28318,1,Linden,US,New Jersey
-27699,1,Linden,US,Missouri
-28917,1,Lindenhurst,US,New York
-28319,1,Lindenwold,US,New Jersey
-30759,1,Lindsay,US,Texas
-18614,1,Lindsay,US,California
-21087,1,Lindsborg,US,Kansas
-27700,1,Linn,US,Missouri
-27701,1,Linn Creek,US,Missouri
-20238,1,Linn Grove,US,Iowa
-27425,1,Lino Lakes,US,Minnesota
-1502,1,Linthicum,US,
-21735,1,Linthicum Heights,US,Maryland
-33921,1,Linville,US,North Carolina
-30030,1,Lionville,US,Pennsylvania
-29400,1,Lisbon,US,Ohio
-28069,1,Lisbon,US,North Dakota
-32728,1,Lisbon,US,New Hampshire
-20627,1,Lisle,US,Illinois
-20628,1,Litchfield,US,Illinois
-27426,1,Litchfield,US,Minnesota
-19101,1,Litchfield,US,Connecticut
-29401,1,Litchfield,US,Ohio
-30363,1,Litchfield,US,South Carolina
-20629,1,Litchfield area,US,Illinois
-18159,1,Litchfield Park,US,Arizona
-19858,1,Lithia Springs,US,Georgia
-19859,1,Lithonia,US,Georgia
-30031,1,Lititz,US,Pennsylvania
-32112,1,Little America,US,Wyoming
-31798,1,Little Chute,US,Wisconsin
-17691,1,Little Diomede Island,US,Alaska
-27427,1,Little Falls,US,Minnesota
-28918,1,Little Falls,US,New York
-28320,1,Little Ferry,US,New Jersey
-28919,1,Little Italy,US,New York
-21416,1,Little Nahant,US,Massachusetts
-21736,1,Little Orleans,US,Maryland
-17692,1,Little Port Walter,US,Alaska
-18615,1,Little River,US,California
-30364,1,Little River,US,South Carolina
-18042,1,Little Rock,US,Arkansas
-18043,1,Little Rock area,US,Arkansas
-33922,1,Little Switzerland,US,North Carolina
-19457,1,Little Torch Key,US,Florida
-30760,1,Littlefield,US,Texas
-21417,1,Littleton,US,Massachusetts
-33923,1,Littleton,US,North Carolina
-32729,1,Littleton,US,New Hampshire
-33480,1,Littleton - Highlands Ranch,US,Colorado
-19458,1,Live Oak,US,Florida
-18616,1,Live Oak,US,California
-30761,1,Live Oak,US,Texas
-18617,1,Live Oak Springs,US,California
-18618,1,Livermore,US,California
-28920,1,Liverpool,US,New York
-28321,1,Livingston,US,New Jersey
-27996,1,Livingston,US,Montana
-30762,1,Livingston,US,Texas
-18619,1,Livingston,US,California
-17911,1,Livingston,US,Alabama
-30763,1,Livingston area,US,Texas
-28921,1,Livingston Manor,US,New York
-28922,1,Livonia,US,New York
-21224,1,Livonia,US,Louisiana
-22146,1,Livonia,US,Michigan
-30764,1,Llano,US,Texas
-28923,1,Lloyd Harbor,US,New York
-33354,1,Loa,US,Utah
-30032,1,Lock Haven,US,Pennsylvania
-30765,1,Lockhart,US,Texas
-19459,1,Lockhart,US,Florida
-20630,1,Lockport,US,Illinois
-28924,1,Lockport,US,New York
-31148,1,Locust Dale,US,Virginia
-19860,1,Locust Grove,US,Georgia
-32922,1,Locust Grove,US,Oklahoma
-28925,1,Locust Valley,US,New York
-28322,1,Lodi,US,New Jersey
-31799,1,Lodi,US,Wisconsin
-18620,1,Lodi,US,California
-32005,1,Logan,US,West Virginia
-29402,1,Logan,US,Ohio
-33355,1,Logan,US,Utah
-32006,1,Logan area,US,West Virginia
-33356,1,Logan area,US,Utah
-21418,1,Logan International Airport (BOS),US,Massachusetts
-20931,1,Logansport,US,Indiana
-19861,1,Loganville,US,Georgia
-27997,1,Lolo,US,Montana
-18621,1,Loma Linda,US,California
-20631,1,Lombard,US,Illinois
-20632,1,Lombard - Oak Brook,US,Illinois
-31800,1,Lomira,US,Wisconsin
-18622,1,Lomita,US,California
-18623,1,Lompoc,US,California
-18624,1,Lompoc area,US,California
-32730,1,Londonderry,US,New Hampshire
-18625,1,Lone Pine,US,California
-32923,1,Lone Wolf,US,Oklahoma
-33481,1,Lonetree,US,Colorado
-18626,1,Long Beach,US,California
-27875,1,Long Beach,US,Mississippi
-31539,1,Long Beach,US,Washington
-28926,1,Long Beach,US,New York
-31540,1,Long Beach area,US,Washington
-28323,1,Long Beach Island area,US,New Jersey
-28324,1,Long Branch,US,New Jersey
-29699,1,Long Creek,US,Oregon
-28927,1,Long Island,US,New York
-21891,1,Long Island,US,Maine
-17693,1,Long Island,US,Alaska
-28928,1,Long Island City,US,New York
-19460,1,Long Key,US,Florida
-27428,1,Long Lake,US,Minnesota
-28929,1,Long Lake,US,New York
-30033,1,Long Pond,US,Pennsylvania
-27429,1,Long Prairie,US,Minnesota
-28325,1,Long Valley,US,New Jersey
-19461,1,Longboat Key,US,Florida
-19462,1,Longdale,US,Florida
-33482,1,Longmont,US,Colorado
-30365,1,Longs,US,South Carolina
-30766,1,Longview,US,Texas
-31541,1,Longview,US,Washington
-30767,1,Longview area,US,Texas
-19463,1,Longwood,US,Florida
-18044,1,Lonoke,US,Arkansas
-19862,1,Lookout Mountain,US,Georgia
-18627,1,Loomis,US,California
-31542,1,Loon Lake,US,Washington
-31543,1,Lopez Island,US,Washington
-29404,1,Lorain,US,Ohio
-28541,1,Lordsburg,US,New Mexico
-29405,1,Lordstown,US,Ohio
-33679,1,Loretto,US,Kentucky
-27876,1,Lorman,US,Mississippi
-31149,1,Lorton,US,Virginia
-18628,1,Los Alamitos,US,California
-18629,1,Los Alamos,US,California
-28542,1,Los Alamos,US,New Mexico
-18630,1,Los Altos,US,California
-18631,1,Los Angeles,US,California
-18634,1,Los Banos,US,California
-18635,1,Los Banos area,US,California
-28543,1,Los Chavez,US,New Mexico
-18636,1,LOS CRUCES,US,California
-30768,1,Los Fresnos,US,Texas
-18637,1,Los Gatos,US,California
-28544,1,Los Lunas,US,New Mexico
-18638,1,Los Olivos,US,California
-18639,1,Los Osos,US,California
-18640,1,Lost Hills,US,California
-30769,1,LOST PINES,US,Texas
-18641,1,Lotus,US,California
-32731,1,Loudon,US,New Hampshire
-33197,1,Loudon,US,Tennessee
-29406,1,Loudonville,US,Ohio
-28930,1,Loudonville,US,New York
-31150,1,Louisa,US,Virginia
-33680,1,Louisa,US,Kentucky
-33924,1,Louisburg,US,North Carolina
-27702,1,Louisiana,US,Missouri
-27877,1,Louisville,US,Mississippi
-33681,1,Louisville,US,Kentucky
-33483,1,Louisville,US,Colorado
-33682,1,Louisville area,US,Kentucky
-33683,1,Louisville International Airport (SDF),US,Kentucky
-30770,1,Love Field Airport (DAL),US,Texas
-29407,1,Loveland,US,Ohio
-33484,1,Loveland,US,Colorado
-33485,1,Loveland Pass,US,Colorado
-32113,1,Lovell,US,Wyoming
-32831,1,Lovelock,US,Nevada
-20633,1,Loves Park,US,Illinois
-31151,1,Lovettsville,US,Virginia
-31152,1,Lovingston,US,Virginia
-28545,1,Lovington,US,New Mexico
-39435,1,Low Moor,US,Virginia
-21419,1,Lowell,US,Massachusetts
-18045,1,Lowell,US,Arkansas
-33024,1,Lower Brule,US,South Dakota
-20375,1,Lower Stanley,US,Idaho
-31344,1,Lower Waterford,US,Vermont
-28931,1,Lowville,US,New York
-17912,1,Loxley,US,Alabama
-30771,1,Lubbock,US,Texas
-33684,1,Lucas,US,Kentucky
-27878,1,Lucedale,US,Mississippi
-31801,1,Luck,US,Wisconsin
-22147,1,Ludington,US,Michigan
-22148,1,Ludington area,US,Michigan
-21420,1,Ludlow,US,Massachusetts
-18642,1,Ludlow,US,California
-31345,1,Ludlow,US,Vermont
-31346,1,Ludlow area,US,Vermont
-30772,1,Lufkin,US,Texas
-30366,1,Lugoff,US,South Carolina
-21737,1,Luke,US,Maryland
-18160,1,Lukeville,US,Arizona
-27879,1,Lula,US,Mississippi
-21225,1,Luling,US,Louisiana
-30773,1,Luling,US,Texas
-37777,1,Luling area,US,Texas
-30774,1,Lumberton,US,Texas
-33925,1,Lumberton,US,North Carolina
-33926,1,Lumberton area,US,North Carolina
-30034,1,Lumberville,US,Pennsylvania
-31544,1,Lummi Island,US,Washington
-22149,1,Luna Pier,US,Michigan
-31153,1,Luray,US,Virginia
-31154,1,Luray area,US,Virginia
-32114,1,Lusk,US,Wyoming
-21738,1,Lutherville,US,Maryland
-27430,1,Lutsen,US,Minnesota
-19464,1,Lutz,US,Florida
-17913,1,Luverne,US,Alabama
-27431,1,Luverne,US,Minnesota
-28070,1,Luverne,US,North Dakota
-27432,1,Lyle,US,Minnesota
-30367,1,Lyman,US,South Carolina
-28932,1,Lynbrook,US,New York
-31155,1,Lynchburg,US,Virginia
-31156,1,Lynchburg area,US,Virginia
-31545,1,Lynden,US,Washington
-31157,1,Lyndhurst,US,Virginia
-28326,1,Lyndhurst,US,New Jersey
-29408,1,Lyndhurst,US,Ohio
-31347,1,Lyndonville,US,Vermont
-21421,1,Lynn,US,Massachusetts
-20932,1,Lynn,US,Indiana
-19465,1,Lynn Haven,US,Florida
-21422,1,Lynnfield,US,Massachusetts
-31158,1,Lynnhaven,US,Virginia
-31546,1,Lynnwood,US,Washington
-18643,1,Lynwood,US,California
-21088,1,Lyons,US,Kansas
-20634,1,Lyons,US,Illinois
-33486,1,Lyons,US,Colorado
-30775,1,Lytle,US,Texas
-20068,1,Maalaea,US,Hawaii
-40369,1,Mabank,US,Texas
-19863,1,Mableton,US,Georgia
-22150,1,Macatawa,US,Michigan
-19466,1,Macclenny,US,Florida
-29409,1,Macedonia,US,Ohio
-29410,1,Macedonia - Twinsburg,US,Ohio
-20635,1,Machesney Park,US,Illinois
-22151,1,Mackinac Island,US,Michigan
-22152,1,Mackinaw City,US,Michigan
-22153,1,Macomb,US,Michigan
-20636,1,Macomb,US,Illinois
-27880,1,Macon,US,Mississippi
-27703,1,Macon,US,Missouri
-19864,1,Macon,US,Georgia
-33198,1,Macon,US,Tennessee
-19865,1,Macon area,US,Georgia
-27704,1,Macon area,US,Missouri
-30035,1,Macungie,US,Pennsylvania
-29411,1,Madeira,US,Ohio
-19467,1,Madeira Beach,US,Florida
-27433,1,Madelia,US,Minnesota
-18644,1,Madera,US,California
-37943,1,Madill,US,Oklahoma
-17914,1,Madison,US,Alabama
-19468,1,Madison,US,Florida
-19102,1,Madison,US,Connecticut
-19866,1,Madison,US,Georgia
-27434,1,Madison,US,Minnesota
-27881,1,Madison,US,Mississippi
-20933,1,Madison,US,Indiana
-28327,1,Madison,US,New Jersey
-31802,1,Madison,US,Wisconsin
-33199,1,Madison,US,Tennessee
-33025,1,Madison,US,South Dakota
-32732,1,Madison,US,New Hampshire
-31803,1,Madison area,US,Wisconsin
-20934,1,Madison area,US,Indiana
-22154,1,Madison Heights,US,Michigan
-31159,1,Madison Heights,US,Virginia
-30776,1,Madisonville,US,Texas
-33200,1,Madisonville,US,Tennessee
-33685,1,Madisonville,US,Kentucky
-33686,1,Madisonville area,US,Kentucky
-29700,1,Madras,US,Oregon
-29701,1,Madras area,US,Oregon
-20637,1,Maeystown,US,Illinois
-28546,1,Magdalena,US,New Mexico
-27882,1,Magee,US,Mississippi
-33927,1,Maggie Valley,US,North Carolina
-33357,1,Magna,US,Utah
-20638,1,Magnificent Mile,US,Illinois
-20639,1,Magnificent Mile - River North,US,Illinois
-21423,1,Magnolia,US,Massachusetts
-18046,1,Magnolia,US,Arkansas
-17915,1,Magnolia Springs,US,Alabama
-30036,1,Mahanoy City,US,Pennsylvania
-27435,1,Mahnomen,US,Minnesota
-20069,1,Mahukona,US,Hawaii
-28328,1,Mahwah,US,New Jersey
-20070,1,Maili,US,Hawaii
-1019,1,Maine Coast - ME,US,
-19469,1,Maingate East,US,Florida
-19470,1,Maingate West,US,Florida
-19471,1,Maitland,US,Florida
-20071,1,Makaha,US,Hawaii
-20072,1,Makakilo City,US,Hawaii
-20073,1,Makalawena,US,Hawaii
-20640,1,Makanda,US,Illinois
-20074,1,Makapala,US,Hawaii
-20075,1,Makawao,US,Hawaii
-20076,1,Makena,US,Hawaii
-30777,1,Malakoff,US,Texas
-21424,1,Malden,US,Massachusetts
-27705,1,Malden,US,Missouri
-18645,1,Malibu,US,California
-28933,1,Malone,US,New York
-28934,1,Malta,US,New York
-27998,1,Malta,US,Montana
-30037,1,Malvern,US,Pennsylvania
-18047,1,Malvern,US,Arkansas
-28935,1,Mamaroneck,US,New York
-33687,1,Mammoth Cave National Park,US,Kentucky
-32115,1,Mammoth Hot Springs,US,Wyoming
-18646,1,Mammoth Lakes,US,California
-18647,1,Mammoth Lakes Ski Area,US,California
-1474,1,Mammoth Mountain - CA,US,
-32007,1,Man,US,West Virginia
-20077,1,Mana,US,Hawaii
-28329,1,Manahawkin,US,New Jersey
-28330,1,Manahawkin Terrace,US,New Jersey
-19472,1,Manalapan,US,Florida
-28331,1,Manasquan,US,New Jersey
-31160,1,Manassas,US,Virginia
-39696,1,Manawa,US,Wisconsin
-37392,1,Mancelona,US,Michigan
-31348,1,Manchester,US,Vermont
-28936,1,Manchester,US,New York
-19103,1,Manchester,US,Connecticut
-20239,1,Manchester,US,Iowa
-19867,1,Manchester,US,Georgia
-18648,1,Manchester,US,California
-21892,1,Manchester,US,Maine
-21425,1,Manchester,US,Massachusetts
-32733,1,Manchester,US,New Hampshire
-33201,1,Manchester,US,Tennessee
-33688,1,Manchester,US,Kentucky
-28332,1,Manchester Township,US,New Jersey
-33487,1,Mancos,US,Colorado
-28071,1,Mandan,US,North Dakota
-21226,1,Mandeville,US,Louisiana
-28937,1,Manhasset,US,New York
-28938,1,Manhattan,US,New York
-21089,1,Manhattan,US,Kansas
-21090,1,Manhattan area,US,Kansas
-27436,1,Manhattan Beach,US,Minnesota
-18649,1,Manhattan Beach,US,California
-30038,1,Manheim,US,Pennsylvania
-22155,1,Manistee,US,Michigan
-22156,1,Manistique,US,Michigan
-33488,1,Manitou Springs,US,Colorado
-31804,1,Manitowoc,US,Wisconsin
-27437,1,Mankato,US,Minnesota
-21091,1,Mankato,US,Kansas
-27438,1,Mankato area,US,Minnesota
-17694,1,Manley Hot Springs,US,Alaska
-30368,1,Manning,US,South Carolina
-17695,1,Manokotak,US,Alaska
-30778,1,Manor,US,Texas
-30779,1,Mansfield,US,Texas
-30039,1,Mansfield,US,Pennsylvania
-29412,1,Mansfield,US,Ohio
-21227,1,Mansfield,US,Louisiana
-21426,1,Mansfield,US,Massachusetts
-29413,1,Mansfield area,US,Ohio
-19104,1,Mansfield Center,US,Connecticut
-31547,1,Manson,US,Washington
-18650,1,Manteca,US,California
-20641,1,Manteno,US,Illinois
-33928,1,Manteo,US,North Carolina
-33358,1,Manti,US,Utah
-40594,1,Manvel,US,Texas
-21228,1,Many,US,Louisiana
-29702,1,Manzanita,US,Oregon
-22157,1,Maple City,US,Michigan
-31548,1,Maple Falls,US,Washington
-27439,1,Maple Grove,US,Minnesota
-29414,1,Maple Heights,US,Ohio
-28333,1,Maple Shade,US,New Jersey
-30040,1,Mapleton,US,Pennsylvania
-28334,1,Maplewood,US,New Jersey
-27440,1,Maplewood,US,Minnesota
-27706,1,Maplewood,US,Missouri
-20240,1,Maquoketa,US,Iowa
-18161,1,Marana,US,Arizona
-19473,1,Marathon,US,Florida
-30780,1,Marathon,US,Texas
-18162,1,Marble Canyon,US,Arizona
-30781,1,Marble Falls,US,Texas
-30782,1,Marble Falls area,US,Texas
-29415,1,Marblehead,US,Ohio
-21427,1,Marblehead,US,Massachusetts
-32116,1,Marbleton,US,Wyoming
-27707,1,Marceline,US,Missouri
-19474,1,Marco Island,US,Florida
-20241,1,Marengo,US,Iowa
-30783,1,Marfa,US,Texas
-28939,1,Margaretville,US,New York
-19475,1,Marianna,US,Florida
-18048,1,Marianna,US,Arkansas
-39557,1,Mariaville,US,New York
-18163,1,Maricopa,US,Arizona
-18651,1,Maricopa,US,California
-30041,1,Marienville,US,Pennsylvania
-30042,1,Marietta,US,Pennsylvania
-29416,1,Marietta,US,Ohio
-19868,1,Marietta,US,Georgia
-32924,1,Marietta,US,Oklahoma
-18652,1,Marin County,US,California
-18653,1,Marina,US,California
-18654,1,Marina del Rey,US,California
-18655,1,Marina District,US,California
-22158,1,Marine City,US,Michigan
-19476,1,Marineland,US,Florida
-31805,1,Marinette,US,Wisconsin
-31161,1,Marion,US,Virginia
-29417,1,Marion,US,Ohio
-30369,1,Marion,US,South Carolina
-18049,1,Marion,US,Arkansas
-20242,1,Marion,US,Iowa
-20642,1,Marion,US,Illinois
-20935,1,Marion,US,Indiana
-33929,1,Marion,US,North Carolina
-33689,1,Marion,US,Kentucky
-20936,1,Marion area,US,Indiana
-31162,1,Marion area,US,Virginia
-33930,1,Marion area,US,North Carolina
-18656,1,Mariposa,US,California
-18050,1,Marked Tree,US,Arkansas
-20643,1,Markham,US,Illinois
-20937,1,Markle,US,Indiana
-18657,1,Markleeville,US,California
-1499,1,Marksville,US,
-21428,1,Marlboro,US,Massachusetts
-31350,1,Marlboro,US,Vermont
-21429,1,Marlborough,US,Massachusetts
-21739,1,Marley,US,Maryland
-30784,1,Marlin,US,Texas
-32008,1,Marlinton,US,West Virginia
-32925,1,Marlow,US,Oklahoma
-32735,1,Marlow,US,New Hampshire
-28335,1,Marlton,US,New Jersey
-33931,1,Marlwood Acre,US,North Carolina
-28336,1,Marmora,US,New Jersey
-22159,1,Marquette,US,Michigan
-20243,1,Marquette,US,Iowa
-22160,1,Marquette area,US,Michigan
-21229,1,Marrero,US,Louisiana
-30043,1,Mars,US,Pennsylvania
-33932,1,Mars Hill,US,North Carolina
-30785,1,Marshall,US,Texas
-20644,1,Marshall,US,Illinois
-22161,1,Marshall,US,Michigan
-27708,1,Marshall,US,Missouri
-27441,1,Marshall,US,Minnesota
-18051,1,Marshall,US,Arkansas
-18658,1,Marshall,US,California
-17696,1,Marshall,US,Alaska
-33933,1,Marshall,US,North Carolina
-30044,1,Marshalls Creek,US,Pennsylvania
-20244,1,Marshalltown,US,Iowa
-20245,1,Marshalltown area,US,Iowa
-27709,1,Marshfield,US,Missouri
-21430,1,Marshfield,US,Massachusetts
-31806,1,Marshfield,US,Wisconsin
-31807,1,Marshfield area,US,Wisconsin
-27710,1,Marston,US,Missouri
-21431,1,Martha's Vineyard,US,Massachusetts
-33026,1,Martin,US,South Dakota
-33202,1,Martin,US,Tennessee
-19869,1,Martinez,US,Georgia
-18659,1,Martinez,US,California
-29418,1,Martins Ferry,US,Ohio
-32009,1,Martinsburg,US,West Virginia
-32010,1,Martinsburg area,US,West Virginia
-27999,1,Martinsdale,US,Montana
-31163,1,Martinsville,US,Virginia
-20938,1,Martinsville,US,Indiana
-31164,1,Martinsville area,US,Virginia
-19477,1,Mary Esther,US,Florida
-27711,1,Maryland Heights,US,Missouri
-22162,1,Marysville,US,Michigan
-21092,1,Marysville,US,Kansas
-18660,1,Marysville,US,California
-31549,1,Marysville,US,Washington
-29419,1,Marysville,US,Ohio
-20645,1,Maryville,US,Illinois
-27712,1,Maryville,US,Missouri
-33203,1,Maryville,US,Tennessee
-40251,1,Mascoutah,US,Illinois
-19105,1,Mashantucket,US,Connecticut
-21432,1,Mashpee,US,Massachusetts
-29420,1,Mason,US,Ohio
-32011,1,Mason,US,West Virginia
-20246,1,Mason City,US,Iowa
-20247,1,Mason City area,US,Iowa
-28940,1,Maspeth,US,New York
-31165,1,Massanutten,US,Virginia
-28941,1,Massapequa,US,New York
-28942,1,Massapequa Park,US,New York
-28943,1,Massena,US,New York
-29421,1,Massillon,US,Ohio
-30045,1,Matamoras,US,Pennsylvania
-21093,1,Matfield Green,US,Kansas
-30786,1,Mathis,US,Texas
-19478,1,Matlacha,US,Florida
-21433,1,Mattapan,US,Massachusetts
-20646,1,Matteson,US,Illinois
-33934,1,Matthews,US,North Carolina
-20647,1,Mattoon,US,Illinois
-28944,1,Mattydale,US,New York
-30252,1,Matunuck,US,Rhode Island
-20078,1,Maui Island,US,Hawaii
-36917,1,Maui-Hana,US,
-36938,1,Maui-Kaanapali,US,
-36939,1,Maui-Kahana,US,
-36999,1,Maui-Kahului,US,
-36936,1,Maui-Kapalua,US,
-36946,1,Maui-Kihei,US,
-36953,1,Maui-Lahaina,US,
-36969,1,Maui-Maalaea,US,
-36980,1,Maui-Makena,US,
-36988,1,Maui-Napili,US,
-37056,1,Maui-Wailea,US,
-36971,1,Maui-Wailuku,US,
-30370,1,Mauldin,US,South Carolina
-29422,1,Maumee,US,Ohio
-18052,1,Maumelle,US,Arkansas
-38868,1,Maunabo,US,Puerto Rico
-20079,1,Maunaloa,US,Hawaii
-31808,1,Mauston,US,Wisconsin
-31166,1,Max Meadows,US,Virginia
-28945,1,Maybrook,US,New York
-21094,1,Mayetta,US,Kansas
-29423,1,Mayfield,US,Ohio
-33690,1,Mayfield,US,Kentucky
-29424,1,Mayfield Heights,US,Ohio
-21434,1,Maynard,US,Massachusetts
-33691,1,Maysville,US,Kentucky
-28946,1,Mayville,US,New York
-28072,1,Mayville,US,North Dakota
-31809,1,Mayville,US,Wisconsin
-28139,1,Maywood,US,Nebraska
-20648,1,Maywood,US,Illinois
-31550,1,Mazama,US,Washington
-31810,1,Mazomanie,US,Wisconsin
-28337,1,McAfee,US,New Jersey
-32926,1,McAlester,US,Oklahoma
-32927,1,McAlester area,US,Oklahoma
-30787,1,McAllen,US,Texas
-30788,1,McAllen area,US,Texas
-20376,1,McCall,US,Idaho
-1515,1,McCallen,US,
-39738,1,McCamey,US,Texas
-17697,1,McCarthy,US,Alaska
-30371,1,McClellanville,US,South Carolina
-18661,1,McCloud,US,California
-27883,1,McComb,US,Mississippi
-27884,1,McComb area,US,Mississippi
-28140,1,McCook,US,Nebraska
-30372,1,McCormick,US,South Carolina
-32832,1,McDermitt,US,Nevada
-33204,1,McDonald,US,Tennessee
-19870,1,McDonough,US,Georgia
-31167,1,McGaheysville,US,Virginia
-18053,1,McGehee,US,Arkansas
-17698,1,McGrath,US,Alaska
-28947,1,McGraw,US,New York
-30789,1,McGregor,US,Texas
-20248,1,McGregor,US,Iowa
-27442,1,McGregor,US,Minnesota
-28338,1,McGuire Airforce Base,US,New Jersey
-18164,1,McGuireville,US,Arizona
-21740,1,McHenry,US,Maryland
-20649,1,McHenry,US,Illinois
-31168,1,McKenney,US,Virginia
-33205,1,McKenzie,US,Tennessee
-29703,1,McKenzie Bridge,US,Oregon
-18662,1,McKinleyville,US,California
-30790,1,McKinney,US,Texas
-31169,1,McLean,US,Virginia
-20650,1,McLean,US,Illinois
-33935,1,McLeansville,US,North Carolina
-22163,1,McMillan,US,Michigan
-29704,1,McMinnville,US,Oregon
-33206,1,McMinnville,US,Tennessee
-18165,1,McNary,US,Arizona
-21095,1,McPherson,US,Kansas
-30791,1,McQueeney,US,Texas
-19871,1,McRae,US,Georgia
-21096,1,Meade,US,Kansas
-1507,1,Meadowlands,US,
-18166,1,Meadview,US,Arizona
-30046,1,Meadville,US,Pennsylvania
-30047,1,Meadville area,US,Pennsylvania
-22164,1,Mears,US,Michigan
-33936,1,Mebane,US,North Carolina
-30048,1,Mechanicsburg,US,Pennsylvania
-31170,1,Mechanicsville,US,Virginia
-21741,1,Mechanicsville,US,Maryland
-21435,1,Medfield,US,Massachusetts
-21436,1,Medford,US,Massachusetts
-31811,1,Medford,US,Wisconsin
-29705,1,Medford,US,Oregon
-28948,1,Medford,US,New York
-29706,1,Medford area,US,Oregon
-30049,1,Media,US,Pennsylvania
-32117,1,Medicine Bow,US,Wyoming
-21097,1,Medicine Lodge,US,Kansas
-29425,1,Medina,US,Ohio
-28073,1,Medina,US,North Dakota
-28074,1,Medora,US,North Dakota
-33489,1,Meeker,US,Colorado
-27713,1,Mehlville,US,Missouri
-17699,1,Mekoryuk,US,Alaska
-19479,1,Melbourne,US,Florida
-27443,1,Melrose,US,Minnesota
-21437,1,Melrose,US,Massachusetts
-20651,1,Melrose Park,US,Illinois
-21098,1,Melvern,US,Kansas
-28949,1,Melville,US,New York
-22165,1,Melvindale,US,Michigan
-28141,1,Memorial Stadium,US,Nebraska
-30792,1,Memphis,US,Texas
-27714,1,Memphis,US,Missouri
-33207,1,Memphis,US,Tennessee
-33208,1,Memphis area,US,Tennessee
-33209,1,Memphis International Airport (MEM),US,Tennessee
-18054,1,Mena,US,Arkansas
-28950,1,Menands,US,New York
-38822,1,Menard,US,Illinois
-30050,1,Mendenhall,US,Pennsylvania
-27885,1,Mendenhall,US,Mississippi
-18663,1,Mendocino,US,California
-18664,1,Mendocino Coast,US,California
-22166,1,Mendon,US,Michigan
-31351,1,Mendon,US,Vermont
-20652,1,Mendota,US,Illinois
-27444,1,Mendota Heights,US,Minnesota
-21438,1,Menemsha,US,Massachusetts
-18665,1,Menlo Park,US,California
-22167,1,Menominee,US,Michigan
-31812,1,Menomonee Falls,US,Wisconsin
-31813,1,Menomonie,US,Wisconsin
-29426,1,Mentor,US,Ohio
-29427,1,Mentor Headlands,US,Ohio
-31814,1,Mequon,US,Wisconsin
-21230,1,Meraux,US,Louisiana
-18666,1,Merced,US,California
-30793,1,Mercedes,US,Texas
-30051,1,Mercer,US,Pennsylvania
-31815,1,Mercer,US,Wisconsin
-31551,1,Mercer Island,US,Washington
-30052,1,Mercersburg,US,Pennsylvania
-32736,1,Meredith,US,New Hampshire
-33490,1,Meredith,US,Colorado
-19106,1,Meriden,US,Connecticut
-20377,1,Meridian,US,Idaho
-27886,1,Meridian,US,Mississippi
-30794,1,Meridian,US,Texas
-30795,1,Merkel,US,Texas
-29707,1,Merlin,US,Oregon
-21099,1,Merriam,US,Kansas
-28951,1,Merrick,US,New York
-31816,1,Merrill,US,Wisconsin
-20939,1,Merrillville,US,Indiana
-31817,1,Merrimac,US,Wisconsin
-32737,1,Merrimack,US,New Hampshire
-21439,1,Merrimack Valley,US,Massachusetts
-19480,1,Merritt Island,US,Florida
-30053,1,Mertz Town,US,Pennsylvania
-30054,1,Mertztown,US,Pennsylvania
-18167,1,Mesa,US,Arizona
-33491,1,Mesa,US,Colorado
-36974,1,Mesa Verde,US,
-28547,1,Mescalero,US,New Mexico
-28548,1,Mesilla,US,New Mexico
-30796,1,Mesquite,US,Texas
-32833,1,Mesquite,US,Nevada
-21231,1,Metairie,US,Louisiana
-31552,1,Methow Valley,US,Washington
-21440,1,Methuen,US,Massachusetts
-17700,1,Metlakatla,US,Alaska
-29708,1,Metolius,US,Oregon
-20653,1,Metropolis,US,Illinois
-20654,1,Mettawa,US,Illinois
-19872,1,Metter,US,Georgia
-30797,1,Mexia,US,Texas
-27715,1,Mexico,US,Missouri
-19481,1,Mexico Beach,US,Florida
-17701,1,Meyers Chuck,US,Alaska
-21100,1,Meyetta,US,Kansas
-18683,1,Mi-Wuk Village,US,California
-18168,1,Miami,US,Arizona
-19482,1,Miami,US,Florida
-32928,1,Miami,US,Oklahoma
-19483,1,Miami area,US,Florida
-19484,1,Miami Beach,US,Florida
-19485,1,Miami Beach - South Beach,US,Florida
-36977,1,Miami International,US,
-19486,1,Miami International Airport (MIA),US,Florida
-19487,1,Miami Lakes,US,Florida
-19488,1,Miami Shores,US,Florida
-19489,1,Miami Springs,US,Florida
-29428,1,Miamisburg,US,Ohio
-19490,1,Micanopy,US,Florida
-20940,1,Michigan City,US,Indiana
-21742,1,Middle River,US,Maryland
-28952,1,Middle Village,US,New York
-21441,1,Middleboro,US,Massachusetts
-19491,1,Middleburg,US,Florida
-29429,1,Middleburg,US,Ohio
-31171,1,Middleburg,US,Virginia
-29430,1,Middleburg Heights,US,Ohio
-31352,1,Middlebury,US,Vermont
-19107,1,Middlebury,US,Connecticut
-20941,1,Middlebury,US,Indiana
-31353,1,Middlebury - Warren area,US,Vermont
-21442,1,Middlefield,US,Massachusetts
-33692,1,Middlesboro,US,Kentucky
-21443,1,Middleton,US,Massachusetts
-31818,1,Middleton,US,Wisconsin
-31819,1,Middleton - West Madison,US,Wisconsin
-30253,1,Middletown,US,Rhode Island
-31172,1,Middletown,US,Virginia
-29431,1,Middletown,US,Ohio
-30055,1,Middletown,US,Pennsylvania
-28953,1,Middletown,US,New York
-19227,1,Middletown,US,Delaware
-28339,1,Middletown,US,New Jersey
-19108,1,Middletown,US,Connecticut
-18667,1,Middletown,US,California
-22168,1,Midland,US,Michigan
-30798,1,Midland,US,Texas
-30799,1,Midland area,US,Texas
-30800,1,Midlothian,US,Texas
-31173,1,Midlothian,US,Virginia
-20655,1,Midlothian,US,Illinois
-18668,1,Midpines,US,California
-28954,1,Midtown,US,New York
-19873,1,Midtown - Abercorn,US,Georgia
-19874,1,Midtown - Piedmont,US,Georgia
-33359,1,Midvale,US,Utah
-19875,1,Midway,US,Georgia
-19492,1,Midway,US,Florida
-33360,1,Midway,US,Utah
-19494,1,Midway - Tallahassee,US,Florida
-32929,1,Midwest City,US,Oklahoma
-30056,1,Mifflintown,US,Pennsylvania
-30057,1,Mifflinville,US,Pennsylvania
-29432,1,Mifflinville,US,Ohio
-27445,1,Milaca,US,Minnesota
-27446,1,Milaca area,US,Minnesota
-22169,1,Milan,US,Michigan
-20942,1,Milan,US,Indiana
-33210,1,Milan,US,Tennessee
-33027,1,Milbank,US,South Dakota
-21893,1,Milbridge,US,Maine
-28000,1,Miles City,US,Montana
-30058,1,Milesburg,US,Pennsylvania
-30059,1,Milford,US,Pennsylvania
-29435,1,Milford,US,Ohio
-19228,1,Milford,US,Delaware
-28340,1,Milford,US,New Jersey
-28955,1,Milford,US,New York
-21894,1,Milford,US,Maine
-22170,1,Milford,US,Michigan
-21444,1,Milford,US,Massachusetts
-19109,1,Milford,US,Connecticut
-20249,1,Milford,US,Iowa
-33361,1,Milford,US,Utah
-32834,1,Mill City,US,Nevada
-18669,1,Mill Creek,US,California
-31553,1,Mill Creek,US,Washington
-30060,1,Mill Hall,US,Pennsylvania
-18670,1,Mill Valley,US,California
-28142,1,Millard,US,Nebraska
-28143,1,Millard - Omaha,US,Nebraska
-31174,1,Millboro Springs,US,Virginia
-18671,1,Millbrae,US,California
-17916,1,Millbrook,US,Alabama
-28956,1,Millbrook,US,New York
-29436,1,Millbury,US,Ohio
-21445,1,Millbury,US,Massachusetts
-33362,1,Millcreek,US,Utah
-19110,1,Milldale,US,Connecticut
-19876,1,Milledgeville,US,Georgia
-19877,1,Millen,US,Georgia
-33028,1,Miller,US,South Dakota
-28957,1,Miller Place,US,New York
-29437,1,Millersburg,US,Ohio
-30061,1,Millersville,US,Pennsylvania
-33211,1,Millington,US,Tennessee
-21895,1,Millinocket,US,Maine
-21446,1,Millis,US,Massachusetts
-19229,1,Millsboro,US,Delaware
-28341,1,Millville,US,New Jersey
-18672,1,Milpitas,US,California
-30062,1,Milroy,US,Pennsylvania
-30063,1,Milton,US,Pennsylvania
-19230,1,Milton,US,Delaware
-31820,1,Milton,US,Wisconsin
-19495,1,Milton,US,Florida
-21447,1,Milton,US,Massachusetts
-31821,1,Milwaukee,US,Wisconsin
-31822,1,Milwaukee area,US,Wisconsin
-29709,1,Milwaukie,US,Oregon
-28144,1,Minden,US,Nebraska
-21232,1,Minden,US,Louisiana
-32835,1,Minden,US,Nevada
-28958,1,Mineola,US,New York
-30801,1,Mineola,US,Texas
-31175,1,Mineral,US,Virginia
-38112,1,Mineral City,US,Ohio
-31823,1,Mineral Point,US,Wisconsin
-30802,1,Mineral Wells,US,Texas
-32012,1,Mineralwells,US,West Virginia
-38821,1,Minerva,US,Ohio
-27447,1,Minneapolis,US,Minnesota
-27448,1,Minneapolis-St. Paul area,US,Minnesota
-27449,1,Minnesota City,US,Minnesota
-27450,1,Minnetonka,US,Minnesota
-31824,1,Minocqua,US,Wisconsin
-20656,1,Minonk,US,Illinois
-28075,1,Minot,US,North Dakota
-33937,1,Mint Hill,US,North Carolina
-17702,1,Minto,US,Alaska
-33492,1,Minturn,US,Colorado
-22171,1,Mio,US,Michigan
-18673,1,Mira Mesa,US,California
-18674,1,Miramar,US,California
-19496,1,Miramar,US,Florida
-19497,1,Miramar Beach,US,Florida
-18675,1,Miranda,US,California
-20943,1,Mishawaka,US,Indiana
-31825,1,Mishicot,US,Wisconsin
-30254,1,Misquamicut,US,Rhode Island
-30803,1,Mission,US,Texas
-21101,1,Mission,US,Kansas
-33029,1,Mission,US,South Dakota
-18676,1,Mission Bay,US,California
-18677,1,Mission Beach,US,California
-18678,1,Mission District,US,California
-18679,1,Mission Hills,US,California
-18680,1,Mission Valley,US,California
-18681,1,Mission Valley - Old Town,US,California
-18682,1,Mission Viejo,US,California
-28001,1,Missoula,US,Montana
-28002,1,Missoula area,US,Montana
-30804,1,Missouri City,US,Texas
-20250,1,Missouri Valley,US,Iowa
-20944,1,Mitchell,US,Indiana
-33030,1,Mitchell,US,South Dakota
-33031,1,Mitchell area,US,South Dakota
-33363,1,Moab,US,Utah
-27716,1,Moberly,US,Missouri
-17917,1,Mobile,US,Alabama
-17918,1,Mobile area,US,Alabama
-33032,1,Mobridge,US,South Dakota
-33938,1,Mocksville,US,North Carolina
-31554,1,Moclips,US,Washington
-18684,1,Modesto,US,California
-18685,1,Modesto area,US,California
-28959,1,Mohegan Lake,US,New York
-36985,1,Mohegan Sun,US,
-30064,1,Mohnton,US,Pennsylvania
-28960,1,Moira,US,New York
-18686,1,Mojave,US,California
-18687,1,Mokelumne Hill,US,California
-20657,1,Mokena,US,Illinois
-20080,1,Mokuleia,US,Hawaii
-20658,1,Moline,US,Illinois
-20081,1,Molokai Island,US,Hawaii
-39921,1,Molville,US,Iowa
-30065,1,Monaca,US,Pennsylvania
-30805,1,Monahans,US,Texas
-33493,1,Monarch,US,Colorado
-30373,1,Moncks Corner,US,South Carolina
-28145,1,Moncton,US,Nebraska
-31826,1,Mondovi,US,Wisconsin
-20659,1,Monee,US,Illinois
-30066,1,Monessen,US,Pennsylvania
-27717,1,Monett,US,Missouri
-21743,1,Monkton,US,Maryland
-20660,1,Monmouth,US,Illinois
-29710,1,Monmouth,US,Oregon
-28342,1,Monmouth Junction,US,New Jersey
-31827,1,Monona,US,Wisconsin
-31828,1,Monroe,US,Wisconsin
-31555,1,Monroe,US,Washington
-29438,1,Monroe,US,Ohio
-21233,1,Monroe,US,Louisiana
-22172,1,Monroe,US,Michigan
-19878,1,Monroe,US,Georgia
-33939,1,Monroe,US,North Carolina
-22173,1,Monroe area,US,Michigan
-21234,1,Monroe area,US,Louisiana
-27718,1,Monroe City,US,Missouri
-38335,1,Monroe Township,US,New Jersey
-17919,1,Monroeville,US,Alabama
-30067,1,Monroeville,US,Pennsylvania
-18688,1,Monrovia,US,California
-32738,1,Mont Vernon,US,New Hampshire
-22174,1,Montague,US,Michigan
-28003,1,Montana City,US,Montana
-18689,1,Montara,US,California
-28961,1,Montauk,US,New York
-19231,1,Montchanin,US,Delaware
-28343,1,Montclair,US,New Jersey
-18690,1,Montclair,US,California
-18691,1,Monte Rio,US,California
-17920,1,Monte Vista,US,Alabama
-33494,1,Monte Vista,US,Colorado
-33212,1,Monteagle,US,Tennessee
-18692,1,Montebello,US,California
-18693,1,Montecito,US,California
-32836,1,Montello,US,Nevada
-18694,1,Monterey,US,California
-31176,1,Monterey,US,Virginia
-33213,1,Monterey,US,Tennessee
-18695,1,Monterey area,US,California
-18696,1,Monterey Park,US,California
-17921,1,Montevallo,US,Alabama
-27451,1,Montevideo,US,Minnesota
-20945,1,Montezuma,US,Indiana
-19879,1,Montezuma,US,Georgia
-17922,1,Montgomery,US,Alabama
-20946,1,Montgomery,US,Indiana
-28962,1,Montgomery,US,New York
-29439,1,Montgomery,US,Ohio
-30806,1,Montgomery,US,Texas
-32013,1,Montgomery,US,West Virginia
-17923,1,Montgomery area,US,Alabama
-31354,1,Montgomery Center,US,Vermont
-30068,1,Montgomeryville,US,Pennsylvania
-28963,1,Monticello,US,New York
-19880,1,Monticello,US,Georgia
-20251,1,Monticello,US,Iowa
-19498,1,Monticello,US,Florida
-18055,1,Monticello,US,Arkansas
-20947,1,Monticello,US,Indiana
-20661,1,Monticello,US,Illinois
-27452,1,Monticello,US,Minnesota
-27887,1,Monticello,US,Mississippi
-33364,1,Monticello,US,Utah
-33693,1,Monticello,US,Kentucky
-27453,1,Monticello area,US,Minnesota
-18056,1,Monticello area,US,Arkansas
-28964,1,Monticello area,US,New York
-33365,1,Monticello area,US,Utah
-30807,1,Montopolis,US,Texas
-28965,1,Montour Falls,US,New York
-30069,1,Montoursville,US,Pennsylvania
-29440,1,Montpelier,US,Ohio
-31355,1,Montpelier,US,Vermont
-20378,1,Montpelier,US,Idaho
-33495,1,Montrose,US,Colorado
-33496,1,Montrose area,US,Colorado
-31177,1,Montross,US,Virginia
-28344,1,Montvale,US,New Jersey
-28345,1,Montvale - Mahwah area,US,New Jersey
-33497,1,Monument,US,Colorado
-33366,1,Monument Valley,US,Utah
-1016,1,Monument Valley - AZ,US,
-997,1,Monument Valley National Park - UT,US,
-19111,1,Moodus,US,Connecticut
-17924,1,Moody,US,Alabama
-21896,1,Moody,US,Maine
-30070,1,Moon,US,Pennsylvania
-32930,1,Moore,US,Oklahoma
-32014,1,Moorefield,US,West Virginia
-33940,1,Mooresville,US,North Carolina
-27454,1,Moorhead,US,Minnesota
-32118,1,Moose,US,Wyoming
-27455,1,Moose Lake,US,Minnesota
-17703,1,Moose Pass,US,Alaska
-30071,1,Moosic,US,Pennsylvania
-19112,1,Moosup,US,Connecticut
-27456,1,Mora,US,Minnesota
-18697,1,Moraga,US,California
-29441,1,Moraine,US,Ohio
-30808,1,Moran,US,Texas
-31178,1,Moran,US,Virginia
-20252,1,Moran,US,Iowa
-22175,1,Moran,US,Michigan
-21102,1,Moran,US,Kansas
-32119,1,Moran,US,Wyoming
-33694,1,Morehead,US,Kentucky
-33695,1,Morehead area,US,Kentucky
-33941,1,Morehead City,US,North Carolina
-33942,1,Morehead City area,US,North Carolina
-18698,1,Moreno Valley,US,California
-31356,1,Moretown,US,Vermont
-31357,1,Morgan,US,Vermont
-21235,1,Morgan City,US,Louisiana
-21236,1,Morgan City area,US,Louisiana
-18699,1,Morgan Hill,US,California
-33943,1,Morganton,US,North Carolina
-30072,1,Morgantown,US,Pennsylvania
-33696,1,Morgantown,US,Kentucky
-32015,1,Morgantown,US,West Virginia
-32016,1,Morgantown area,US,West Virginia
-28549,1,Moriarty,US,New Mexico
-18169,1,Mormon Lake,US,Arizona
-18700,1,Morongo Valley,US,California
-28146,1,Morrill,US,Nebraska
-18057,1,Morrilton,US,Arkansas
-21103,1,Morris,US,Kansas
-20662,1,Morris,US,Illinois
-27457,1,Morris,US,Minnesota
-30073,1,Morris,US,Pennsylvania
-28346,1,Morris Plains,US,New Jersey
-20663,1,Morrison,US,Illinois
-33498,1,Morrison,US,Colorado
-28347,1,Morristown,US,New Jersey
-33214,1,Morristown,US,Tennessee
-33215,1,Morristown area,US,Tennessee
-30074,1,Morrisville,US,Pennsylvania
-31358,1,Morrisville,US,Vermont
-33944,1,Morrisville,US,North Carolina
-18701,1,Morro Bay,US,California
-19881,1,Morrow,US,Georgia
-20664,1,Morton,US,Illinois
-27458,1,Morton,US,Minnesota
-31556,1,Morton,US,Washington
-20665,1,Morton Grove,US,Illinois
-33697,1,Mortons Gap,US,Kentucky
-33499,1,Mosca,US,Colorado
-20379,1,Moscow,US,Idaho
-17704,1,Moser Bay,US,Alaska
-31557,1,Moses Lake,US,Washington
-31558,1,Moses Lake area,US,Washington
-31829,1,Mosinee,US,Wisconsin
-18702,1,Moss Beach,US,California
-21237,1,Moss Bluff,US,Louisiana
-18703,1,Moss Landing,US,California
-27888,1,Moss Point,US,Mississippi
-27459,1,Motley,US,Minnesota
-17925,1,Moulton,US,Alabama
-32739,1,Moultonborough,US,New Hampshire
-19882,1,Moultrie,US,Georgia
-27719,1,Mound City,US,Missouri
-21104,1,Moundridge,US,Kansas
-27460,1,Mounds View,US,Minnesota
-29442,1,Mount Air,US,Ohio
-33945,1,Mount Airy,US,North Carolina
-33946,1,Mount Airy area,US,North Carolina
-28348,1,Mount Arlington,US,New Jersey
-31559,1,Mount Baker,US,Washington
-20666,1,Mount Carmel,US,Illinois
-33367,1,Mount Carmel,US,Utah
-33368,1,Mount Carmel Junction,US,Utah
-20667,1,Mount Carroll,US,Illinois
-32837,1,Mount Charleston,US,Nevada
-22176,1,Mount Clemens,US,Michigan
-33500,1,Mount Crested Butte,US,Colorado
-19499,1,Mount Dora,US,Florida
-19500,1,Mount Dora - Tavares,US,Florida
-30809,1,MOUNT ENTERPRISE,US,Texas
-29443,1,Mount Gilead,US,Ohio
-29444,1,Mount Healthy,US,Ohio
-28349,1,Mount Holly,US,New Jersey
-33947,1,Mount Holly,US,North Carolina
-29711,1,Mount Hood,US,Oregon
-32017,1,Mount Hope,US,West Virginia
-31830,1,Mount Horeb,US,Wisconsin
-30810,1,Mount Houston,US,Texas
-31179,1,Mount Jackson,US,Virginia
-30075,1,Mount Joy,US,Pennsylvania
-33216,1,Mount Juliet,US,Tennessee
-28966,1,Mount Kisco,US,New York
-28350,1,Mount Laurel,US,New Jersey
-28967,1,Mount Morris,US,New York
-20668,1,Mount Morris,US,Illinois
-32018,1,Mount Nebo,US,West Virginia
-28351,1,Mount Olive,US,New Jersey
-33948,1,Mount Olive,US,North Carolina
-29445,1,Mount Orab,US,Ohio
-30076,1,Mount Pleasant,US,Pennsylvania
-30811,1,Mount Pleasant,US,Texas
-30374,1,Mount Pleasant,US,South Carolina
-22177,1,Mount Pleasant,US,Michigan
-19203,1,Mount Pleasant,US,District of Columbia
-20253,1,Mount Pleasant,US,Iowa
-33949,1,Mount Pleasant,US,North Carolina
-33217,1,Mount Pleasant,US,Tennessee
-33369,1,Mount Pleasant,US,Utah
-22178,1,Mount Pleasant area,US,Michigan
-30812,1,Mount Pleasant area,US,Texas
-30077,1,Mount Pocono,US,Pennsylvania
-20669,1,Mount Prospect,US,Illinois
-33033,1,Mount Rushmore area,US,South Dakota
-1503,1,Mount Rushmore Natio,US,
-21744,1,Mount Savage Junction,US,Maryland
-18704,1,Mount Shasta,US,California
-18705,1,Mount Shasta area,US,California
-31359,1,Mount Snow,US,Vermont
-29446,1,Mount Sterling,US,Ohio
-33698,1,Mount Sterling,US,Kentucky
-32740,1,Mount Sunapee area,US,New Hampshire
-28968,1,Mount Tremper,US,New York
-28969,1,Mount Vernon,US,New York
-29447,1,Mount Vernon,US,Ohio
-30813,1,Mount Vernon,US,Texas
-31180,1,Mount Vernon,US,Virginia
-31560,1,Mount Vernon,US,Washington
-20254,1,Mount Vernon,US,Iowa
-27720,1,Mount Vernon,US,Missouri
-20670,1,Mount Vernon,US,Illinois
-20948,1,Mount Vernon,US,Indiana
-33699,1,Mount Vernon,US,Kentucky
-31561,1,Mount Vernon area,US,Washington
-28970,1,Mount Vision,US,New York
-17926,1,Mountain Brook,US,Alabama
-33218,1,Mountain City,US,Tennessee
-27721,1,Mountain Grove,US,Missouri
-20380,1,Mountain Home,US,Idaho
-18058,1,Mountain Home,US,Arkansas
-30814,1,Mountain Home,US,Texas
-33950,1,Mountain Home,US,North Carolina
-18059,1,Mountain Home area,US,Arkansas
-40672,1,Mountain Iron,US,Minnesota
-31181,1,Mountain Lake,US,Virginia
-30375,1,Mountain Rest,US,South Carolina
-18060,1,Mountain View,US,Arkansas
-19883,1,Mountain View,US,Georgia
-18706,1,Mountain View,US,California
-27722,1,Mountain View,US,Missouri
-17705,1,Mountain Village,US,Alaska
-33501,1,Mountain Village,US,Colorado
-28550,1,Mountainair,US,New Mexico
-30078,1,Mountainhome,US,Pennsylvania
-28352,1,Mountainside,US,New Jersey
-31562,1,Mountlake Terrace,US,Washington
-30079,1,Mountville,US,Pennsylvania
-37660,1,Moville,US,Iowa
-29448,1,Mt Orab,US,Ohio
-28971,1,Mt Tremper,US,New York
-40083,1,Mt. Bethel,US,Pennsylvania
-29712,1,Mt. Hood area,US,Oregon
-17706,1,Mt. McKinley,US,Alaska
-20671,1,Muddy,US,Illinois
-29449,1,Mudsock,US,Ohio
-18707,1,Muir Beach,US,California
-31563,1,Mukilteo,US,Washington
-31831,1,Mukwonago,US,Wisconsin
-19501,1,Mulberry,US,Florida
-20672,1,Mulberry Grove,US,Illinois
-33700,1,Muldraugh,US,Kentucky
-32931,1,Muldrow,US,Oklahoma
-30815,1,Muleshoe,US,Texas
-32019,1,Mullens,US,West Virginia
-28972,1,Mumford,US,New York
-20949,1,Muncie,US,Indiana
-30080,1,Muncy,US,Pennsylvania
-20673,1,Mundelein,US,Illinois
-18170,1,Munds Park,US,Arizona
-33701,1,Munfordville,US,Kentucky
-22179,1,Munising,US,Michigan
-29450,1,Munks Corners,US,Ohio
-20950,1,Munster,US,Indiana
-33034,1,Murdo,US,South Dakota
-18061,1,Murfreesboro,US,Arkansas
-33219,1,Murfreesboro,US,Tennessee
-33951,1,Murfreesboro,US,North Carolina
-33952,1,Murphy,US,North Carolina
-18708,1,Murphys,US,California
-20674,1,Murphysboro,US,Illinois
-33702,1,Murray,US,Kentucky
-33370,1,Murray,US,Utah
-30376,1,Murrells Inlet,US,South Carolina
-18709,1,Murrieta,US,California
-30081,1,Murrysville,US,Pennsylvania
-20255,1,Muscatine,US,Iowa
-17927,1,Muscle Shoals,US,Alabama
-22180,1,Muskegon,US,Michigan
-22181,1,Muskegon area,US,Michigan
-22182,1,Muskegon Heights,US,Michigan
-32932,1,Muskogee,US,Oklahoma
-32933,1,Muskogee area,US,Oklahoma
-30816,1,Mustang Island,US,Texas
-28973,1,Muttontown,US,New York
-18710,1,Myers Flat,US,California
-33953,1,Myers Park,US,North Carolina
-30082,1,Myerstown,US,Pennsylvania
-30377,1,Myrtle Beach,US,South Carolina
-30378,1,Myrtle Beach area,US,South Carolina
-29713,1,Myrtle Point,US,Oregon
-19113,1,Mystic,US,Connecticut
-20082,1,Naalehu,US,Hawaii
-30817,1,Nacogdoches,US,Texas
-30818,1,Nacogdoches area,US,Texas
-33954,1,Nags Head,US,North Carolina
-21448,1,Nahant,US,Massachusetts
-20083,1,Nahiku,US,Hawaii
-17707,1,Naknek,US,Alaska
-20381,1,Nampa,US,Idaho
-20084,1,Nanakuli,US,Hawaii
-21449,1,Nantasket Beach,US,Massachusetts
-21450,1,Nantucket,US,Massachusetts
-21451,1,Nantucket Island,US,Massachusetts
-28974,1,Nanuet,US,New York
-18711,1,Napa,US,California
-18712,1,Napa Valley,US,California
-17708,1,Napakiak,US,Alaska
-17709,1,Napaskiak,US,Alaska
-20675,1,Naperville,US,Illinois
-19502,1,Naples,US,Florida
-28975,1,Naples,US,New York
-19503,1,Naples area,US,Florida
-29451,1,Napoleon,US,Ohio
-20951,1,Nappanee,US,Indiana
-19504,1,Naranja,US,Florida
-30255,1,Narragansett,US,Rhode Island
-30083,1,Narvon,US,Pennsylvania
-32741,1,Nashua,US,New Hampshire
-19884,1,Nashville,US,Georgia
-20952,1,Nashville,US,Indiana
-20676,1,Nashville,US,Illinois
-33220,1,Nashville,US,Tennessee
-33221,1,Nashville area,US,Tennessee
-33222,1,Nashville International Airport (BNA),US,Tennessee
-30819,1,Nassau Bay,US,Texas
-31182,1,Nassawadox,US,Virginia
-27889,1,Natchez,US,Mississippi
-21238,1,Natchitoches,US,Louisiana
-33502,1,Nathrop,US,Colorado
-21452,1,Natick,US,Massachusetts
-18713,1,National City,US,California
-21745,1,National Harbor,US,Maryland
-31183,1,Natural Bridge,US,Virginia
-33503,1,Naturita,US,Colorado
-19115,1,Naugatuck,US,Connecticut
-20677,1,Nauvoo,US,Illinois
-19505,1,Navarre,US,Florida
-19506,1,Navarre Beach,US,Florida
-30820,1,Navasota,US,Texas
-20085,1,Nawiliwili Bay,US,Hawaii
-20678,1,Near North Side,US,Illinois
-28147,1,Nebraska City,US,Nebraska
-30821,1,Nederland,US,Texas
-33504,1,Nederland,US,Colorado
-21453,1,Needham,US,Massachusetts
-18714,1,Needles,US,California
-31832,1,Neenah,US,Wisconsin
-39380,1,Negaunee,US,Michigan
-31833,1,Neillsville,US,Wisconsin
-31834,1,Nekoosa,US,Wisconsin
-31184,1,Nellysford,US,Virginia
-17710,1,Nelson Lagoon,US,Alaska
-29452,1,Nelsonville,US,Ohio
-17711,1,Nenana,US,Alaska
-21105,1,Neodesha,US,Kansas
-27723,1,Neosho,US,Missouri
-33371,1,Nephi,US,Utah
-19507,1,Neptune Beach,US,Florida
-28353,1,Neptune City,US,New Jersey
-21106,1,Ness City,US,Kansas
-27724,1,Nevada,US,Missouri
-20256,1,Nevada,US,Iowa
-18715,1,Nevada City,US,California
-28004,1,Nevada City,US,Montana
-28976,1,Neversink,US,New York
-27461,1,Nevis,US,Minnesota
-27890,1,New Albany,US,Mississippi
-20953,1,New Albany,US,Indiana
-21454,1,New Ashford,US,Massachusetts
-22183,1,New Baltimore,US,Michigan
-28977,1,New Baltimore,US,New York
-21455,1,New Bedford,US,Massachusetts
-30085,1,New Berlinville,US,Pennsylvania
-33955,1,New Bern,US,North Carolina
-30822,1,New Boston,US,Texas
-30823,1,New Braunfels,US,Texas
-30824,1,New Braunfels area,US,Texas
-27462,1,New Brighton,US,Minnesota
-19116,1,New Britain,US,Connecticut
-28354,1,New Brunswick,US,New Jersey
-22184,1,New Buffalo,US,Michigan
-19117,1,New Canaan,US,Connecticut
-40243,1,New Caney,US,Texas
-21746,1,New Carrollton,US,Maryland
-20954,1,New Castle,US,Indiana
-19232,1,New Castle,US,Delaware
-30086,1,New Castle,US,Pennsylvania
-33505,1,New Castle,US,Colorado
-33703,1,New Castle,US,Kentucky
-32742,1,New Castle,US,New Hampshire
-31185,1,New Church,US,Virginia
-28978,1,New City,US,New York
-30087,1,New Columbia,US,Pennsylvania
-29453,1,New Concord,US,Ohio
-30088,1,New Cumberland,US,Pennsylvania
-27726,1,New Franklin,US,Missouri
-30089,1,New Freedom,US,Pennsylvania
-31836,1,New Glarus,US,Wisconsin
-1199,1,New Hampshire White Mountains Nat.Park - NH,US,
-20257,1,New Hampton,US,Iowa
-28979,1,New Hampton,US,New York
-21897,1,New Harbor,US,Maine
-20955,1,New Harmony,US,Indiana
-19118,1,New Hartford,US,Connecticut
-28980,1,New Hartford,US,New York
-19119,1,New Haven,US,Connecticut
-20956,1,New Haven,US,Indiana
-19120,1,New Haven area,US,Connecticut
-30090,1,New Holland,US,Pennsylvania
-30091,1,New Hope,US,Pennsylvania
-27463,1,New Hope,US,Minnesota
-30092,1,New Hope area,US,Pennsylvania
-21239,1,New Iberia,US,Louisiana
-33223,1,New Johnsonville,US,Tennessee
-30093,1,New Kensington,US,Pennsylvania
-28981,1,New Lebanon,US,New York
-31837,1,New Lisbon,US,Wisconsin
-31838,1,New London,US,Wisconsin
-19121,1,New London,US,Connecticut
-21747,1,New Market,US,Maryland
-31186,1,New Market,US,Virginia
-21456,1,New Marlborough,US,Massachusetts
-32020,1,New Martinsville,US,West Virginia
-20382,1,New Meadows,US,Idaho
-19122,1,New Milford,US,Connecticut
-30094,1,New Milford,US,Pennsylvania
-21240,1,New Orleans,US,Louisiana
-21241,1,New Orleans area,US,Louisiana
-36986,1,New Orleans Intl APT,US,
-28982,1,New Paltz,US,New York
-29454,1,New Paris,US,Ohio
-29455,1,New Philadelphia,US,Ohio
-29456,1,New Philadelphia area,US,Ohio
-19508,1,New Port Richey,US,Florida
-19123,1,New Preston,US,Connecticut
-28355,1,New Providence,US,New Jersey
-31839,1,New Richmond,US,Wisconsin
-28983,1,New Rochelle,US,New York
-21457,1,New Seabury,US,Massachusetts
-19509,1,New Smyrna Beach,US,Florida
-33224,1,New South Memphis,US,Tennessee
-30096,1,New Stanton,US,Pennsylvania
-17712,1,New Stuyahok,US,Alaska
-28076,1,New Town,US,North Dakota
-27465,1,New Ulm,US,Minnesota
-30097,1,New Wilmington,US,Pennsylvania
-28984,1,New Windsor,US,New York
-21748,1,New Windsor,US,Maryland
-28985,1,New York,US,New York
-21898,1,Newagen,US,Maine
-18716,1,Newark,US,California
-28987,1,Newark,US,New York
-19233,1,Newark,US,Delaware
-28356,1,Newark,US,New Jersey
-29457,1,Newark,US,Ohio
-28357,1,Newark Liberty International Airport (EWR),US,New Jersey
-36989,1,Newark-Delaware,US,
-36990,1,Newark-New Jersey,US,
-22185,1,Newaygo,US,Michigan
-29714,1,Newberg,US,Oregon
-30379,1,Newberry,US,South Carolina
-22186,1,Newberry,US,Michigan
-27727,1,Newburg,US,Missouri
-30098,1,Newburg,US,Pennsylvania
-28988,1,Newburgh,US,New York
-28989,1,Newburgh area,US,New York
-29458,1,Newbury,US,Ohio
-21458,1,Newbury,US,Massachusetts
-32744,1,Newbury,US,New Hampshire
-18717,1,Newbury Park,US,California
-21459,1,Newburyport,US,Massachusetts
-21899,1,Newcastle,US,Maine
-30825,1,Newcastle,US,Texas
-32120,1,Newcastle,US,Wyoming
-29459,1,Newcomerstown,US,Ohio
-33956,1,Newell,US,North Carolina
-32021,1,Newell,US,West Virginia
-28990,1,Newfane,US,New York
-31360,1,Newfane,US,Vermont
-28991,1,Newfield,US,New York
-18718,1,Newhall,US,California
-19124,1,Newington,US,Connecticut
-33957,1,Newland,US,North Carolina
-19885,1,Newnan,US,Georgia
-18062,1,Newport,US,Arkansas
-29715,1,Newport,US,Oregon
-31361,1,Newport,US,Vermont
-30256,1,Newport,US,Rhode Island
-33704,1,Newport,US,Kentucky
-32745,1,Newport,US,New Hampshire
-33225,1,Newport,US,Tennessee
-30257,1,Newport area,US,Rhode Island
-18719,1,Newport Beach,US,California
-31187,1,Newport News,US,Virginia
-31188,1,Newport News area,US,Virginia
-21900,1,Newry,US,Maine
-17713,1,Newtok,US,Alaska
-20258,1,Newton,US,Iowa
-27891,1,Newton,US,Mississippi
-21460,1,Newton,US,Massachusetts
-21107,1,Newton,US,Kansas
-28358,1,Newton,US,New Jersey
-33958,1,Newton,US,North Carolina
-21108,1,Newton - Hesston,US,Kansas
-29460,1,Newton Falls,US,Ohio
-21461,1,Newton Upper Falls,US,Massachusetts
-21462,1,Newtonville,US,Massachusetts
-30099,1,Newtown,US,Pennsylvania
-28992,1,Niagara Falls,US,New York
-28993,1,Niagara Falls area,US,New York
-19125,1,Niantic,US,Connecticut
-19510,1,Niceville,US,Florida
-33705,1,Nicholasville,US,Kentucky
-21109,1,Nickerson,US,Kansas
-17714,1,Nightmute,US,Alaska
-17715,1,Nikolai,US,Alaska
-17716,1,Nikolski,US,Alaska
-20679,1,Niles,US,Illinois
-22187,1,Niles,US,Michigan
-29461,1,Niles,US,Ohio
-17717,1,Ninilchik,US,Alaska
-20086,1,Ninole,US,Hawaii
-28148,1,Niobrara,US,Nebraska
-18721,1,Nipomo,US,California
-27467,1,Nisswa,US,Minnesota
-32022,1,Nitro,US,West Virginia
-33506,1,Niwot,US,Colorado
-27728,1,Nixa,US,Missouri
-19126,1,Noank,US,Connecticut
-17718,1,Noatak,US,Alaska
-18722,1,Nob Hill,US,California
-20957,1,Noblesville,US,Indiana
-28551,1,Nogal,US,New Mexico
-18171,1,Nogales,US,Arizona
-18172,1,Nogales area,US,Arizona
-19511,1,Nokomis,US,Florida
-17719,1,Nome,US,Alaska
-21463,1,Nonantum,US,Massachusetts
-17720,1,Nondalton,US,Alaska
-17721,1,Noorvik,US,Alaska
-18723,1,Norco,US,California
-19886,1,Norcross,US,Georgia
-18724,1,Norden,US,California
-20383,1,Nordman,US,Idaho
-21464,1,Norfolk,US,Massachusetts
-19127,1,Norfolk,US,Connecticut
-28149,1,Norfolk,US,Nebraska
-31189,1,Norfolk,US,Virginia
-31190,1,Norfolk - Virginia Beach area,US,Virginia
-20680,1,Normal,US,Illinois
-32934,1,Norman,US,Oklahoma
-20681,1,Norridge,US,Illinois
-32121,1,Norris,US,Wyoming
-30100,1,Norristown,US,Pennsylvania
-21465,1,North Abington,US,Massachusetts
-21466,1,North Adams,US,Massachusetts
-21467,1,North Andover,US,Massachusetts
-21468,1,North Attleboro,US,Massachusetts
-30380,1,North Augusta,US,South Carolina
-20682,1,North Aurora,US,Illinois
-29462,1,North Baltimore,US,Ohio
-19512,1,North Bay Village,US,Florida
-18725,1,North Beach,US,California
-21749,1,North Beach,US,Maryland
-30101,1,North Bend,US,Pennsylvania
-29716,1,North Bend,US,Oregon
-31564,1,North Bend,US,Washington
-28359,1,North Bergen,US,New Jersey
-1523,1,North Berwick,US,
-31565,1,North Bonneville,US,Washington
-27468,1,North Branch,US,Minnesota
-27469,1,North Branch area,US,Minnesota
-28360,1,North Brunswick,US,New Jersey
-29463,1,North Canton,US,Ohio
-31840,1,North Cape,US,Wisconsin
-30826,1,North Central Austin,US,Texas
-30381,1,North Charleston,US,South Carolina
-21469,1,North Chelmsford,US,Massachusetts
-31362,1,North Chittenden,US,Vermont
-29464,1,North Cincinnati,US,Ohio
-18726,1,North Clairemont,US,California
-29465,1,North College Hill,US,Ohio
-33507,1,North Colorado Springs,US,Colorado
-29466,1,North Columbus,US,Ohio
-32746,1,North Conway,US,New Hampshire
-28994,1,North Creek,US,New York
-21470,1,North Dartmouth,US,Massachusetts
-29467,1,North Dayton,US,Ohio
-30102,1,North East,US,Pennsylvania
-21750,1,North East,US,Maryland
-21471,1,North Eastham,US,Massachusetts
-21472,1,North Easton,US,Massachusetts
-21473,1,North Falmouth,US,Massachusetts
-31363,1,North Fayston,US,Vermont
-19513,1,North Fort Lauderdale,US,Florida
-19514,1,North Fort Myers,US,Florida
-30827,1,North Fort Worth,US,Texas
-38429,1,North Garden,US,Virginia
-21474,1,North Hampton,US,Massachusetts
-32747,1,North Hampton,US,New Hampshire
-21475,1,North Hanover,US,Massachusetts
-19128,1,North Haven,US,Connecticut
-31364,1,North Hero,US,Vermont
-18727,1,North Highlands,US,California
-18728,1,North Hills,US,California
-18729,1,North Hollywood,US,California
-30828,1,North Houston,US,Texas
-28995,1,North Hudson,US,New York
-29468,1,North Jackson,US,Ohio
