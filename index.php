@@ -65,17 +65,17 @@
 
 
  <style>
-
+/*  read more */	 
+#more {display: none;}
   .carousel-inner img {
       width: 100%;
       height: 100%;
   }
      
-     .dropdown:hover>.dropdown-menu {
+ .dropdown:hover>.dropdown-menu {
   display: block;
 }
-     
-     ul
+  ul
 {
     list-style-type: none;
 }
@@ -83,18 +83,21 @@
 	</head>
 	<body>
 
-
-		<div id="fh5co-wrapper">
-		<div id="fh5co-page">
-	
-	
+		
 	<!-- Start:header-top -->
-	
  
             <?php include 'header.php'; ?>
         
-
 	<!-- end:header-top -->
+	
+		
+
+		<div id="fh5co-wrapper">
+		
+		<div id="fh5co-page">
+	
+
+
 	
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
@@ -162,7 +165,7 @@
 													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
 												</div>
 											</div>
-										 </div>
+									   </div>
 										 <div class="row">
 											<div class="col-md-6">
 											<label for="class">Departure :</label>	
@@ -243,7 +246,7 @@
 												<input type="date" class="mydate" name="" required>
 												</div>
 											</div>
-										 </div>
+									   </div>
 											<div class="row" style="margin-top: 15px;">
 											<div class="col-md-4">
 												<section>
@@ -304,7 +307,7 @@
 													<input type="text" class="form-control" id="to-place5" placeholder="Tokyo, Japan"/>
 												</div>
 											</div>
-											 </div>
+									   </div>
 											<div class="row">
 											<div class="col-md-6">
 												<div class="input-field">
@@ -358,7 +361,7 @@
 													</select>
 												</section>
 											</div>
-											</div>
+									   </div>
 											<div class="row">
 											<div class="col-xs-12">
 												<input type="submit" class="btn btn-primary btn-block" value="Search Packages">
@@ -368,12 +371,12 @@
 									</div>
 								</div>
 							</div>
-							</div>
-						</div>
-					</div>
+					  </div>
+				  </div>
+			  </div>
 					
-				</div>
-			</div>
+		  </div>
+		  </div>
 
 			
 	
@@ -384,7 +387,7 @@
 <!--Hot Tours start-->			
 
 <div id="fh5co-tours" class="fh5co-section-gray" style="
-    margin-bottom: -11px;">
+    margin-bottom: -144px;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
@@ -396,14 +399,12 @@
 	</div>		
 		</div>
 					
-	
-					
-	<!--Hot Tours end-->	
+<!--Hot Tours end-->	
 	
 					
 <!--slider Start-->		
       
-      <div class="row">
+<div class="row">
 
       <div id="adv_team_4_columns_carousel" class="carousel slide four_shows_one_move team_columns_carousel_wrapper" data-ride="carousel" data-interval="2000" data-pause="hover">
          <!--========= Wrapper for slides =========-->
@@ -497,7 +498,10 @@
 <!--slider end-->
 
 
-<!-- Tour Packages start-->
+
+
+
+
 <div class="container-fluid">
 						<div class="row">
 						<div class="container">
@@ -507,9 +511,9 @@
 						<br>
 						<img src="images/service/line.jpg" alt="">
 						</div>	
-	
 
-				
+
+<p>
 					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-1.jpg" alt="" class="img-responsive">
 							<div class="desc">
@@ -543,17 +547,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-12 text-center animate-box">
-						<p><a class="btn btn-primary btn-outline btn-lg" href="#" style="margin-top: 30px;" data-toggle="collapse" data-target="#demo">
-						<b>More Offers </b><i class="fa fa-map-marker"></i></a></p>
-					</div>
-					<div class="card" style="    border: 1px solid rgba(255, 255, 255, 0.125);">
-
-					<br>
-					<br>
-					  <div id="demo" class="collapse">
-						  <div class="row">
-							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<span id="dots"></span><span id="more">
+					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-1.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -564,7 +559,7 @@
 							</div>
 						</div>
 					</div>
-							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-2.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -575,7 +570,7 @@
 							</div>
 						</div>
 					</div>
-							<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-3.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -585,18 +580,76 @@
 								<a class="btn btn-primary btn-outline" href="#"><h4>Book Now <i class="fa fa-map-marker"></i></h4></a>
 							</div>
 						</div>
-					</div>
-				  		  </div>
-
-					  </div>
-					  <p></p>
-				  </div>
-					
-							</div>
-			</div>
+					</div></span></p>
+					<div class=" text-center">
+<button onclick="myFunction()" id="myBtn" class="btn btn-primary btn-lg">Show More </button>
+	</div><br>
+	<br>
 		</div>
- 
-<!-- Tour Packages start-->	
+	  </div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Show More"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Show Less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--Start Service-->	
 				
@@ -669,7 +722,7 @@
 
 
 </div>
-</div>
+
 
 <!--end Service-->
 <br>

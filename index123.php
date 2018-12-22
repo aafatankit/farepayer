@@ -545,7 +545,71 @@
 		</div>
 </div>
 <!-- Tour Packages start-->	
+        <div class="text-overflow" style="font-family: 'arial'; color: #797979; font-size: 14px; font-style: italic; width: 1062px; margin: 0 auto; padding: 10px 0 0 0;">
+            <b style="font-size: 16px;">Utazzo Offers the Best Budget Honeymoon Destinations </b>
+            <br />
+            <br />
+            There are certain factors that a traveler considers while planning a holiday and one of them is budget. But in case of <b>honeymoon holidays,</b> couples want something which fits their finances and is still the best. And Utazzo is an online platform where you will find some of the top <b>budget honeymoon destinations </b>from around the world that you would love to explore.
+            <br />
+            <br />
 
+            Whether you are looking for a romantic beach vacation, an adventurous escape to the mountains, luxurious getaway to the islands or a mix of everything, you will find all kinds of choices in world-famous destinations at Utazzo.com. The range of domestic <b>honeymoon tour packages </b>starts from Rs.7800 while <b>international honeymoon packages</b>start from Rs.29999.
+            <br />
+            <br />
+
+            <b style="font-size: 16px;">Select from a Range of Domestic and International Honeymoon Packages Online </b>
+            <br />
+            <br />
+
+            At Utazzo, you can choose from a variety of <b>romantic honeymoon destinations</b> from across the world. There are both- domestic as well as<b>  international honeymoon packages </b>available online.
+            <br />
+            <br />
+
+
+
+        </div>
+        <div style="margin: 0 auto; width: 1062px;"><a class="btn-overflow" href="javascript:void(0);">Read more...</a></div>
+  
+    
+ 
+   
+
+   
+    <script>
+        $(document).ready(function () {
+            setTimeout("$('#myModalPopup').modal('show')", 60000);
+        });
+
+        /*Read more methods*/
+        var text = $('.text-overflow'),
+        btn = $('.btn-overflow'),
+       h = text[0].scrollHeight;
+
+        if (h > 30) {
+            btn.addClass('less');
+            btn.css('display', 'block');
+        }
+
+        btn.click(function (e) {
+            e.stopPropagation();
+
+            if (btn.hasClass('less')) {
+                btn.removeClass('less');
+                btn.addClass('more');
+                btn.text('Read less');
+
+                text.animate({ 'height': h });
+            }
+            else {
+                btn.addClass('less');
+                btn.removeClass('more');
+                btn.text('Read more...');
+                text.animate({ 'height': '38px' });
+            }
+        });
+        /*Read more methods*/
+
+    </script>
 <!-- Most Popular Destination start-->
 <div class="container-fluid">
 						<div class="row sBackground">

@@ -68,12 +68,14 @@
 
 	<!-- end:header-top -->
 
-<!--
+
        
         <div class="modal fade" id="myModal">
           <div class="modal-dialog">
-            <div class="modal-content">
-
+            <div class="modal-content" style="position: absolute;
+  left: ;
+  top: 0px;
+  z-index:99999;">
               
               <div class="modal-header">
                 <h4 class="modal-title">LOGIN</h4>
@@ -110,7 +112,10 @@
 
         <div class="modal fade" id="mysignup">
           <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content "style="position: absolute;
+  left: ;
+  top: 0px;
+  z-index:99999;">
 
              
               <div class="modal-header">
@@ -136,20 +141,22 @@
                         <input type="text" name="mobile" class="form-control" placeholder="9876543219" id="smobile" value=""> 
                         <span id="checksmobile" class="text-danger"></span>
                     </div>
-    <!--
+  
+<!--
                     <div class="form-group">
                         <label>Date of Birth<span class="text-danger">*</span></label>
                         <input type="date" name="dob" class="form-control" placeholder="DD/MM/YYYY" id="sdob" value="">
                         <span id="checksdob" class="text-danger"></span>
                     </div>
-    -->
-    <!--
+
+    
                     <div class="form-group">
                         <label>Organisation Name<span class="text-danger">*</span></label>
                         <input type="text" name="orgname" class="form-control" placeholder="School/College/Company Name" id="sorg" value="">
                         <span id="checksorg" class="text-danger"></span>
                     </div>
   
+-->
                     <div class="form-group">
                         <label>Password<span class="text-danger">*</span></label>
                         <input type="password" name="pswd" class="form-control" placeholder="Enter Password" id="spswd" value="">
@@ -160,16 +167,18 @@
                         <input type="password" name="cpswd" class="form-control" placeholder="Re-Enter Password" id="scpswd" value="">
                         <span id="checkscpswd" class="text-danger"></span>
                     </div>
-    <!--
+
+<!--
                     <div class="form-group">
                         <label>Promo Code</label>
                         <input type="text" name="promo" class="form-control" placeholder="ABCDEFG" id="spromo" value="">
                         <span id="checkspromo" class="text-danger"></span>
                     </div>
+-->
 
                   </div>
 
-                  <!-- Modal footer
+                
                   <div class="modal-footer">
                     <input type="submit" class="btn btn-info" value="Sign Up"><br>
                     <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myModal" >Already Have an Account?</a>
@@ -177,4 +186,5 @@
               </form>
             </div>
           </div>
--->
+
+</div>
