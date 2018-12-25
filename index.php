@@ -83,7 +83,9 @@
 	</head>
 	<body>
 
+			<div id="fh5co-wrapper">
 		
+		<div id="fh5co-page">
 	<!-- Start:header-top -->
  
             <?php include 'header.php'; ?>
@@ -92,9 +94,7 @@
 	
 		
 
-		<div id="fh5co-wrapper">
-		
-		<div id="fh5co-page">
+	
 	
 
 
@@ -128,7 +128,7 @@
 				
 						<div class="row">
 							<div class="col-sm-5 col-md-5">
-								<div class="tabulation animate-box">
+								<div class="tabulation ">
 
 								  <!-- Nav tabs -->
 								   <ul class="nav nav-tabs" role="tablist">
@@ -146,9 +146,10 @@
 								   <!-- Tab panes -->
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
-                                         <ul class="form-inline text-left">
-                                             <li><input type="radio" name="fl" value="D" checked><b> Domestic &nbsp; &nbsp;</b> </li>
-                                             <li><input type="radio" name="fl" value="I"><b> International</b> </li>
+                                         <ul class="form-inline text-left " style="margin: 0px;padding: 0px;font-size: 13px;">
+                                             <li><input type="radio" name="fl" value="D" checked><b> One way &nbsp; &nbsp;</b> </li>
+                                             <li><input type="radio" name="fl" value="I"><b> Round trip</b> </li>
+                                              <li><input type="radio" name="fl" value="D" checked><b> Multi-city &nbsp; &nbsp;</b> </li>
                                          </ul>
                                          <br>
 										<div class="row">
@@ -174,7 +175,7 @@
 	
 											<div class="col-md-6">
 												<section>
-													<label for="class">Class:</label><br>
+													<label for="class">Class:</label>
 													<select class="cs-select cs-skin-border">
 														<option value="Economy" selected> Economy</option>
 														<option value="Premium Economy">Premium Economy</option>
@@ -187,7 +188,7 @@
 											</div>
 										 </div>
 										 <div class="row">
-											<div class="col-xxs-12 col-xs-6 mt">
+											<div class="col-xxs-12 col-xs-6 ">
 												<section>
 													<label for="class">Adult:</label>
 													<select class="cs-select cs-skin-border">
@@ -203,7 +204,7 @@
 													</select>
 												</section>
 											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
+											<div class="col-xxs-12 col-xs-6 ">
 												<section>
 													<label for="class">Children:</label>
 													<select class="cs-select cs-skin-border">
@@ -219,8 +220,10 @@
 													</select>
 												</section>
 											</div>
-											<div class="col-xs-12">
-												<input type="submit" class="btn btn-primary btn-block" value="Search Flight">
+											<div class="col-xs-5 offset-0">
+											
+											<a class="btn btn-primary btn-outline buttonmedia" href="#">
+											<h4>Search Flight <i class="fa fa-paper-plane"></i></h4></a>
 											</div>
 										</div>
 									 </div>
@@ -235,7 +238,7 @@
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
-													<label for="date-start">Check In :</label>
+													<label for="date-start">Check In : &nbsp;</label>
 												<input type="date" class="mydate" name="" required>
 												</div>
 											</div>
@@ -250,7 +253,7 @@
 											<div class="row" style="margin-top: 15px;">
 											<div class="col-md-4">
 												<section>
-													<label for="class">Rooms:</label>
+													<label for="class">Rooms</label>
 													<select class="cs-select cs-skin-border">
 														<option value="" disabled selected>1</option>
 														<option value="economy">1</option>
@@ -261,7 +264,7 @@
 											</div>
 									
 										
-											<div class="col-md-4 mt">
+											<div class="col-md-4">
 												<section>
 													<label for="class">Adult:</label>
 													<select class="cs-select cs-skin-border">
@@ -287,8 +290,9 @@
 											</div>
 											</div>
 											<div class="row">
-											<div class="col-xs-12">
-												<input type="submit" class="btn btn-primary btn-block" value="Search Hotel">
+											<div class="col-xs-12 ">
+												<a class="btn btn-primary btn-outline buttonmedia" href="#">
+											<h4>Search Hotel &nbsp;<i class="fa fa-hotel"></i></h4></a>
 											</div>
 										</div>
 									 </div>
@@ -318,7 +322,7 @@
 										
 									<div class="col-md-6">
 												<div class="input-field">
-													<label for="date-end">Return:</label>
+													<label for="date-end">Return: &nbsp;</label>
 													<input type="date" class="mydate" name="" required>
 												</div>
 											</div>
@@ -326,7 +330,7 @@
 										 <div class="row "style="margin-top: 15px;">
 											<div class="col-md-4">
 												<section>
-													<label for="class">Rooms:</label>
+													<label for="class">Rooms</label>
 													<select class="cs-select cs-skin-border">
 														<option value="" disabled selected>1</option>
 														<option value="economy">1</option>
@@ -364,7 +368,9 @@
 									   </div>
 											<div class="row">
 											<div class="col-xs-12">
-												<input type="submit" class="btn btn-primary btn-block" value="Search Packages">
+												<a class="btn btn-primary btn-outline buttonmedia" href="#">
+											<h4>Search Packages &nbsp;<i class="fa fa-suitcase"></i></h4></a>
+	
 											</div>
 										</div>
 									 </div>
@@ -387,10 +393,10 @@
 <!--Hot Tours start-->			
 
 <div id="fh5co-tours" class="fh5co-section-gray" style="
-    margin-bottom: -144px;">
+  margin-bottom: -144px;">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+					<div class="col-md-12 text-center heading-section">
 						<h3><b>Hot Tours</b></h3>
 							
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -497,11 +503,6 @@
 
 <!--slider end-->
 
-
-
-
-
-
 <div class="container-fluid">
 						<div class="row">
 						<div class="container">
@@ -514,7 +515,7 @@
 
 
 <p>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-1.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -525,7 +526,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-2.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -536,7 +537,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-3.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -548,7 +549,7 @@
 						</div>
 					</div>
 					<span id="dots"></span><span id="more">
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-1.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -559,7 +560,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-2.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -570,7 +571,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-3.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -592,14 +593,6 @@
 
 
 
-
-
-
-
-
-
-
-
 <script>
 function myFunction() {
   var dots = document.getElementById("dots");
@@ -617,37 +610,6 @@ function myFunction() {
   }
 }
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -736,7 +698,7 @@ function myFunction() {
 						<div class="row sBackground">
 						<div class="container">
 						<div class="col-md-12 tBackground">
-						
+
 						<b>Most Popular Destination</b>
 						<br>
 						<img src="images/service/line.jpg" alt="">
@@ -744,7 +706,7 @@ function myFunction() {
 	
 
 				
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-1.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -755,7 +717,7 @@ function myFunction() {
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-2.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -766,7 +728,7 @@ function myFunction() {
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+					<div class="col-md-4 col-sm-6 fh5co-tours " data-animate-effect="fadeIn">
 						<div href="#"><img src="images/place-3.jpg" alt="" class="img-responsive">
 							<div class="desc">
 								<span></span>
@@ -777,7 +739,7 @@ function myFunction() {
 							</div>
 						</div>
 					</div>
-					<div class="col-md-12 text-center animate-box">
+					<div class="col-md-12 text-center ">
 						<p><a class="btn btn-primary btn-outline btn-lg" href="#" style="margin-top: 30px;">
 						<b>See All Offers </b><i class="fa fa-map-marker"></i></a></p>
 					</div>
@@ -792,7 +754,7 @@ function myFunction() {
 <div id="fh5co-blog-section" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box" 
+					<div class="col-md-8 col-md-offset-2 text-center heading-section " 
 					style="padding-top: 180px;">
 						<h3>Recent From Blog</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
@@ -803,7 +765,7 @@ function myFunction() {
 			<div class="container">
 				<div class="row row-bottom-padded-md">
 					<div class="col-lg-4 col-md-4 col-sm-6">
-						<div class="fh5co-blog animate-box">
+						<div class="fh5co-blog ">
 							<a href="#"><img class="img-responsive" src="images/place-1.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
@@ -817,7 +779,7 @@ function myFunction() {
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-6">
-						<div class="fh5co-blog animate-box">
+						<div class="fh5co-blog ">
 							<a href="#"><img class="img-responsive" src="images/place-2.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
@@ -832,7 +794,7 @@ function myFunction() {
 					</div>
 					<div class="clearfix visible-sm-block"></div>
 					<div class="col-lg-4 col-md-4 col-sm-6">
-						<div class="fh5co-blog animate-box">
+						<div class="fh5co-blog ">
 							<a href="#"><img class="img-responsive" src="images/place-3.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
@@ -848,7 +810,7 @@ function myFunction() {
 					<div class="clearfix visible-md-block"></div>
 				</div>
 
-				<div class="col-md-12 text-center animate-box">
+				<div class="col-md-12 text-center ">
 					<p><a class="btn btn-primary btn-outline btn-lg" href="#">See All Post <i class="fa fa-map-marker"></i></a></p>
 				</div>
 
@@ -858,28 +820,28 @@ function myFunction() {
 	
 			
 <!--counter start-->	
-	<div class="row bgCOUNTER">
+	<div class="row bgCOUNTER ">
 
 	<div class="col-md-12 wChoose hvr-grow-shadow"><h1><strong>Why Choose Farepayer</strong></h1>
 	</div>
-	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/best.png" alt=""><br>
+	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/best.png"  alt=""><br>
 	<h2>Best Price Gurantee</h2></div>	
 
-	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/trust.png" alt=""><br>
+	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/trust.png"   alt=""><br>
 	<h2>Trust online travel Brand</h2></div>
 	
-		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/trustedp.png" alt=""><br>
+		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/trustedp.png"   alt=""><br>
 	<h2>Trusted by Over 4.5 Million 
 Happy Travellers</h2></div>
 	
-		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/fastbooking.png" alt=""><br>
+		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/fastbooking.png"   alt=""><br>
 	<h2>Fast Booking</h2></div>	
 		
 		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/support.png" alt=""><br>
 	<h2>Support Team</h2></div>	
 	
 	
-	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/holiday.png" alt=""><br>
+	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/holiday.png"    alt=""><br>
 	<h2>Hassle Free Holiday Planning</h2></div>	
 	</div>	
 		
