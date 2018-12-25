@@ -1,3 +1,15 @@
+<?php
+include 'connectdb.php';
+
+if($con){
+    $q="select * from city";
+
+    $result=mysqli_query($con,$q);
+    
+}
+
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -14,10 +26,11 @@
         <div class="form-group">
             <label for="sel1">Select list (select one):</label>
             <select class="form-control" id="sel1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
+                <?php
+                while($row=mysqli_fetch_array($result)){
+                    echo '<option>'.$row['CityName']'</option>';
+                }
+                ?>
             </select>
             <br>
         </div>
