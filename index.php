@@ -146,10 +146,10 @@
 								   <!-- Tab panes -->
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
-                                         <ul class="form-inline text-left " style="margin: 0px;padding: 0px;font-size: 13px;">
-                                             <li><input type="radio" name="fl" value="D" checked><b> One way &nbsp; &nbsp;</b> </li>
-                                             <li><input type="radio" name="fl" value="I"><b> Round trip</b> </li>
-                                              <li><input type="radio" name="fl" value="D" checked><b> Multi-city &nbsp; &nbsp;</b> </li>
+                                         <ul class="form-inline text-left " style="margin: 0px;padding: 0px;font-size: 12px;">
+                                             <li><input type="radio" name="fl" value="D" checked><b> One way &nbsp;</b> </li>
+                                             <li><input type="radio" name="fl" value="I"><b> Round trip&nbsp; </b> </li>
+                                              <li><input type="radio" name="fl" value="D" ><b> Multi-city&nbsp;</b> </li>
                                          </ul>
                                          <br>
 										<div class="row">
@@ -188,7 +188,7 @@
 											</div>
 										 </div>
 										 <div class="row">
-											<div class="col-xxs-12 col-xs-6 ">
+											<div class="col-md-4">
 												<section>
 													<label for="class">Adult:</label>
 													<select class="cs-select cs-skin-border">
@@ -204,9 +204,9 @@
 													</select>
 												</section>
 											</div>
-											<div class="col-xxs-12 col-xs-6 ">
+											<div class="col-md-4">
 												<section>
-													<label for="class">Children:</label>
+													<label for="class">Children</label>
 													<select class="cs-select cs-skin-border">
 														<option value="0" selected>-</option>
 														<option value="1">1</option>
@@ -220,7 +220,19 @@
 													</select>
 												</section>
 											</div>
-											<div class="col-xs-5 offset-0">
+										<div class="col-md-4">
+												<section>
+													<label for="class">Infant</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="economy">1</option>
+														<option value="first">2</option>
+														<option value="business">3</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-5 offset-0" style="margin:  10px 79px -5px 85px">
+											
 											
 											<a class="btn btn-primary btn-outline buttonmedia" href="#">
 											<h4>Search Flight <i class="fa fa-paper-plane"></i></h4></a>
@@ -290,8 +302,8 @@
 											</div>
 											</div>
 											<div class="row">
-											<div class="col-xs-12 ">
-												<a class="btn btn-primary btn-outline buttonmedia" href="#">
+											<div class="col-xs-12" style="margin:  10px 79px -5px 85px">
+												<a class="btn btn-primary btn-outline buttonmedia " href="#">
 											<h4>Search Hotel &nbsp;<i class="fa fa-hotel"></i></h4></a>
 											</div>
 										</div>
@@ -367,7 +379,7 @@
 											</div>
 									   </div>
 											<div class="row">
-											<div class="col-xs-12">
+											<div class="col-xs-12 "style="margin:  10px 79px -5px 67px">
 												<a class="btn btn-primary btn-outline buttonmedia" href="#">
 											<h4>Search Packages &nbsp;<i class="fa fa-suitcase"></i></h4></a>
 	
