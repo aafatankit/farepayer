@@ -13,6 +13,26 @@
 
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        
+        <!-- Google Font-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css">
+        
+        <!-- Fa Fa Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+<!--
+        <style>
+            div#topImg{
+              width: 100%;
+              height: auto;
+              background-image: url('images/banner1.jpg');
+              background-repeat: no-repeat;
+              background-size: contain;
+              border: 1px solid red;
+            }
+        </style>
+-->
+        
     </head>
     <body>
         <!-- Start:header-top -->
@@ -195,17 +215,224 @@
         </div>
         <!--Sign Up Ends-->
 
-        <div style="background-image: url(images/banner1.jpg); ">
+        <div style="background-image: url(images/banner1.jpg); width: 100%; height: auto;" id="topImg">
             <br><br><br><br><br><br>
             <div class="row">
                 <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <div
+                <div class="col-md-4 container">
+                    <div class="bg-white">
+                        <div class="container">
+                            <ul class="nav nav-tabs nav-justified">
+                                <li class="nav-item">
+                                    <a href="#flights" class="nav-link active" data-toggle="tab">Flights</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#hotels" class="nav-link" data-toggle="tab">Hotels</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#packages" class="nav-link" data-toggle="tab">Packages</a>
+                                </li>
+                            </ul>
+                            
+                            <div class="tab-content container">
+                                <div class="tab-pane active" id="flights">
+                                    <br>
+                                    <form class="container">
+                                        <div class="row container">
+                                            <label class="radio-inline col">
+                                              <input type="radio" name="optradio" checked><b>&nbsp;&nbsp;Domestic</b>
+                                            </label>
+                                            <label class="radio-inline col">
+                                              <input type="radio" name="optradio"><b>&nbsp;&nbsp;International</b>
+                                            </label>
+                                        </div>
+<!--
+                                        <div class="form-group container">
+                                            <div class="row container">
+                                                <span class="radio col">
+                                                  <label><input type="radio" name="optradio" checked> <b>Domestic</b> </label>
+                                                </span>
+                                                <span class="radio col">
+                                                  <label><input type="radio" name="optradio"> <b>International</b> </label>
+                                                </span>
+                                            </div>
+                                        </div>
+-->
+                                        <div class="form-group">
+                                            <label><b>From:</b></label>
+                                            <input type="text" name="fromFlight" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label><b>To:</b></label>
+                                            <input type="text" name="toFlight" class="form-control">
+                                        </div>
+                                        <div class="row form-group">
+                                            <span class="col">
+                                                <label><b>Date:</b></label>
+                                                <input type="date" name="deptDate" class="form-control">
+                                            </span>
+                                            <span class="col">
+                                                <label><b>Class:</b></label>
+                                                <select class="form-control" id="sel1">
+                                                    <option value="Economy" selected> Economy</option>
+                                                    <option value="Premium Economy">Premium Economy</option>
+                                                    <option value="Business">Business </option>
+                                                    <option value="DIRST">Dirst</option>
+                                                    <option value="first">First</option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                        <div class="row form-group">
+                                            <span class="col">
+                                                <label><b>Adult:</b></label>
+                                                <select class="form-control" id="sel1">
+                                                    <option value="1" selected> 1 </option>
+                                                    <option value="2"> 2 </option>
+                                                    <option value="3"> 3 </option>
+                                                    <option value="4"> 4 </option>
+                                                    <option value="5"> 5 </option>
+                                                    <option value="6"> 6 </option>
+                                                    <option value="7"> 7 </option>
+                                                    <option value="8"> 8 </option>
+                                                </select>
+                                            </span>
+                                            <span class="col">
+                                                <label><b>Child:</b></label>
+                                                <select class="form-control" id="sel1">
+                                                    <option value="0" selected> - </option>
+                                                    <option value="1"> 1 </option>
+                                                    <option value="2"> 2 </option>
+                                                    <option value="3"> 3 </option>
+                                                    <option value="4"> 4 </option>
+                                                    <option value="5"> 5 </option>
+                                                    <option value="6"> 6 </option>
+                                                    <option value="7"> 7 </option>
+                                                    <option value="8"> 8 </option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                        <br>
+                                        <div class="form-group">
+                                            <input type="submit" value="Get Flights" class="form-control btn btn-primary">
+                                        </div>
+                                    </form>
+                                    <br><br>
+                                </div>
+                                
+                                <div class="tab-pane" id="hotels">
+                                    <br>
+                                    <form>
+                                        <div class="form-group container">
+                                            <div class="row container">
+                                                <span class="radio col">
+                                                  <label><input type="radio" name="optradio" checked> <b>Domestic</b> </label>
+                                                </span>
+                                                <span class="radio col">
+                                                  <label><input type="radio" name="optradio"> <b>International</b> </label>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>From:</label>
+                                            <input type="text" name="fromFlight" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>To:</label>
+                                            <input type="text" name="toFlight" class="form-control">
+                                        </div>
+                                    </form>
+                                    <br><br>
+                                </div>
+                                
+                                <div class="tab-pane" id="packages">
+                                    <br>
+                                    <form>
+                                        <div class="form-group container">
+                                            <div class="row container">
+                                                <span class="radio col">
+                                                  <label><input type="radio" name="optradio" checked> <b>Domestic</b> </label>
+                                                </span>
+                                                <span class="radio col">
+                                                  <label><input type="radio" name="optradio"> <b>International</b> </label>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>From:</label>
+                                            <input type="text" name="fromFlight" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>To:</label>
+                                            <input type="text" name="toFlight" class="form-control">
+                                        </div>
+                                    </form>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-7"></div>
             </div>
             <br><br><br><br><br><br>
         </div>
 
+        <br>
+        <div>
+            <h1 class="text-center" style="font-size:4vw;"><hr align="center" width="50%" style="height: 6px; background-color: #333;"><b>Hot Offers</b><hr align="center" width="50%" style="height: 6px; background-color: #333;"></h1>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+        
+        <div class="bg-light container">
+            <br>
+            <h1 class="text-center" style="font-size:2.5vw;">Our Services<hr align="center" width="15%" style="height: 5px; background-color: #333;"></h1>
+            <br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="card col-md-3">
+                        <br>
+                        <img class="card-img-top m-auto" src="images/service/service1.jpg" style="width:50%">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        </div>
+                    </div>
+                    <div class="card col-md-3">
+                        <br>
+                        <img class="card-img-top m-auto" src="images/service/service2.jpg" style="width:50%">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        </div>
+                    </div>
+                    <div class="card col-md-3">
+                        <br>
+                        <img class="card-img-top m-auto" src="images/service/service3.jpg" style="width:50%">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        </div>
+                    </div>
+                    <div class="card col-md-3">
+                        <br>
+                        <img class="card-img-top m-auto" src="images/service/service4.jpg" style="width:50%">
+                        <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <br>
+        <div class="container-fluid bg-light">
+            <br>
+        </div>
     </body>
 </html>
+
+
+
+
+
