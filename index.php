@@ -206,7 +206,7 @@
 											</div>
 											<div class="col-md-4">
 												<section>
-													<label for="class">Children</label>
+													<label for="class">Child:</label>
 													<select class="cs-select cs-skin-border">
 														<option value="0" selected>-</option>
 														<option value="1">1</option>
@@ -222,12 +222,12 @@
 											</div>
 										<div class="col-md-4">
 												<section>
-													<label for="class">Infant</label>
+													<label for="class">Infant:</label>
 													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="economy">1</option>
-														<option value="first">2</option>
-														<option value="business">3</option>
+															<option value="0" selected>-</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														
 													</select>
 												</section>
 											</div>
@@ -240,7 +240,7 @@
 										</div>
 									 </div>
 
-									 <div role="tabpanel" class="tab-pane" id="hotels">
+		<!--Hotel-->							 <div role="tabpanel" class="tab-pane" id="hotels">
 									 	<div class="row">
 											<div class="col-xxs-12 col-xs-12 mt">
 												<div class="input-field">
@@ -308,78 +308,36 @@
 											</div>
 										</div>
 									 </div>
-
+<!--packages-->
 									 <div role="tabpanel" class="tab-pane" id="packages">
 									 	<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
 												<div class="input-field">
-													<label for="from">City:</label>
+													<label for="from">Destination:</label>
 													<input type="text" class="form-control" id="from-place4" placeholder="Los Angeles, USA"/>
 												</div>
 											</div>
 											<div class="col-xxs-12 col-xs-6 mt">
 												<div class="input-field">
-													<label for="from">Destination:</label>
-													<input type="text" class="form-control" id="to-place5" placeholder="Tokyo, Japan"/>
+													<label for="date-end">No of Travels: &nbsp;</label>
+													<input type="text" class="form-control" id="from-place4" placeholder="travels"/>
 												</div>
 											</div>
 									   </div>
 											<div class="row">
-											<div class="col-md-6">
-												<div class="input-field">
-													<label for="date-start">Departs:</label>
-													<input type="date" class="mydate" name="" required>
-												</div>
-											</div>
+											
 										
-									<div class="col-md-6">
+									<div class="col-md-6 offset-0">
 												<div class="input-field">
-													<label for="date-end">Return: &nbsp;</label>
+													
+													<label for="date-start">Departs: &nbsp;</label>
 													<input type="date" class="mydate" name="" required>
 												</div>
 											</div>
 										 </div>
-										 <div class="row "style="margin-top: 15px;">
-											<div class="col-md-4">
-												<section>
-													<label for="class">Rooms</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="economy">1</option>
-														<option value="first">2</option>
-														<option value="business">3</option>
-													</select>
-												</section>
-											</div>
-									
-										
-											<div class="col-md-4 mt">
-												<section>
-													<label for="class">Adult:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-													</select>
-												</section>
-											</div>
-											<div class="col-md-4">
-												<section>
-													<label for="class">Child:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-													</select>
-												</section>
-											</div>
-									   </div>
+										 
 											<div class="row">
-											<div class="col-xs-12 "style="margin:  10px 79px -5px 67px">
+											<div class="col-xs-12 "style="margin:  35px 79px -5px 67px">
 												<a class="btn btn-primary btn-outline buttonmedia" href="#">
 											<h4>Search Packages &nbsp;<i class="fa fa-suitcase"></i></h4></a>
 	

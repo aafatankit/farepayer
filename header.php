@@ -1,6 +1,6 @@
 <!-- Start:header-top -->
 	
-            
+  
             <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
           
                     <a href="#" class="navbar-brand"><img src="images/logo.png"></a>
@@ -51,12 +51,9 @@
 
 
        
-        <div class="modal fade" id="myModal">
+        <div class="modal fade" id="myModal" style="z-index: 999999999;">
           <div class="modal-dialog">
-            <div class="modal-content" style="position: absolute;
-  left: ;
-  top: 0px;
-  z-index:99999;">
+            <div class="modal-content">
               
               <div class="modal-header">
                 <h4 class="modal-title">LOGIN</h4>
@@ -91,12 +88,9 @@
 
 
 
-        <div class="modal fade" id="mysignup">
+        <div class="modal fade" id="mysignup"  style="z-index: 999999999;">
           <div class="modal-dialog">
-            <div class="modal-content "style="position: absolute;
-  left: ;
-  top: 0px;
-  z-index:99999;">
+            <div class="modal-content">
 
              
               <div class="modal-header">
