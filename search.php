@@ -1,9 +1,8 @@
 <?php
 include 'connect.php';
-
-
+if($con){
     if(isset($_POST['query'])){
-//        $output = '';
+        $output = '';
         $query = "select * from city where CityName LIKE '%".$_POST['query']."%'";
         $result = mysqli_query($con,$query);
         $avail = mysqli_num_rows($result);
@@ -12,10 +11,6 @@ include 'connect.php';
             while($row=mysqli_fetch_array($result)){
                 $output .= '<li>'.$row['CityName'].'</li>';
             }
-//            for($i=0;$i<$avail;$i++){
-//                $row=mysqli_fetch_array($result);
-//                $output = $output.'<li>'.$row['Name'].'</li>';
-//            }
         }
         else{
             $output .= '<li>Not Found!</li>';
@@ -23,6 +18,6 @@ include 'connect.php';
         $output .= '</ul>';
         echo $output;
     }
-
+}
 
 ?>
