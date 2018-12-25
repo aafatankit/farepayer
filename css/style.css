@@ -121,7 +121,7 @@ figure {
 
 
 @media screen and (min-width: 768px) {
-  .tabulation .animate-box {
+  .tabulation  {
     margin-top: 181px;
     width: 470px;
   }
@@ -199,8 +199,16 @@ figure {
   color: #fff;
 }
 
+
+@media screen and (max-width: 500px) {
+.fh5co-cover, .fh5co-hero { height: 539px;
+}	;
+ 
+  }
+}
+
 @media screen and (max-width: 1200px) {
-  .fh5co-cover .desc .tabulation {    margin-top: -66px	;
+  .fh5co-cover .desc .tabulation {    margin-top: -70px	;
  
   }
 }
@@ -551,7 +559,7 @@ figure {
 }
 
 .tabulation {
-  width: 369px !important;
+  width: 369px ;
   float: left;
   margin-top: -2em;
   background: rgba(255, 255, 255, 0.95);
@@ -565,22 +573,51 @@ figure {
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
 }
+
+
 @media screen and (max-width: 480px) {
-  .tabulation label {
-    width: 40%;
+  .tabulation      {box-shadow: none;text-align: -webkit-auto;
+   border: solid 1px #d0d0d0;
+    background: #f5f5f5a3;
+    width: 276px ;    margin-top: -60px;
+  }	
+}
+
+
+
+@media screen and (min-width: 480px) {
+  .tabulation  {
+    width: 35% !important;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .tabulation  {
+       width: 315px !important;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .tabulation  {
+       width: 315px !important;
   }
 }
 
 @media screen and (min-width: 700px) {
-  .tabulation {width: 506px;
+  .tabulation {width: 506px !important;
             
 
   }
 }
 
 
+
+@media screen and (min-width: 500px) {
+  .tBackground {font-size: 17px ;
+	}
+}
 @media screen and (min-width: 550px) {
-  .tabulation {width: 506px;
+  .tabulation {width: 350px !important;
             
 
   }
@@ -618,17 +655,19 @@ figure {
 }
 @media screen and (max-width: 480px) {
   .tabulation input[type="text"] {
-    width: 55%;margin-top:20px;
+    width: 57%;margin-top:0px;
     float: right;
   }
 }
-@media screen and (max-width: 480px) {
-  .tabulation .cs-select {
-    width: 104px;margin:auto;
-    float: right;
-  }
+@media screen and (max-width: 480px){
+.tabulation .cs-select {
+    width: 82px;
+    margin-left: 107px;
+    float: left;
+    margin-top: -23px;
+    margin-bottom: 0px;
 }
-
+}
 .tab-content {
   padding: 25px;
 }
@@ -682,7 +721,7 @@ figure {
 }
 
 .mt {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 div.cs-select span {
@@ -704,11 +743,47 @@ border: solid 1px #989898;color: black;
     max-width: 829px !important;
   }
 }
-@media screen and (max-width: 30em) {
-  .cs-skin-border {
-    font-size: 14px;
-  }
+
+@media screen and (max-width: 480px){
+#wowslider-container1{
+	display:none !important;
+       
 }
+
+}
+
+
+
+@media screen and (max-width: 480px){
+.mydate{margin-left: 31px;
+    padding-right: 9px;
+       
+}
+
+}
+
+@media screen and (max-width: 300px){
+.oServices {font-size: 15px ;      
+}
+}
+
+@media screen and (max-width: 600px){
+.oServices img{display: none;      
+}
+}
+
+
+
+
+@media screen and (max-width: 480px){
+.cs-skin-border {
+       margin-right: 65px;
+    padding-right: 3px;
+    font-size: 14px;
+    float: right;
+}
+}
+
 .cs-skin-border span {
   font-size: 13px;
 }
@@ -1090,6 +1165,15 @@ border: solid 1px #989898;color: black;
   clear: left;
   position: relative;
 }
+
+
+@media screen and (max-width: 480px) {
+  .sbutton {width: 108px;
+    
+  }
+}
+
+
 @media screen and (max-width: 480px) {
   #fh5co-destination-list li {
     margin-left: 0;
@@ -1737,7 +1821,8 @@ icon-twitter2 a{color: black !important;}
 }
 
 
-.btn.btn-outline {padding:10px;
+.btn.btn-outline {margin-top:7px;     padding: 10px 8px 4px 7px;
+;
   background: transparent;
   color: #F78536;
   border: 2px solid #F78536 !important;
@@ -1943,10 +2028,21 @@ icon-twitter2 a{color: black !important;}
   }
 }
 
+@media screen and (max-width: 480px){
+.tabulation a {
+    font-weight: normal;
+    font-size: 13px;
+    padding:7px 6px 3px 11px !important
+}
+}
+
+
+
+
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
     float: none;
-    width: 100%;
+    width: 97%;
   }
 }
 
@@ -2004,6 +2100,11 @@ icon-twitter2 a{color: black !important;}
   }
 }
 
+
+
+
+
+
 .border-bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
@@ -2056,8 +2157,8 @@ icon-twitter2 a{color: black !important;}
 .Visa{list-style: none;
 	display: inline-flex;
 }
-.tBackground{    text-align: center;
-    font-size: 40px;
+.tBackground{text-align: center;
+    font-size: 30px;
     padding-top: 30px;
     padding-bottom: 15px;
 }
@@ -2087,9 +2188,14 @@ icon-twitter2 a{color: black !important;}
 
 
 /* counter start */
-.bgCOUNTER{background-image: url(../images/counter/background.jpg);padding-bottom: 50px;margin-bottom: 1px!important;
-  
+.bgCOUNTER{background-image: url(../images/counter/background.jpg);  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+  
+
 
 .wChoose{margin-top: 30px;margin-bottom: 70px;text-align: center;font-size: 40px;color:white;} 
 .clINE{    color: white;
