@@ -10,7 +10,7 @@ include 'connect.php';
         $output = '<ul class="list-unstyled">';
         if(mysqli_num_rows($result) > 0){
             while($row=mysqli_fetch_array($result)){
-                $output = $output.'<li>'.$row['CityName'].'</li>';
+                $output = $output.'<li>'.$row['Name'].'</li>';
             }
 //            for($i=0;$i<$avail;$i++){
 //                $row=mysqli_fetch_array($result);
