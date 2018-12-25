@@ -6,9 +6,14 @@ if($con){
         $output = '';
         $query = "select * from city where CityName LIKE '%".$_POST['query']."%'";
         $result = mysqli_query($con,$query);
+        $avail = mysqli_num_rows($result);
         $output = '<ul class="list-unstyled">';
         if(mysqli_num_rows($result > 0){
-            while($row=mysqli_fetch_array($result)){
+//            while($row=mysqli_fetch_array($result)){
+//                $output = $output.'<li>'.$row['CityName'].'</li>';
+//            }
+            for($i=0;$i<$avail;$i++){
+                $row=mysqli_fetch_array($result);
                 $output = $output.'<li>'.$row['CityName'].'</li>';
             }
         }
