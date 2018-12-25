@@ -1,15 +1,3 @@
-<?php
-include 'connectdb.php';
-
-if($con){
-    $q="select * from city";
-
-    $result=mysqli_query($con,$q);
-    
-}
-
-?>
-
 <!doctype html>
 <html>
 <head>
@@ -19,21 +7,55 @@ if($con){
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        ul{
+            background-color: #eee;
+            cursor: pointer;
+        }
+        li{
+            padding: 12px;
+        }
+    </style>
 </head>
 
-<body>
-    <form>
-        <div class="form-group">
-            <label for="sel1">Select list (select one):</label>
-            <select class="form-control" id="sel1">
-                <?php
-                while($row=mysqli_fetch_array($result)){
-                    echo '<option>'.$row['CityName']'</option>';
-                }
-                ?>
-            </select>
-            <br>
+<body> 
+    <div class="container">
+        <h1 class="text-center">City List</h1>
+        <label>Destinations</label>
+        <input type="text" name="city" id="city" class="form-control" placeholder="Search">
+        <div id="cityList">
         </div>
-    </form>
+    </div>
+    
+    
+    <script>
+        $(document).ready(function(){
+            $('#city').keyup(function(){
+                var query = $(this).val();
+                if(query != ''){
+                    $.ajax({
+                        url:"search.php",
+                        method:"POST",
+                        data:{query:query},
+                        success:function(data){
+                            $('#cityList').fadeIn();
+                            $('#cityList').html(data);
+                        }
+                    });
+                }
+                else{
+                    $('#cityList').fadeOut();
+                    $('#cityList').html("");
+                }
+            });
+            $(document).on('click','li',function(){
+                $('#city').val($(this).text());
+                $('#cityList').fadeOut();
+            });
+        });
+    </script>
 </body>
 </html>
+
+
+
