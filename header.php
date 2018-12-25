@@ -52,7 +52,7 @@
 
        
         <div class="modal fade" id="myModal" style="z-index: 999999999;">
-          <div class="modal-dialog">
+          <div class="modal-dialog" style="max-width: 418px;">
             <div class="modal-content">
               
               <div class="modal-header">
@@ -62,7 +62,7 @@
 
               
               <form class="form" action="#" method="post" onsubmit="return all_ok_login()">
-                <div class="modal-body">
+                <div class="modal-body" style="font-size: 18px;">
                     <div class="form-group">
                         <label>Email<span class="text-danger">*</span></label>
                         <input type="email" name="email" placeholder="example@gmail.com" class="form-control" id="userid" value="">
@@ -90,7 +90,10 @@
 
         <div class="modal fade" id="mysignup"  style="z-index: 999999999;">
           <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content "style="position: absolute;
+  left: ;
+  top: 0px;
+  z-index:99999;">
 
              
               <div class="modal-header">
