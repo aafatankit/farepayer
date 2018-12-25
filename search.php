@@ -1,5 +1,5 @@
 <?php
-include 'connectdb.php';
+include 'connect.php';
 
 if($con){
     if(isset($_POST['query'])){
@@ -9,7 +9,7 @@ if($con){
         $output = '<ul class="list-unstyled">';
         if(mysqli_num_rows($result > 0){
             while($row = mysqli_fetch_array($result)){
-                $output .= '<li>'.$row['CityName'].'</li>';
+                $output = $output.'<li>'.$row['CityName'].'</li>';
             }
         }
         else{
