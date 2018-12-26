@@ -234,14 +234,23 @@
 										</div>
 									 </div>
 
-		<!--Hotel-->							 <div role="tabpanel" class="tab-pane" id="hotels">
+		<!--Hotel-->
+								 	 <div role="tabpanel" class="tab-pane" id="hotels">
 									 	<div class="row">
-											<div class="col-xxs-12 col-xs-12 mt">
+											<div class="col-md-6 mt">
 												<div class="input-field">
 													<label for="from">City:</label>
 													<input type="text" class="form-control" id="from-place1" placeholder="Los Angeles, USA"/>
 												</div>
 											</div>
+											<div class="col-md-6 mt">
+											<div class="input-field">
+													<label for="from">Nationality:</label>
+													<input type="text" class="form-control" id="from-place1" placeholder="Los Angeles, USA"/>
+												</div>
+											</div>
+										 </div>
+											<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-start">Check In : &nbsp;</label>
