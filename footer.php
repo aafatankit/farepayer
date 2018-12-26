@@ -8,7 +8,7 @@
 						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
 							<h3>Company</h3>
 							<ul>
-								<li><a href="#">About Us</a></li>
+								<li><a href="Aboutus.php">About Us</a></li>
 								<li><a href="#">International Tours</a></li>
 								<li><a href="#">Domestic Tours</a></li>
 								<li><a href="#">Testimonial</a></li>
