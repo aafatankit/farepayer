@@ -200,11 +200,10 @@ figure {
 }
 
 
-@media screen and (max-width: 500px) {
-.fh5co-cover, .fh5co-hero { height: 539px;
-}	;
- 
-  }
+@media screen and (min-width: 450px){
+.fh5co-hero{
+    height: 539px !important;
+}
 }
 
 @media screen and (max-width: 1200px) {
@@ -215,7 +214,7 @@ figure {
 
 
 
-  .fh5co-cover .desc {    margin-top: -184px;
+  .fh5co-cover .desc { margin-top: -184px;
  
   }
 
@@ -575,11 +574,21 @@ figure {
 }
 
 
+
+@media screen and (min-width: 480px) {
+  #fh5co-tours { margin-top: 11px;
+  }	
+}
+
+
+
+
+
 @media screen and (max-width: 480px) {
-  .tabulation      {box-shadow: none;text-align: -webkit-auto;
-   border: solid 1px #d0d0d0;
-    background: #f5f5f5a3;
-    width: 276px ;    margin-top: -60px;
+  .tabulation {box-shadow: none;text-align: -webkit-auto;
+   border: solid 1px #FFFFFF;
+    background: #FFFFFF;
+    width: 276px ;margin-top: -60px;
   }	
 }
 
@@ -817,15 +826,10 @@ border: solid 1px #989898;color: black;
   box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
 }
 
-#fh5co-work-section,
-#fh5co-car,
-#fh5co-blog-section,
-#fh5co-features,
-#fh5co-tours,
-#fh5co-testimonial,
-.fh5co-content-section {
-  padding: 7em 0;
-}
+
+
+
+
 @media screen and (max-width: 768px) {
   #fh5co-work-section,
   #fh5co-car,
@@ -834,9 +838,13 @@ border: solid 1px #989898;color: black;
   #fh5co-tours,
   #fh5co-testimonial,
   .fh5co-content-section {
-    padding: 4em 0;
+    padding: 5em 0 !important;
   }
 }
+
+
+
+
 
 .fh5co-section-gray {    margin-top: -197px;
   
@@ -1843,31 +1851,6 @@ icon-twitter2 a{color: black !important;}
   opacity: 0;
 }
 
-#fh5co-wrapper {
-  overflow-x: hidden;
-  position: relative;
-}
-
-.fh5co-offcanvas {
-  overflow: hidden;
-}
-.fh5co-offcanvas #fh5co-wrapper {
-  overflow: hidden !important;
-}
-
-#fh5co-page {
-  position: relative;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-.fh5co-offcanvas #fh5co-page {
-  -moz-transform: translateX(-240px);
-  -webkit-transform: translateX(-240px);
-  -ms-transform: translateX(-240px);
-  -o-transform: translateX(-240px);
-  transform: translateX(-240px);
-}
 
 @media screen and (max-width: 768px) {
   #fh5co-menu-wrap {

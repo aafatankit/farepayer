@@ -1,7 +1,7 @@
 <!-- Start:header-top -->
 	
   
-            <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+            <nav class="navbar navbar-expand-md navbar-light bg-white">
           
                     <a href="#" class="navbar-brand"><img src="images/logo.png"></a>
                     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbaraId">
@@ -52,7 +52,7 @@
 
        
         <div class="modal fade" id="myModal" style="z-index: 999999999;">
-          <div class="modal-dialog" style="max-width: 418px;">
+          <div class="modal-dialog" >
             <div class="modal-content">
               
               <div class="modal-header">
@@ -62,24 +62,27 @@
 
               
               <form class="form" action="#" method="post" onsubmit="return all_ok_login()">
-                <div class="modal-body" style="font-size: 18px;">
+                <div class="modal-body" style="font-size: 18px;padding: 30px;margin-bottom: -240px;">
                     <div class="form-group">
                         <label>Email<span class="text-danger">*</span></label>
-                        <input type="email" name="email" placeholder="example@gmail.com" class="form-control" id="userid" value="">
+                        <input type="email" name="email" placeholder="example@gmail.com" class="form-control" id="userid" value=""  style="FONT-SIZE: 15PX;PADDING: 15PX;">
                         <span id="userid_error" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <label>Password<span class="text-danger">*</span></label>
-                        <input type="password" name="pswd" placeholder="password" class="form-control" id="userpswd" value="">
+                        <input type="password" name="pswd" placeholder="password" class="form-control" id="userpswd" value="" style="FONT-SIZE: 15PX;PADDING: 15PX;">
                         <span id="userpswd_error" class="text-danger"></span>
                     </div>
-                </div>
-
-              
-                <div class="modal-footer">
+                    
+                    
+                    <div class="modal-footer" style="margin-top: 42px;">
                     <input type="submit" class="btn btn-success" value="Login"><br>
                     <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#mysignup" >Sign Up</a> | <a href="#">Forgot Password</a>
                 </div>
+                </div>
+
+              
+                
               </form>
             </div>
           </div>
@@ -87,13 +90,9 @@
 
 
 
-
         <div class="modal fade" id="mysignup"  style="z-index: 999999999;">
           <div class="modal-dialog">
-            <div class="modal-content "style="position: absolute;
-  left: ;
-  top: 0px;
-  z-index:99999;">
+            <div class="modal-content ">
 
              
               <div class="modal-header">
@@ -103,23 +102,38 @@
 
           
               <form class="form" action="#" method="post" onsubmit="return all_ok()">
-                  <div class="modal-body">
+                  <div class="modal-body" style="font-size: 15px;padding: 30px;margin-bottom: -126px;">
                     <div class="form-group">
+                      
+                     
                         <label>Full Name<span class="text-danger">*</span></label>
-                        <input type="text" name="fname" class="form-control" placeholder="e.g Ankit" id="sfname" value="">
+                        <input type="text" name="fname" class="form-control" placeholder="e.g Ankit" id="sfname" value="" style="
+    font-size: 12px;
+">
                         <span id="checksfname" class="text-danger"></span>
-                    </div>
+                    
+                   
+                    
                     <div class="form-group">
                         <label>Email Address<span class="text-danger">*</span></label>
-                        <input type="email" name="email" class="form-control" placeholder="example@gmail.com" id="semail" value="">
+                        <input type="email" name="email" class="form-control" placeholder="example@gmail.com" id="semail" value="" style="
+    font-size: 12px;
+">
                         <span id="checksemail" class="text-danger"></span>
                     </div>
+						
+                   
+                    </div>
+                 
+                    
                     <div class="form-group">
                         <label>Mobile No.<span class="text-danger">*</span></label>
-                        <input type="text" name="mobile" class="form-control" placeholder="9876543219" id="smobile" value=""> 
+                        <input type="text" name="mobile" class="form-control" placeholder="9876543219" id="smobile" value="" style="
+    font-size: 12px;
+"> 
                         <span id="checksmobile" class="text-danger"></span>
                     </div>
-  
+ 
 <!--
                     <div class="form-group">
                         <label>Date of Birth<span class="text-danger">*</span></label>
@@ -134,17 +148,27 @@
                         <span id="checksorg" class="text-danger"></span>
                     </div>
   
--->
+-->					
                     <div class="form-group">
                         <label>Password<span class="text-danger">*</span></label>
-                        <input type="password" name="pswd" class="form-control" placeholder="Enter Password" id="spswd" value="">
+                        <input type="password" name="pswd" class="form-control" placeholder="Enter Password" id="spswd" value="" style="
+    font-size: 12px;
+">
                         <span id="checkspswd" class="text-danger"></span>
                     </div>
+                  
+                
                     <div class="form-group">
                         <label>Confirm Password<span class="text-danger">*</span></label>
-                        <input type="password" name="cpswd" class="form-control" placeholder="Re-Enter Password" id="scpswd" value="">
+                        <input type="password" name="cpswd" class="form-control" placeholder="Re-Enter Password" id="scpswd" value="" style="
+    font-size: 12px;
+">
                         <span id="checkscpswd" class="text-danger"></span>
                     </div>
+                    <div class="modal-footer">
+                    <input type="submit" class="btn btn-info" value="Sign Up"><br>
+                    <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myModal" >Already Have an Account?</a>
+                  </div>
 
 <!--
                     <div class="form-group">
@@ -157,12 +181,12 @@
                   </div>
 
                 
-                  <div class="modal-footer">
-                    <input type="submit" class="btn btn-info" value="Sign Up"><br>
-                    <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myModal" >Already Have an Account?</a>
-                  </div>
+                  
               </form>
             </div>
           </div>
 
 </div>
+
+
+

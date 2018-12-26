@@ -51,6 +51,12 @@
 	<!-- FOR IE9 below -->
 
 
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+
+
+
+
 
 <link rel="stylesheet" href="js/jquery-ui.js">
   <link rel="stylesheet" href="/resources/demos/style.css">
@@ -83,9 +89,9 @@
 	</head>
 	<body>
 
-			<div id="fh5co-wrapper">
+
 		
-		<div id="fh5co-page">
+	
 	<!-- Start:header-top -->
  
             <?php include 'header.php'; ?>
@@ -93,32 +99,20 @@
 	<!-- end:header-top -->
 	
 		
-
-	
-	
-
-
-	
-		<div class="fh5co-hero">
+<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover">
 	
 	<div id="wowslider-container1">
 	<div class="ws_images"><ul>
-		<li><img src="data1/images/banner1.jpg" alt="" title="" id="wows1_0"/></li>
-		<li><img src="data1/images/banner2.jpg" alt="" title="" id="wows1_1"/></li>
-		<li><a href="http://wowslider.net"><img src="data1/images/banner3.jpg" alt="css image gallery" title="" id="wows1_2"/></a></li>
-		<li><img src="data1/images/banner4.jpg" alt="" title="" id="wows1_3"/></li>
+		<li><img src="data1/images/banner1.jpg" alt="banner1" title="" id="wows1_0"/></li>
+		<li><img src="data1/images/banner2.jpg" alt="banner2" title="" id="wows1_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/banner3.jpg" alt="slider html" title="" id="wows1_2"/></a></li>
+		<li><img src="data1/images/banner4.jpg" alt="banner4" title="" id="wows1_3"/></li>
 	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title=""><span><img src="data1/tooltips/banner1.jpg" alt=""/></span></a>
-		<a href="#" title=""><span><img src="data1/tooltips/banner2.jpg" alt=""/></span></a>
-		<a href="#" title=""><span><img src="data1/tooltips/banner3.jpg" alt=""/></span></a>
-		<a href="#" title=""><span><img src="data1/tooltips/banner4.jpg" alt=""/></span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="#"></a> </div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="#"></a></div>
 	<div class="ws_shadow"></div>
-	</div>
-	
+	</div>	
 
 			
 			
@@ -356,19 +350,19 @@
 
 			
 	
-	<!-- end Banner -->
+<!-- end Banner -->
 	
 	
 	
 <!--Hot Tours start-->			
 
-<div id="fh5co-tours" class="fh5co-section-gray" style="
-  margin-bottom: -144px;">
+<div id="fh5co-tours" class="fh5co-section-gray">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center heading-section">
+				<div class="row" >
+					<div class="col-md-12 text-center heading-section style="
+    margin-bottom: 120px;
+"">
 						<h3><b>Hot Tours</b></h3>
-							
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					</div>
 				</div>
@@ -382,7 +376,7 @@
       
 <div class="row">
 
-      <div id="adv_team_4_columns_carousel" class="carousel slide four_shows_one_move team_columns_carousel_wrapper" data-ride="carousel" data-interval="2000" data-pause="hover">
+      <div id="adv_team_4_columns_carousel" class="carousel slide four_shows_one_move team_columns_carousel_wrapper" data-ride="carousel" data-interval="2000" data-pause="hover" style="margin-top: -119px;">
          <!--========= Wrapper for slides =========-->
          <div class="carousel-inner" role="listbox">
             <!--========= 1st slide =========-->
@@ -725,7 +719,7 @@ function myFunction() {
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section " 
-					style="padding-top: 180px;">
+					style="padding-top: 18px;">
 						<h3>Recent From Blog</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
 					</div>
@@ -825,13 +819,13 @@ Happy Travellers</h2></div>
 
 
 
-
+		
 
 
 <!--footer start-->	
 		
 		<?php include 'footer.php'; ?>
-
+	
 <!--footer end-->
 
 
