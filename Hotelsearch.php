@@ -40,74 +40,12 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
 
-	</head>
-	
-	<body> <style>
-		
-		
-.icolorsize{font-size:20px;color:#2d67b2;}
-		
+</head>
+<body>
 
-.ftooltip {
-  position: relative;
-  display: inline-block;
-}
 
-.ftooltip .ftooltiptext {
-  visibility: hidden;
-  width: 64px;
-  background-color:#2196f3;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 4px 0;
-  font-size: 15px;
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 139%;
-  margin-left: -60px;
-}
 
-.ftooltip:hover .ftooltiptext {
-  visibility: visible;
-}
-		
-		
-		
-form.Searchbar input[type=text] {
-     padding: 2px;
-    font-size: 14px;
-    border: 1px solid grey;
-    float: left;
-    width: 70%;
-	border-radius: 5px 0px 0px 5px;
-    background: #f1f1f180;
-}
-
-form.Searchbar button {
-  float: left;
-    
-  background: #2196F3;
-  color: white;
-      padding: 3px;
-    font-size: 12px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-}
-
-form.Searchbar button:hover {
-  background: #0b7dda;
-}
-
-form.Searchbar::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
+ 
 
 <div class="row" style="background: #f3f3f39e; margin-top: 10px; font-size: 15px ;PADDING: 5px;">
 <div class="container">

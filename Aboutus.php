@@ -61,20 +61,12 @@
 	
 	<div class="row">
 	<div class="col-md-12">ed
-	<d
+	
 		
 		
 	</div>	
 		
 		
-		
-		
-		
-	
-	
-	
-	
-	
 
 
 <!--footer start-->	
