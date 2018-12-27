@@ -733,6 +733,10 @@ figure {
   margin-bottom: 10px;
 }
 
+.mtop{
+  margin-top: 10px;
+}
+
 div.cs-select span {
   padding: 10px 10px;
 }
@@ -2454,4 +2458,15 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
         transform: translate3d(0, 0, 0);
         left: 0
     }
+	
 } 
+
+
+
+/* FLIGHT  search page */
+
+
+
+
+
+

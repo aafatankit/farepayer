@@ -214,7 +214,20 @@
 	<!-- end Banner -->
 	
 	
-
+<div class="row bg-light">
+<div class="container bg-white">
+	<div class="col-md-12">
+		<div class="col-md-3">
+			<h4>Search Hotel</h4>
+			
+			<input type="text" placeholder="search hotel"/>
+			
+			
+			
+		</div>
+	
+</div>
+		
 		
 		
 		
