@@ -45,14 +45,9 @@
 	<body> <style>
 		
 		
-		.icolorsize{font-size:20px;color:#2d67b2;}
+.icolorsize{font-size:20px;color:#2d67b2;}
 		
-		
-		
-		
-		
-		
-		
+
 .ftooltip {
   position: relative;
   display: inline-block;
@@ -87,6 +82,7 @@ form.Searchbar input[type=text] {
     border: 1px solid grey;
     float: left;
     width: 70%;
+	border-radius: 5px 0px 0px 5px;
     background: #f1f1f180;
 }
 
@@ -127,7 +123,7 @@ form.Searchbar::after {
 
 <div class="col-md-8">
  <form class="Searchbar">
-  <input type="text" placeholder="Search Hotel Name" name="search">
+  <input type="text" placeholder="  Search Hotel Name" name="search">
   <button type="submit"><i class="fa fa-search"></i> Search</button>
 </form>
 	</div>
