@@ -2508,11 +2508,11 @@ form.Searchbar input[type=text] {
 
 form.Searchbar button {
   float: left;
-    
+   border-radius: 0px 5px 5px 0px; 
   background: #2196F3;
   color: white;
       padding: 3px;
-    font-size: 12px;
+    font-size: 13px;
   border: 1px solid grey;
   border-left: none;
   cursor: pointer;

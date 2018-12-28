@@ -10,8 +10,15 @@
     <title>Best Holiday Pacakges, Fligts, Hotels at Lowest Prices- Farepayer.com</title>
     <meta name="description" content="Farepayer.com is one of the leading Travel Companies in India, based in Delhi. We offer a consistent service and multiple resources to satisfy your every travel related desire. " />
 
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css">
+
+
+	
+	
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -42,21 +49,198 @@
 
 </head>
 <body>
+<style>
+.tab1.active {
+    display: block
+}
+.tab1 {
+    display: none
+}
+.tabing {
+    float: left;
+    width: 100%;
+    background: rgba(50, 76, 169, 0.95);
+    padding: 0 10px 10px 10px;
+    color: #fff;
+}
+.tabing ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+.tabing ul li {
+    float: left;
+}
+.tabing ul li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0, 130, 185, .9);
+    margin: 0 10px 0 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 16px;
+    text-align: left;
+}
+.tabing ul li a.active {
+    background: #ba0400
+}
+.flight-tab {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+  
+}
+.flight-tab .textboxstyle {
+    width: 100%;
+    float: left;
+    color: #191919;
+    padding: 8px 10px 8px 35px;
+    border: none;
+    border-radius: 3px;
+    background: #f5f5f5;
+    font-size: 14px;
+    line-height: 20px;
+}
+.persent-one {
+    width: 29%;
+    float: left;
+    margin-right: 1%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.persent-one i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #191919;
+    font-size: 18px;
+}
+.persent-one.less-per {
+    width: 16%;
+    float: left;
+    margin-right: 1%;
+}
+.persent-one.less-btn {
+    width: 5%;
+    float: left;
+    margin-right: 1%;
+}
+
+}$('.tabing ul li a').click(function(e) {
+         e.stopPropagation();
+         e.preventDefault();
+         var tabcont = $(this).attr('href');
+         console.log(tabcont);
+         $('.tabing a').removeClass('active');
+         $(this).addClass('active');
+         $('.tab1').hide();
+         $(tabcont).show();
+     });</style>
+
+
+
+<div class="flight-engine">
+               <div class="container">
+                  <div class="tabing">
+                     
+                     <div class="tab-content">
+                        <div id="1" class="tab1 active">
+                           <div class="flight-tab row">
+                              
+                              <div class="persent-one">
+                                 <i class="fa fa-bed" aria-hidden="true"></i>
+                                 <input type="text" name="dep" class="textboxstyle" id="arival" placeholder="Enter City name">
+                              </div>
+                              <div class="persent-one less-per">
+                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 <input type="Date" name="dep" class="textboxstyle" id="from-date1" placeholder="Check in">
+                              </div>
+                              <div class="persent-one less-per">
+                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 <input type="date" name="dep" class="textboxstyle" id="to-date" placeholder="Check out">
+                              </div>
+                              <div class="persent-one">
+                                 <i class="fa fa-user" aria-hidden="true"></i>
+                                 <div class="textboxstyle" id="Guests">Guests</div>
+                              </div>
+                              <div class="persent-one less-btn">
+                                 <input type="Submit" name="submit" value="Search" class="btn btn-info cst-btn" id="srch">
+                              </div>
+                           </div>
+                           <!-- flight tab -->
+                        </div>
+                        <!-- tab 1 -->
+                         
+                        <!-- tab 1 -->
+                     </div>
+                     </div>
+                     <!-- tab content -->
+                  </div>
+                  <!-- tabbing -->
+               </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <form></form>
 
  
 
-<div class="row" style="background: #f3f3f39e; margin-top: 10px; font-size: 15px ;PADDING: 5px;">
+<div class="row" style="background: #f3f3f39e; margin-top: 10px; font-size: 15px ;PADDING: px;">
 <div class="container">
 <div class="col-md-12">
-<div class="col-md-3" style="border: #ededed solid 1px;background: white;PADDING: 5px;text-align: center"><b>Filters <i class="fa fa-filter fa-2x" aria-hidden="true"></i></b> </div>
 
+<div class="col-md-3" style="border: #ededed solid 1px;background: white;PADDING: 5px;">
+<div class="row">
+
+<div class="col-md-6" ><b>Filter By: <i class="fa fa-filter" aria-hidden="true"></i> </b>
+</div>
+<div class="col-md-6">
+   
+   <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><b>Sort By</b>
+    </button>
+    <ul class="dropdown-menu" style="font-size: smaller;">
+      <li><a href="#">Rating: High to Low </a></li>
+      <li><a href="#">Rating: Low to High </a></li>
+      <li><a href="#">Price : High to Low </a></li>
+      <li><a href="#">Price : Low to High </a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+</div> 
+</i>
+    </div>
+    
+	</div>
+
+	
 <div class="col-md-9">
-<div class="container"style="border: #ededed solid 1px;background: white;PADDING: 5px;">
+<div class="container"style="border: #ededed solid 1px;background: white;PADDING: 3px;">
 <div class="row">
 <div class="col-md-4"><h3>&nbsp;
-<i class="fa fa-map-marker" style="font-size: 22px" aria-hidden="true"></i>  Find by Hotel Name</h3 ></div>
+<i class="fa fa-map-marker" style="font-size: 22px" aria-hidden="true"></i> Enter Hotel Name</h3 ></div>
 	
 
 <div class="col-md-8">
@@ -73,7 +257,7 @@
 	</div>
 		</div>
 
-
+	</div>
 
 
 
@@ -90,7 +274,7 @@
 			
 		
 	
-		<h4><i class="fa fa-money" style="font-size:24px;color:#FF9800;" aria-hidden="true"></i>  Price Range	</h4>
+		<h4><i class="fas fa-wallet" style="font-size:24px;color:#0042ff;" aria-hidden="true"></i>  Price Range	</h4>
 		
   <input type="checkbox" name="vehicle1" value="Bike">  	Upto &#8377; 999<br>
   <input type="checkbox" name="vehicle2" value="Car">    	&#8377; 1000 to &#8377; 3000<br>
@@ -99,15 +283,23 @@
   <input type="checkbox" name="vehicle2" value="Car">		&#8377; 5000 to &#8377; 10000<br>
 
 <hr>			
- <h4><i class="fa fa-star-half-o"style="font-size:24px;color:#FF9800;" aria-hidden="true"></i> Hotel Star Rating</h4>
-		
-  <input type="checkbox" name="vehicle2" value="Car">&nbsp;
-  	5 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
-  <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
-  <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+ <h4><i class="fa fa-star-half-o"style="font-size:24px;color:#0042ff;" aria-hidden="true"></i> Hotel Star Rating</h4>
+	
+    <input type="checkbox" name="vehicle2" value="Car">&nbsp;
+    1 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i> 
+    <br>
+   <input type="checkbox" name="vehicle2" value="Car">&nbsp;
+  2 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+  <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>   
+ <br>
+   	
+   	
+   	 <input type="checkbox" name="vehicle2" value="Car">&nbsp;
+  3 Star	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
   <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
   <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
  <br>
+ 
   <input type="checkbox" name="vehicle2" value="Car">&nbsp;
   	4 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
   <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
@@ -115,40 +307,25 @@
   <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
  <br>
   <input type="checkbox" name="vehicle2" value="Car">&nbsp;
-  3 Star	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+  	5 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
   <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
   <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
- <br>
-  <input type="checkbox" name="vehicle2" value="Car">&nbsp;
-  2 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
-  <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>   
- <br>   
-    <input type="checkbox" name="vehicle2" value="Car">&nbsp;
-    1 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>  
+  <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+  <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 <p></p>
-
-		<br>
-		<div class="text-center mt">
-		<button type="button" class="btn btn-success">submit</button></div>
-		
-		</div>
+<br>
+<div class="text-center mt">
+<button type="button" class="btn btn-success">submit</button>
+</div>
+	</div>
 			
 			
 			
-
- 
-      
-			
-
-	
-	
-	
-	
+<!--hotels-->
 	<div class="col-md-9">
-	
-		<div class="container" style="padding: 15px;background:#FFFFFF;";>
-			<div class="row">
-				<div class="col-md-3"><img src="images/hotel/hotel1.jpg" alt=""></div>
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" alt=""></div>
 <h3>Hotel Name<br>
  	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
@@ -159,32 +336,133 @@
 	Area : Colva Area, South Goa, Goa</p>
 	
 	<br>	
-	<a><i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i></a>&nbsp;
-	<i class="fa fa-cutlery ftooltip icolorsize"><span class="ftooltiptext"><h6>Breakfast</h6></span></i></a>&nbsp;
-	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i></a>&nbsp;
-	</h3>
-	
-		
-		<div class="col-md-3 col-md-offset-2 text-right">
-		<button type="button" class="btn btn-outline-primary">Couple Friendly</button>
-		<p></p><p>Rating
-			<span class="badge badge-secondary">45/5</span></p>
-		<h2><b>&#8377; 4500</b></h2>
-		
-		
-	  <p></p>
-	  
-	
-		
-		</div>
-		
-		</div>
-		 
-		
-		
-		
-	</div>
+	<a>
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i></a>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-3 col-md-offset-2 text-right">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
 </div>
+</div>
+</div>
+</div>
+<!--hotels end-->		
+		
+		
+<!--hotels-->
+	<div class="col-md-9">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" alt=""></div>
+<h3>Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa, Goa</p>
+	
+	<br>	
+	<a>
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i></a>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-3 col-md-offset-2 text-right">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<!--hotels end-->		
+		
+<!--hotels-->
+	<div class="col-md-9">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" alt=""></div>
+<h3>Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa, Goa</p>
+	
+	<br>	
+	<a>
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i></a>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-3 col-md-offset-2 text-right">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<!--hotels end-->		
+				
+		
+	
+		
+<!--hotels-->
+	<div class="col-md-9 col-md-ofset-2">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" alt=""></div>
+<h3>Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa, Goa</p>
+	
+	<br>	
+	<a>
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i></a>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-3 col-md-offset-2 text-right">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<!--hotels end-->		
+				
+				
+		
 		
 		
 		
