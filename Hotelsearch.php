@@ -95,17 +95,17 @@
 .tabing ul li a.active {
     background: #ba0400
 }
-.flight-tab {
-    width: 100%;
+.hotel-tab {
+    width: 93%;
     float: left;
     margin-top: 10px;
   
 }
-.flight-tab .textboxstyle {
+.hotel-tab .textboxstyle {
     width: 100%;
     float: left;
     color: #191919;
-    padding: 8px 10px 8px 35px;
+    padding: 8px 10px 8px 12px;
     border: none;
     border-radius: 3px;
     background: #f5f5f5;
@@ -136,6 +136,22 @@
     float: left;
     margin-right: 1%;
 }
+	
+	
+}
+@media screen and (min-width: 450px) {
+  .hotel-tab .textboxstyle {
+    width: 81%;
+    float: left;
+    color: #191919;
+    padding: 0px 0px 1px 3px;
+    border: none;
+    border-radius: 3px;
+    background: #f5f5f5;
+    line-height: 20px;
+}
+  }
+
 
 }$('.tabing ul li a').click(function(e) {
          e.stopPropagation();
@@ -160,17 +176,17 @@
 
 	<!-- Start:header-top -->
  
-            <?php include 'header.php'; ?>
+   <?php include 'header.php'; ?>
         
 	<!-- end:header-top -->
 
-<div class="flight-engine">
+<div class="hotel-engine">
                <div class="container">
-                  <div class="tabing">
+                  <div class="tabing"style="BORDER-RADIUS: 5PX;">
                      
                      <div class="tab-content">
                         <div id="1" class="tab1 active">
-                           <div class="flight-tab row">
+                           <div class="hotel-tab row">
                               
                               <div class="persent-one">
                                  <h4>Destination:</h4>
@@ -201,7 +217,7 @@
                   </div>
 
                </div>
-            </div>
+          
 
 
 
