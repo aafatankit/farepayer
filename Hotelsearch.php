@@ -50,6 +50,13 @@
 </head>
 <body>
 <style>
+	#more {display: none;}
+	.responsive {
+  width: 100%;
+  height: auto;
+}
+	
+	
 .tab1.active {
     display: block
 }
@@ -59,7 +66,7 @@
 .tabing {
     float: left;
     width: 100%;
-    background: rgba(50, 76, 169, 0.95);
+    background: rgb(35, 165, 222);
     padding: 0 10px 10px 10px;
     color: #fff;
 }
@@ -143,6 +150,20 @@
 
 
 
+
+
+
+
+
+
+
+
+	<!-- Start:header-top -->
+ 
+            <?php include 'header.php'; ?>
+        
+	<!-- end:header-top -->
+
 <div class="flight-engine">
                <div class="container">
                   <div class="tabing">
@@ -152,58 +173,38 @@
                            <div class="flight-tab row">
                               
                               <div class="persent-one">
-                                 <i class="fa fa-bed" aria-hidden="true"></i>
+                                 <h4>Destination:</h4>
                                  <input type="text" name="dep" class="textboxstyle" id="arival" placeholder="Enter City name">
                               </div>
                               <div class="persent-one less-per">
-                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 <h4>Check In</h4>
                                  <input type="Date" name="dep" class="textboxstyle" id="from-date1" placeholder="Check in">
                               </div>
                               <div class="persent-one less-per">
-                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 <h4>Check Out</h4>
                                  <input type="date" name="dep" class="textboxstyle" id="to-date" placeholder="Check out">
                               </div>
                               <div class="persent-one">
-                                 <i class="fa fa-user" aria-hidden="true"></i>
+                              <h4>Travellers</h4>
                                  <div class="textboxstyle" id="Guests">Guests</div>
                               </div>
                               <div class="persent-one less-btn">
-                                 <input type="Submit" name="submit" value="Search" class="btn btn-info cst-btn" id="srch">
+                                 <input type="Submit" name="submit" value="Search" class="btn btn-info cst-btn" id="search">
                               </div>
                            </div>
-                           <!-- flight tab -->
+                      
                         </div>
-                        <!-- tab 1 -->
-                         
-                        <!-- tab 1 -->
+               
                      </div>
                      </div>
-                     <!-- tab content -->
+
                   </div>
-                  <!-- tabbing -->
+
                </div>
             </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<form></form>
 
  
 
@@ -211,9 +212,27 @@
 <div class="container">
 <div class="col-md-12">
 
-<div class="col-md-3" style="border: #ededed solid 1px;background: white;PADDING: 5px;">
-<div class="row">
-
+<div class="col-md-3" style="border: #ededed solid 1px;background: white; PADDING: 5px;height: 38px;width: 381px;">
+<div class="row"style="margin: auto;">
+<div align="left"><b>Filter By: <i class="fa fa-filter" aria-hidden="true"></i> </b>
+</div>
+<div align="right">
+   
+   <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"style="margin: 0px 45px;"><b>Sort By</b>
+    </button>
+    <ul class="dropdown-menu" style="font-size: smaller;">
+      <li><a href="#">Rating: High to Low </a></li>
+      <li><a href="#">Rating: Low to High </a></li>
+      <li><a href="#">Price : High to Low </a></li>
+      <li><a href="#">Price : Low to High </a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+</div> 
+</i>
+    </div>
+<!--
 <div class="col-md-6" ><b>Filter By: <i class="fa fa-filter" aria-hidden="true"></i> </b>
 </div>
 <div class="col-md-6">
@@ -232,6 +251,7 @@
 </div> 
 </i>
     </div>
+-->
     
 	</div>
 
@@ -246,7 +266,7 @@
 <div class="col-md-8">
  <form class="Searchbar">
   <input type="text" placeholder="  Search Hotel Name" name="search">
-  <button type="submit"><i class="fa fa-search"></i> Search</button>
+  <button type="submit"><i class="fa fa-search"></i> Search &nbsp;  </button>
 </form>
 	</div>
 </div>
@@ -322,28 +342,446 @@
 			
 			
 <!--hotels-->
-	<div class="col-md-9">
+	
+	<div class="col-md-9 mt">
 	<div class="container" style="padding: 15px;background:#FFFFFF;";>
 	<div class="row">
-	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" alt=""></div>
-<h3>Hotel Name<br>
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
  	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<br>
 	<p text-light style="font-size: small;">
 	<i class="fa fa-map-marker fa-2x"></i> 
-	Area : Colva Area, South Goa, Goa</p>
+	Area : Colva Area, South Goa,</p>
 	
 	<br>	
-	<a>
-	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i></a>&nbsp;
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
 	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
 	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
 	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
 	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
 </h3> 
-	<div class="col-md-3 col-md-offset-2 text-right">
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+	<div class="col-md-9 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+	<div class="col-md-9 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+	<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+			
+	<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+	
+	<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+	<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+	<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+	<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+	<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>	
+	
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+		
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>	
+
+<span id="dots">	
+	<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
 		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
 		<p></p>
 		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
@@ -354,31 +792,31 @@
 </div>
 </div>
 <!--hotels end-->		
-		
-		
-<!--hotels-->
-	<div class="col-md-9">
+
+		</span>		
+
+<div class="col-md-9 col-md-offset-3 mt">
 	<div class="container" style="padding: 15px;background:#FFFFFF;";>
 	<div class="row">
-	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" alt=""></div>
-<h3>Hotel Name<br>
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
  	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<br>
 	<p text-light style="font-size: small;">
 	<i class="fa fa-map-marker fa-2x"></i> 
-	Area : Colva Area, South Goa, Goa</p>
+	Area : Colva Area, South Goa,</p>
 	
 	<br>	
-	<a>
-	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i></a>&nbsp;
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
 	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
 	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
 	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
 	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
 </h3> 
-	<div class="col-md-3 col-md-offset-2 text-right">
+	<div class="col-md-5   textc mediatextleft">
 		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
 		<p></p>
 		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
@@ -388,31 +826,30 @@
 </div>
 </div>
 </div>
-<!--hotels end-->		
 		
-<!--hotels-->
-	<div class="col-md-9">
+<span id="more">	
+<div class="col-md-9 col-md-offset-3 mt">
 	<div class="container" style="padding: 15px;background:#FFFFFF;";>
 	<div class="row">
-	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" alt=""></div>
-<h3>Hotel Name<br>
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
  	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<br>
 	<p text-light style="font-size: small;">
 	<i class="fa fa-map-marker fa-2x"></i> 
-	Area : Colva Area, South Goa, Goa</p>
+	Area : Colva Area, South Goa,</p>
 	
 	<br>	
-	<a>
-	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i></a>&nbsp;
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
 	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
 	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
 	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
 	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
 </h3> 
-	<div class="col-md-3 col-md-offset-2 text-right">
+	<div class="col-md-5   textc mediatextleft">
 		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
 		<p></p>
 		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
@@ -422,34 +859,29 @@
 </div>
 </div>
 </div>
-<!--hotels end-->		
-				
-		
-	
-		
-<!--hotels-->
-	<div class="col-md-9 col-md-ofset-2">
+
+<div class="col-md-9 col-md-offset-3 mt">
 	<div class="container" style="padding: 15px;background:#FFFFFF;";>
 	<div class="row">
-	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" alt=""></div>
-<h3>Hotel Name<br>
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
  	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<br>
 	<p text-light style="font-size: small;">
 	<i class="fa fa-map-marker fa-2x"></i> 
-	Area : Colva Area, South Goa, Goa</p>
+	Area : Colva Area, South Goa,</p>
 	
 	<br>	
-	<a>
-	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i></a>&nbsp;
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
 	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
 	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
 	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
 	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
 </h3> 
-	<div class="col-md-3 col-md-offset-2 text-right">
+	<div class="col-md-5   textc mediatextleft">
 		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
 		<p></p>
 		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
@@ -459,27 +891,622 @@
 </div>
 </div>
 </div>
-<!--hotels end-->		
-				
-				
-		
-		
-		
-		
-		
-		
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div></div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-9 col-md-offset-3 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+		<!--hotels end-->	
+
+		</span>
+		<br>
+		<div class="col-md-9 col-md-offset-3 mt text-center mtop font-weight-bold" style="font-size: 13px;">
+	<button onclick="myFunction()" id="myBtn"style="color: white;border: none;background: #376fd2;border-radius: 5px;padding: 8px;">Hotels More</button>		
+	</div>			
 		
 	</div>
 </div>
-	
-		
-				
-				
+</div>		
 	
 
-	
-		
+<!--lode more -->
 
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+
+
+<!--footer start-->	
+		
+		<?php include 'footer.php'; ?>
+	
+<!--footer end-->
 
 
 
@@ -543,6 +1570,8 @@
       ga('send', 'pageview');
 
     </script>
+
+
 
 </body>
 </html>

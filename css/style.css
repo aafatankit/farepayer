@@ -680,8 +680,10 @@ figure {
 .tab-content {
   padding: 25px;
 }
-.tab-content .btn {
-  border: 1px solid red !important;
+
+  .tab-content .btn {
+    margin-top: 22px;
+    border: 1px solid whitesmoke !important;
 }
 
 .nav-tabs {
@@ -2529,5 +2531,19 @@ form.Searchbar::after {
 }
 
 
+@media screen and (min-width: 450px) {
+	.mediatextleft {
+    text-align:right;
+  }
+}
 
-
+@media screen and (max-width: 1200px) {
+	.textc{
+		text-align:left;
+	}	 
+    
+}
+.btn-info {
+    background: linear-gradient(to bottom, #023067 11%, #1fa3dd 100%) !important;
+    color: #ffffff !important;
+}

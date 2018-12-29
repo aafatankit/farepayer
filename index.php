@@ -474,6 +474,8 @@
 
 <!--slider end-->
 
+<!--SELECT YOUR CUSTOMIZED PACKAGES START-->
+
 <div class="container-fluid">
 						<div class="row">
 						<div class="container">
@@ -561,7 +563,7 @@
 	  </div>
 		</div>
 
-
+<!--SELECT YOUR CUSTOMIZED PACKAGES END-->
 
 
 <script>
