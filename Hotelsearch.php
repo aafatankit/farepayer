@@ -50,6 +50,108 @@
 </head>
 <body>
 <style>
+    
+    
+    
+/* The CSS */
+select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+label {position:relative}
+label:after {
+    content:'>';
+    font:11px "Consolas", monospace;
+    color:#aaa;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+}
+label:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}
+/*
+    .dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+*/
+
+    
+    
+
+    
+    
+    
+    
+    
 	#more {display: none;}
 	.responsive {
   width: 100%;
@@ -113,7 +215,7 @@
     line-height: 20px;
 }
 .persent-one {
-    width: 29%;
+    width: 20%;
     float: left;
     margin-right: 1%;
     position: relative;
@@ -180,6 +282,7 @@
         
 	<!-- end:header-top -->
 
+<!-- serach bar start-->    
 <div class="hotel-engine">
                <div class="container">
                   <div class="tabing"style="BORDER-RADIUS: 5PX;">
@@ -200,9 +303,21 @@
                                  <h4>Check Out</h4>
                                  <input type="date" name="dep" class="textboxstyle" id="to-date" placeholder="Check out">
                               </div>
+                               <div class="persent-one less-per">
+                                 <h4>Rooms</h4>
+                                 <input type="text" name="dep" class="textboxstyle" id="to-date" placeholder="rooms">
+                              </div>
                               <div class="persent-one">
                               <h4>Travellers</h4>
-                                 <div class="textboxstyle" id="Guests">Guests</div>
+                                  <label>
+    <select>
+        <option selected> Select Box </option>
+        <option>Short Option</option>
+        <option>This Is A Longer Option</option>
+    </select>
+</label>
+
+<!--                                 <div class="textboxstyle" id="Guests">Guests</div>-->
                               </div>
                               <div class="persent-one less-btn">
                                  <input type="Submit" name="submit" value="Search" class="btn btn-info cst-btn" id="search">
@@ -217,24 +332,21 @@
                   </div>
 
                </div>
-          
+  <!-- serach bar end-->        
 
 
 
 
- 
 
-<div class="row" style="background: #f3f3f39e; margin-top: 10px; font-size: 15px ;PADDING: px;">
+
+<div class="row" style="background: #f3f3f39e; margin-top: 10px;PADDING: 20px;" >
 <div class="container">
 <div class="col-md-12">
-
-<div class="col-md-3" style="border: #ededed solid 1px;background: white; PADDING: 5px;height: 38px;width: 381px;">
-<div class="row"style="margin: auto;">
-<div align="left"><b>Filter By: <i class="fa fa-filter" aria-hidden="true"></i> </b>
-</div>
+    
+<div class="col-md-3" style="font-size: 15px;border: #ededed solid 1px;background: white;">
+<div align="left"><b>Filter By: <i class="fa fa-filter" aria-hidden="true"></i> </b></div>
 <div align="right">
-   
-   <div class="dropdown">
+<div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"style="margin: 0px 45px;"><b>Sort By</b>
     </button>
     <ul class="dropdown-menu" style="font-size: smaller;">
@@ -246,8 +358,8 @@
     </ul>
   </div>
 </div> 
-</i>
-    </div>
+
+    
 <!--
 <div class="col-md-6" ><b>Filter By: <i class="fa fa-filter" aria-hidden="true"></i> </b>
 </div>
@@ -269,41 +381,8 @@
     </div>
 -->
     
-	</div>
 
-	
-<div class="col-md-9">
-<div class="container"style="border: #ededed solid 1px;background: white;PADDING: 3px;">
-<div class="row">
-<div class="col-md-4"><h3>&nbsp;
-<i class="fa fa-map-marker" style="font-size: 22px" aria-hidden="true"></i> Enter Hotel Name</h3 ></div>
-	
-
-<div class="col-md-8">
- <form class="Searchbar">
-  <input type="text" placeholder="  Search Hotel Name" name="search">
-  <button type="submit"><i class="fa fa-search"></i> Search &nbsp;  </button>
-</form>
-	</div>
-</div>
-</div>
-</div>
-
-</div>
-	</div>
-		</div>
-
-	</div>
-
-
-
-<div class="row" style="background: #f3f3f39e; margin-top: 10px;PADDING: 20px;" >
-<div class="container">
-
-
-	<div class="col-md-12">
-		<div class="col-md-3" style="font-size: 15px;border: #ededed solid 1px;background: white;">
-			<h4 style="margin-top: 10px;">Search Hotel</h4>
+<h4 style="margin-top: 10px;">Search Hotel</h4>
 			<div class="form-group">
       <input type="text" class="form-control" placeholder="Enter hotel location" name="text2">
     </div>
@@ -360,8 +439,21 @@
 <!--hotels-->
 	
 	<div class="col-md-9 mt">
-	<div class="container" style="padding: 15px;background:#FFFFFF;";>
-	<div class="row">
+	<div class="container" style="background:#FFFFFF;";>
+	<div class="row mt"style="padding: 8px;background: #e8e8e8;">
+<div class="col-md-4"><h3>&nbsp;
+          <i class="fa fa-map-marker" style="font-size: 22px" aria-hidden="true"></i> Enter Hotel Name</h3 ></div>
+<div class="col-md-8">
+
+
+ <form class="Searchbar">
+  <input type="text" placeholder="  Search Hotel Name" name="search">
+  <button type="submit"><i class="fa fa-search"></i> Search &nbsp;  </button>
+</form>
+	</div>
+        </div>
+        <div class="row">
+ <br>
 	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
 <h3 style="padding-left: 15px;">Hotel Name<br>
  	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
@@ -1492,8 +1584,9 @@
 	</div>			
 		
 	</div>
-</div>
-</div>		
+
+    </div>
+    </div>	
 	
 
 <!--lode more -->

@@ -2505,7 +2505,7 @@ form.Searchbar input[type=text] {
     float: left;
     width: 70%;
 	border-radius: 5px 0px 0px 5px;
-    background: #f1f1f180;
+    background: #fff;
 }
 
 form.Searchbar button {

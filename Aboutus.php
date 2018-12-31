@@ -45,7 +45,27 @@
 
 	</head>
 	
-	
+	<style>
+        .allbackpage {
+    background: #f4f4f4;
+}
+        .aboutbg{background:url(images/aboutus/about1.jpg) fixed;}
+        .about-img figure{position:relative;}
+.about-img figure::before{position:absolute;top:0;left:-75%;z-index:2;display:block;content:'';width:50%;height:100%;background:-webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);background:linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);-webkit-transform:skewX(-25deg);transform:skewX(-25deg);}
+.about-img figure:hover::before{-webkit-animation:shine .99s;animation:shine .99s;}
+        .nopadding{margin: 0px;padding: 0px;}
+        .margin-t50{margin-top: 50px;}
+        .margin-t30{margin-top: 30px;}
+        .margin-t40{margin-top: 40px;}
+        .margin-t20{margin-top: 20px;}
+        .aboutus{color:#666;font-size:17px;font-family:'Poppins-Light';}
+.welcometext h5{color:#3e50b4;font-family:Arial, Helvetica, sans-serif !important;font-weight:600;font-size:30px;margin-top:0px !important;}
+.welcometext h1{color:#333;padding-top:20px;padding-bottom:20px;font-weight:300;}
+.welcometext{font-family:'OpenSans-Light';color:#666;font-size:17px;line-height:30px;text-align:justify;}
+        .mission h1{color:#ff3467;padding-top:25px;text-align:center;padding-bottom:20px;font-weight:300 !important;font-family:'Poppins-Regular'!important;}
+.mission{text-align:center;background:#FFF;padding:25px;color:#666;font-size:14px;transition:all 1s ease-in-out;border-radius:0px !important;}
+.mission:hover{background:#3e50b4;color:#FFF;transition:all 0.1s ease-in-out;}
+    </style>
 	
 	
 	
@@ -58,15 +78,73 @@
   <?php include 'header.php'; ?>
 	<!-- end:header-top -->
 	
-	
-	<div class="row">
-	<div class="col-md-12">ed
-	
-		
-		
-	</div>	
-		
-		
+
+<!--============= ABOUT US ============-->
+        <div class="row nopadding allbackpage">
+<div class="container">
+<i class="fa fa-home"></i><a href="index.php">Home</a> <i class="fa fa-angle-right"></i><a href="about.php">About Us</a>
+</div>
+</div>
+<div class="row nopadding margin-t30">  
+<div class="container">
+<div class="row nopadding">
+	<div class="aboutus">
+    <h1>ABOUT US</h1>
+    <p>Our company, Textile World was established in the year 1969. Since then we have been engaged in the manufacturing, exporting and supplying of a variety of fabrics for clothes like Check Fabric, Yarn Dyed Check, Yarn Dyed Check Fabric, Yarn Dyed Fabric, Grey Fabric, Yarn Dyed Stripe Shirt, Designer Scarf, Dyed Poplin, Ladies Kaftan, Printed Bed sheet and Uniform Fabric.</p>
+	</div>
+    <div class="row margin-t40">
+    <div class="col-sm-4 about-img ">
+<figure><img src="images/aboutus/about1.jpg" class="img-responsive" alt="Picture"></figure>
+</div>
+        <div class="col-md-8 welcometext margin-t20">
+        <h5>Welcome to</h5>
+        <h1>TEXTILE WORLD </h1>
+        <p> All the fabrics and products that we offer are of top quality as we employ only the best material for their manufacture. We take immense care to be in compliance with market standards. The use of safe chemicals leaves our fabrics looking natural and makes them skin friendly. The exceptional quality of the product makes it long lasting and eligible for repeated use. We have chosen only the reputed vendors to offer us finest quality fabrics that we incorporate in the manufacturing process. </p>
+        
+        <p>With the help of modern machineries and effective workforce we offer a range to our customers that is internationally acclaimed for being easy to wash, shrink resistance and tear resistance. We keep in accordance with the latest trends and designs so that we always have something new to offer to our valuable customers. To satisfy the growing demand of today's market our company manufactures in bulk. Our customers can always rely on our quality and the dedication with which we manufacture our fabrics that are comfortable and skin-friendly. 
+</p>
+        </div>
+    </div>
+
+</div>    
+</div>
+</div>
+        
+        
+        
+  <div class="row nopadding aboutbg margin-t40">
+<div class="container margin-b30 margin-t50 text-center">
+<div class="row">	
+    <div class="col-md-6">
+    <div class="thumbnail mission">
+    <div class="row nopadding">
+    <h1>OUR TEAM</h1>
+ <p>Our organization is strongly supported by highly talented and experienced professionals. These professionals help us in achieving our business goals and targets within committed time frame. They are well versed to carry out varied business activities and operation in an efficient manner. Their commitment and unmoved efforts have helped us in creating a remarkable position in this domain.  </p>
+ <p>Apart from this, banking on their expertise, we successfully cater to their varied requirements of our clients within the promised time frame.</p>
+  </div>
+  </div>
+	</div>
+    <div class="col-md-6">
+    <div class="thumbnail mission">
+    <div class="row nopadding">
+    <h1>WHY US</h1>
+ <p>Since we are the premium manufacturers and suppliers of various kinds of cloth material, we ensure that we are in compliance with market norms and our products are of top quality. Being internationally acclaimed and having a wide client base we have been able to beat competition and be an established name due to some factors such as:</p>
+ <p>Reliable raw material, contemporary infrastructure, quality checks, Affordable prices, Commitment to timelines, Latest , machineries, Variety of choices, Client satisfaction</p>
+  </div>
+  </div>
+	</div>
+</div>    
+</div>
+</div>
+      
+        
+        
+        
+        
+        
+        
+        
+        
 
 
 <!--footer start-->	
