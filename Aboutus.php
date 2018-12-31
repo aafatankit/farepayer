@@ -34,7 +34,7 @@
 	<script type="text/javascript" src="engine1/jquery.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -43,12 +43,17 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 
+
+
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Fugaz+One" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 	</head>
 	
 	<style>
-        .allbackpage {
-    background: #f4f4f4;
-}
+  .allbackpage{background:#f4f4f4;}
+.allbackpage a{color:#5f6367;line-height:30px;font-size:13px;margin-right:10px;}
+.allbackpage i{margin-right:5px;}
         .aboutbg{background:url(images/aboutus/about1.jpg) fixed;}
         .about-img figure{position:relative;}
 .about-img figure::before{position:absolute;top:0;left:-75%;z-index:2;display:block;content:'';width:50%;height:100%;background:-webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);background:linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);-webkit-transform:skewX(-25deg);transform:skewX(-25deg);}
@@ -58,13 +63,20 @@
         .margin-t30{margin-top: 30px;}
         .margin-t40{margin-top: 40px;}
         .margin-t20{margin-top: 20px;}
-        .aboutus{color:#666;font-size:17px;font-family:'Poppins-Light';}
-.welcometext h5{color:#3e50b4;font-family:Arial, Helvetica, sans-serif !important;font-weight:600;font-size:30px;margin-top:0px !important;}
-.welcometext h1{color:#333;padding-top:20px;padding-bottom:20px;font-weight:300;}
+        .aboutus h1{color:#3e50c5;font-family:'Allerta Stencil';font-weight: 900;border-left:9px solid;padding-left: 15px;}
+		.aboutus p{color:#7d7c80;font-family:'Patua One';}
+.welcometext h5{color: #121317;font-family:Arial, Helvetica, sans-serif !important;font-weight:600;font-size:30px;margin-top:0px !important;}
+.welcometext h1{   color: #3e50b4;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 900;}
 .welcometext{font-family:'OpenSans-Light';color:#666;font-size:17px;line-height:30px;text-align:justify;}
-        .mission h1{color:#ff3467;padding-top:25px;text-align:center;padding-bottom:20px;font-weight:300 !important;font-family:'Poppins-Regular'!important;}
+		
+        .mission h1{color:#2b9cff;padding-top:25px;text-align:center;padding-bottom:20px;font-weight:600 !important;font-family:'Poppins-Regular'!important;}
 .mission{text-align:center;background:#FFF;padding:25px;color:#666;font-size:14px;transition:all 1s ease-in-out;border-radius:0px !important;}
-.mission:hover{background:#3e50b4;color:#FFF;transition:all 0.1s ease-in-out;}
+.mission:hover{background:#d9e0f2;;color:#FFF;transition:all 0.1s ease-in-out;}
+		
+		.h1{font-family: 'Viga', sans-serif;}
     </style>
 	
 	
@@ -80,9 +92,9 @@
 	
 
 <!--============= ABOUT US ============-->
-        <div class="row nopadding allbackpage">
+ <div class="row nopadding allbackpage">
 <div class="container">
-<i class="fa fa-home"></i><a href="index.php">Home</a> <i class="fa fa-angle-right"></i><a href="about.php">About Us</a>
+<i class="fa fa-home fa-2x"></i><a href="index.php">Home</a> <i class="fa fa-angle-right fa-2x"></i><a href="about.php">About Us</a>
 </div>
 </div>
 <div class="row nopadding margin-t30">  
@@ -90,7 +102,7 @@
 <div class="row nopadding">
 	<div class="aboutus">
     <h1>ABOUT US</h1>
-    <p>Our company, Textile World was established in the year 1969. Since then we have been engaged in the manufacturing, exporting and supplying of a variety of fabrics for clothes like Check Fabric, Yarn Dyed Check, Yarn Dyed Check Fabric, Yarn Dyed Fabric, Grey Fabric, Yarn Dyed Stripe Shirt, Designer Scarf, Dyed Poplin, Ladies Kaftan, Printed Bed sheet and Uniform Fabric.</p>
+    <p>Our company,text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leaptext ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap</p>
 	</div>
     <div class="row margin-t40">
     <div class="col-sm-4 about-img ">
@@ -98,10 +110,11 @@
 </div>
         <div class="col-md-8 welcometext margin-t20">
         <h5>Welcome to</h5>
-        <h1>TEXTILE WORLD </h1>
-        <p> All the fabrics and products that we offer are of top quality as we employ only the best material for their manufacture. We take immense care to be in compliance with market standards. The use of safe chemicals leaves our fabrics looking natural and makes them skin friendly. The exceptional quality of the product makes it long lasting and eligible for repeated use. We have chosen only the reputed vendors to offer us finest quality fabrics that we incorporate in the manufacturing process. </p>
+        <h1>Farepayer</h1>
+        <p>was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Why do we use it?It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of 
+  </p>
         
-        <p>With the help of modern machineries and effective workforce we offer a range to our customers that is internationally acclaimed for being easy to wash, shrink resistance and tear resistance. We keep in accordance with the latest trends and designs so that we always have something new to offer to our valuable customers. To satisfy the growing demand of today's market our company manufactures in bulk. Our customers can always rely on our quality and the dedication with which we manufacture our fabrics that are comfortable and skin-friendly. 
+        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
 </p>
         </div>
     </div>
@@ -119,8 +132,8 @@
     <div class="thumbnail mission">
     <div class="row nopadding">
     <h1>OUR TEAM</h1>
- <p>Our organization is strongly supported by highly talented and experienced professionals. These professionals help us in achieving our business goals and targets within committed time frame. They are well versed to carry out varied business activities and operation in an efficient manner. Their commitment and unmoved efforts have helped us in creating a remarkable position in this domain.  </p>
- <p>Apart from this, banking on their expertise, we successfully cater to their varied requirements of our clients within the promised time frame.</p>
+ <p>Our organization is strongly supported by highly talented and experienced professionals. These professionals help us in achieving our business goals and targets within committed time frame. They are well versed to carry out varied business activities and  </p>
+ <p>Apart from this, banking on their expertise, we successfully cater to their varied cater to their varied requirements of our clients within the promised time frame.</p>
   </div>
   </div>
 	</div>
@@ -128,7 +141,7 @@
     <div class="thumbnail mission">
     <div class="row nopadding">
     <h1>WHY US</h1>
- <p>Since we are the premium manufacturers and suppliers of various kinds of cloth material, we ensure that we are in compliance with market norms and our products are of top quality. Being internationally acclaimed and having a wide client base we have been able to beat competition and be an established name due to some factors such as:</p>
+ <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p>
  <p>Reliable raw material, contemporary infrastructure, quality checks, Affordable prices, Commitment to timelines, Latest , machineries, Variety of choices, Client satisfaction</p>
   </div>
   </div>
