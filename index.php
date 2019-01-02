@@ -835,7 +835,7 @@ Happy Travellers</h2></div>
 	
 <!--footer end-->
 
-
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c2c92e6d02b6e0010eca802&product=inline-share-buttons' async='async'></script>
 
 	<!-- jQuery -->
     <script type="text/javascript" src="engine1/wowslider.js"></script>
