@@ -389,16 +389,23 @@ label:before {
 			
 		
 	
-		<h4><i class="fas fa-wallet" style="font-size:24px;color:#0042ff;" aria-hidden="true"></i>  Price Range	</h4>
-		
-  <input type="checkbox" name="vehicle1" value="Bike">  	Upto &#8377; 999<br>
-  <input type="checkbox" name="vehicle2" value="Car">    	&#8377; 1000 to &#8377; 3000<br>
-  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 3000 to &#8377; 5000<br> 
-  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 3000 to &#8377; 5000<br>
-  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 5000 to &#8377; 10000<br>
+		<h4><i class="fas fa-wallet" style="font-size:24px;color:#0042ff;" aria-hidden="true"></i> Cost Per Night	</h4>
+	<input type="checkbox" name="vehicle1" value="Bike">  	upto &#8377; 499<br>	
+  <input type="checkbox" name="vehicle1" value="Bike">  	&#8377; 500  to &#8377; 999<br>
+  <input type="checkbox" name="vehicle2" value="Car">    	&#8377; 1000 to &#8377; 1999<br>
+  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 2000 to &#8377; 2999<br> 
+  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 3000 to &#8377; 3999<br>
+  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 4000 to &#8377; 4999<br>
+  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 5000 to &#8377; 5999<br>
+  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 6000 to &#8377; 6999<br>
+  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 7000 to &#8377; 7999<br>
+  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 8000 to &#8377; 8999<br>
+  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 9000 to &#8377; 9999<br>
+  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 10000 to more <br>
+
 
 <hr>			
- <h4><i class="fa fa-star-half-o"style="font-size:24px;color:#0042ff;" aria-hidden="true"></i> Hotel Star Rating</h4>
+ <h4><i class="fa fa-star-half-o"style="font-size:24px;color:#0042ff;" aria-hidden="true"></i> Five star rating</h4>
 	
     <input type="checkbox" name="vehicle2" value="Car">&nbsp;
     1 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i> 
@@ -483,6 +490,38 @@ label:before {
 </div>
 </div>
 
+	<div class="col-md-9 mt">
+	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="row">
+	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+<h3 style="padding-left: 15px;">Hotel Name<br>
+ 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+	<br>
+	<p text-light style="font-size: small;">
+	<i class="fa fa-map-marker fa-2x"></i> 
+	Area : Colva Area, South Goa,</p>
+	
+	<br>	
+
+	<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+	<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+	<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
+</h3> 
+	<div class="col-md-5   textc mediatextleft">
+		<button type="button" class="btn btn-outline-primary"><b>Couple Friendly</b></button>
+		<p></p>
+		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+		<h2><b>&#8377; 4500 /-</b></h2>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+	
 	<div class="col-md-9 mt">
 	<div class="container" style="padding: 15px;background:#FFFFFF;";>
 	<div class="row">

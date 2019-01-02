@@ -19,7 +19,7 @@
 							<h3>Help</h3>
 							<ul>
 								<li><a href="#">Contact</a></li>
-								<li><a href="#">Careers</a></li>
+								<li><a href="Careers.php">Careers</a></li>
 								<li><a href="#">Terms & Conditions</a></li>
 								<li><a href="#">Privacy and Policy</a></li>
 							</ul>
