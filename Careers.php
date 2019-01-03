@@ -90,7 +90,31 @@
                <p>Open Positions : 2</p>
                <p>Job Location: New Delhi, Janakpuri</p>
                <p>Post Code: JOB006</p>
-               <button type="button" class="btn btn-outline-success float-right">Apply Now</button>
+               <a href="Careersform.php"><button type="button" class="btn btn-outline-success float-right">Apply Now</button></a>
+               
+               
+ 
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
     
             </div>
          </div>

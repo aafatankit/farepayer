@@ -54,7 +54,7 @@
   .allbackpage{background:#f4f4f4;}
 .allbackpage a{color:#5f6367;line-height:30px;font-size:13px;margin-right:10px;}
 .allbackpage i{margin-right:5px;}
-        .aboutbg{background:url(images/aboutus/about1.jpg) fixed;}
+        .aboutbg{background:url(images/aboutus/1111.jpg) fixed;}
         .about-img figure{position:relative;}
 .about-img figure::before{position:absolute;top:0;left:-75%;z-index:2;display:block;content:'';width:50%;height:100%;background:-webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);background:linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);-webkit-transform:skewX(-25deg);transform:skewX(-25deg);}
 .about-img figure:hover::before{-webkit-animation:shine .99s;animation:shine .99s;}
@@ -106,7 +106,7 @@
 	</div>
     <div class="row margin-t40">
     <div class="col-sm-4 about-img ">
-<figure><img src="images/aboutus/about1.jpg" class="img-responsive" alt="Picture"></figure>
+<figure><img src="images/aboutus/about111.jpg" class="img-responsive" alt="Picture"></figure>
 </div>
         <div class="col-md-8 welcometext margin-t20">
         <h5>Welcome to</h5>
@@ -116,6 +116,7 @@
         
         <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
 </p>
+       
         </div>
     </div>
 
@@ -142,20 +143,21 @@
     <div class="row nopadding">
     <h1>WHY US</h1>
  <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p>
- <p>Reliable raw material, contemporary infrastructure, quality checks, Affordable prices, Commitment to timelines, Latest , machineries, Variety of choices, Client satisfaction</p>
+ <p>Reliable raw material, contemporary infrastructure, quality checks, Affordable prices, Commitment to timelines, Latest , machineries, Variety of choices, Client satisfaction
+ </p>
   </div>
   </div>
 	</div>
 </div>    
-</div>
+
+        
+  
+        
+        
+        
+        </div>
 </div>
       
-        
-        
-        
-        
-        
-        
         
         
 
