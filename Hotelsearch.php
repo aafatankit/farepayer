@@ -408,7 +408,8 @@ label:before {
  <h4><i class="fa fa-star-half-o"style="font-size:24px;color:#0042ff;" aria-hidden="true"></i> Five star rating</h4>
 	
     <input type="checkbox" name="vehicle2" value="Car">&nbsp;
-    1 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i> 
+    1 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+     
     <br>
    <input type="checkbox" name="vehicle2" value="Car">&nbsp;
   2 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
@@ -436,6 +437,7 @@ label:before {
   <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 <p></p>
 <br>
+
 <div class="text-center mt">
 <button type="button" class="btn btn-success">submit</button>
 </div>
