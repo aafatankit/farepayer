@@ -411,11 +411,16 @@ input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
 
 			<div class="col-md-12" style="text-align: center;"><h3><b>Share</b></h3>
                     <ul class="social-network social-circle">
-                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-whatsapp " aria-hidden="true"></i></i></a></li>
-                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook "></i></a></li>
-                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter "></i></a></li>
-                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin "></i></a></li>
+                       
+                        <li><a href="https://wa.me/whatsappphonenumber/?text=urlencodedtext" class="icoRss" title="Rss"><i class="fa fa-whatsapp " aria-hidden="true"></i></i></a></li>
+                        
+                        <li><a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook "></i></a></li>
+                        
+                        <li><a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" class="icoTwitter" title="Twitter"><i class="fa fa-twitter "></i></a></li>
+                        
+                        <li><a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        
+                        <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin "></i></a></li>
                     </ul>				
 				</div>
 
