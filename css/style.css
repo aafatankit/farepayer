@@ -161,7 +161,7 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 800px;
+  height: 529px;
 }
 
 
@@ -607,7 +607,7 @@ figure {
 }
 
 @media screen and (min-width: 350px) {
-  .tabulation  {
+  .tabulation  {    border: solid 1px #adadad;
        width: 315px !important;
   }
 }
@@ -2053,9 +2053,7 @@ icon-twitter2 a{color: black !important;}
   }
 }
 
-.row-bottom-padded-md {
-  padding-bottom: 4em;
-}
+
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
     padding-bottom: 2em;
@@ -2133,7 +2131,7 @@ icon-twitter2 a{color: black !important;}
 
 .oServices{text-align: center ;font-size: 40px;padding-top: 30px;padding-bottom: 44px;
 }
-.sBackground{background:#eaeaea61;padding-bottom: 60px;
+.sBackground{background:#eaeaea61;padding-bottom: 20px;
 }
 .sTab{background:#ffffff;padding-top: 43px;padding-bottom: 47px;
 }
