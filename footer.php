@@ -12,6 +12,7 @@
 								<li><a href="#">International Tours</a></li>
 								<li><a href="#">Domestic Tours</a></li>
 								<li><a href="#">Testimonial</a></li>
+								<li><a href="#">Blog</a></li>
 								
 							</ul>
 						</div>

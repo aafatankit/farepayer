@@ -71,6 +71,48 @@
 
 
  <style>
+	 
+	
+
+
+
+div.gallery img {
+  width: 65%;
+  height: auto;
+}
+
+
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+     width: 15.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 50%;
+  }
+}
+
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 /*  read more */	 
 #more {display: none;}
   .carousel-inner img {
@@ -94,7 +136,7 @@
 	
 	<!-- Start:header-top -->
  
-            <?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
         
 	<!-- end:header-top -->
 	
@@ -117,7 +159,7 @@
 			
 			
 			
-				<div class="desc bannertop">
+	<div class="desc bannertop">
 					<div class="container">
 				
 						<div class="row">
@@ -392,6 +434,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 01">
                   <div class="team_columns_item_caption">
                       <h4>Lahore</h4>
+                      <h6>offer</h6>
                 
                   
                   </div>
@@ -400,7 +443,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahore</h4>
-                 
+                 <h6>offer</h6>
                   
                   </div>
                </div>
@@ -408,7 +451,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Karachi</h4>
-              
+              <h6>offer</h6>
               
                   </div>
                </div>
@@ -416,7 +459,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahore</h4>
-            
+            <h6>offer</h6>
                   </div>
                </div>
                
@@ -427,14 +470,14 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahor</h4>
-           
+           <h6>offer</h6>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Karachi</h4>
-      
+      <h6>offer</h6>
                   
                   </div>
                </div>
@@ -442,7 +485,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahore</h4>
-             
+             <h6>offer</h6>
                     
                   </div>
                </div>
@@ -450,7 +493,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Karachi</h4>
-                     
+                     <h6>offer</h6>
                      
                   </div>
                </div>
@@ -658,7 +701,7 @@ function myFunction() {
 
 </div>
 
-
+</div>
 <!--end Service-->
 <br>
 <p></p>
@@ -724,6 +767,7 @@ function myFunction() {
 
 
 <!--Recent From Blog start-->
+
 <div id="fh5co-blog-section" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row">
@@ -741,10 +785,11 @@ function myFunction() {
 							<a href="#"><img class="img-responsive" src="images/place-1.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
+								<span class="dateblog">Sep. 15th</span>
+									<span class="comment"><a href="#"style="font-size: 14px;">21<i class="fa fa-heart" style="color:red"></i></a></span>
 									<h3><a href="#">30% Discount to Travel All </a></h3>
-									<span class="posted_by">Sep. 15th</span>
-									<span class="comment"><a href="#">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind .</p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -755,10 +800,11 @@ function myFunction() {
 							<a href="#"><img class="img-responsive" src="images/place-2.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
+								<span class="dateblog">Sep. 15th</span>
+									<span class="comment"><a href="#"style="font-size: 14px;">21<i class="fa fa-heart" style="color:red"></i></a></span>
 									<h3><a href="#">Planning for Vacation</a></h3>
-									<span class="posted_by">Sep. 15th</span>
-									<span class="comment"><a href="#">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind.</p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -770,10 +816,11 @@ function myFunction() {
 							<a href="#"><img class="img-responsive" src="images/place-3.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
+								<span class="dateblog">Sep. 15th</span>
+									<span class="comment"><a href="#"style="font-size: 14px;">21<i class="fa fa-heart" style="color:red"></i></a></span>
 									<h3><a href="#">Visit Tokyo Japan</a></h3>
-									<span class="posted_by">Sep. 15th</span>
-									<span class="comment"><a href="#">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind.</p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -790,44 +837,97 @@ function myFunction() {
 		</div>
 <!--Recent From Blog end-->		
 	
-			
+<div class="row">
+<div class="col-sm-12 wChoose clINE bgCOUNTER">
+<br>
+<h1><strong>Why Choose Farepayer</strong></h1>
+<br>
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/best.png" alt="Cinque Terre" width="100" >
+    </a>
+    <div class="desc"><h3>Best Price Gurantee</h3></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/trust.png" alt="Forest" width="100" style="width: 121px;" >
+    </a>
+    <div class="desc"><h3>Trust Online Travel Brand</h3></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/trustedp.png" alt="Northern Lights" width="100" style="width: 121px;" >
+    </a>
+    <div class="desc"><h3>Trusted People</h3></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/fastbooking.png" alt="Mountains" width="100" style="width: 121px;" >
+    </a>
+    <div class="desc"><h3>Fast Booking</h3></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/holiday.png" alt="Mountains" width="100" style="width: 121px;" >
+    </a>
+    <div class="desc"><h3>Hassle Free Holiday Planning</h3></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/support.png" alt="Mountains" width="100" style="width: 121px;" >
+    </a>
+    <div class="desc"><h3>Support Team</h3></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+<br>
+						
+						
+</div>
+</div>							
 <!--counter start-->	
+<!--
 	<div class="row bgCOUNTER ">
 
-	<div class="col-md-12 wChoose hvr-grow-shadow"><h1><strong>Why Choose Farepayer</strong></h1>
+	<div class="col-sm-12 wChoose hvr-grow-shadow"><h1><strong>Why Choose Farepayer</strong></h1>
 	</div>
-	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/best.png"  alt=""><br>
-	<h2>Best Price Gurantee</h2></div>	
-
-	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/trust.png"   alt=""><br>
-	<h2>Trust online travel Brand</h2></div>
-	
-		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/trustedp.png"   alt=""><br>
+	<div class="col-sm-2 "><img src="images/counter/best.png"  alt="">
+	<h2>Best Price Gurantee <br><br></h2></div>	
+<br><br>
+	<div class="col-sm-2 "><img src="images/counter/trust.png"   alt=""><br>
+	<h2>Trust online travel Brand<br><br></h2></div>
+	<br><br>
+		<div class="col-sm-2"><img src="images/counter/trustedp.png"   alt=""><br>
 	<h2>Trusted by Over 4.5 Million 
-Happy Travellers</h2></div>
-	
-		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/fastbooking.png"   alt=""><br>
-	<h2>Fast Booking</h2></div>	
-		
-		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/support.png" alt=""><br>
-	<h2>Support Team</h2></div>	
-	
-	
-	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/holiday.png"    alt=""><br>
-	<h2>Hassle Free Holiday Planning</h2></div>	
+Happy Travellers<br><br></h2></div>
+	<br><br>
+		<div class="col-sm-2 "><img src="images/counter/fastbooking.png"   alt=""><br>
+	<h2>Fast Booking<br><br></h2></div>	
+		<br><br>
+		<div class="col-sm-2 "><img src="images/counter/support.png" alt=""><br>
+	<h2>Support Team<br><br></h2></div>	
+	<br>
+	<br>
+	<div class="col-sm-2 "><img src="images/counter/holiday.png"    alt=""><br>
+	<h2>Hassle Free Holiday Planning<br><br></h2></div>	
 	</div>	
-		
+		<br>
 		
 	</div>
 		</div>
+-->
 <!--counter end-->	
 	
-
-
-
-
-		
-
 
 <!--footer start-->	
 		

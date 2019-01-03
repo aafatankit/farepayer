@@ -1682,7 +1682,7 @@ border: solid 1px #989898;color: black;
   position: relative;
   background: #fff;
   width: 100%;
-  padding: 30px;
+  padding: 5px 20px !important;
   float: right;
   -webkit-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
@@ -1690,12 +1690,12 @@ border: solid 1px #989898;color: black;
 }
 .fh5co-blog .blog-text span {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
-.fh5co-blog .blog-text span.posted_by {
+.fh5co-blog .blog-text span.dateblog {
   font-style: italic;
   color: rgba(0, 0, 0, 0.3);
-  font-size: 18px;
+  font-size: 15px;
 }
 .fh5co-blog .blog-text span.comment {
   float: right;
@@ -1763,7 +1763,7 @@ icon-twitter2 a{color: black !important;}
 
 
 #footer {
-  background: #393e46;
+  background: #0b77a7;
   padding: 60px 0 0px;
 }
 #footer p {
@@ -1776,9 +1776,7 @@ icon-twitter2 a{color: black !important;}
 #footer p a:hover, #footer p a:active, #footer p a:focus {
   color: rgba(255, 255, 255, 0.9) !important;
 }
-#footer .fh5co-footer-link {
-  padding-bottom: 30px;
-}
+
 #footer .fh5co-footer-link h3 {
   color: #fff;
   font-size: 18px;
@@ -2053,9 +2051,7 @@ icon-twitter2 a{color: black !important;}
   }
 }
 
-.row-bottom-padded-md {
-  padding-bottom: 4em;
-}
+
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
     padding-bottom: 2em;
@@ -2188,8 +2184,8 @@ icon-twitter2 a{color: black !important;}
   
 
 
-.wChoose{margin-top: 30px;margin-bottom: 70px;text-align: center;font-size: 40px;color:white;} 
-.clINE{    color: white;
+.wChoose{margin-top: 30px;text-align: center;font-size: 40px;color:white;} 
+.clINE{color: white;
     text-align: center;
     font-size: 23px;}
 /* counter End */
@@ -2238,7 +2234,7 @@ background: #428bca;
 }
 .team_columns_carousel_control_left,
 .team_columns_carousel_control_right {
-    top: 144px;
+    top: 71px;
     z-index: 2;
     opacity: .7;
     width: 50px;
@@ -2294,7 +2290,7 @@ background: #428bca;
 .team_columns_item_caption {
     padding: 10px;
     text-align: center;
-    padding-bottom: 30px
+    padding-bottom: 2px !important;
 }
 .team_columns_item_caption>hr {
     width: 15%
