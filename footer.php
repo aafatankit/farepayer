@@ -1,6 +1,6 @@
 <!--footer start-->	
 		
-		<footer>
+		<footer style="background:url(images/footer_bg.png)no-repeat fixed bottom">
 			<div id="footer">
 				<div class="container">
 					<div class="row row-bottom-padded-md">
