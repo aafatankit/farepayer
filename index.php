@@ -164,7 +164,7 @@ div.gallery img {
 				
 						<div class="row">
 							<div class="col-sm-5 col-md-5">
-								<div class="tabulation ">
+								<div class="tabulation "Style="border: solid 1px #e0e0e0;">
 
 								  <!-- Nav tabs -->
 								   <ul class="nav nav-tabs" role="tablist">
