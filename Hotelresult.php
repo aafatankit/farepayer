@@ -629,7 +629,34 @@ function openCity(evt, cityName) {
 					
 				
 						
-
+	   <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+       <h3><b>Description :&nbsp;</b><i class="fa fa-sort-down" style="font-size:25px;color:blue; float: right"></i></h3>
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+         	<div class="col-md-12">
+				
+				<h3>location: </h3>
+				<h5>Indra gandhi International Airport is 16 kms away,New Delhi Railway Station 3 kms away,Karol Bagh Metro station is 5 kms away.Pragati maidan Trade Fair Ground is 4 kms away.Centre distance is 3 kms away from the hotel.</h5>  
+			
+				<h3>Rooms: </h3>
+				<h5>Rooms are well eqipped with modern amenities,availability of double and Twin beds,It has Television with cable, Hairdryer,Tea coffee maker.</h5> 
+				<h3>Restaurant:</h3>
+				<h5> It has small dining are and serves multi cuisine breakfast.</h5> 
+				<h3>Exterior:</h3>
+				<h5>It is modern brick building </h5> 
+				<h3>Lobby: </h3>
+				<h5>It has very small lobby. </h5> 
+				
+				
+				
+			</div>
+        </div>
+      </div>
+    </div>	
     
     
  
