@@ -52,6 +52,42 @@
 <body>
 <style>
 
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
 
 img {
   max-width: 100%; }
@@ -76,8 +112,13 @@ img {
       -ms-flex-positive: 1;
           flex-grow: 1; }
 
+.nav-tabs a {
+    border: none !important;
+    font-weight: bold;
+    padding: 2px 2px !important;
+	}
 .preview-thumbnail.nav-tabs {
-  border: none;
+ border: solid 1px darkgray;
    }
   .preview-thumbnail.nav-tabs li {
     width: 18%;
@@ -91,7 +132,7 @@ img {
     .preview-thumbnail.nav-tabs li:last-of-type {
       margin-right: 0; }
 
-.tab-content {
+.tab-content {padding:0px !important; 
   overflow: hidden; }
   .tab-content img {
     width: 100%;
@@ -102,7 +143,7 @@ img {
 
 .card {
   margin-top: 50px;
-  background: #eee;
+  background: #e6e6e636;
   padding: 1em;
   line-height: 1.5em; }
 
@@ -134,11 +175,11 @@ img {
   text-transform: UPPERCASE;
   font-weight: bold; }
 
-.checked, .price span {
+.checked, .span {
   color: #ff9f1a; }
 
 .product-title, .rating, .product-description, .price, .vote, .sizes {
-  margin-bottom: 15px; }
+  margin-bottom: 5px; }
 
 .product-title {
   margin-top: 0; }
@@ -401,13 +442,20 @@ img {
 						
 						<div class="preview-pic tab-content">
 						  <div class="tab-pane active" id="pic-1"><img src="http://images.gta-travel.com/HH/Images/IN/DEL/DEL-MAJ-1.jpg" /></div>
-						  <div class="tab-pane" id="pic-2"><img src="http://placekitten.com/400/252" /></div>
+						  <div class="tab-pane" id="pic-2"><img src="images/aboutus/about11.jpg"></div>
 						  <div class="tab-pane" id="pic-3"><img src="http://images.gta-travel.com/HH/Images/IN/DEL/DEL-MAJ-1.jpg" /></div>
+						  <div class="tab-pane" id="pic-4"><img src="images/aboutus/1111.jpg"></div>
+						  <div class="tab-pane" id="pic-5"><img src="images/cover_bg_1.jpg" /></div>  
+						  <div class="tab-pane" id="pic-4"><img src="images/hotel/hotel1.jpg"/></div>
+						  <div class="tab-pane" id="pic-5"><img src="http://placekitten.com/400/252" /></div> 
+						  <div class="tab-pane" id="pic-4"><img src="http://placekitten.com/400/252" /></div>
+						  <div class="tab-pane" id="pic-5"><img src="http://placekitten.com/400/252" /></div>  
 						  <div class="tab-pane" id="pic-4"><img src="http://placekitten.com/400/252" /></div>
 						  <div class="tab-pane" id="pic-5"><img src="http://placekitten.com/400/252" /></div>
 						</div>
 						<ul class="preview-thumbnail nav nav-tabs">
-						  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+						  <li class="active"><a data-target="#pic-1" data-toggle="tab">
+						  <img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-2" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-3" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-4" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
@@ -416,45 +464,242 @@ img {
 						  <li><a data-target="#pic-3" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-4" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-5" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-						    <li><a data-target="#pic-2" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+						  <li><a data-target="#pic-2" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-3" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-4" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-5" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-2" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-3" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-						  <li><a data-target="#pic-4" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
-						  <li><a data-target="#pic-5" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+						 
 						</ul>
 						
 					</div>
 					<div class="details col-md-6">
-						<h3 class="product-title">men's shoes fashion</h3>
+					<br>
+			
+						<h2 class="product-title">Hotel Name</h2>
 						<div class="rating">
-							<div class="stars">
+							<div class="mt">
 								<span class="fa fa-star checked"></span>
 								<span class="fa fa-star checked"></span>
 								<span class="fa fa-star checked"></span>
 								<span class="fa fa-star"></span>
 								<span class="fa fa-star"></span>
 							</div>
-							<span class="review-no">41 reviews</span>
-						</div>
-						<p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
-						<h4 class="price">current price: <span>$180</span></h4>
-						<p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
+							<p text-light style="font-size:medium;">
+						<i class="fa fa-map-marker fa-2x"></i> 
+						<b>Area : Colva Area, South Goa,</b></p>
+					<p style="font-size: 13px;"><b>Contact No : 987456321</b></p>
+					<h2>Hotel Facilities :</h2>
+					
+					
 					
 						
-						<div class="action">
-							<button class="add-to-cart btn btn-default" type="button">add to cart</button>
-							<button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+
+					<br>
+					<h1 class="text-center">Rs. <span>14000/<span style="font-size:10px; "> 1 night</span></span></h1>
+						</div>
+						<button type="button" class="btn btn-outline-info" style="padding: 10px;text-align: center;"><b>See Hotel</b></button>
+							
+												
 						</div>
 					</div>
 				</div>
+	
+<br>
+  <p></p>
+		
+	
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Description')">Description</button>
+  <button class="tablinks" onclick="openCity(event, 'Hotelfacilities')">Hotel facilities</button>
+  <button class="tablinks" onclick="openCity(event, 'Roomfacilities')">Room facilities</button>
+   <button class="tablinks" onclick="openCity(event, 'Services')">Services</button>
+  <button class="tablinks" onclick="openCity(event, 'Attractions')">Attractions</button>
+  <button class="tablinks" onclick="openCity(event, 'HotelPolicy')">Hotel Policy</button>
+</div>
+
+<div id="Description" class="tabcontent">
+  <h3>Description :</h3>
+  <p> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include separate sitting areas and ceiling fans, and housekeeping is provided daily.Amenities Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and concierge services.Dining Take advantage of the hotel's room service (during limited hours). Continental breakfasts are available for a fee.Business, Other Amenities Featured amenities include complimentary wired Internet access, a business center, and express check-in. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. 
+Disclaimer notification: Amenities are subject to availability and may be chargeable as per the hotel policy.  
+</p>
+</div>
+
+<div id="Hotelfacilities" class="tabcontent">
+ <div class="row"style="width: fit-content;border: solid 1px #e7e7e7;background: #e9e9e938;padding: 10px;">
+					
+					<div class="col-md-6"style="text-align: left;">
+					
+					<ul style="font-size: 12px">
+					<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
+					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
+					<li><i class=" fa fa-check-circle-o"></i>	1 lift </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Earliest check-in at 12:00 </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Small sized lobby </li>
+					<li><i class=" fa fa-check-circle-o"></i>	3 floors </li>
+						<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
+					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
+					<li><i class=" fa fa-check-circle-o"></i>	1 lift </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Earliest check-in at 12:00 </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Small sized lobby </li>
+					<li><i class=" fa fa-check-circle-o"></i>	3 floors </li>
+					</ul>
+			</div>
+					
+					
+					
+					
+					<div class="col-md-6"style="text-align: left;">
+					<ul style="font-size: 12px">
+						<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
+					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
+					<li><i class=" fa fa-check-circle-o"></i>	1 lift </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Earliest check-in at 12:00 </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Small sized lobby </li>
+					<li><i class=" fa fa-check-circle-o"></i>	3 floors </li>
+					<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
+					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
+					<li><i class=" fa fa-check-circle-o"></i>	1 lift </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Earliest check-in at 12:00 </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Small sized lobby </li>
+					<li><i class=" fa fa-check-circle-o"></i>	3 floors </li>
+					</ul>
+					</div>
+					
+			</div>
+</div>
+
+<div id="Roomfacilities" class="tabcontent">
+  <h3>Roomfacilities</h3>
+  <p>Roomfacilities is the capital of Japan.</p>
+</div>
+<div id="Services" class="tabcontent">
+  
+  <p>Roomfacilities is the capital of Japan.</p>
+</div>
+ 
+ <div id="Attractions" class="tabcontent">
+  
+  <p>Roomfacilities is the capital of Japan.</p>
+</div>
+
+
+
+
+ <div id="HotelPolicy" class="tabcontent">
+  
+  <p>Roomfacilities</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+ 
+
+
+					
+				
+						
+
+    
+    
+ 
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Collapsible Group Item #2
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+  </div>
+
+						
+					
 			</div>
 		</div>
-	</div>
+	</div>								
+						
+<!--						<p class="product-description">Description : Property Location With a stay at Smyle Inn, you'll be centrally located in New Delhi, within a 15-minute drive of Jantar Mantar and Ramakrishna Mission. This hotel is 3.7 mi (6 km) from Red Fort and 4.9 mi (7.9 km) from University of Delhi.Rooms Make yourself at home in one of the 35 air-conditioned rooms featuring LCD televisions. Complimentary wired and wireless Internet access keeps you connected, and cable programming provides entertainment. Bathrooms have showers and complimentary toiletries. Conveniences include phones, as well as laptop-compatible safes and ceiling fans.Amenities Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and an arcade/game room. Additional features at this hotel include a television in a common area and tour/ticket assistance. Getting to nearby attractions is a breeze with the area shuttle (surcharge) that operates within 80 km.Dining Take advantage of the hotel's 24-hour room service. For your convenience, a complimentary breakfast is served daily.Business, Other Amenities Featured amenities include complimentary wired Internet access, limo/town car service, and a computer station. For a surcharge, guests may use a roundtrip airport shuttle (available 24 hours) and a train station pick-up service. </p>-->
+<!--
+						<h3>
+						<i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;
+				<i class="fas fa-coffee ftooltip icolorsize"><span class="ftooltiptext"><h6>breakfast</h6></span></i>&nbsp;
+				<i class="fa fa-snowflake-o ftooltip icolorsize"><span class="ftooltiptext"><h6>AC</h6></span></i>&nbsp;
+	<i class="fas fa-swimmer ftooltip icolorsize"><span class="ftooltiptext"><h6>Swimming Pool</h6></span></i>
+	<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;</h3>
+-->
+						
+						
+						
+						
+						
+						
+						
+						
+<!--						<p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>-->
+					
+						
+						
 
-	  
 	  
 	  
 	  
