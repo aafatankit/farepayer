@@ -28,7 +28,7 @@ body {
   line-height: 1.6;
   font-size: 16px;
   background: #fff;
-  color: #848484;
+  color: #555555;
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -50,12 +50,12 @@ a:hover {
 p, ul, ol {
   margin-bottom: 1.5em;
   font-size: 16px;
-  color: #848484;
+  color: #555555;
   font-family: "Open Sans", Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #5a5a5a;
+  color: #3c3c3c;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
@@ -161,7 +161,11 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 800px;
+<<<<<<< HEAD
+  height: 529px;
+=======
+  height: 550px;
+>>>>>>> 44a74858679d468fc94db0a532440f1bd22d8539
 }
 
 
@@ -607,7 +611,7 @@ figure {
 }
 
 @media screen and (min-width: 350px) {
-  .tabulation  {
+  .tabulation  {    border: solid 1px #adadad;
        width: 315px !important;
   }
 }
@@ -680,8 +684,10 @@ figure {
 .tab-content {
   padding: 25px;
 }
-.tab-content .btn {
-  border: 1px solid red !important;
+
+  .tab-content .btn {
+    margin-top: 22px;
+    border: 1px solid whitesmoke !important;
 }
 
 .nav-tabs {
@@ -731,6 +737,10 @@ figure {
 
 .mt {
   margin-bottom: 10px;
+}
+
+.mtop{
+  margin-top: 10px;
 }
 
 div.cs-select span {
@@ -1676,7 +1686,7 @@ border: solid 1px #989898;color: black;
   position: relative;
   background: #fff;
   width: 100%;
-  padding: 30px;
+  padding: 5px 20px !important;
   float: right;
   -webkit-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.18);
@@ -1684,12 +1694,12 @@ border: solid 1px #989898;color: black;
 }
 .fh5co-blog .blog-text span {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
-.fh5co-blog .blog-text span.posted_by {
+.fh5co-blog .blog-text span.dateblog {
   font-style: italic;
   color: rgba(0, 0, 0, 0.3);
-  font-size: 18px;
+  font-size: 15px;
 }
 .fh5co-blog .blog-text span.comment {
   float: right;
@@ -1757,7 +1767,7 @@ icon-twitter2 a{color: black !important;}
 
 
 #footer {
-  background: #393e46;
+  background: #0b77a7d6;
   padding: 60px 0 0px;
 }
 #footer p {
@@ -1770,9 +1780,7 @@ icon-twitter2 a{color: black !important;}
 #footer p a:hover, #footer p a:active, #footer p a:focus {
   color: rgba(255, 255, 255, 0.9) !important;
 }
-#footer .fh5co-footer-link {
-  padding-bottom: 30px;
-}
+
 #footer .fh5co-footer-link h3 {
   color: #fff;
   font-size: 18px;
@@ -2047,9 +2055,7 @@ icon-twitter2 a{color: black !important;}
   }
 }
 
-.row-bottom-padded-md {
-  padding-bottom: 4em;
-}
+
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
     padding-bottom: 2em;
@@ -2127,7 +2133,7 @@ icon-twitter2 a{color: black !important;}
 
 .oServices{text-align: center ;font-size: 40px;padding-top: 30px;padding-bottom: 44px;
 }
-.sBackground{background:#eaeaea61;padding-bottom: 60px;
+.sBackground{background:#eaeaea61;padding-bottom: 20px;
 }
 .sTab{background:#ffffff;padding-top: 43px;padding-bottom: 47px;
 }
@@ -2171,7 +2177,9 @@ icon-twitter2 a{color: black !important;}
 
 
 /* counter start */
-.bgCOUNTER{background-image: url(../images/counter/background.jpg);  height: 50%;
+.bgCOUNTER{background-image: url(../images/counter/background.jpg); 
+  width: 100%;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2180,8 +2188,8 @@ icon-twitter2 a{color: black !important;}
   
 
 
-.wChoose{margin-top: 30px;margin-bottom: 70px;text-align: center;font-size: 40px;color:white;} 
-.clINE{    color: white;
+.wChoose{margin-top: 30px;text-align: center;font-size: 40px;color:white;} 
+.clINE{color: white;
     text-align: center;
     font-size: 23px;}
 /* counter End */
@@ -2219,7 +2227,7 @@ icon-twitter2 a{color: black !important;}
 .carousel-indicators .active {
 background: #428bca;
 } 
-
+ 
 
 
 
@@ -2230,7 +2238,7 @@ background: #428bca;
 }
 .team_columns_carousel_control_left,
 .team_columns_carousel_control_right {
-    top: 144px;
+    top: 71px;
     z-index: 2;
     opacity: .7;
     width: 50px;
@@ -2286,7 +2294,7 @@ background: #428bca;
 .team_columns_item_caption {
     padding: 10px;
     text-align: center;
-    padding-bottom: 30px
+    padding-bottom: 2px !important;
 }
 .team_columns_item_caption>hr {
     width: 15%
@@ -2452,4 +2460,90 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
         transform: translate3d(0, 0, 0);
         left: 0
     }
+	
 } 
+
+
+
+																/* FLIGHT  search page */
+
+.icolorsize{font-size:20px;color:#2d67b2;}
+		
+
+.ftooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.ftooltip .ftooltiptext {
+  visibility: hidden;
+  width: 64px;
+  background-color:#2196f3;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px 0;
+  font-size: 15px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 139%;
+  margin-left: -60px;
+}
+
+.ftooltip:hover .ftooltiptext {
+  visibility: visible;
+}
+		
+		
+		
+form.Searchbar input[type=text] {
+     padding: 2px;
+    font-size: 14px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+	border-radius: 5px 0px 0px 5px;
+    background: #fff;
+}
+
+form.Searchbar button {
+  float: left;
+   border-radius: 0px 5px 5px 0px; 
+  background: #2196F3;
+  color: white;
+      padding: 3px;
+    font-size: 13px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.Searchbar button:hover {
+  background: #0b7dda;
+}
+
+form.Searchbar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (min-width: 450px) {
+	.mediatextleft {
+    text-align:right;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+	.textc{
+		text-align:left;
+	}	 
+    
+}
+.btn-info {
+    background: linear-gradient(to bottom, #023067 11%, #1fa3dd 100%) !important;
+    color: #ffffff !important;
+}

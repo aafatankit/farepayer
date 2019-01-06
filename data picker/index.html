@@ -1,0 +1,24 @@
+<html>
+<head>
+    <link href="js/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<title>calender</title>
+    </head>
+<body>
+
+    <input type="text" id="datepicker" placeholder="  dd/mm/yyyy"/>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    
+
+    <script>
+    $(document).ready(function(){
+    $("#datepicker").datepicker({
+        dateformat:"dd-mm-yy",
+        changeMonth: true,
+        changeYear: true
+    });
+    })
+    
+    </script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 <!--footer start-->	
 		
-		<footer>
+		<footer style="background:url(images/footer_bg.png)no-repeat fixed bottom">
 			<div id="footer">
 				<div class="container">
 					<div class="row row-bottom-padded-md">
@@ -8,10 +8,11 @@
 						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
 							<h3>Company</h3>
 							<ul>
-								<li><a href="#">About Us</a></li>
+								<li><a href="Aboutus.php">About Us</a></li>
 								<li><a href="#">International Tours</a></li>
 								<li><a href="#">Domestic Tours</a></li>
 								<li><a href="#">Testimonial</a></li>
+								<li><a href="#">Blog</a></li>
 								
 							</ul>
 						</div>
@@ -19,7 +20,7 @@
 							<h3>Help</h3>
 							<ul>
 								<li><a href="#">Contact</a></li>
-								<li><a href="#">Careers</a></li>
+								<li><a href="Careers.php">Careers</a></li>
 								<li><a href="#">Terms & Conditions</a></li>
 								<li><a href="#">Privacy and Policy</a></li>
 							</ul>
