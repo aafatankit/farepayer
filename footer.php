@@ -1,6 +1,6 @@
 <!--footer start-->	
 		
-		<footer>
+		<footer style="background:url(images/footer_bg.png)no-repeat fixed bottom">
 			<div id="footer">
 				<div class="container">
 					<div class="row row-bottom-padded-md">
@@ -12,6 +12,7 @@
 								<li><a href="#">International Tours</a></li>
 								<li><a href="#">Domestic Tours</a></li>
 								<li><a href="#">Testimonial</a></li>
+								<li><a href="#">Blog</a></li>
 								
 							</ul>
 						</div>

@@ -396,19 +396,15 @@ label:before {
   <input type="checkbox" name="vehicle2" value="Car">		&#8377; 2000 to &#8377; 2999<br> 
   <input type="checkbox" name="vehicle2" value="Car">		&#8377; 3000 to &#8377; 3999<br>
   <input type="checkbox" name="vehicle2" value="Car">		&#8377; 4000 to &#8377; 4999<br>
-  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 5000 to &#8377; 5999<br>
-  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 6000 to &#8377; 6999<br>
-  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 7000 to &#8377; 7999<br>
-  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 8000 to &#8377; 8999<br>
-  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 9000 to &#8377; 9999<br>
-  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 10000 to more <br>
-
+  <input type="checkbox" name="vehicle2" value="Car">		&#8377; 5000 to  More<br>
+ 
 
 <hr>			
  <h4><i class="fa fa-star-half-o"style="font-size:24px;color:#0042ff;" aria-hidden="true"></i> Five star rating</h4>
 	
     <input type="checkbox" name="vehicle2" value="Car">&nbsp;
-    1 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i> 
+    1 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
+     
     <br>
    <input type="checkbox" name="vehicle2" value="Car">&nbsp;
   2 Star <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
@@ -436,6 +432,7 @@ label:before {
   <i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 <p></p>
 <br>
+
 <div class="text-center mt">
 <button type="button" class="btn btn-success">submit</button>
 </div>
