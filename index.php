@@ -71,6 +71,48 @@
 
 
  <style>
+	 
+	
+
+
+
+div.gallery img {
+  width: 65%;
+  height: auto;
+}
+
+
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+     width: 15.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 50%;
+  }
+}
+
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 /*  read more */	 
 #more {display: none;}
   .carousel-inner img {
@@ -94,7 +136,7 @@
 	
 	<!-- Start:header-top -->
  
-            <?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>
         
 	<!-- end:header-top -->
 	
@@ -117,12 +159,12 @@
 			
 			
 			
-				<div class="desc bannertop">
+	<div class="desc bannertop">
 					<div class="container">
 				
 						<div class="row">
 							<div class="col-sm-5 col-md-5">
-								<div class="tabulation ">
+								<div class="tabulation "Style="border: solid 1px #e0e0e0;">
 
 								  <!-- Nav tabs -->
 								   <ul class="nav nav-tabs" role="tablist">
@@ -234,14 +276,23 @@
 										</div>
 									 </div>
 
-		<!--Hotel-->							 <div role="tabpanel" class="tab-pane" id="hotels">
+		<!--Hotel-->
+								 	 <div role="tabpanel" class="tab-pane" id="hotels">
 									 	<div class="row">
-											<div class="col-xxs-12 col-xs-12 mt">
+											<div class="col-md-6 mt">
 												<div class="input-field">
 													<label for="from">City:</label>
 													<input type="text" class="form-control" id="from-place1" placeholder="Los Angeles, USA"/>
 												</div>
 											</div>
+											<div class="col-md-6 mt">
+											<div class="input-field">
+													<label for="from">Nationality:</label>
+													<input type="text" class="form-control" id="from-place1" placeholder="Los Angeles, USA"/>
+												</div>
+											</div>
+										 </div>
+											<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-start">Check In : &nbsp;</label>
@@ -359,7 +410,7 @@
 <div id="fh5co-tours" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row" >
-					<div class="col-md-12 text-center heading-section" style="margin-bottom: 120px;">
+					<div class="col-md-12 text-center heading-section" style="margin-bottom: 82px;position: relative;z-index: 9;">
 						<h3><b>Hot Tours</b></h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					</div>
@@ -383,6 +434,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 01">
                   <div class="team_columns_item_caption">
                       <h4>Lahore</h4>
+                      <h6>offer</h6>
                 
                   
                   </div>
@@ -391,7 +443,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahore</h4>
-                 
+                 <h6>offer</h6>
                   
                   </div>
                </div>
@@ -399,7 +451,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Karachi</h4>
-              
+              <h6>offer</h6>
               
                   </div>
                </div>
@@ -407,7 +459,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahore</h4>
-            
+            <h6>offer</h6>
                   </div>
                </div>
                
@@ -418,14 +470,14 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahor</h4>
-           
+           <h6>offer</h6>
                   </div>
                </div>
                <div class="col-xs-12 col-sm-6 col-md-3 team_columns_item_image cloneditem-1">
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Karachi</h4>
-      
+      <h6>offer</h6>
                   
                   </div>
                </div>
@@ -433,7 +485,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Lahore</h4>
-             
+             <h6>offer</h6>
                     
                   </div>
                </div>
@@ -441,7 +493,7 @@
                   <img src="images/offers/offers1.jpg" alt="slider 02">
                   <div class="team_columns_item_caption">
                      <h4>Karachi</h4>
-                     
+                     <h6>offer</h6>
                      
                   </div>
                </div>
@@ -464,6 +516,8 @@
    	  </div>
 
 <!--slider end-->
+
+<!--SELECT YOUR CUSTOMIZED PACKAGES START-->
 
 <div class="container-fluid">
 						<div class="row">
@@ -552,7 +606,7 @@
 	  </div>
 		</div>
 
-
+<!--SELECT YOUR CUSTOMIZED PACKAGES END-->
 
 
 <script>
@@ -647,7 +701,7 @@ function myFunction() {
 
 </div>
 
-
+</div>
 <!--end Service-->
 <br>
 <p></p>
@@ -713,11 +767,11 @@ function myFunction() {
 
 
 <!--Recent From Blog start-->
+
 <div id="fh5co-blog-section" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section " 
-					style="padding-top: 18px;">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section "style="padding-top: 221px;">
 						<h3>Recent From Blog</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
 					</div>
@@ -731,10 +785,11 @@ function myFunction() {
 							<a href="#"><img class="img-responsive" src="images/place-1.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
+								<span class="dateblog">Sep. 15th</span>
+									<span class="comment"><a href="#"style="font-size: 14px;">21<i class="fa fa-heart" style="color:red"></i></a></span>
 									<h3><a href="#">30% Discount to Travel All </a></h3>
-									<span class="posted_by">Sep. 15th</span>
-									<span class="comment"><a href="#">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind .</p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -745,10 +800,11 @@ function myFunction() {
 							<a href="#"><img class="img-responsive" src="images/place-2.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
+								<span class="dateblog">Sep. 15th</span>
+									<span class="comment"><a href="#"style="font-size: 14px;">21<i class="fa fa-heart" style="color:red"></i></a></span>
 									<h3><a href="#">Planning for Vacation</a></h3>
-									<span class="posted_by">Sep. 15th</span>
-									<span class="comment"><a href="#">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind.</p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -760,10 +816,11 @@ function myFunction() {
 							<a href="#"><img class="img-responsive" src="images/place-3.jpg" alt=""></a>
 							<div class="blog-text">
 								<div class="prod-title">
+								<span class="dateblog">Sep. 15th</span>
+									<span class="comment"><a href="#"style="font-size: 14px;">21<i class="fa fa-heart" style="color:red"></i></a></span>
 									<h3><a href="#">Visit Tokyo Japan</a></h3>
-									<span class="posted_by">Sep. 15th</span>
-									<span class="comment"><a href="#">21<i class="icon-bubble2"></i></a></span>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind.</p>
 									<p><a href="#">Learn More...</a></p>
 								</div>
 							</div> 
@@ -780,52 +837,110 @@ function myFunction() {
 		</div>
 <!--Recent From Blog end-->		
 	
-			
+<div class="row">
+<div class="col-sm-12 wChoose clINE bgCOUNTER">
+<br>
+<h1><strong>Why Choose Farepayer</strong></h1>
+<br>
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/best.png" alt="Cinque Terre" width="100" >
+    </a>
+    <div class="desc"><h3>Best Price Gurantee</h3></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/trust.png" alt="Forest" width="100" style="width: 121px;" >
+    </a>
+    <div class="desc"><h3>Trust Online Travel Brand</h3></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/trustedp.png" alt="Northern Lights" width="100" style="width: 121px;" >
+    </a>
+    <div class="desc"><h3>Trusted People</h3></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/fastbooking.png" alt="Mountains" width="100" style="width: 121px;" >
+    </a>
+    <div class="desc"><h3>Fast Booking</h3></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/holiday.png" alt="Mountains" width="100" style="width: 121px;" >
+    </a>
+    <div class="desc"><h3>Hassle Free Holiday Planning</h3></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery hvr-grow-shadow">
+    <img src="images/counter/support.png" alt="Mountains" width="100" style="width: 121px;" >
+    </a>
+    <div class="desc"><h3>Support Team</h3></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+<br>
+						
+						
+</div>
+</div>							
 <!--counter start-->	
+<!--
 	<div class="row bgCOUNTER ">
 
-	<div class="col-md-12 wChoose hvr-grow-shadow"><h1><strong>Why Choose Farepayer</strong></h1>
+	<div class="col-sm-12 wChoose hvr-grow-shadow"><h1><strong>Why Choose Farepayer</strong></h1>
 	</div>
-	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/best.png"  alt=""><br>
-	<h2>Best Price Gurantee</h2></div>	
-
-	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/trust.png"   alt=""><br>
-	<h2>Trust online travel Brand</h2></div>
-	
-		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/trustedp.png"   alt=""><br>
+	<div class="col-sm-2 "><img src="images/counter/best.png"  alt="">
+	<h2>Best Price Gurantee <br><br></h2></div>	
+<br><br>
+	<div class="col-sm-2 "><img src="images/counter/trust.png"   alt=""><br>
+	<h2>Trust online travel Brand<br><br></h2></div>
+	<br><br>
+		<div class="col-sm-2"><img src="images/counter/trustedp.png"   alt=""><br>
 	<h2>Trusted by Over 4.5 Million 
-Happy Travellers</h2></div>
-	
-		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/fastbooking.png"   alt=""><br>
-	<h2>Fast Booking</h2></div>	
-		
-		<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/support.png" alt=""><br>
-	<h2>Support Team</h2></div>	
-	
-	
-	<div class="col-md-2 clINE hvr-grow-shadow"><img src="images/counter/holiday.png"    alt=""><br>
-	<h2>Hassle Free Holiday Planning</h2></div>	
+Happy Travellers<br><br></h2></div>
+	<br><br>
+		<div class="col-sm-2 "><img src="images/counter/fastbooking.png"   alt=""><br>
+	<h2>Fast Booking<br><br></h2></div>	
+		<br><br>
+		<div class="col-sm-2 "><img src="images/counter/support.png" alt=""><br>
+	<h2>Support Team<br><br></h2></div>	
+	<br>
+	<br>
+	<div class="col-sm-2 "><img src="images/counter/holiday.png"    alt=""><br>
+	<h2>Hassle Free Holiday Planning<br><br></h2></div>	
 	</div>	
-		
+		<br>
 		
 	</div>
 		</div>
+-->
 <!--counter end-->	
 	
-	
-
-
-
-
-		
-
 
 <!--footer start-->	
 		
 		<?php include 'footer.php'; ?>
 	
 <!--footer end-->
-
+<!--button Scroll start-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow6.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();
+</script>
+<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+<!--button Scroll end-->
 
 
 	<!-- jQuery -->

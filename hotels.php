@@ -125,12 +125,20 @@
                                         
 										<div role="tabpanel" class="tab-pane" id="hotels">
 									 	<div class="row">
-											<div class="col-xxs-12 col-xs-12 mt">
+											<div class="col-xxs-12 col-xs-6 mt">
 												<div class="input-field">
 													<label for="from">City:</label>
-													<input type="text" class="form-control" id="from-place1" placeholder="Los Angeles, USA"/>
+													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+													
 												</div>
 											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">Nationality:</label>
+													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
+												</div>
+											</div>
+									   </div>
 											<div class="col-xxs-12 col-xs-6 mt alternate">
 												<div class="input-field">
 													<label for="date-start">Check In :</label>
@@ -206,64 +214,31 @@
 	<!-- end Banner -->
 	
 	
-	
-<!--Hot Tours start-->			
-
-<div id="fh5co-tours" class="fh5co-section-gray" style="
-    margin-bottom: -114px;">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3><b>Hot Tours</b></h3>
-							
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-					</div>
-				</div>
-	</div>		
+<div class="row bg-light">
+<div class="container bg-white">
+	<div class="col-md-12">
+		<div class="col-md-3">
+			<h4>Search Hotel</h4>
+			
+			<input type="text" placeholder="search hotel"/>
+			
+			
+			
 		</div>
-					
 	
-					
-	<!--Hot Tours end-->	
-	
-					
-<!--slider Start-->		
-					
-<div class="modal fade" id="myModal1" role="dialog">
-<div class="modal-dialog">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-body">
-<img src="images/portfolio/La Conceptz Infra Solutions.png" class="img-responsive" alt="" /></div>
-<div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">X</button>
-</div></div></div></div>
-<div class="container2">
-    <div class="photobanner">
-        <img class="first" src="images/slider/0.jpg" alt="">
-        <img src="images/slider/0 [1].jpg" alt=""/>
-        <img src="images/slider/0 [2].jpg" alt=""/>
-       <img src="images/slider/0 [4].jpg" alt=""/>
-        <img src="images/slider/0.jpg" alt=""/>
-        <img src="images/slider/0.jpg" alt="">
-        <img src="images/slider/raj.jpg" alt=""/>
-        <img src="images/slider/ra.jpg" alt=""/>
-         <img src="images/slider/0.jpg" alt=""/>
-         <img src="images/slider/ra.jpg" alt=""/>
-           <img src="images/slider/0 [1].jpg" alt=""/>
-    </div>
 </div>
-
-
-<!--slider end-->
-
-
-<br>
-<p></p>
-
-
+		
+		
+		
+		
+		
+		
+	</div>
+</div>
 	
-	
+		
+			
+					
 
 
 
