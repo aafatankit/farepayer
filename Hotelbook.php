@@ -516,27 +516,27 @@ Disclaimer notification: Amenities are subject to availability and may be charge
 				<div class="tabbable-line">
 					<ul class="nav nav-tabs">
 						<li class="active">
-							<a href="#tab_default_1" data-toggle="tab"style="height: 39px;height: 43px;">
+							<a href="#tab_default_1" data-toggle="tab"style="height: 36px;height: 43px;">
 					<h3>Description</h3></a>
 						</li>
 						<li>
-							<a href="#tab_default_2" data-toggle="tab" style="line-height: 13px;">
+							<a href="#tab_default_2" data-toggle="tab" style="line-height: 10px;">
 							Hotelfacilities</a>
 						</li>
 						<li>
-							<a href="#tab_default_3" data-toggle="tab" style="line-height: 13px;">
+							<a href="#tab_default_3" data-toggle="tab" style="line-height: 10px;">
 							Roomfacilities</a>
 						</li>	
 						<li>
-							<a href="#tab_default_4" data-toggle="tab" style="line-height: 13px;">
+							<a href="#tab_default_4" data-toggle="tab" style="line-height: 10px;">
 							Attractions</a>
 						</li>
 						<li>
-							<a href="#tab_default_5" data-toggle="tab" style="line-height: 13px;">
+							<a href="#tab_default_5" data-toggle="tab" style="line-height: 10px;">
 							Services</a>
 						</li>
 						<li>
-							<a href="#tab_default_6" data-toggle="tab" style="line-height: 13px;">
+							<a href="#tab_default_6" data-toggle="tab" style="line-height: 10px;">
 							Hotel Policy</a>
 						</li>
 					</ul>
@@ -621,8 +621,8 @@ Disclaimer notification: Amenities are subject to availability and may be charge
         </a>
       </div>
       <div id="collapseOne" class="collapse show" data-parent="#accordion">
-        <div class="card-body"style="background: #39b0e4;">
-         <div class="row" style="color: #ffffff;">
+        <div class="card-body"style="background: #e2e2e2;">
+         <div class="row" style="color: #4a4a4a;">
          	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" style="width: 272px;"></div>
          	<div class="col-md-4">
         		<table style="font-size: 15px;font-weight: 600;">
