@@ -1,0 +1,44 @@
+Authentication:
+Link: https://api.travelboutiqueonline.com/SharedAPI/SharedData.svc/rest/Authenticate
+
+Logout:
+Link:
+
+Get Agency Balance:
+Link: https://api.travelboutiqueonline.com/SharedAPI/SharedData.svc/rest/GetAgencyBalance
+
+Country List:
+Link: https://api.travelboutiqueonline.com/SharedAPI/SharedData.svc/rest/CountryList
+
+Destination List:
+Link: https://api.travelboutiqueonline.com/SharedAPI/SharedData.svc/rest/DestinationCityList
+
+Top Destinations:
+Link: https://api.travelboutiqueonline.com/SharedAPI/SharedData.svc/rest/TopDestinationList
+
+Hotel Search:
+Link: https://api.travelboutiqueonline.com/HotelAPI_V10/HotelService.svc/rest/GetHotelResult/
+
+Hotel Info:
+Link: https://api.travelboutiqueonline.com/HotelAPI_V10/HotelService.svc/rest/
+
+Get Hotel Room:
+Link: https://api.travelboutiqueonline.com/HotelAPI_V10/HotelService.svc/rest/
+
+Block Room:
+Link: https://api.travelboutiqueonline.com/HotelAPI_V10/HotelService.svc/rest/
+
+Book:
+Link: https://booking.travelboutiqueonline.com/HotelAPI_V10/HotelService.svc/rest/
+
+Generate Voucher:
+Link: https://booking.travelboutiqueonline.com/HotelAPI_V10/HotelService.svc/rest/
+
+Get Booking Details:
+Link: https://booking.travelboutiqueonline.com/HotelAPI_V10/HotelService.svc/rest/
+
+Send Change Request:
+Link: https://booking.travelboutiqueonline.com/HotelAPI_V10/HotelService.svc/rest/
+
+Get Change Request Response:
+Link: https://booking.travelboutiqueonline.com/HotelAPI_V10/HotelService.svc/rest/
