@@ -1,6 +1,6 @@
 <!--footer start-->	
 		
-		<footer style="background:url(images/footer_bg.png)no-repeat fixed bottom">
+		<footer style="background:url(images/footer_bg.jpg);background-repeat:no-repeat">
 			<div id="footer">
 				<div class="container">
 					<div class="row row-bottom-padded-md">
@@ -19,7 +19,7 @@
 						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
 							<h3>Help</h3>
 							<ul>
-								<li><a href="#">Contact</a></li>
+								<li><a href="contact.php">Contact</a></li>
 								<li><a href="Careers.php">Careers</a></li>
 								<li><a href="#">Terms & Conditions</a></li>
 								<li><a href="#">Privacy and Policy</a></li>
@@ -53,9 +53,8 @@
 						</div>
 						
 			
-							<div class="col-md-12 text-center" style="margin-top: 20px;
-    border-top: white solid 1px;
-"><br><p></p>
+							<div class="col-md-12 text-center" style="margin-top: 20px;border-top: white solid 1px;">
+                                <br><p></p>
 							<div class="row">
 								<div class="col-md-6">
 							<p>Copyright © 2018 Farepayer. All Rights Reserved.Made with <i class="fa fa-heart"></i> by <a href="#" target="_blank">Farepayer</a></p>
