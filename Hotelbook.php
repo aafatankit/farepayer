@@ -52,13 +52,52 @@
     
     <link rel="stylesheet"  href="lightslider-master/src/css/lightslider.css"/>
     <style>
-		.tab {
+	
+.tabbable-panel {
+  border:1px solid #eee;
+  padding: 1px;
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+/* tabs button start*/
+/*
+		
+	.tab {
     color: white;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #23a5de;
 }
-/* Style the buttons inside the tab */
+*/
+
+/*
 .tab button {
     height: 37px;
     background-color: inherit;
@@ -70,26 +109,33 @@
     transition: 0.3s;
     font-size: 17px;
 }
+*/
 
 /* Change background color of buttons on hover */
+/*
 .tab button:hover {
  background-color: #1a7096;
+*/
 }
 
 /* Create an active/current tablink class */
+/*
 .tab button.active {
       background-color: #f86161;
+*/
 }
 
 /* Style the tab content */
+/*
 .tabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
 }
+*/
 		
-		
+/* tabs button end*/		
 		
 		
 		
@@ -106,13 +152,8 @@
   height: auto;
 }
 	
-/*	search bar start*/
-.tab1.active {
-    display: block
-}
-.tab1 {
-    display: none
-}
+/*	start search bar	*/
+
 .tabing {
     float: left;
     width: 100%;
@@ -120,31 +161,9 @@
     padding: 0 10px 10px 10px;
     color: #fff;
 }
-.tabing ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    width: 100%;
-    float: left;
-}
-.tabing ul li {
-    float: left;
-}
-.tabing ul li a {
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-    color: #fff;
-    background: rgba(0, 130, 185, .9);
-    margin: 0 10px 0 0;
-    padding: 5px 10px 5px 10px;
-    border-radius: 0px 0px 5px 5px;
-    font-size: 16px;
-    text-align: left;
-}
-.tabing ul li a.active {
-    background: #ba0400
-}
+
+
+
 .hotel-tab {
     width: 93%;
     float: left;
@@ -212,7 +231,7 @@
             margin: 0;
 		}
         .demo .item{
-            margin-bottom: 60px;
+            margin-bottom: 10px;
         }
 		.content-slider li{
 		    background-color: #ed3020;
@@ -263,8 +282,8 @@
 
 
 <!-- serach bar start-->    
-<div class="hotel-engine">
-               <div class="container ">
+
+   <div class="container ">
                   <div class="tabing"style="BORDER-RADIUS: 5PX;">
                      
                      <div class="tab-content">
@@ -311,7 +330,7 @@
 
                   </div>
 
-               </div>
+            	
   <!-- serach bar end-->   
 
 <br>
@@ -322,7 +341,7 @@
 
 <p></p>
 <!--start slider-->
-	<div class="demo" style="margin: 52px 35px;">
+	<div class="demo">
         <div class="item">            
             <div class="clearfix" style="max-width:474px;">
                 <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
@@ -380,7 +399,7 @@
     <!--end slider-->	
     </div>
     
-				<div class="details col-md-6"style="COLOR: #1c7196;margin-top:34px;">
+			<div class="details col-md-6"style="COLOR: #1c7196;">
 	<br>
 			<h2 class="product-title">Hotel Name</h2>
 						<div class="rating">
@@ -407,26 +426,19 @@
 					<h1 class="">Rs. <span>14000/<span style="font-size:10px; "> 1 night</span></span></h1>
 						</div>
 						<br>
-						<button type="button" class="btn btn-outline-info" style="width: 154px;padding: 10px;text-align: center;"><b>See Hotel</b></button>
+						<a href="#accordion" class="btn btn-outline-info" style="width: 154px;padding: 10px;text-align: center;"><h4>See Rooms</h4></a>
 					</div>
 
 		</div>
 		</div>
 	  <br>
 
-
-
-
-
-
+<!--
 
 <div class="row">
 <div class="container" style="background: #e8e8e861;margin-bottom: 50px;background: #e8e8e861;">
-
-
-
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Description')"><h4>Description  <i class='fas fa-angle-down'></i></h4></button>
+<div class="tab"> 
+  <button class="tablinks" onclick="openCity(event, 'Description')"><h4>Description  <i class='fas fa-angle-down'></i></h4>
   <button class="tablinks" onclick="openCity(event, 'Hotelfacilities')"><h4>Hotel facilities  <i class='fas fa-angle-down'></i></h4></button>
   <button class="tablinks" onclick="openCity(event, 'Roomfacilities')"><h4>Room facilities  <i class='fas fa-angle-down'></i></h4></button>
    <button class="tablinks" onclick="openCity(event, 'Services')"><h4>Services  <i class='fas fa-angle-down'></i></h4></button>
@@ -434,9 +446,9 @@
   <button class="tablinks" onclick="openCity(event, 'HotelPolicy')"><h4>Hotel Policy  <i class='fas fa-angle-down'></i></h4></button>
 </div>
 
-<div id="Description" class="tabcontent">
+<div id="Description" class="tabcontent ">
   <h3>Description :</h3>
-  <p style="font-size: 12px;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include separate sitting areas and ceiling fans, and housekeeping is provided daily.Amenities Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and concierge services.Dining Take advantage of the hotel's room service (during limited hours). Continental breakfasts are available for a fee.Business, Other Amenities Featured amenities include complimentary wired Internet access, a business center, and express check-in. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. 
+  <p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include separate sitting areas and ceiling fans, and housekeeping is provided daily.Amenities Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and concierge services.Dining Take advantage of the hotel's room service (during limited hours). Continental breakfasts are available for a fee.Business, Other Amenities Featured amenities include complimentary wired Internet access, a business center, and express check-in. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. 
 Disclaimer notification: Amenities are subject to availability and may be chargeable as per the hotel policy.  
 </p>
 </div>
@@ -446,7 +458,7 @@ Disclaimer notification: Amenities are subject to availability and may be charge
 					
 					<div class="col-md-4"style="text-align: left;">
 					
-					<ul style="font-size: 12px">
+					<ul style="font-size: 12px;font-weight: 600;color: #757575;">
 					<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
 					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
 					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
@@ -477,8 +489,6 @@ Disclaimer notification: Amenities are subject to availability and may be charge
 					
 					</ul>
 					</div>
-				
-					
 			</div>
 </div>
 
@@ -500,11 +510,105 @@ Disclaimer notification: Amenities are subject to availability and may be charge
   
   <p>Roomfacilities</p>
 </div>
+-->
+<div class="container">
+	<div class="tabbable-panel">
+				<div class="tabbable-line">
+					<ul class="nav nav-tabs">
+						<li class="active">
+							<a href="#tab_default_1" data-toggle="tab"style="height: 39px;height: 43px;">
+					<h3>Description</h3></a>
+						</li>
+						<li>
+							<a href="#tab_default_2" data-toggle="tab" style="line-height: 13px;">
+							Hotelfacilities</a>
+						</li>
+						<li>
+							<a href="#tab_default_3" data-toggle="tab" style="line-height: 13px;">
+							Roomfacilities</a>
+						</li>	
+						<li>
+							<a href="#tab_default_4" data-toggle="tab" style="line-height: 13px;">
+							Attractions</a>
+						</li>
+						<li>
+							<a href="#tab_default_5" data-toggle="tab" style="line-height: 13px;">
+							Services</a>
+						</li>
+						<li>
+							<a href="#tab_default_6" data-toggle="tab" style="line-height: 13px;">
+							Hotel Policy</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+					
+						<div class="tab-pane active" id="tab_default_1">
+							<p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include separate sitting areas and ceiling fans, and housekeeping is provided daily.Amenities Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and concierge services.Dining Take advantage of the hotel's room service (during limited hours). Continental breakfasts are available for a fee.Business, Other Amenities Featured amenities include complimentary wired Internet access, a business center, and express check-in. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. 
+Disclaimer notification: Amenities are subject to availability and may be chargeable as per the hotel policy.  
+</p>
+							
+						</div>
+						<div class="tab-pane" id="tab_default_2">
+						<div class="row"style="width: fit-content;padding: 10px;">
+					
+					<div class="col-md-4"style="text-align: left;">
+					
+					<ul style="font-size: 12px;font-weight: 600;color: #757575;">
+					<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
+					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
+					<li><i class=" fa fa-check-circle-o"></i>	1 lift </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Earliest check-in at 12:00 </li>
+					</ul>
+					</div>
+					
+					
+					
+					
+					<div class="col-md-4"style="text-align: left;">
+					<ul style="font-size: 12px">
+						<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
+					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
+					<li><i class=" fa fa-check-circle-o"></i>	1 lift </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Earliest check-in at 12:00 </li>
+					
+					</ul>
+					</div><div class="col-md-4"style="text-align: left;">
+					<ul style="font-size: 12px">
+						<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
+					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
+					<li><i class=" fa fa-check-circle-o"></i>	1 lift </li>
+					<li><i class=" fa fa-check-circle-o"></i>	Earliest check-in at 12:00 </li>
+					
+					</ul>
+					</div>
+			</div>
 
-
-
-
-
+					
+						
+						</div>
+						<div class="tab-pane" id="tab_default_3">
+							<p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected,
+						</div>
+						<div class="tab-pane" id="tab_default_4">
+							<p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimenta
+						</div>
+						
+							<div class="tab-pane" id="tab_default_5">
+							<p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj)strooms. Complimenta
+						</div>
+						<div class="tab-pane" id="tab_default_6">
+							<p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4
+						</div>
+					
+						
+					</div>
+				</div>
+			</div>
+			</div>
+<!--room Start-->
 
 
 <div class="container">
@@ -513,15 +617,69 @@ Disclaimer notification: Amenities are subject to availability and may be charge
     <div class="card" style="margin: 20px;">
       <div class="card-header">
         <a class="card-link" data-toggle="collapse" href="#collapseOne">
-          <h4>Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 2400/night</span></h4>
+          <h4>Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 1745/Day</span></h4>
         </a>
       </div>
       <div id="collapseOne" class="collapse show" data-parent="#accordion">
-        <div class="card-body">
-          dasg
-        </div>
+        <div class="card-body"style="background: #39b0e4;">
+         <div class="row" style="color: #ffffff;">
+         	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" style="width: 272px;"></div>
+         	<div class="col-md-4">
+        		<table style="font-size: 15px;font-weight: 600;">
+					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
+         			
+         			<td>Last Cancellation Date &nbsp; </td>
+         			
+         			<td>: 2019-01-07T00:00:00</td>
+         			<tr>
+         			<tr>
+         				<td><strong>Cancellation Policies : </strong></td>
+         				<td></td>
+         			</tr><tr>
+         				<td>From Date </td>
+         				<td>:  2019-01-07T00:00:00</td>
+         			</tr>
+         			<tr> 
+         				<td>Date Rate</td>
+         				<td>: 2019-01-07T00:00:00</td>
+         			</tr>
+         	</tr>
+         	</table>
+         <hr>
+         	<span><h5><strong>Cancellation Policies : </strong>
+				Charges(will deducted) : 100 %</h5></span> 
+         	</div>
+         	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
+         		<tr>
+         			<td><strong>Price Details &nbsp; </strong></td>
+         			<tr>
+         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
+         			</tr>
+         			<tr>
+         				<td>Date </td> <td>: &nbsp;2019-01-08T00:00:00</td>
+         			</tr><tr>
+         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
+         			</tr>
+         			<tr>
+         				<td>Extra Guset Charge &nbsp;</td><td>:&nbsp; 854</td>
+         			</tr>
+         			<tr> 
+         				<td>Child Charge</td><td> :&nbsp; 745</td>
+         			</tr><tr> 
+         				<td><b><u>Totel Amount</u></strong></td><td><strong> &nbsp;: 1745</b></td>
+         			</tr>
+         		</tr>
+         	</table>
+         	<hr>
+         	<span><h5><strong>Note :  </strong>
+Under Cancellation Allowed For The Hotel.</h5></span>
+<button type="button" class="btn"style="margin: 0px 77px;width: 141px;padding: 8px 0px 4px 0px;background: #ff9921;"><h4>Book Now</h4></button>
+			</div>
+         	</div>
+</div>
       </div>
     </div>
+    
     <div class="card"  style="margin: 20px;">
       <div class="card-header">
         <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
@@ -529,11 +687,65 @@ Disclaimer notification: Amenities are subject to availability and may be charge
       </a>
       </div>
       <div id="collapseTwo" class="collapse" data-parent="#accordion">
-        <div class="card-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+       <div class="card-body"style="background: #39b0e4;">
+          <div class="row" style="color: #ffffff;">
+         	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" style="width: 272px;"></div>
+         	<div class="col-md-4">
+        		<table style="font-size: 15px;font-weight: 600;">
+					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
+         			
+         			<td>Last Cancellation Date &nbsp; </td>
+         			
+         			<td>: 2019-01-07T00:00:00</td>
+         			<tr>
+         			<tr>
+         				<td><strong>Cancellation Policies : </strong></td>
+         				<td></td>
+         			</tr><tr>
+         				<td>From Date </td>
+         				<td>:  2019-01-07T00:00:00</td>
+         			</tr>
+         			<tr> 
+         				<td>Date Rate</td>
+         				<td>: 2019-01-07T00:00:00</td>
+         			</tr>
+         	</tr>
+         	</table>
+         <hr>
+         	<span><h5><strong>Cancellation Policies : </strong>
+				Charges(will deducted) : 100 %</h5></span> 
+         	</div>
+         	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
+         		<tr>
+         			<td><strong>Price Details &nbsp; </strong></td>
+         			<tr>
+         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
+         			</tr>
+         			<tr>
+         				<td>Date </td> <td>: &nbsp;2019-01-08T00:00:00</td>
+         			</tr><tr>
+         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
+         			</tr>
+         			<tr>
+         				<td>Extra Guset Charge &nbsp;</td><td>:&nbsp; 854</td>
+         			</tr>
+         			<tr> 
+         				<td>Child Charge</td><td> :&nbsp; 745</td>
+         			</tr><tr> 
+         				<td><b><u>Totel Amount</u></strong></td><td><strong> &nbsp;: 1745</b></td>
+         			</tr>
+         		</tr>
+         	</table>
+         	<hr>
+         	<span><h5><strong>Note :  </strong>
+Under Cancellation Allowed For The Hotel.</h5></span>
+<button type="button" class="btn"style="margin: 0px 77px;width: 141px;padding: 8px 0px 4px 0px;background: #ff9921;"><h4>Book Now</h4></button>
+			</div>
+         	</div>
         </div>
       </div>
     </div>
+    
     <div class="card"  style="margin: 20px;">
       <div class="card-header">
         <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
@@ -542,8 +754,61 @@ Disclaimer notification: Amenities are subject to availability and may be charge
       </div>
       
       <div id="collapseThree" class="collapse" data-parent="#accordion">
-        <div class="card-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+       <div class="card-body"style="background: #39b0e4;">
+          <div class="row" style="color: #ffffff;">
+         	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" style="width: 272px;"></div>
+         	<div class="col-md-4">
+        		<table style="font-size: 15px;font-weight: 600;">
+					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
+         			
+         			<td>Last Cancellation Date &nbsp; </td>
+         			
+         			<td>: 2019-01-07T00:00:00</td>
+         			<tr>
+         			<tr>
+         				<td><strong>Cancellation Policies : </strong></td>
+         				<td></td>
+         			</tr><tr>
+         				<td>From Date </td>
+         				<td>:  2019-01-07T00:00:00</td>
+         			</tr>
+         			<tr> 
+         				<td>Date Rate</td>
+         				<td>: 2019-01-07T00:00:00</td>
+         			</tr>
+         	</tr>
+         	</table>
+         <hr>
+         	<span><h5><strong>Cancellation Policies : </strong>
+				Charges(will deducted) : 100 %</h5></span> 
+         	</div>
+         	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
+         		<tr>
+         			<td><strong>Price Details &nbsp; </strong></td>
+         			<tr>
+         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
+         			</tr>
+         			<tr>
+         				<td>Date </td> <td>: &nbsp;2019-01-08T00:00:00</td>
+         			</tr><tr>
+         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
+         			</tr>
+         			<tr>
+         				<td>Extra Guset Charge &nbsp;</td><td>:&nbsp; 854</td>
+         			</tr>
+         			<tr> 
+         				<td>Child Charge</td><td> :&nbsp; 745</td>
+         			</tr><tr> 
+         				<td><b><u>Totel Amount</u></strong></td><td><strong> &nbsp;: 1745</b></td>
+         			</tr>
+         		</tr>
+         	</table>
+         	<hr>
+         	<span><h5><strong>Note :  </strong>
+Under Cancellation Allowed For The Hotel.</h5></span>
+<button type="button" class="btn"style="margin: 0px 77px;width: 141px;padding: 8px 0px 4px 0px;background: #ff9921;"><h4>Book Now</h4></button>
+			</div>
+         	</div>
         </div>
       </div>
     </div>
@@ -551,7 +816,7 @@ Disclaimer notification: Amenities are subject to availability and may be charge
 </div>
 
 
-
+<!--room end-->
 
 
 
@@ -566,7 +831,7 @@ Disclaimer notification: Amenities are subject to availability and may be charge
 
 
 </div>
-	  </div>
+</div>
 
 
 
