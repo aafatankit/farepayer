@@ -54,8 +54,14 @@
   .allbackpage{background:#f4f4f4;}
 .allbackpage a{color:#5f6367;line-height:30px;font-size:13px;margin-right:10px;}
 .allbackpage i{margin-right:5px;}
-       
-		
+   .centered{color: white;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 81px;
+}
+
 		.h1{font-family: 'Viga', sans-serif;}
     </style>
 	
@@ -71,14 +77,21 @@
 	<!-- end:header-top -->
 	
 
+<!--
  <div class="row nopadding allbackpage">
 <div class="container">
 <i class="fa fa-home fa-2x"></i><a href="index.php">Home</a> <i class="fa fa-angle-right fa-2x"></i><a href="about.php">Contact Us</a>
 </div>
 </div>
+-->
+ <div class="row nopadding content"><img src="images/contectus.jpg" alt="">
+  <div class="centered">Contact Us</div>
+
+</div>
+</div>
 
         <p></p>
-  <div id="fh5co-contact" class=""style="background:#afafaf0f">
+  <div id="fh5co-contact"style="background:#afafaf0f;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
@@ -89,13 +102,52 @@
 				<form action="#">
 					<div class="row animate-box">
 						<div class="col-md-6">
-							<h3 class="section-title">Our Address</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<h1 class="section-title"><b>Our Address</b></h1>
+							<p>B – 15 , 1st Floor Shankar Garden Vikas Puri , Near Janakpuri West Metro Station , New Delhi, India, Pin Code: 110018</p>
 							<ul class="contact-info">
-								<li><i class="icon-location-pin"></i>198 West 21th Street, Suite 721 New York NY 10016</li>
-								<li><i class="icon-phone2"></i>+ 1235 2355 98</li>
-								<li><i class="icon-mail"></i><a href="#"><span class="__cf_email__" data-cfemail="573e393138172e382225243e23327934383a">[email&#160;protected]</span></a></li>
-								<li><i class="icon-globe2"></i><a href="#">www.yoursite.com</a></li>
+								<h1><u><b>International</b></u></h1></li>
+								<h2>Sales and Operations - Gaurav Singh</h2>
+								<p></p>
+							
+								<h4> +91-9312881881, +91-11-456661507</h4>
+								 <p></p>
+								<h4>tours@farepayer.com</h4>
+							</ul>
+							<ul class="contact-info">
+								<h1><u><b>Domestic Packages</b></u></h1></li>
+								<h2>Sales and Operations</h2>
+								<p></p>
+							
+								<h4>+91-9313881881 </h4>
+								 <p></p>
+								<h4>Holidays@farepayer.com</h4>
+							</ul>
+								<ul class="contact-info">
+								<h1><u><b>HR</b></u></h1></li>
+								<h2>Monika Galhotra </h2>
+								<p></p>
+							
+								<h4>monika@farepayer.com</h4>
+								 <p></p>
+								
+							</ul>
+						<ul class="contact-info">
+								<h1><u><b>Ticketing</b></u></h1></li>
+								<h2>Abhishek Demra </h2>
+								<p></p>
+							
+								<h4>+91-11-45661507/8 </h4>
+								 <p></p>
+								<h4>abhishek@farepayer.com</h4>
+							</ul>
+							<ul class="contact-info">
+								<h1><u><b>Accounts</b></u></h1></li>
+								<h2>Mannu Mandal </h2>
+								<p></p>
+							
+								<h4>+91-11-45661508</h4>
+								 <p></p>
+								<h4>accounts@farepayer.com</h4>
 							</ul>
 						</div>
 						<div class="col-md-6">
@@ -104,8 +156,12 @@
 									<div class="form-group">
 										<input type="text" class="form-control" placeholder="Name">
 									</div>
+								</div><div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Contact No">
+									</div>
 								</div>
-								<div class="col-md-6">
+								<div class="col-md-12">
 									<div class="form-group">
 										<input type="text" class="form-control" placeholder="Email">
 									</div>

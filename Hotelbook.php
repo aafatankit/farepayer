@@ -413,7 +413,7 @@
 							<p text-light style="font-size:medium;COLOR: #03366d;">
 						<i class="fa fa-map-marker fa-2x"></i> 
 						<b>Area : Colva Area, South Goa,</b></p>
-					<p style="font-size: 13px;"><b style="COLOR: #043971;">Hotel No : 987456321</b></p>
+					
 					<h4>Hotel Facilities :</h4>
 					<br>
 			<h2><i class="fa fa-wifi ftooltip icolorsize"><span class="ftooltiptext"><h6>Wifi</h6></span></i>&nbsp;

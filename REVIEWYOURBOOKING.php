@@ -9,16 +9,10 @@
     <title>Best Holiday Pacakges, Fligts, Hotels at Lowest Prices- Farepayer.com</title>
     <meta name="description" content="Farepayer.com is one of the leading Travel Companies in India, based in Delhi. We offer a consistent service and multiple resources to satisfy your every travel related desire. " />
 
-
-
-	
-	
-	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -50,7 +44,7 @@
 
 <style>
 	
-	.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
 .bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}
 .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
@@ -96,46 +90,58 @@ th {
 	
 	
 	
+
+	
+
 	
 	
-	.modals {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	
+	
+	.read-more-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s ease;
 }
 
-/* Modal Content */
-.modals-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+.read-more-toggle {
+  display: none;
 }
 
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
+.read-more-toggle-label {
+  display: inline-block;
+  user-select: none;
   cursor: pointer;
+  border: none;
+  padding: 5px;
+   font-size: 9px;
+  font-size:;
+  background: #555;
+  color: white;
 }
 
+.read-more-toggle-label:after {
+  content: "More";
+  display: inline-block;
+}
+
+.read-more-toggle:checked + .read-more-content {
+  display: block;
+  /* css animation won't work with "auto"; set to some height larger
+	than the content */
+  max-height: 1000px;
+}
+
+.read-more-toggle:checked + .read-more-content + .read-more-toggle-label:after {
+  content: "Less";
+}
+
+article {
+ 
+}
+
+article p {
+  margin-top: 3px;
+}
 	
 	
 	
@@ -148,6 +154,25 @@ th {
 	
 	
 	
+	.mybutton{margin: 10px;font-size: 10px;color: white;background: #7279c7;}
+	.myborder {border: solid 2px #cccccc;margin: 5px;}	
+	
+@media screen and (max-width: 768px) {
+  .bs-wizard > .bs-wizard-step .bs-wizard-stepnum{ font-size: 6px;
+    margin-bottom: 33px;
+  }
+   
+  }
+	@media screen and (max-width: 768px) {
+  .myborder{ width: 100px;font-size: 12px;
+  }
+   
+  }
+		@media screen and (max-width: 768px) {
+  body{ font-size: 12px;
+  }
+   
+  }
 	
 	
 	
@@ -209,25 +234,27 @@ th {
                   <a href="#" class="bs-wizard-dot"style="background: #009688 !important;"></a>
                </div>
                <div class="col-xs-2 bs-wizard-step disabled"><!-- active -->
-                  <div class="text-center bs-wizard-stepnum">Conform </div>
+                  <div class="text-center bs-wizard-stepnum">Confirm </div>
                   <div class="progress"><div class="progress-bar"></div></div>
                   <a href="#" class="bs-wizard-dot"></a>
                </div>
             </div>
     </div>
 	
-
- 
- <h3 style="font-weight: 700;color: #386d9c;
+	<br>
+	<p></p>
+	
+ <div class="container"style="border: solid 2px #e9e9e9;">
+ <h3 style="font-weight: 700;color:#386d9c;padding: 10px;background: aquamarine;
     text-align: -webkit-center;
     margin-top: 23px;
     margin-bottom: 20px;"><u>REVIEW YOUR BOOKING</u></h3><br>
 
 
-<div class="container">
+
 <div class="col-md-8">
 
-<div class="container"style="padding:10px;border: solid 10px #bababa42;font-size: 13px;">
+<div class="container"style="padding:10px;border: solid 3px #bababa42;font-size: 13px;">
 <div class="col-md-3 nopadding">
 <img src="images/hotel/hotel1.jpg" class="responsive" alt="">
 </div>
@@ -240,84 +267,96 @@ th {
 	<i class="fa fa-map-marker fa-2x"></i><b> Address :</b>916 Gali Chandi Wali, Main Bazaar, New Delhi, 110055, India ZipCode: 110055
 	</p>
 	<div class="row text-center">
-	<div class="col-md-3"style="border: solid 2px #cccccc;margin: 5px;"><b>Check in</b><br>19/1/2019</div>
-	<div class="col-md-3"style="border: solid 2px #cccccc;margin: 5px;"><b>Check Out</b><br>19/1/2019</div>
-	<div class="col-md-3"style="border: solid 2px #cccccc;margin: 5px;"><b>Night</b><br>2</div>
-	<div class="col-md-3"style="border: solid 2px #cccccc;margin: 5px;"><b>Room Type</b><br>Standard Room</div>
-	<div class="col-md-3"style="border: solid 2px #cccccc;margin: 5px;"><b>Amenities</b><br>Full Breakfast</div>
-	<div class="col-md-3"style="border: solid 2px #cccccc;margin: 5px;"><b>Guest</b><br>1 Adult</div>
-		<a href="#"><p style="color: white;background: #7279c7;padding: 5px;border-radius: 4px;margin: 8px;"><i class='far fa-edit'></i>modify</p></a>
+	<div class="col-md-3 myborder"><b>Check in</b><br>19/1/2019</div>
+	<div class="col-md-3 myborder"><b>Check Out</b><br>19/1/2019</div>
+	<div class="col-md-3 myborder"><b>Night</b><br>2</div>
+	<div class="col-md-3 myborder"><b>Room Type</b><br>Standard</div>
+	<div class="col-md-3 myborder"><b>Amenities</b><br>Breakfast</div>
+	<div class="col-md-3 myborder"><b>Guest</b><br>1 Adult</div>
+	<a href="#"><p style="color: white;background: #7279c7;padding: 4px;border-radius: 4px;margin: 12px;font-size: 13px;"><i class="far fa-edit"></i>modify</p></a>
 
-<!-- Button to Open the Modal -->
-<button id="myBtns">Hotel Policy</button>
-<div id="myModals" class="modals">
-<div class="modals-content">
-    <span class="close">&times;</span>
-    <p>Some text in .</p>
+	
+			
+<!--
+<article>
+  <p style="border: solid 1px #d6d6d6;font-size: 14px;"><b><u>Hotel Policy :</u></b>
+survived not only five centuries.... 
+  
+  
+  </p>
+  
+  <input id="read-more-toggle-1" class="read-more-toggle" type="checkbox">
+ 
+  <div class="read-more-content">
+    <p style="
+    font-size: 13px;text-align: -webkit-auto;
+">Egestas mollitia quos metus natus assumenda ullam suscipit ultricies.sequuntur massa fugit deserunt laboriosam mi consectetur curabitur cum.</p>
   </div>
-</div>
+  <label class="read-more-toggle-label" for="read-more-toggle-1">Read </label>
+</article>
+-->
 
 
-<script>
-// Get the modal
-var modal = document.getElementById('myModals');
 
-var btn = document.getElementById("myBtns");
-
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modals) {
-    modals.style.display = "none";
-  }
-}
-</script>
-
-
-<button id="myBtn1">Hotel Policy</button>
-<div id="myModals1" class="modals">
-
-  <!-- Modal content -->
-  <div class="modals-content">
-    <span class="close1">&times;</span>
-    <p>Some text in the Modal..</p>
+<!--
+<article>
+  <p style="border: solid 1px #d6d6d6;font-size: 14px;"><b><u>Cancellation Policy :</u></b>
+survived not only five centuries.... 
+  
+  
+  </p>
+  
+  <input id="read-more-toggle-2" class="read-more-toggle" type="checkbox">
+ 
+  <div class="read-more-content">
+    <p style="
+    font-size: 13px;text-align: -webkit-auto;
+">Egestas mollitia quos metus natus assumenda ullam suscipit ultricies. Voluptas, nihil natoque elementum error ligula natoque, quisque nostra sunt, nibh, consequuntur turpis eros aut justo qui recusandae eos, soluta repellat ipsa tortor tempus ultrices dis, unde voluptates venenatis placeat praesent suscipit maxime, lacus eleifend? Iste nisi fermentum! Corporis accusamus dictum! Sapien laboris massa fugit deserunt laboriosam mi consectetur curabitur cum.</p>
   </div>
+  <label class="read-more-toggle-label" for="read-more-toggle-2">Read </label>
+</article>
+-->
 
-</div>
+ 
 
-<script>
+  <button type="button" class="btn mybutton"data-toggle="collapse" data-target="#demo"><b><u>Hotel Policy :</u></b></button>
+  <div id="demo" class="collapse"style="text-align: -webkit-auto;">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+  
+  
+ 
 
-var modal1 = document.getElementById('myModals1');
-
-var btn1 = document.getElementById("myBtn1");
-
-var span1 = document.getElementsByClassName("close")[0];
-
-btn1.onclick = function() {
-  modal1.style.display = "block";
-}
-
-span.onclick = function() {
-  modal1.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal1) {
-    modal1.style.display = "none";
-  }
-}
-</script>
+  <button type="button" class="btn mybutton"data-toggle="collapse" data-target="#demo1"><b><u>Cancellation Policy :</u></b></button>
+  <div id="demo1" class="collapse"style="text-align: -webkit-auto;">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<!--
+  
+<h2>Simple e</h2>
+  <p>Click</p>
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">Simple collapsible</button>
+  <div id="demo2" class="collapse">
+    Lorem 
+  </div>
+-->
 
 </div>
 	
@@ -328,7 +367,10 @@ window.onclick = function(event) {
    	<br><p></p>
    	
 	</div>    
-    		
+    
+
+
+		
     	
  <div class="col-md-4"style="padding:10px;border: solid 2px #bababa42;font-size: 13px;font-weight: 600;">    
   <h4 class="text-center"style="padding: 5px;background: #afc9e0;"><b>Price Details</b></h4>
@@ -368,7 +410,7 @@ window.onclick = function(event) {
   </tr>
 
 </table>
-     <a href="#"><button class="btn success">Info</button></a>  
+
         
         
 	</div>
@@ -376,16 +418,15 @@ window.onclick = function(event) {
 
 <div class="col-md-8">
 
-<div class="container"style="
-    padding: 10px;
-    border: solid 5px #bababa42;
-    font-size: 13px;">
+<div class="container"style="padding: 10px;border: solid 2px #bababa42;font-size: 13px;">
     
-<h3>Guest Datails</h3>
+<h3 class=text-center><u>Guest Details :</u></h3>
 <br>
   <p></p>
   
-   <div class="row">  
+   <div class="row">
+    <div class="container">
+     
     <div class="col-md-1">
       <label for="title">Title</label>
    <select id="title" name="title">
@@ -408,31 +449,27 @@ window.onclick = function(event) {
                             <input type="text" class="myform"  placeholder="Last Name"/>
                         </div>
                     </div>  
-                       <div class="col-md-3 col-lg-3">
+                    
+                    
+
+             
+                </div></div>
+                
+       <div class="row">
+      <div class="container">
+       <div class="col-md-3 ">
                         <div class="form-group">
                             <label class="control-label">Contact No.</label>
                 <input type="text" class="myform"  placeholder="Mobile Number"/>
                         </div>
                     </div>  
-                    
-
-             
-                </div>
-                
-    <div class="row">  
-    
  	<div class="col-md-3 col-lg-3">
                         <div class="form-group">
                             <label class="control-label">Email </label>
                             <input type="text" class="myform" placeholder="Email" />
                         </div>
                     </div>
-                  <div class="col-md-3 col-lg-3">
-                        <div class="form-group">
-                            <label class="control-label">Mobile Number</label>
-                            <input type="text" class="myform"  placeholder="Mobile Number"/>
-                        </div>
-                    </div>  
+               
                          <div class="col-md-2 col-lg-2 ">
                         <div class="form-group">
                             <label class="control-label">Age</label>
@@ -440,20 +477,20 @@ window.onclick = function(event) {
                         </div>
                     </div>   
                    
- </div>      
+  
     		
-    	
-     
+    <div class="col-md-12 offset-4 mtop">	
+		<button type="button" class="btn btn-success btn-lg"><b>Confirm & Pay</b></button></div>
           
+ </div> </div></div> <p></p><br> 
+</div>
+<br><p></p>	
 
 </div>
 
-
-</div>
-</div>
 
 	
-	
+	<br><p></p>	
 
 <!-- Trigger/Open The Modal -->
 
