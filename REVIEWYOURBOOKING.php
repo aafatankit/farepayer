@@ -143,6 +143,7 @@ th {
 	
 .mybutton{margin: 10px;font-size: 10px;color: white;background: #7279c7;}
 .myborder {border: solid 2px #cccccc;margin: 5px;}	
+	.myborder1 {border: solid 1px #cccccc;margin: 5px; font-size: 12px}	
 	
 @media screen and (max-width: 768px) {
   .bs-wizard > .bs-wizard-step .bs-wizard-stepnum{ font-size: 6px;
@@ -265,12 +266,16 @@ th {
 		<p text-light style="font-size: small;">
 	<i class="fa fa-map-marker fa-2x"></i><b> Address :</b>916 Gali Chandi Wali, Main Bazaar, New Delhi, 110055, India ZipCode: 110055
 	</p>
-	<div class="row text-center">
+	<div class="row">
+	<div class="col-md-12 myborder1">
+	<div class="row">
+		<div class="col-md-3"><b>Standerd Room</b></div>
+		<div class="col-md-2"> <b>With</b> </div>
+		<div class="col-md-7"><b>Full breakfast, Dinner,Full breakfast  </b></div>
+	 </div></div>
+ 
 	
-
-	<div class="col-md-4 myborder offset-1"><b>Room Type</b><br>Standard</div>
-	<div class="col-md-4 myborder  offset-1"><b>Amenities</b><br>Breakfast</div>
-	<div class="col-md-8  offset-0">
+	<div>
 	
 
 <button type="button" class="btn mybutton"data-toggle="collapse" data-target="#demo"><b><u>Hotel Policy :</u></b></button>
