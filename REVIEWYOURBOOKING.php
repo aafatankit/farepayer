@@ -143,7 +143,7 @@ th {
 	
 .mybutton{margin: 10px;font-size: 10px;color: white;background: #7279c7;}
 .myborder {border: solid 2px #cccccc;margin: 5px;}	
-	.myborder1 {border: solid 1px #cccccc;margin: 5px; font-size: 12px}	
+	.myborder1 {border: solid 1px #cccccc;margin: 5px; font-size: 12px;padding: 5PX;}	
 	
 @media screen and (max-width: 768px) {
   .bs-wizard > .bs-wizard-step .bs-wizard-stepnum{ font-size: 6px;
@@ -271,9 +271,11 @@ th {
 	<div class="row">
 		<div class="col-md-3"><b>Standerd Room</b></div>
 		<div class="col-md-2"> <b>With</b> </div>
-		<div class="col-md-7"><b>Full breakfast, Dinner,Full breakfast  </b></div>
-	 </div></div>
- 
+		<div class="col-md-7"><b>Full breakfast, Dinner,Full breakfast  </b>
+		</div>
+	 </div>
+	 </div>
+	
 	
 	<div>
 	
@@ -294,7 +296,7 @@ th {
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   </div>
- 
+ 	
 </div>
 </div>
 	
@@ -302,7 +304,7 @@ th {
   	
    	</div>
    	
-   	<br><p></p>
+  
    	
 	</div>    
  <!--hotel name end-->   
@@ -310,8 +312,8 @@ th {
 
 		
 <!--   Search details start	-->
- <div class="col-md-4"style="padding:10px;border: solid 2px #bababa42;font-size: 13px;font-weight: 600;">    
-  <h4 class="text-center"style="padding: 5px;background: #afc9e0;"><b>Search details</b></h4>
+ <div class="col-md-4"style="padding:4px;border: solid 2px #bababa42;font-size: 13px;font-weight: 600;">    
+  <h4 class="text-center"style="padding: 4px;background: #afc9e0;"><b>Search details</b></h4>
 
 <table>
 
@@ -342,17 +344,15 @@ th {
   </tr>
   </table>
 
-<!--   <a href="#"><p style="color: white;background: #7279c7;padding: 4px;border-radius: 4px;margin: 12px;font-size: 13px;"><i class="far fa-edit"></i></p></a>-->
-  
-
-
-
-        
-        
-	</div>
+</div>
 <!--Search details end-->
+		
+		<!--Notes line-->
 
-
+		<div class="col-md-12"style="color: #D34447">
+		<H5><b><u>Note :</u>We get an updated price from hotel ,please take a look at totel price before proceeding for payment</b></H5></div>
+		<div class="col-md-12" style="color: #D34447"><h5><b><u>Note :</u>We get an updated Cancellation policy Before proceeding for payment </b></h5></div>
+<!--Notes line  end-->
 
 <!--Guest Details  start-->
 <div class="col-md-8">
