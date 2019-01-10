@@ -46,12 +46,9 @@
 	<!-- Modernizr JS -->
 
     
-    
-    
-    
-    
-    <link rel="stylesheet"  href="lightslider-master/src/css/lightslider.css"/>
-    <style>
+<link rel="stylesheet"  href="lightslider-master/src/css/lightslider.css"/>
+   
+<style>
 	
 .tabbable-panel {
   border:1px solid #eee;
@@ -86,65 +83,6 @@
   padding-bottom: 0;
 }
 
-/* tabs button start*/
-/*
-		
-	.tab {
-    color: white;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #23a5de;
-}
-*/
-
-/*
-.tab button {
-    height: 37px;
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 9px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-*/
-
-/* Change background color of buttons on hover */
-/*
-.tab button:hover {
- background-color: #1a7096;
-*/
-}
-
-/* Create an active/current tablink class */
-/*
-.tab button.active {
-      background-color: #f86161;
-*/
-}
-
-/* Style the tab content */
-/*
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-*/
-		
-/* tabs button end*/		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
  #more {display: none;}
 .responsive {
@@ -152,77 +90,21 @@
   height: auto;
 }
 	
-/*	start search bar	*/
-
-.tabing {
-    float: left;
-    width: 100%;
-    background: rgb(35, 165, 222);
-    padding: 0 10px 10px 10px;
-    color: #fff;
-}
-
-
-
-.hotel-tab {
-    width: 93%;
-    float: left;
-    margin-top: 10px;
-  
-}
-.hotel-tab .textboxstyle {
-    width: 100%;
-    float: left;
-    color: #191919;
-    padding: 8px 10px 8px 12px;
-    border: none;
-    border-radius: 3px;
-    background: #f5f5f5;
-    font-size: 14px;
-    line-height: 20px;
-}
-.persent-one {
-    width: 20%;
-    float: left;
-    margin-right: 1%;
-    position: relative;
-    margin-bottom: 10px;
-}
-.persent-one i {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    color: #191919;
-    font-size: 18px;
-}
-.persent-one.less-per {
-    width: 16%;
-    float: left;
-    margin-right: 1%;
-}
-.persent-one.less-btn {
-    width: 5%;
-    float: left;
-    margin-right: 1%;
-}
+														/*	start search bar	*/
+	.myserachform{font-size: 12px;font-weight: 550;}
+	.textboxstyle{border: solid 1px cadetblue;color: #848484;padding: 5px;font-size: 13px;width: 173px;}
 	
 	
-}
-@media screen and (min-width: 450px) {
-  .hotel-tab .textboxstyle {
-    width: 81%;
-    float: left;
-    color: #191919;
-    padding: 0px 0px 1px 3px;
-    border: none;
-    border-radius: 3px;
-    background: #f5f5f5;
-    line-height: 20px;
-}
+	@media screen and (max-width: 768px) {
+  .textboxstyle{ width: 200px;width: 200px;
+    height: 25px;
+    font-size: 11px;
+    
   }
-		
-/*	end search bar	*/
-		
+   
+  }
+															/*	end search bar	*/
+
 
 /*	slider start	*/
     	ul{
@@ -283,6 +165,7 @@
 
 <!-- serach bar start-->    
 
+<!--
    <div class="container ">
                   <div class="tabing"style="BORDER-RADIUS: 5PX;">
                      
@@ -316,7 +199,7 @@
     </select>
 </label>
 
-<!--                                 <div class="textboxstyle" id="Guests">Guests</div>-->
+                                 <div class="textboxstyle" id="Guests">Guests</div>
                               </div>
                               <div class="persent-one less-btn">
                                  <input type="Submit" name="submit" value="Search" class="btn btn-info cst-btn" id="search">
@@ -329,10 +212,67 @@
                      </div>
 
                   </div>
+-->
 
             	
-  <!-- serach bar end-->   
+  <!-- serach bar start--> 
+  <section class="search-banner text-white py-5" id="search-banner">
+    <div class="container py-5 my-5"style="background: #2196f3;">
+    <div class="row text-center pb-4">
+     
+    </div>   
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                <div class="col-md-2 ">
+                    <div class="form-group myserachform">
+            			<p>Destination:</p>
+                           <input type="text" name="dep" class="textboxstyle" id="arival" placeholder="  Enter City name">
+                              
+                        </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group myserachform">
+                      <p>Check In</p>
+                         <input type="Date" name="dep" class="textboxstyle" id="from-date1" placeholder="">
+                              </div></div>
+                        
+               
+                <div class="col-md-2">
+                    <div class="form-group myserachform">
+                     <p>Check Out</p>
+                         <input type="Date" name="dep" class="textboxstyle" id="from-date1" placeholder="">
+                        </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group myserachform">
+                        	<p>Rooms</p>
+                           <input type="text" name="dep" class="textboxstyle" id="arival" placeholder=" rooms">
+                        </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group myserachform">
+                     <p>Travellers</p>
+                           <input type="text" name="dep" class="textboxstyle" id="arival" placeholder=" rooms">
+                        </div>
+                </div>
+                <div class="col-md-2" style="
+    MARGIN-TOP: 31PX;
+">
+                    <button type="button" class="btn  btn-lg bg-primary">Search</button>
 
+                </div>
+            </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</section>  
+ <!-- serach bar end--> 
 <br>
 
 <div class="row">
