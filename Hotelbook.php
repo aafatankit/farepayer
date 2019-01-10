@@ -91,7 +91,7 @@
 }
 	
 														/*	start search bar	*/
-	.myserachform{font-size: 12px;font-weight: 550;}
+.myserachform{font-size: 12px;font-weight: 550;}
 	.textboxstyle{border: solid 1px cadetblue;color: #848484;padding: 5px;font-size: 13px;width: 173px;}
 	
 	
@@ -103,6 +103,7 @@
   }
    
   }
+											
 															/*	end search bar	*/
 
 
@@ -162,66 +163,10 @@
         
 	<!-- end:header-top -->
 
-
-<!-- serach bar start-->    
-
-<!--
-   <div class="container ">
-                  <div class="tabing"style="BORDER-RADIUS: 5PX;">
-                     
-                     <div class="tab-content">
-                        <div id="1" class="tab1 active">
-                           <div class="hotel-tab row">
-                              
-                              <div class="persent-one">
-                                 <h4>Destination:</h4>
-                                 <input type="text" name="dep" class="textboxstyle" id="arival" placeholder="Enter City name">
-                              </div>
-                              <div class="persent-one less-per">
-                                 <h4>Check In</h4>
-                                 <input type="Date" name="dep" class="textboxstyle" id="from-date1" placeholder="Check in">
-                              </div>
-                              <div class="persent-one less-per">
-                                 <h4>Check Out</h4>
-                                 <input type="date" name="dep" class="textboxstyle" id="to-date" placeholder="Check out">
-                              </div>
-                               <div class="persent-one less-per">
-                                 <h4>Rooms</h4>
-                                 <input type="text" name="dep" class="textboxstyle" id="to-date" placeholder="rooms">
-                              </div>
-                              <div class="persent-one">
-                              <h4>Travellers</h4>
-                                  <label>
-    <select>
-        <option selected> Select Box </option>
-        <option>Short Option</option>
-        <option>This Is A Longer Option</option>
-    </select>
-</label>
-
-                                 <div class="textboxstyle" id="Guests">Guests</div>
-                              </div>
-                              <div class="persent-one less-btn">
-                                 <input type="Submit" name="submit" value="Search" class="btn btn-info cst-btn" id="search">
-                              </div>
-                           </div>
-                      
-                        </div>
-               
-                     </div>
-                     </div>
-
-                  </div>
--->
-
-            	
   <!-- serach bar start--> 
-  <section class="search-banner text-white py-5" id="search-banner">
-    <div class="container py-5 my-5"style="background: #2196f3;">
-    <div class="row text-center pb-4">
-     
-    </div>   
-    <div class="row">
+  <section class="search-banner text-white " id="search-banner">
+    <div class="container py-5"style="background: #2196f3;">
+   <div class="row">
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
@@ -273,7 +218,9 @@
 </div>
 </section>  
  <!-- serach bar end--> 
-<br>
+ 
+ 
+
 
 <div class="row">
 <div class="container" style="background: #e8e8e861; ">
