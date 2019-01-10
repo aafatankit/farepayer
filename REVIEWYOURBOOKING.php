@@ -269,7 +269,7 @@ th {
 	<div class="row">
 	<div class="col-md-12 myborder1">
 	<div class="row">
-		<div class="col-md-3"><b>Standerd Room</b></div>
+		<div class="col-md-3"><b>Standerd Room </b></div>
 		<div class="col-md-2"> <b>With</b> </div>
 		<div class="col-md-7"><b>Full breakfast, Dinner,Full breakfast  </b>
 		</div>

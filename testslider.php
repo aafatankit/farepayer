@@ -45,10 +45,58 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<!-- Modernizr JS -->
 
-    
-<link rel="stylesheet"  href="lightslider-master/src/css/lightslider.css"/>
-   
+
+    <!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: https://www.jssor.com -->
+    <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: 0,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $SpacingX: 5,
+                $SpacingY: 5
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 655;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
 <style>
+	
+	
 	
 .tabbable-panel {
   border:1px solid #eee;
@@ -105,52 +153,47 @@
   }
 											
 															/*	end search bar	*/
+ /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
 
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider arrow skin 106 css*/
+        .jssora106 {display:block;position:absolute;cursor:pointer;}
+        .jssora106 .c {fill:#fff;opacity:.3;}
+        .jssora106 .a {fill:none;stroke:#000;stroke-width:350;stroke-miterlimit:10;}
+        .jssora106:hover .c {opacity:.5;}
+        .jssora106:hover .a {opacity:.8;}
+        .jssora106.jssora106dn .c {opacity:.2;}
+        .jssora106.jssora106dn .a {opacity:1;}
+        .jssora106.jssora106ds {opacity:.3;pointer-events:none;}
+
+        /*jssor slider thumbnail skin 101 css*/
+        .jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
+        .jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
+        .jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
+        .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
+        .jssort101 .p:hover{padding:2px;}
+        .jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
+        .jssort101 .p:hover.pdn{padding:0;}
+        .jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
+        .jssort101 .pav .cv {border-color:#fff;opacity:.35;}
+        .jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
+        .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
+        .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
 
 /*	slider start	*/
-    	ul{
-			list-style: none outside none;
-		    padding-left: 0;
-            margin: 0;
-		}
-        .demo .item{
-            margin-bottom: 10px;
-        }
-		.content-slider li{
-		    background-color: #ed3020;
-		    text-align: center;
-		    color: #FFF;
-		}
-		.content-slider h3 {
-		    margin: 0;
-		    padding: 70px 0;
-		}
-		.demo{
-			width: 800px;
-		}
+	.Description P{font-size: 12px;font-weight: 600;color: #757575;padding: 20px;}
     </style>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="lightslider-master/src/js/lightslider.js"></script> 
-    <script>
-    	 $(document).ready(function() {
-			$("#content-slider").lightSlider({
-                loop:true,
-                keyPress:true
-            });
-            $('#image-gallery').lightSlider({
-                gallery:true,
-                item:1,
-                thumbItem:9,
-                slideMargin: 0,
-                speed:500,
-                auto:true,
-                loop:true,
-                onSliderLoad: function() {
-                    $('#image-gallery').removeClass('cS-hidden');
-                }  
-            });
-		});
-    </script>
+   
 <!--    end slider-->
 </head>
 <body>
@@ -223,74 +266,96 @@
 
 <br>
 <div class="row">
-<div class="container" style="background: #e8e8e861; ">
-<div class="col-md-8">
+<div class="container">
+<div class="col-md-6">
 
-<p></p>
+
 <!--start slider-->
-	<div class="demo">
-        <div class="item">            
-            <div class="clearfix" style="max-width:474px;">
-                <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
-                    <li data-thumb="img/thumb/cS-1.jpg"> 
-                        <img src="img/cS-1.jpg"/>
-                         </li>
-                    <li data-thumb="img/thumb/cS-2.jpg"> 
-                        <img src="img/cS-2.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-3.jpg"> 
-                        <img src="img/cS-3.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-4.jpg"> 
-                        <img src="img/cS-4.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-5.jpg"> 
-                        <img src="img/cS-5.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-6.jpg"> 
-                        <img src="img/cS-6.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-7.jpg"> 
-                        <img src="img/cS-7.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-8.jpg"> 
-                        <img src="img/cS-8.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-9.jpg"> 
-                        <img src="img/cS-9.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-10.jpg"> 
-                        <img src="img/cS-10.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-11.jpg"> 
-                        <img src="img/cS-11.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-12.jpg"> 
-                        <img src="img/cS-12.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-13.jpg"> 
-                        <img src="img/cS-13.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-14.jpg"> 
-                        <img src="img/cS-14.jpg" />
-                         </li>
-                    <li data-thumb="img/thumb/cS-15.jpg"> 
-                        <img src="img/cS-15.jpg" />
-                         </li>
-                </ul>
+	 <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:655px;height:400px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:655px;height:400px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/031.jpg" />
+                <img data-u="thumb" src="img/031-s190x90.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/032.jpg" />
+                <img data-u="thumb" src="img/032-s190x90.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/033.jpg" />
+                <img data-u="thumb" src="img/033-s190x90.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/034.jpg" />
+                <img data-u="thumb" src="img/034-s190x90.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/035.jpg" />
+                <img data-u="thumb" src="img/035-s190x90.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/036.jpg" />
+                <img data-u="thumb" src="img/036-s190x90.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/037.jpg" />
+                <img data-u="thumb" src="img/037-s190x90.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/038.jpg" />
+                <img data-u="thumb" src="img/038-s190x90.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/039.jpg" />
+                <img data-u="thumb" src="img/039-s190x90.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/040.jpg" />
+                <img data-u="thumb" src="img/040-s190x90.jpg" />
             </div>
         </div>
-
-
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:655px;height:100px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
+            <div data-u="slides">
+                <div data-u="prototype" class="p" style="width:190px;height:90px;">
+                    <div data-u="thumbnailtemplate" class="t"></div>
+                    
+                        <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
+                        
+                    
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:162px;left:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+        
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:162px;right:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+                
+            </svg>
+        </div>
     </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
     
     <!--end slider-->
     
     		
     </div>
     
-			<div class="details col-md-4"style="COLOR: #1c7196;">
-	<br>
+<div class=" col-md-6"style="COLOR: #1c7196;">
+<div class="container">
 			<h2 class="product-title">Hotel Name</h2>
 						<div class="rating">
 							<div class="mt">
@@ -319,8 +384,8 @@
 						<a href="#accordion" class="btn btn-outline-info" style="width: 154px;padding: 10px;text-align: center;"><h4>See Rooms</h4></a>
 					</div>
 
-		</div>
-		</div>
+		</div></div></div>
+		
 	  <br>
 
 
@@ -355,8 +420,8 @@
 					</ul>
 					<div class="tab-content">
 					
-						<div class="tab-pane active" id="tab_default_1">
-							<p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include separate sitting areas and ceiling fans, and housekeeping is provided daily.Amenities Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and concierge services.Dining Take advantage of the hotel's room service (during limited hours). Continental breakfasts are available for a fee.Business, Other Amenities Featured amenities include complimentary wired Internet access, a business center, and express check-in. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. 
+						<div class="tab-pane active Description " id="tab_default_1">
+							<p> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include separate sitting areas and ceiling fans, and housekeeping is provided daily.Amenities Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and concierge services.Dining Take advantage of the hotel's room service (during limited hours). Continental breakfasts are available for a fee.Business, Other Amenities Featured amenities include complimentary wired Internet access, a business center, and express check-in. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. 
 Disclaimer notification: Amenities are subject to availability and may be chargeable as per the hotel policy.  
 </p>
 							
@@ -402,18 +467,18 @@ Disclaimer notification: Amenities are subject to availability and may be charge
 					
 						
 						</div>
-						<div class="tab-pane" id="tab_default_3">
-							<p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected,
+						<div class="tab-pane Description" id="tab_default_3">
+							<p> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected,
 						</div>
-						<div class="tab-pane" id="tab_default_4">
-							<p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimenta
+						<div class="tab-pane Description" id="tab_default_4">
+							<p> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimenta
 						</div>
 						
-							<div class="tab-pane" id="tab_default_5">
-							<p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj)strooms. Complimenta
+							<div class="tab-pane Description" id="tab_default_5">
+							<p> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj)strooms. Complimenta
 						</div>
-						<div class="tab-pane" id="tab_default_6">
-							<p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4
+						<div class="tab-pane Description" id="tab_default_6">
+							<p> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4
 						</div>
 					
 						
@@ -447,7 +512,7 @@ Disclaimer notification: Amenities are subject to availability and may be charge
          	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
           		<table style="font-size: 15px;font-weight: 600;">
-<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
+					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
          			
          			<td>Last Cancellation Date &nbsp; </td>
          			<td>: 2019-01-07T00:00:00</td>
@@ -524,7 +589,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
           		<table style="font-size: 15px;font-weight: 600;">
-<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
+					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
          			
          			<td>Last Cancellation Date &nbsp; </td>
          			<td>: 2019-01-07T00:00:00</td>
@@ -602,7 +667,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
           		<table style="font-size: 15px;font-weight: 600;">
-<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
+					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
          			
          			<td>Last Cancellation Date &nbsp; </td>
          			<td>: 2019-01-07T00:00:00</td>
@@ -686,21 +751,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
 
 <!--TABS -->
 
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
+
  <!--TABS END-->
 
 
