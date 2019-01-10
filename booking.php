@@ -47,7 +47,7 @@
 	
 	
 	th{padding: 3px 58px;}
-table, th, td {font-size: 11px;
+table, th, td {font-size: 12px;
 
 }
 	</style>	
@@ -155,7 +155,7 @@ table, th, td {font-size: 11px;
 <div class="col-md-9">
 
 <h3 class="text-white p-2 text-center"style="background: #00bcd4">Hotels Details</h3>
-<div class="row">
+
 <div class="container">														
 <table style=";border: solid 1px #d6d6d6;">
     <thead>
@@ -173,7 +173,7 @@ table, th, td {font-size: 11px;
 	</tr>
 	<tr>
 	<th>Address</th>																	
-	<th>8281/6 Arakashan Road, Paharganj,New DelhiArakashan Road, Paharganj,New Delhi, 110055,</th>
+	<th>8281/6 Arakashan Road, Paharganj,Arakashan Road, Paharganj,New Delhi, 110055,</th>
 	</tr>
 	<tr>
 	<th>Contact No</th> 																	
@@ -200,7 +200,7 @@ table, th, td {font-size: 11px;
 																														
 
 
-</div></div>
+</div>
 </div>
 
 
