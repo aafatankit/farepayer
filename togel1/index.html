@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>popover status - Bootsnipp.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="js/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style type="text/css">
+    .popover.bottom .arrow {
+    left:14%;
+}
+
+
+
+
+body {
+    background:#fff;
+}
+.nav_ul {
+    left:50%;
+    margin-left:-150px;
+    top:50px;
+    position:absolute;
+    padding: 0px;
+}
+.nav_ul>li>a:hover, .nav_ul>li>a:focus, .nav_ul .open>a, .nav_ul .open>a:hover, .nav_ul .open>a:focus {
+    background:#fff;
+}
+.dropdown {
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:300px;    
+}
+.dropdown-status>li>a {
+    color:#428bca;
+}
+.dropdown ul.dropdown-status {
+    background: #F0F0F0;
+    box-shadow: none;
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+}
+.dropdown ul.dropdown-status:before {
+    content: "";
+    border-bottom: 10px solid #F0F0F0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    left: 16px;
+    z-index: 10;
+}
+.dropdown ul.dropdown-status:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    left: 14px;
+    z-index: 9;
+}
+.dropdown-status li input {
+    border-radius: 0;
+}
+.dropdown-status li .form-control-feedback{
+    top:0;
+    color: #CCC;
+}
+.btn{
+    border-radius:0;
+}
+.btn-icon-status{
+    padding: 7px;
+    display: block;
+	
+}   
+	
+	
+	
+	
+	
+	.customSelect {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 60px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff url(/styleguide/images/selectArrow.png) no-repeat 100% 50%;
+}
+	
+	
+	
+	
+	
+	
+	</style>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+          window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
+        });
+    </script>
+</head>
+<body>
+ 
+
+
+
+    
+
+
+
+
+
+
+    	<ul class="nav nav_ul navbar-nav">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Iasmani Pinazo <span class="glyphicon glyphicon-user pull-right"></span></a>
+				<ul class="dropdown-status dropdown-menu">
+					<li class="row">
+                        <form>
+    						<div class="col-xs-6">
+    							<div class="col-md-6">
+												<section>
+													<label for="class">Rooms:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											
+											
+								<div class="col-md-6">
+												<section>
+													<label for="class">Adult:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+    						</div>
+    						<div class="col-md-3">
+    							<div class="customSelect">
+    							<select name="children">
+    							<option value="0">0</option>
+    							<option value="1">1</option>
+    							<option value="2">2</option>
+    							<option value="3">3</option>
+    							<option value="4">4</option>
+    							<option value="5">5</option>
+    							<option value="6">6</option>
+    							<option value="7">7</option>
+    							<option value="8">8</option>
+    							<option value="9">9</option>
+    							<option value="10">10</option>
+    							</select>
+    							</div>
+									</div>
+    								<br><br>
+<div class="fl width100"><div class="selectBoxWrap pad5"><label class="ico13 db padB5">Child 1 Age</label><div class="customSelect"><select><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+   						 
+   						
+   						 
+   						 
+   						 
+   						 
+   						 
+   						 
+   						 
+    						 <div class="col-md-3">
+    						 <input type="submit"></form>
+    							
+    						</div>
+                        </form>
+					</li>
+    			
+					</li>
+				</ul>
+			</li>
+		</ul>	<script type="text/javascript">
+	// popover demo
+$('button[data-toggle=popover]').popover({ 
+    html : true,
+		//trigger: "click",
+	content: function(e) {
+		return $('#popover_content_wrapper').html();
+	}
+});
+$('button[data-toggle=popover]').on('shown.bs.popover', function () {
+    $('.popover').css('left',parseInt($('.popover').css('left')) + 80 + 'px');
+});
+$('.dropdown-menu').find('form').click(function (e) {
+        e.stopPropagation();
+    });	</script>
+</body>
+</html>

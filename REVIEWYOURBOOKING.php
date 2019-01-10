@@ -44,6 +44,9 @@
 
 <style>
 	
+	
+/* top step start	*/
+	
 .bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
 .bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}
@@ -62,10 +65,13 @@
 .bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
 .bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
 .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
-/*END Form Wizard*/
+
 	
 	
 	
+	
+	
+/* table start */
 	
 	
  table {
@@ -77,7 +83,7 @@
 td, th {
  
   text-align: left;
-  padding: 8px;
+  padding: 5px;
 }
 
 th {
@@ -86,15 +92,14 @@ th {
 	
 	
 	
-
+/* table end */	
 	
 	
 	
-
-	
-
 	
 	
+	
+/* Read more button*/
 	
 	
 	.read-more-content {
@@ -126,36 +131,18 @@ th {
 
 .read-more-toggle:checked + .read-more-content {
   display: block;
-  /* css animation won't work with "auto"; set to some height larger
-	than the content */
+
   max-height: 1000px;
 }
 
 .read-more-toggle:checked + .read-more-content + .read-more-toggle-label:after {
   content: "Less";
 }
+/* Read more button end*/
 
-article {
- 
-}
-
-article p {
-  margin-top: 3px;
-}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	.mybutton{margin: 10px;font-size: 10px;color: white;background: #7279c7;}
-	.myborder {border: solid 2px #cccccc;margin: 5px;}	
+.mybutton{margin: 10px;font-size: 10px;color: white;background: #7279c7;}
+.myborder {border: solid 2px #cccccc;margin: 5px;}	
 	
 @media screen and (max-width: 768px) {
   .bs-wizard > .bs-wizard-step .bs-wizard-stepnum{ font-size: 6px;
@@ -174,7 +161,11 @@ article p {
    
   }
 	
-	
+	.btn:hover, .btn:active, .btn:focus {
+    background: #1f96ff;
+    color: #fff;
+    outline: none !important;
+}
 	
 	.nopadding{margin: 0px;padding: 0px;}
 	.responsive {
@@ -211,6 +202,10 @@ article p {
    <?php include 'header.php'; ?>
         
 	<!-- end:header-top -->
+	
+	
+<!--start step start-->
+	
 <div class="container"style="font-weight: 600;">
 		<div class="row bs-wizard" style="border-bottom:0;padding: 16px;border: solid 1px #d9d9d9;">
               <div class="col-xs-2 bs-wizard-step complete">
@@ -240,20 +235,24 @@ article p {
                </div>
             </div>
     </div>
-	
+
+	<!--start step end-->	
 	<br>
 	<p></p>
+	
+	
+<!--	REVIEW YOUR BOOKING line-->
 	
  <div class="container"style="border: solid 2px #e9e9e9;">
  <h3 style="font-weight: 700;color:#386d9c;padding: 10px;background: aquamarine;
     text-align: -webkit-center;
     margin-top: 23px;
     margin-bottom: 20px;"><u>REVIEW YOUR BOOKING</u></h3><br>
+    
+<!--	REVIEW YOUR BOOKING line end-->
 
-
-
+<!--hotel name start-->
 <div class="col-md-8">
-
 <div class="container"style="padding:10px;border: solid 3px #bababa42;font-size: 13px;">
 <div class="col-md-3 nopadding">
 <img src="images/hotel/hotel1.jpg" class="responsive" alt="">
@@ -267,59 +266,14 @@ article p {
 	<i class="fa fa-map-marker fa-2x"></i><b> Address :</b>916 Gali Chandi Wali, Main Bazaar, New Delhi, 110055, India ZipCode: 110055
 	</p>
 	<div class="row text-center">
-	<div class="col-md-3 myborder"><b>Check in</b><br>19/1/2019</div>
-	<div class="col-md-3 myborder"><b>Check Out</b><br>19/1/2019</div>
-	<div class="col-md-3 myborder"><b>Night</b><br>2</div>
-	<div class="col-md-3 myborder"><b>Room Type</b><br>Standard</div>
-	<div class="col-md-3 myborder"><b>Amenities</b><br>Breakfast</div>
-	<div class="col-md-3 myborder"><b>Guest</b><br>1 Adult</div>
-	<a href="#"><p style="color: white;background: #7279c7;padding: 4px;border-radius: 4px;margin: 12px;font-size: 13px;"><i class="far fa-edit"></i>modify</p></a>
-
 	
-			
-<!--
-<article>
-  <p style="border: solid 1px #d6d6d6;font-size: 14px;"><b><u>Hotel Policy :</u></b>
-survived not only five centuries.... 
-  
-  
-  </p>
-  
-  <input id="read-more-toggle-1" class="read-more-toggle" type="checkbox">
- 
-  <div class="read-more-content">
-    <p style="
-    font-size: 13px;text-align: -webkit-auto;
-">Egestas mollitia quos metus natus assumenda ullam suscipit ultricies.sequuntur massa fugit deserunt laboriosam mi consectetur curabitur cum.</p>
-  </div>
-  <label class="read-more-toggle-label" for="read-more-toggle-1">Read </label>
-</article>
--->
 
+	<div class="col-md-4 myborder offset-1"><b>Room Type</b><br>Standard</div>
+	<div class="col-md-4 myborder  offset-1"><b>Amenities</b><br>Breakfast</div>
+	<div class="col-md-8  offset-0">
+	
 
-
-<!--
-<article>
-  <p style="border: solid 1px #d6d6d6;font-size: 14px;"><b><u>Cancellation Policy :</u></b>
-survived not only five centuries.... 
-  
-  
-  </p>
-  
-  <input id="read-more-toggle-2" class="read-more-toggle" type="checkbox">
- 
-  <div class="read-more-content">
-    <p style="
-    font-size: 13px;text-align: -webkit-auto;
-">Egestas mollitia quos metus natus assumenda ullam suscipit ultricies. Voluptas, nihil natoque elementum error ligula natoque, quisque nostra sunt, nibh, consequuntur turpis eros aut justo qui recusandae eos, soluta repellat ipsa tortor tempus ultrices dis, unde voluptates venenatis placeat praesent suscipit maxime, lacus eleifend? Iste nisi fermentum! Corporis accusamus dictum! Sapien laboris massa fugit deserunt laboriosam mi consectetur curabitur cum.</p>
-  </div>
-  <label class="read-more-toggle-label" for="read-more-toggle-2">Read </label>
-</article>
--->
-
- 
-
-  <button type="button" class="btn mybutton"data-toggle="collapse" data-target="#demo"><b><u>Hotel Policy :</u></b></button>
+<button type="button" class="btn mybutton"data-toggle="collapse" data-target="#demo"><b><u>Hotel Policy :</u></b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto;">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -335,29 +289,8 @@ survived not only five centuries....
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<!--
-  
-<h2>Simple e</h2>
-  <p>Click</p>
-  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">Simple collapsible</button>
-  <div id="demo2" class="collapse">
-    Lorem 
-  </div>
--->
-
+ 
+</div>
 </div>
 	
  </div> 
@@ -367,55 +300,56 @@ survived not only five centuries....
    	<br><p></p>
    	
 	</div>    
-    
+ <!--hotel name end-->   
 
 
 		
-    	
+<!--   Search details start	-->
  <div class="col-md-4"style="padding:10px;border: solid 2px #bababa42;font-size: 13px;font-weight: 600;">    
-  <h4 class="text-center"style="padding: 5px;background: #afc9e0;"><b>Price Details</b></h4>
-        
-
-
-<h5><b><u>Price Per Day :</u></b></h5>
+  <h4 class="text-center"style="padding: 5px;background: #afc9e0;"><b>Search details</b></h4>
 
 <table>
 
   <tr>
-    <td>Day 1</td>
-    <td>2019-01-09T00:00:00</td>
-    <td> 917.64</td>
+    <td>Check in</td>
+    <td>12/2/2017</td>
+    
   </tr>
   <tr>
-    <td>Day 2</td>
-    <td>2019-03-09T00:00:00</td>
-    <td> 917.64</td>
+    <td>Check Out </td>
+    <td>12/2/2017</td>
+    
   </tr> 
    <tr>
-    <td>Extra Guest Charge</td>
-    <td>(if any)</td>
-    <td> 700.64</td>
+    <td>Night</td>
+    <td>2</td>
+   
   </tr> 
  
    <tr>
-    <td>Child Charge</td>
-    <td>(if any)</td>
-    <td> 700.64</td>
-  </tr>
-  <tr style="background: #7279c7;color: white;">
-    <td><b>Total Amount</b></td>
-    <td></td>
-    <td><b>1937/-</b></td>
+    <td>Guest</td>
+    <td>1 Adult</td>
+   
+  </tr>   <tr>
+    <td>Location</td>
+    <td>Delhi</td>
    
   </tr>
+  </table>
 
-</table>
+<!--   <a href="#"><p style="color: white;background: #7279c7;padding: 4px;border-radius: 4px;margin: 12px;font-size: 13px;"><i class="far fa-edit"></i></p></a>-->
+  
+
+
 
         
         
 	</div>
+<!--Search details end-->
 
 
+
+<!--Guest Details  start-->
 <div class="col-md-8">
 
 <div class="container"style="padding: 10px;border: solid 2px #bababa42;font-size: 13px;">
@@ -457,7 +391,7 @@ survived not only five centuries....
                 
        <div class="row">
       <div class="container">
-       <div class="col-md-3 ">
+       <div class="col-md-3">
                         <div class="form-group">
                             <label class="control-label">Contact No.</label>
                 <input type="text" class="myform"  placeholder="Mobile Number"/>
@@ -484,15 +418,59 @@ survived not only five centuries....
           
  </div> </div></div> <p></p><br> 
 </div>
-<br><p></p>	
+<!--Guest Details end-->
+
+
+
+<!--Price Details start-->
+<div class="col-md-4 mt-3"style="padding:10px;border: solid 2px #bababa42;font-size: 13px;font-weight: 600;">    
+  <h4 class="text-center"style="padding: 5px;background: #afc9e0;"><b>Price Details</b></h4>
+
+<h5><b><u>Price Per Day :</u></b></h5>
+
+<table>
+
+  <tr>
+    <td>Day 1</td>
+    <td>2019-01-09T00:00:00</td>
+    <td> 917.64</td>
+  </tr>
+  <tr>
+    <td>Day 2</td>
+    <td>2019-03-09T00:00:00</td>
+    <td> 917.64</td>
+  </tr> 
+   <tr>
+    <td>Extra Guest Charge</td>
+    <td>(if any)</td>
+    <td> 700.64</td>
+  </tr> 
+ 
+   <tr>
+    <td>Child Charge</td>
+    <td>(if any)</td>
+    <td> 700.64</td>
+  </tr>
+  <tr style="background: #7279c7;color: white;">
+    <td><b>Total Amount</b></td>
+    <td></td>
+    <td><b>1937/-</b></td>
+   
+  </tr>
+
+</table>
+
+        
+        
+	</div>
+<!--Price Details end-->
+
+
 
 </div>
+<br><p></p>	
 
 
-	
-	<br><p></p>	
-
-<!-- Trigger/Open The Modal -->
 
 
 <!--footer start-->	

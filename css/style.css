@@ -2537,12 +2537,7 @@ form.Searchbar::after {
   }
 }
 
-@media screen and (max-width: 1200px) {
-	.textc{
-		text-align:left;
-	}	 
-    
-}
+
 .btn-info {
     background: linear-gradient(to bottom, #023067 11%, #1fa3dd 100%) !important;
     color: #ffffff !important;

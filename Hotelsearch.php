@@ -107,7 +107,7 @@ label:before {
 	#more {display: none;}
 	.responsive {
   width: 100%;
-  height: auto;
+  height:100px;
 }
 	
 														/*	start search bar	*/
@@ -123,7 +123,9 @@ label:before {
   }
    
   }
-															/*	end search bar	*/	
+	a  hover{text-decoration: none;}
+	a hover{box-shadow: #bbbbbb -1px 14px 26px;}
+	/*	end search bar	*/	
 </style>
 
 
@@ -207,7 +209,7 @@ label:before {
 <div class="col-md-12">
     
 <div class="col-md-3" style="font-size: 15px;border: #ededed solid 1px;background: white;">
-<div align="left" style="margin-top: 10px;"><b>Filter By: <i class="fa fa-filter" aria-hidden="true"></i> </b></div>
+<div align="left"><b>Filter By: <i class="fa fa-filter" aria-hidden="true"></i> </b></div>
 <div align="right">
 <div class="dropdown "style="margin-top: -20px;">
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"style="margin: 0px 45px;"><b>Sort By</b>
@@ -288,18 +290,17 @@ label:before {
 	<div class="col-md-9 mt">
 	<div class="container" style="background:#FFFFFF;";>
 	<div class="row mt"style="padding: 8px;background: #e8e8e8;">
-<div class="col-md-4"><h3>&nbsp;
-          <i class="fa fa-map-marker" style="font-size: 22px" aria-hidden="true"></i> Enter Hotel Name</h3 ></div>
-<div class="col-md-8">
-
-
- <form class="Searchbar">
-  <input type="text" placeholder="  Search Hotel Name" name="search">
-  <button type="submit"><i class="fa fa-search"></i> Search &nbsp;  </button>
-</form>
+	<div class="col-md-4"><h3>&nbsp;
+    <i class="fa fa-map-marker" style="font-size: 22px" aria-hidden="true"></i> Enter Hotel Name</h3></div>
+	<div class="col-md-8">
+	<form class="Searchbar">
+  	<input type="text" placeholder="  Search Hotel Name" name="search">
+  	<button type="submit"><i class="fa fa-search"></i> Search &nbsp;  </button>
+	</form>
 	</div>
-        </div>
-        <div class="row">
+     </div><br>
+
+    <div class="row">
  <br>
 	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
 <h3 style="padding-left: 15px;">Hotel Name<br>
@@ -309,27 +310,29 @@ label:before {
 	<br>
 	<p text-light style="font-size: small;">
 	<i class="fa fa-map-marker fa-2x"></i> 
-	Area : Colva Area, South Goa,</p>
+	Area : Colva Area, South Goa,Area </p>
 	
 	<br>	
 
 	 
 </h3> 
-	<div class="col-md-5   textc mediatextleft">
+	<div class="col-md-5  mediatextleft">
 		
 		<p></p>
 		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
 		<h2><b>&#8377; 4500 /-</b></h2>
 <p></p>
 </div>
-</div>
+</div></a>
 </div>
 </div>
 
+	<a href="#">
 	<div class="col-md-9 mt">
 	<div class="container" style="padding: 15px;background:#FFFFFF;";>
 	<div class="row">
-	<div class="col-md-3"><img src="images/hotel/hotel1.jpg" class="responsive" alt=""></div>
+	<div class="col-md-3"><img src="img/imgraj.jpg" class="responsive" alt=""></div>
+	<div class="col-md-5">
 <h3 style="padding-left: 15px;">Hotel Name<br>
  	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
@@ -337,13 +340,14 @@ label:before {
 	<br>
 	<p text-light style="font-size: small;">
 	<i class="fa fa-map-marker fa-2x"></i> 
-	Area : Colva Area, South Goa,</p>
+	Area : Colva Area, South Goa,zgdsFJ sdklagsd  iohe  iwET EWoi: Colva Area, South Goa,zgdsFJ sdklagsd  iohe  iwET EWoi</p>
 	
 	<br>	
 
 	 
 </h3> 
-	<div class="col-md-5   textc mediatextleft">
+</div>
+	<div class="col-md-4  mediatextleft">
 		 
 		<p></p>
 		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
@@ -353,7 +357,7 @@ label:before {
 </div>
 </div>
 </div>
-	
+	</a>
 	<div class="col-md-9 mt">
 	<div class="container" style="padding: 15px;background:#FFFFFF;";>
 	<div class="row">
@@ -371,7 +375,7 @@ label:before {
 
 	 
 </h3> 
-	<div class="col-md-5   textc mediatextleft">
+	<div class="col-md-5  mediatextleft">
 		 
 		<p></p>
 		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>

@@ -221,7 +221,7 @@
  
  
 
-
+<br>
 <div class="row">
 <div class="container" style="background: #e8e8e861; ">
 <div class="col-md-6">
@@ -310,7 +310,7 @@
 			<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
 					</h2>
 					<br>
-					<h1 class="">Rs. <span>14000/<span style="font-size:10px; "> 1 night</span></span></h1>
+					<h1 class=""><b>Rs. <span>14000/</b><span style="font-size:12px; "> night</span></span></h1>
 						</div>
 						<br>
 						<a href="#accordion" class="btn btn-outline-info" style="width: 154px;padding: 10px;text-align: center;"><h4>See Rooms</h4></a>
@@ -320,84 +320,7 @@
 		</div>
 	  <br>
 
-<!--
 
-<div class="row">
-<div class="container" style="background: #e8e8e861;margin-bottom: 50px;background: #e8e8e861;">
-<div class="tab"> 
-  <button class="tablinks" onclick="openCity(event, 'Description')"><h4>Description  <i class='fas fa-angle-down'></i></h4>
-  <button class="tablinks" onclick="openCity(event, 'Hotelfacilities')"><h4>Hotel facilities  <i class='fas fa-angle-down'></i></h4></button>
-  <button class="tablinks" onclick="openCity(event, 'Roomfacilities')"><h4>Room facilities  <i class='fas fa-angle-down'></i></h4></button>
-   <button class="tablinks" onclick="openCity(event, 'Services')"><h4>Services  <i class='fas fa-angle-down'></i></h4></button>
-  <button class="tablinks" onclick="openCity(event, 'Attractions')"><h4>Attractions  <i class='fas fa-angle-down'></i></h4></button>
-  <button class="tablinks" onclick="openCity(event, 'HotelPolicy')"><h4>Hotel Policy  <i class='fas fa-angle-down'></i></h4></button>
-</div>
-
-<div id="Description" class="tabcontent ">
-  <h3>Description :</h3>
-  <p style="font-size: 12px;font-weight: 600;color: #757575;"> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include separate sitting areas and ceiling fans, and housekeeping is provided daily.Amenities Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and concierge services.Dining Take advantage of the hotel's room service (during limited hours). Continental breakfasts are available for a fee.Business, Other Amenities Featured amenities include complimentary wired Internet access, a business center, and express check-in. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. 
-Disclaimer notification: Amenities are subject to availability and may be chargeable as per the hotel policy.  
-</p>
-</div>
-
-<div id="Hotelfacilities" class="tabcontent">
- <div class="row"style="width: fit-content;padding: 10px;">
-					
-					<div class="col-md-4"style="text-align: left;">
-					
-					<ul style="font-size: 12px;font-weight: 600;color: #757575;">
-					<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
-					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
-					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
-					<li><i class=" fa fa-check-circle-o"></i>	1 lift </li>
-					<li><i class=" fa fa-check-circle-o"></i>	Earliest check-in at 12:00 </li>
-					</ul>
-					</div>
-					
-					
-					
-					
-					<div class="col-md-4"style="text-align: left;">
-					<ul style="font-size: 12px">
-						<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
-					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
-					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
-					<li><i class=" fa fa-check-circle-o"></i>	1 lift </li>
-					<li><i class=" fa fa-check-circle-o"></i>	Earliest check-in at 12:00 </li>
-					
-					</ul>
-					</div><div class="col-md-4"style="text-align: left;">
-					<ul style="font-size: 12px">
-						<li><i class=" fa fa-check-circle-o"></i>	24-hour front desk </li>
-					<li><i class=" fa fa-check-circle-o"></i>	Airport transportation (surcharge)</li>
-					<li><i class=" fa fa-check-circle-o"></i>	Arcade/game room </li>
-					<li><i class=" fa fa-check-circle-o"></i>	1 lift </li>
-					<li><i class=" fa fa-check-circle-o"></i>	Earliest check-in at 12:00 </li>
-					
-					</ul>
-					</div>
-			</div>
-</div>
-
-<div id="Roomfacilities" class="tabcontent">
-  <h3>Roomfacilities</h3>
-  <p>Roomfacilities is the capital of Japan.</p>
-</div>
-<div id="Services" class="tabcontent">
-  
-  <p>Roomfacilities is the capital of Japan.</p>
-</div>
- 
- <div id="Attractions" class="tabcontent">
-  
-  <p>Roomfacilities is the capital of Japan.</p>
-</div>
-
- <div id="HotelPolicy" class="tabcontent">
-  
-  <p>Roomfacilities</p>
-</div>
--->
 <div class="container">
 	<div class="tabbable-panel">
 				<div class="tabbable-line">
@@ -504,7 +427,7 @@ Disclaimer notification: Amenities are subject to availability and may be charge
     <div class="card" style="margin: 20px;">
       <div class="card-header">
         <a class="card-link" data-toggle="collapse" href="#collapseOne">
-          <h4>Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 1745/Day</span></h4>
+          <h4>Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 1745/night</span></h4>
         </a>
       </div>
       <div id="collapseOne" class="collapse show" data-parent="#accordion">
@@ -512,17 +435,26 @@ Disclaimer notification: Amenities are subject to availability and may be charge
          <div class="row" style="color: #4a4a4a;">
          	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" style="width: 272px;"></div>
          	<div class="col-md-4">
-        		<table style="font-size: 15px;font-weight: 600;">
-					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
+<h3>Amenities : Breakfast</h3>
+         	<br>
+         	<h3>Inclusion :</h3>
+         	
+         	
+         	<br>
+         	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
+  <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
+          		<table style="font-size: 15px;font-weight: 600;">
+<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
          			
          			<td>Last Cancellation Date &nbsp; </td>
-         			
          			<td>: 2019-01-07T00:00:00</td>
          			<tr>
          			<tr>
-         				<td><strong>Cancellation Policies : </strong></td>
-         				<td></td>
-         			</tr><tr>
+         				<td>
+         				<strong>Cancellation Policies : </strong>
+         				</td>
+         			</tr>
+         			<tr>
          				<td>From Date </td>
          				<td>:  2019-01-07T00:00:00</td>
          			</tr>
@@ -530,12 +462,16 @@ Disclaimer notification: Amenities are subject to availability and may be charge
          				<td>Date Rate</td>
          				<td>: 2019-01-07T00:00:00</td>
          			</tr>
-         	</tr>
-         	</table>
-         <hr>
-         	<span><h5><strong>Cancellation Policies : </strong>
+         			</tr>
+         	</table> 
+         	<hr>
+				<span><h5><strong>Cancellation Policies : </strong>
 				Charges(will deducted) : 100 %</h5></span> 
-         	</div>
+  	</div>
+  	<hr>
+         	<span><h5><strong>Note :  </strong>
+Under Cancellation Allowed For The Hotel.</h5></span>
+   </div>
          	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
          		<tr>
          			<td><strong>Price Details &nbsp; </strong></td>
@@ -557,10 +493,8 @@ Disclaimer notification: Amenities are subject to availability and may be charge
          			</tr>
          		</tr>
          	</table>
-         	<hr>
-         	<span><h5><strong>Note :  </strong>
-Under Cancellation Allowed For The Hotel.</h5></span>
-<button type="button" class="btn"style="margin: 0px 77px;width: 141px;padding: 8px 0px 4px 0px;background: #ff9921;"><h4>Book Now</h4></button>
+         	<br>
+<button type="button" class="btn btn-lg"style="margin: 0px 77px;;background: #ff9921;"><h4>Book Now</h4></button>
 			</div>
          	</div>
 </div>
@@ -578,17 +512,26 @@ Under Cancellation Allowed For The Hotel.</h5></span>
           <div class="row" style="color: #ffffff;">
          	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" style="width: 272px;"></div>
          	<div class="col-md-4">
-        		<table style="font-size: 15px;font-weight: 600;">
-					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
+         	<h3>Amenities : Breakfast</h3>
+         	<br>
+         	<h3>Inclusion :</h3>
+         	
+         	
+         	<br>
+         	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
+  <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
+          		<table style="font-size: 15px;font-weight: 600;">
+<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
          			
          			<td>Last Cancellation Date &nbsp; </td>
-         			
          			<td>: 2019-01-07T00:00:00</td>
          			<tr>
          			<tr>
-         				<td><strong>Cancellation Policies : </strong></td>
-         				<td></td>
-         			</tr><tr>
+         				<td>
+         				<strong>Cancellation Policies : </strong>
+         				</td>
+         			</tr>
+         			<tr>
          				<td>From Date </td>
          				<td>:  2019-01-07T00:00:00</td>
          			</tr>
@@ -596,12 +539,16 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          				<td>Date Rate</td>
          				<td>: 2019-01-07T00:00:00</td>
          			</tr>
-         	</tr>
-         	</table>
-         <hr>
-         	<span><h5><strong>Cancellation Policies : </strong>
+         			</tr>
+         	</table> 
+         	<hr>
+				<span><h5><strong>Cancellation Policies : </strong>
 				Charges(will deducted) : 100 %</h5></span> 
-         	</div>
+  	</div>
+  	<hr>
+         	<span><h5><strong>Note :  </strong>
+Under Cancellation Allowed For The Hotel.</h5></span>
+   </div>
          	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
          		<tr>
          			<td><strong>Price Details &nbsp; </strong></td>
@@ -619,14 +566,12 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          			<tr> 
          				<td>Child Charge</td><td> :&nbsp; 745</td>
          			</tr><tr> 
-         				<td><b><u>Totel Amount</u></strong></td><td><strong> &nbsp;: 1745</b></td>
+         				<td><b><u>Totel Amount</u></strong></td><td><strong>: &nbsp; 1745</b></td>
          			</tr>
          		</tr>
          	</table>
-         	<hr>
-         	<span><h5><strong>Note :  </strong>
-Under Cancellation Allowed For The Hotel.</h5></span>
-<button type="button" class="btn"style="margin: 0px 77px;width: 141px;padding: 8px 0px 4px 0px;background: #ff9921;"><h4>Book Now</h4></button>
+         	<br>
+<button type="button" class="btn btn-lg"style="margin: 0px 77px;;background: #ff9921;"><h4>Book Now</h4></button>
 			</div>
          	</div>
         </div>
@@ -645,17 +590,26 @@ Under Cancellation Allowed For The Hotel.</h5></span>
           <div class="row" style="color: #ffffff;">
          	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" style="width: 272px;"></div>
          	<div class="col-md-4">
-        		<table style="font-size: 15px;font-weight: 600;">
-					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
+        	<h3>Amenities : Breakfast</h3>
+         	<br>
+         	<h3>Inclusion :</h3>
+         	
+         	
+         	<br>
+         	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
+  <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
+          		<table style="font-size: 15px;font-weight: 600;">
+<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
          			
          			<td>Last Cancellation Date &nbsp; </td>
-         			
          			<td>: 2019-01-07T00:00:00</td>
          			<tr>
          			<tr>
-         				<td><strong>Cancellation Policies : </strong></td>
-         				<td></td>
-         			</tr><tr>
+         				<td>
+         				<strong>Cancellation Policies : </strong>
+         				</td>
+         			</tr>
+         			<tr>
          				<td>From Date </td>
          				<td>:  2019-01-07T00:00:00</td>
          			</tr>
@@ -663,12 +617,16 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          				<td>Date Rate</td>
          				<td>: 2019-01-07T00:00:00</td>
          			</tr>
-         	</tr>
-         	</table>
-         <hr>
-         	<span><h5><strong>Cancellation Policies : </strong>
+         			</tr>
+         	</table> 
+         	<hr>
+				<span><h5><strong>Cancellation Policies : </strong>
 				Charges(will deducted) : 100 %</h5></span> 
-         	</div>
+  	</div>
+  	<hr>
+         	<span><h5><strong>Note :  </strong>
+Under Cancellation Allowed For The Hotel.</h5></span>
+   </div>
          	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
          		<tr>
          			<td><strong>Price Details &nbsp; </strong></td>
@@ -686,14 +644,12 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          			<tr> 
          				<td>Child Charge</td><td> :&nbsp; 745</td>
          			</tr><tr> 
-         				<td><b><u>Totel Amount</u></strong></td><td><strong> &nbsp;: 1745</b></td>
+         				<td><b><u>Totel Amount</u></strong></td><td><strong>: &nbsp; 1745</b></td>
          			</tr>
          		</tr>
          	</table>
-         	<hr>
-         	<span><h5><strong>Note :  </strong>
-Under Cancellation Allowed For The Hotel.</h5></span>
-<button type="button" class="btn"style="margin: 0px 77px;width: 141px;padding: 8px 0px 4px 0px;background: #ff9921;"><h4>Book Now</h4></button>
+         	<br>
+<button type="button" class="btn btn-lg"style="margin: 0px 77px;;background: #ff9921;"><h4>Book Now</h4></button>
 			</div>
          	</div>
         </div>

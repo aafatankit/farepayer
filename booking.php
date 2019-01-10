@@ -152,11 +152,13 @@ table, th, td {font-size: 11px;
 			
 						
 									
-<div class="col-md-4">
+<div class="col-md-9">
 
-<h3 class="text-white p-2 text-center"style="background: #00bcd4">Hotels Details</h3>														
+<h3 class="text-white p-2 text-center"style="background: #00bcd4">Hotels Details</h3>
+<div class="row">
+<div class="container">														
 <table style=";border: solid 1px #d6d6d6;">
-    <thead >
+    <thead>
     <tr>
      <th>Hotel Name</th> 																	
 	<th>Hotel Mayfair Darjeeling</th>
@@ -165,9 +167,13 @@ table, th, td {font-size: 11px;
      <th>Star Rating</th> 																	
 	<th>4 Star</th>
 	</tr>
+    <tr>
+     <th>Aminites</th> 																	
+	<th>Breakfast</th>
+	</tr>
 	<tr>
 	<th>Address</th>																	
-	<th>8281/6 Arakashan Road, <br> Paharganj,New Delhi, 110055,</th>
+	<th>8281/6 Arakashan Road, Paharganj,New DelhiArakashan Road, Paharganj,New Delhi, 110055,</th>
 	</tr>
 	<tr>
 	<th>Contact No</th> 																	
@@ -194,58 +200,23 @@ table, th, td {font-size: 11px;
 																														
 
 
-</div><div class="col-md-4">
-
-<h3 class="text-white p-2 text-center"style="background: #00bcd4">Hotels Details</h3>														
-<table style=";border: solid 1px #d6d6d6;">
-    <thead >
-    <tr>
-     <th>Hotel Name</th> 																	
-	<th>Hotel Mayfair Darjeeling</th>
-	</tr>
-    <tr>
-     <th>Star Rating</th> 																	
-	<th>4 Star</th>
-	</tr>
-	<tr>
-	<th>Address</th>																	
-	<th>8281/6 Arakashan Road, <br> Paharganj,New Delhi, 110055,</th>
-	</tr>
-	<tr>
-	<th>Contact No</th> 																	
-	<th>+911141541325</th>
-	</tr>
-	<tr>
-	<th>Check in</th> 																	
-	<th>19/1/2019</th>
-	</tr>
-	<tr>
-	<th>Check Out</th> 																	
-	<th>19/1/2019</th>
-	</tr>
-	<tr>
-	<th>Room Type</th> 																	
-	<th>Standard</th>
-	</tr>
-	
-	
-	</thead>
-     </table>	 
-																			
-																								
-																														
-
-
+</div></div>
 </div>
 
-<!--
+
 <div class="col-md-9 mt-3"style="margin-bottom: 80px;">
 
-<h3 class="text-white p-2 text-left"style="background: #2478c2">Guest Details</h3>														
-<table style=";border: solid 1px #d6d6d6;line-height: 27px;">
-    <thead >
+<h3 class="text-white p-2 text-center"style="background: #2478c2">Guest Details</h3>														
+<table style="border: solid 1px #d6d6d6;line-height: 27px;width: -webkit-fill-available;">
+<div class="row">
+<div class="container"style="font-size: 14px;font-weight: 500;">
+
+</div>
+</div>
+	
+    <thead>
     <tr>
-     <th>Guest Name</th> 																	
+     <th>Guest Name</th> 													
 	<th>Riya Sharma</th>
 	</tr>
     <tr>
@@ -262,14 +233,14 @@ table, th, td {font-size: 11px;
 	</tr>
 
 </thead>
-     </table>	 
+ 
+</table>
 																			
 																								
 
 
 	
 </div>
--->
 </div>
 <br>
 

@@ -9,6 +9,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
      <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="js/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    
+      <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        
+    
+    
+    
+    
     <style type="text/css">
     .popover.bottom .arrow {
     left:14%;
@@ -42,8 +59,8 @@ body {
 .dropdown ul.dropdown-status {
     background: #F0F0F0;
     box-shadow: none;
-    margin-top: 20px;
-    width: 300px;
+    margin-top: 5px;
+    
     padding: 10px;
 }
 .dropdown ul.dropdown-status:before {
@@ -89,8 +106,8 @@ body {
 	.customSelect {
     padding: 0;
     margin: 0;
-    border: 1px solid #ccc;
-    width: 60px;
+   
+    width: 36px;
     overflow: hidden;
     background-color: #fff;
     background: #fff url(/styleguide/images/selectArrow.png) no-repeat 100% 50%;
@@ -116,27 +133,95 @@ body {
           window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
         });
     </script>
+    
+    
+    
+    <script>
+            $(document).ready(function(e){
+                var html = '<div>Make: <input type="text" name="make" id="childmake"> Model: <input type="text" name="model" id="childmodel"> Serial: <input type="text" name="childserial"> <a href="#" id="remove">X</a></div>';
+               
+                var one = '<div id="remove">Child 1 Age : <input type="text"></div>';
+                var two = '<div id="remove">Child 1 Age : <input type="text"> Child 2 Age : <input type="text"></div>';
+                var three = '<div id="remove">Child 1 Age : <input type="text"> Child 2 Age : <input type="text"> Child 3 Age : <input type="text"></div>';
+                var four = '<div id="remove">Child 1 Age : <input type="text"> Child 2 Age : <input type="text"> Child 3 Age : <input type="text"> Child 4 Age : <input type="text"> </div>';
+                var five = '<div id="remove">Child 1 Age : <input type="text"> Child 2 Age : <input type="text"> Child 3 Age : <input type="text"> Child 4 Age : <input type="text"> Child 5 Age : <input type="text"> </div>';
+                var six = '<div id="remove">Child 1 Age : <input type="text"> Child 2 Age : <input type="text"> Child 3 Age : <input type="text"> Child 4 Age : <input type="text"> Child 5 Age : <input type="text"> Child 6 Age : <input type="text"> </div>';
+                var seven = '<div id="remove">Child 1 Age : <input type="text"> Child 2 Age : <input type="text"> Child 3 Age : <input type="text"> Child 4 Age : <input type="text"> Child 5 Age : <input type="text"> Child 6 Age : <input type="text"> Child 7 Age : <input type="text"> </div>';
+                var eight = '<div id="remove">Child 1 Age : <input type="text"> Child 2 Age : <input type="text"> Child 3 Age : <input type="text"> Child 4 Age : <input type="text"> Child 5 Age : <input type="text"> Child 6 Age : <input type="text"> Child 7 Age : <input type="text"> Child 8 Age : <input type="text"> </div>';
+               
+                $("#one").click(function(e){
+                    $("#remove").remove();
+                    $("#container").append(one);
+                });
+                $("#two").click(function(e){
+                    $("#remove").remove();
+                    $("#container").append(two);
+                });
+                $("#three").click(function(e){
+                    $("#remove").remove();
+                    $("#container").append(three);
+                });
+                $("#four").click(function(e){
+                    $("#remove").remove();
+                    $("#container").append(four);
+                });
+                $("#five").click(function(e){
+                    $("#remove").remove();
+                    $("#container").append(five);
+                });
+                $("#six").click(function(e){
+                    $("#remove").remove();
+                    $("#container").append(six);
+                });
+                $("#seven").click(function(e){
+                    $("#remove").remove();
+                    $("#container").append(seven);
+                });
+                $("#eight").click(function(e){
+                    $("#remove").remove();
+                    $("#container").append(eight);
+                });
+               
+//                $("#container").on('click','#remove',function(e){
+//                    $(this).parent('div').remove();
+//                });
+            });
+        </script>
+    
+    
+    
+    
+    
+    
 </head>
 <body>
- 
+ <form method="post">
+            <div id="container">
+                <a href="#" id="one">1</a>
+                <a href="#" id="two">2</a>
+                <a href="#" id="three">3</a>
+                <a href="#" id="four">4</a>
+                <a href="#" id="five">5</a>
+                <a href="#" id="six">6</a>
+                <a href="#" id="seven">7</a>
+                <a href="#" id="eight">8</a>
+            </div>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
 
 
 
-    
 
 
-
-
-
-
-    	<ul class="nav nav_ul navbar-nav">
+		<ul class="nav nav_ul navbar-nav">
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Iasmani Pinazo <span class="glyphicon glyphicon-user pull-right"></span></a>
 				<ul class="dropdown-status dropdown-menu">
 					<li class="row">
                         <form>
-    						<div class="col-xs-6">
-    							<div class="col-md-6">
+    						<div class="col-md-4">
+    						
 												<section>
 													<label for="class">Rooms:</label>
 													<select class="cs-select cs-skin-border">
@@ -149,21 +234,45 @@ body {
 												</section>
 											</div>
 											
-											
-								<div class="col-md-6">
-												<section>
-													<label for="class">Adult:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-													</select>
-												</section>
-											</div>
-    						</div>
-    						<div class="col-md-3">
+							<div class="col-md-4">
+    							<label for="class">Adults</label>
+    							<div class="customSelect">
+    							<select name="children">
+    							<option value="0">0</option>
+    							<option value="1">1</option>
+    							<option value="2">2</option>
+    							<option value="3">3</option>
+    							<option value="4">4</option>
+    							<option value="5">5</option>
+    							<option value="6">6</option>
+    							<option value="7">7</option>
+    							<option value="8">8</option>
+    							<option value="9">9</option>
+    							<option value="10">10</option>
+    							</select>
+    							</div>
+									</div>	
+   								<div class="col-md-4">
+    							<label for="class">Child</label>
+    							<div class="customSelect">
+    							<select name="children">
+    							<option value="0">0</option>
+    							<option value="1">1</option>
+    							<option value="2">2</option>
+    							<option value="3">3</option>
+    							<option value="4">4</option>
+    							<option value="5">5</option>
+    							<option value="6">6</option>
+    							<option value="7">7</option>
+    							<option value="8">8</option>
+    							<option value="9">9</option>
+    							<option value="10">10</option>
+    							</select>
+    							</div>
+									</div>	
+  								
+   								<div class="col-md-4">
+    							<label for="class">Child</label>
     							<div class="customSelect">
     							<select name="children">
     							<option value="0">0</option>
@@ -180,28 +289,135 @@ body {
     							</select>
     							</div>
 									</div>
-    								<br><br>
-<div class="fl width100"><div class="selectBoxWrap pad5"><label class="ico13 db padB5">Child 1 Age</label><div class="customSelect"><select><option value="1">1</option><option value="2">2</option><option value="3">3</option>
-   						 
-   						
-   						 
-   						 
-   						 
-   						 
-   						 
-   						 
-   						 
-    						 <div class="col-md-3">
-    						 <input type="submit"></form>
-    							
-    						</div>
-                        </form>
-					</li>
-    			
-					</li>
-				</ul>
-			</li>
-		</ul>	<script type="text/javascript">
+    								<div class="col-md-4">
+    							<label for="class">Child</label>
+    							<div class="customSelect">
+    							<select name="children">
+    							<option value="0">0</option>
+    							<option value="1">1</option>
+    							<option value="2">2</option>
+    							<option value="3">3</option>
+    							<option value="4">4</option>
+    							<option value="5">5</option>
+    							<option value="6">6</option>
+    							<option value="7">7</option>
+    							<option value="8">8</option>
+    							<option value="9">9</option>
+    							<option value="10">10</option>
+    							</select>
+    							</div>
+									</div><div class="col-md-4">
+    							<label for="class">Child</label>
+    							<div class="customSelect">
+    							<select name="children">
+    							<option value="0">0</option>
+    							<option value="1">1</option>
+    							<option value="2">2</option>
+    							<option value="3">3</option>
+    							<option value="4">4</option>
+    							<option value="5">5</option>
+    							<option value="6">6</option>
+    							<option value="7">7</option>
+    							<option value="8">8</option>
+    							<option value="9">9</option>
+    							<option value="10">10</option>
+    							</select>
+    							</div>
+									</div>
+    								<div class="col-md-4">
+    							<label for="class">Child</label>
+    							<div class="customSelect">
+    							<select name="children">
+    							<option value="0">0</option>
+    							<option value="1">1</option>
+    							<option value="2">2</option>
+    							<option value="3">3</option>
+    							<option value="4">4</option>
+    							<option value="5">5</option>
+    							<option value="6">6</option>
+    							<option value="7">7</option>
+    							<option value="8">8</option>
+    							<option value="9">9</option>
+    							<option value="10">10</option>
+    							</select>
+    							</div>
+									</div><div class="col-md-4">
+    							<label for="class">Child</label>
+    							<div class="customSelect">
+    							<select name="children">
+    							<option value="0">0</option>
+    							<option value="1">1</option>
+    							<option value="2">2</option>
+    							<option value="3">3</option>
+    							<option value="4">4</option>
+    							<option value="5">5</option>
+    							<option value="6">6</option>
+    							<option value="7">7</option>
+    							<option value="8">8</option>
+    							<option value="9">9</option>
+    							<option value="10">10</option>
+    							</select>
+    							</div>
+									</div>
+    								<div class="col-md-4">
+    							<label for="class">Child</label>
+    							<div class="customSelect">
+    							<select name="children">
+    							<option value="0">0</option>
+    							<option value="1">1</option>
+    							<option value="2">2</option>
+    							<option value="3">3</option>
+    							<option value="4">4</option>
+    							<option value="5">5</option>
+    							<option value="6">6</option>
+    							<option value="7">7</option>
+    							<option value="8">8</option>
+    							<option value="9">9</option>
+    							<option value="10">10</option>
+    							</select>
+    							</div>
+									</div><div class="col-md-4">
+    							<label for="class">Child</label>
+    							<div class="customSelect">
+    							<select name="children">
+    							<option value="0">0</option>
+    							<option value="1">1</option>
+    							<option value="2">2</option>
+    							<option value="3">3</option>
+    							<option value="4">4</option>
+    							<option value="5">5</option>
+    							<option value="6">6</option>
+    							<option value="7">7</option>
+    							<option value="8">8</option>
+    							<option value="9">9</option>
+    							<option value="10">10</option>
+    							</select>
+    							</div>
+									</div>
+    								<div class="col-md-4">
+    							<label for="class">Child</label>
+    							<div class="customSelect">
+    							<select name="children">
+    							<option value="0">0</option>
+    							<option value="1">1</option>
+    							<option value="2">2</option>
+    							<option value="3">3</option>
+    							<option value="4">4</option>
+    							<option value="5">5</option>
+    							<option value="6">6</option>
+    							<option value="7">7</option>
+    							<option value="8">8</option>
+    							<option value="9">9</option>
+    							<option value="10">10</option>
+    							</select>
+    							</div>
+									</div>
+    								
+<div class="col-md-4">
+  		<button type="button" class="btn">Basic</button>
+			
+			</div>
+		<script type="text/javascript">
 	// popover demo
 $('button[data-toggle=popover]').popover({ 
     html : true,
