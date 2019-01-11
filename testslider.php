@@ -151,6 +151,22 @@
   }
    
   }
+		@media screen and (max-width: 768px) {
+  .responsivetext{font-size: 1px;
+    line-height: 0px;
+    margin: 5px -63px;
+    padding: 0px;
+    
+    
+  }
+   
+  }		@media screen and (max-width: 768px) {
+  .btn {
+    
+    
+  }
+   
+  }
 											
 															/*	end search bar	*/
  /*jssor slider loading skin spin css*/
@@ -207,14 +223,14 @@
 	<!-- end:header-top -->
 
   <!-- serach bar start--> 
-  <section class="search-banner text-white " id="search-banner">
+  <section class="search-banner text-white" id="search-banner">
     <div class="container py-5"style="background: #2196f3;">
    <div class="row">
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
                     <div class="row">
-                <div class="col-md-2 ">
+                <div class="col-md-2">
                     <div class="form-group myserachform">
             			<p>Destination:</p>
                            <input type="text" name="dep" class="textboxstyle" id="arival" placeholder="  Enter City name">
@@ -225,9 +241,8 @@
                     <div class="form-group myserachform">
                       <p>Check In</p>
                          <input type="Date" name="dep" class="textboxstyle" id="from-date1" placeholder="">
-                              </div></div>
-                        
-               
+                              </div>
+                    </div>
                 <div class="col-md-2">
                     <div class="form-group myserachform">
                      <p>Check Out</p>
@@ -246,9 +261,7 @@
                            <input type="text" name="dep" class="textboxstyle" id="arival" placeholder=" rooms">
                         </div>
                 </div>
-                <div class="col-md-2" style="
-    MARGIN-TOP: 31PX;
-">
+                <div class="col-md-2" style="MARGIN-TOP: 31PX;">
                     <button type="button" class="btn  btn-lg bg-primary">Search</button>
 
                 </div>
@@ -267,7 +280,7 @@
 <br>
 <div class="row">
 <div class="container">
-<div class="col-md-6">
+<div class="col-md-7">
 
 
 <!--start slider-->
@@ -348,15 +361,13 @@
         </div>
     </div>
     <script type="text/javascript">jssor_1_slider_init();</script>
-    
     <!--end slider-->
     
-    		
-    </div>
+</div><!--slider div end-->
     
-<div class=" col-md-6"style="COLOR: #1c7196;">
-<div class="container">
-			<h2 class="product-title">Hotel Name</h2>
+<div class="col-md-5 responsivetext"style="COLOR: #1c7196;">
+<div class="container" style="margin: 0px 72px;">
+			<h1 class="product-title"><b>Hotel Name</b></h1>
 						<div class="rating">
 							<div class="mt">
 								<span class="fa fa-star checked"></span>
@@ -378,13 +389,14 @@
 			<i class="fas fa-concierge-bell ftooltip icolorsize"><span class="ftooltiptext"><h6>Room Srevice</h6></span></i>&nbsp;
 					</h2>
 					<br>
-					<h1 class=""><b>Rs. <span>14000/</b><span style="font-size:12px; "> night</span></span></h1>
+					<h1 class=""><b>Rs. <span>14000/</b><span style="font-size:12px;">night</span></span></h1>
 						</div>
 						<br>
 						<a href="#accordion" class="btn btn-outline-info" style="width: 154px;padding: 10px;text-align: center;"><h4>See Rooms</h4></a>
 					</div>
-
-		</div></div></div>
+</div>
+	</div>
+	</div>
 		
 	  <br>
 
@@ -512,7 +524,7 @@ Disclaimer notification: Amenities are subject to availability and may be charge
          	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
           		<table style="font-size: 15px;font-weight: 600;">
-					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
+<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
          			
          			<td>Last Cancellation Date &nbsp; </td>
          			<td>: 2019-01-07T00:00:00</td>
@@ -543,14 +555,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
          		<tr>
          			<td><strong>Price Details &nbsp; </strong></td>
-         			<tr>
-         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
-         			</tr>
-         			<tr>
-         				<td>Date </td> <td>: &nbsp;2019-01-08T00:00:00</td>
-         			</tr><tr>
-         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
-         			</tr>
+         			
          			<tr>
          				<td>Extra Guset Charge &nbsp;</td><td>:&nbsp; 854</td>
          			</tr>
@@ -589,7 +594,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
           		<table style="font-size: 15px;font-weight: 600;">
-					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
+<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
          			
          			<td>Last Cancellation Date &nbsp; </td>
          			<td>: 2019-01-07T00:00:00</td>
@@ -620,14 +625,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
          		<tr>
          			<td><strong>Price Details &nbsp; </strong></td>
-         			<tr>
-         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
-         			</tr>
-         			<tr>
-         				<td>Date </td> <td>: &nbsp;2019-01-08T00:00:00</td>
-         			</tr><tr>
-         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
-         			</tr>
+         			
          			<tr>
          				<td>Extra Guset Charge &nbsp;</td><td>:&nbsp; 854</td>
          			</tr>
@@ -667,7 +665,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
           		<table style="font-size: 15px;font-weight: 600;">
-					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
+<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
          			
          			<td>Last Cancellation Date &nbsp; </td>
          			<td>: 2019-01-07T00:00:00</td>
@@ -698,14 +696,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
          		<tr>
          			<td><strong>Price Details &nbsp; </strong></td>
-         			<tr>
-         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
-         			</tr>
-         			<tr>
-         				<td>Date </td> <td>: &nbsp;2019-01-08T00:00:00</td>
-         			</tr><tr>
-         				<td>Price 1 Day</td> <td>: &nbsp;1020.27/day</td>
-         			</tr>
+         			
          			<tr>
          				<td>Extra Guset Charge &nbsp;</td><td>:&nbsp; 854</td>
          			</tr>
@@ -728,19 +719,6 @@ Under Cancellation Allowed For The Hotel.</h5></span>
 
 
 <!--room end-->
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 </div>
 

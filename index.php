@@ -77,7 +77,7 @@
 
 
 div.gallery img {
-  width: 65%;
+     width: 78%;
   height: auto;
 }
 

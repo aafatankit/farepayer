@@ -46,13 +46,114 @@
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
-
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 </head>
-<body>
+
 
 
 <style>
+/*preloder start */
+	*{
+padding: 0;
+margin: 0;
+}
 
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url("images/91.gif")
+	 no-repeat center center;	
+	z-index: 99999;
+}
+
+header{
+width: 100%;
+height: 100vh;
+background-image: url('bg.jpg');
+background-size: cover;
+font-family: 'Dosis', sans-serif;
+}
+.header_menu{
+width: 100%;
+height: 100px;
+display: flex;
+flex-direction: row;
+align-items: center;
+/*	border:1px solid red;*/
+}
+.logo{
+width: 20%;
+text-align: center;
+}
+.logo img{
+height: 300px;
+}
+.menu_list{
+width: 80%;
+text-align: right;
+padding-right: 50px;
+}
+.menu_list li{
+display: inline-block;
+text-transform: uppercase;
+list-style: none;
+letter-spacing: 2px;
+padding-left: 50px;
+}
+.menu_list li a{
+color:rgba(255, 255, 255, .8);
+text-decoration: none;
+}
+.menu_list li a:hover{
+color:orange;
+}
+.header_content{
+text-transform: uppercase;
+width: 100%;
+height: 200px;
+position: absolute;
+top: 50%;
+left: 50%;
+color:rgba(255, 255, 255, .8);
+transform: translate(-50%, -50%);
+text-align: center;
+/*	border:1px solid red;*/
+}
+.header_content h2{
+margin-bottom: 50px;
+font-size: 17px;
+font-weight: 500;
+letter-spacing: 0.3em;
+}
+.header_content h1{
+margin-bottom: 50px;
+font-size: 50px;
+font-weight: 500;
+letter-spacing: 0.7em;
+}
+.header_content button{
+height: auto;
+padding:8px 37px;
+color:#fff;
+font-size: 12px;
+background-color: transparent;
+margin-right: 20px;
+}
+.header_content button a{
+text-transform: uppercase;
+text-decoration: none;
+color: white;
+letter-spacing: 1px;
+}
+.header_content button:hover{
+background-color: orange;
+border:1px solid white;
+}
+	/*preloder end*/
+
+	
 select {
     padding:3px;
     margin: 0;
@@ -123,19 +224,25 @@ label:before {
   }
    
   }
-	a  hover{text-decoration: none;}
-	a hover{box-shadow: #bbbbbb -1px 14px 26px;}
-	/*	end search bar	*/	
+	
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
 </style>
-
-
-
-
-
-
-
-
-
+<body onload="myFunction()">
+<div id="loading"></div>
 
 
 	<!-- Start:header-top -->
@@ -328,12 +435,12 @@ label:before {
 </div>
 
 	<a href="#">
-	<div class="col-md-9 mt">
-	<div class="container" style="padding: 15px;background:#FFFFFF;";>
+	<div class="col-md-9 mt ">
+	<div class="container hvr-glow" style="padding: 15px;background:#FFFFFF;";>
 	<div class="row">
 	<div class="col-md-3"><img src="img/imgraj.jpg" class="responsive" alt=""></div>
 	<div class="col-md-5">
-<h3 style="padding-left: 15px;">Hotel Name<br>
+	<h3 style="padding-left: 15px;">Hotel Name<br>
  	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
 	<i class="fa fa-star" style="font-size:15px;color:#FF9800;"></i>
@@ -341,17 +448,13 @@ label:before {
 	<p text-light style="font-size: small;">
 	<i class="fa fa-map-marker fa-2x"></i> 
 	Area : Colva Area, South Goa,zgdsFJ sdklagsd  iohe  iwET EWoi: Colva Area, South Goa,zgdsFJ sdklagsd  iohe  iwET EWoi</p>
-	
 	<br>	
-
-	 
-</h3> 
-</div>
+	</h3> 
+	</div>
 	<div class="col-md-4  mediatextleft">
-		 
-		<p></p>
-		<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
-		<h2><b>&#8377; 4500 /-</b></h2>
+	<p></p>
+	<p> Rating &nbsp;<span class="badge bg-primary">45/5</span></p>
+	<h2><b>&#8377; 4500 /-</b></h2>
 <p></p>
 </div>
 </div>
@@ -1407,6 +1510,25 @@ function myFunction() {
 	<script src="js/main.js"></script>
 
 	<!-- START sticky footer --><script src="../demoscript.js"></script><!-- END sticky footer -->
+
+
+<script>
+//		 $(document).ready(function(){
+//			 	$('div#loading').removeAttr('id');
+//		 });
+		var preloader = document.getElementById("loading");
+//		 window.addEventListener('load', function(){
+//		 	preloader.style.display = 'none';
+//		 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+
+
+
+
 
   <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

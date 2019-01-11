@@ -3,7 +3,7 @@
   
             <nav class="navbar navbar-expand-md navbar-light bg-white">
           
-                    <a href="#" class="navbar-brand"><img src="images/logo.png"></a>
+                    <a href="index.php" class="navbar-brand"><img src="images/logo.png"></a>
                     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbaraId">
                         <span class="navbar-toggler-icon"></span>
                     </button>
