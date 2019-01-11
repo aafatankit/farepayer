@@ -45,11 +45,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<!-- Modernizr JS -->
 
-
-    <!-- #region Jssor Slider Begin -->
-    <!-- Generator: Jssor Slider Maker -->
-    <!-- Source: https://www.jssor.com -->
+<!--slider link-->
     <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+    <!--slider link end-->
+    <!--slider -->
   <script type="text/javascript">
         jssor_1_slider_init = function() {
 
@@ -94,19 +93,26 @@
             /*#endregion responsive code end*/
         };
     </script>
+<!--slider end-->
+
 <style>
 	
-	
-	
+.nopadding{margin: 0px;padding: 0px;}
+.mt30{margin-top:30px; }	
+
+/*	tab css*/
 .tabbable-panel {
   border:1px solid #eee;
   padding: 1px;
 }
-
-/* Default mode */
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #f78536;
+}
 .tabbable-line > .nav-tabs {
   border: none;
   margin: 0px;
+  background: #1976d2;
 }
 .tabbable-line > .nav-tabs > li {
   margin-right: 2px;
@@ -114,7 +120,7 @@
 .tabbable-line > .nav-tabs > li > a {
   border: 0;
   margin-right: 0;
-  color: #737373;
+  color: #FFFFFF;
 }
 .tabbable-line > .nav-tabs > li > a > i {
   color: #a6a6a6;
@@ -130,18 +136,31 @@
 .portlet .tabbable-line > .tab-content {
   padding-bottom: 0;
 }
-
-		
- #more {display: none;}
+	
+/*tab end*/
+	
+#more {display: none;}
 .responsive {
-  width: 100%;
-  height: auto;
+  width: 272px; height: 180px;
 }
 	
-														/*	start search bar	*/
-.myserachform{font-size: 12px;font-weight: 550;}
+/*room type*/
+	
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #1976d2;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}	
+	/*room type*/
+	
+	
+	/*	start search bar	*/
+	.myseeroom{width: 154px;padding: 10px;text-align: center;}
+	.myserachform{font-size: 12px;font-weight: 550;}
 	.textboxstyle{border: solid 1px cadetblue;color: #848484;padding: 5px;font-size: 13px;width: 173px;}
 	
+/*	media quiry*/
 	
 	@media screen and (max-width: 768px) {
   .textboxstyle{ width: 200px;width: 200px;
@@ -149,26 +168,50 @@
     font-size: 11px;
     
   }
-   
-  }
-		@media screen and (max-width: 768px) {
-  .responsivetext{font-size: 1px;
+     }
+	@media screen and (max-width: 768px) {
+ 	.responsivetext{font-size: 1px;
     line-height: 0px;
     margin: 5px -63px;
     padding: 0px;
-    
-    
   }
-   
-  }		@media screen and (max-width: 768px) {
-  .btn {
-    
-    
+   }	
+	@media screen and (max-width: 768px) {
+ 	.responsive{width: -webkit-fill-available ; height: 180px;
   }
-   
+    }	
+	@media screen and (max-width: 768px) {
+  h1{font-size: 16px;
+   }
+ }	
+	@media screen and (max-width: 768px) {
+  h4,h2,h3{    font-size: 12px;
   }
-											
-															/*	end search bar	*/
+    }
+	@media screen and (max-width: 768px) {
+  p{    font-size: 12px;
+  }
+    }
+			@media screen and (max-width: 768px) {
+  .myseeroom{width: 100px;
+    margin-top: 11px;
+    padding: 4px;
+    text-align: center;
+  }
+    }
+	
+	@media screen and (max-width: 768px) {
+  .mt30{margin: 0px
+  }
+    }
+			@media screen and (max-width: 768px) {
+  .responsiveform{margin: 0px 37px;
+  }
+    }
+									
+	/*	media quiry*/			
+	
+	/*	end search bar	*/
  /*jssor slider loading skin spin css*/
         .jssorl-009-spin img {
             animation-name: jssorl-009-spin;
@@ -207,7 +250,7 @@
         .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
 
 /*	slider start	*/
-	.Description P{font-size: 12px;font-weight: 600;color: #757575;padding: 20px;}
+	.Description p{font-size: 12px;font-weight: 600;color: #757575;padding: 20px;}
     </style>
    
 <!--    end slider-->
@@ -222,13 +265,15 @@
         
 	<!-- end:header-top -->
 
+
+
   <!-- serach bar start--> 
   <section class="search-banner text-white" id="search-banner">
     <div class="container py-5"style="background: #2196f3;">
    <div class="row">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-body">
+                <div class="card-body responsiveform">
                     <div class="row">
                 <div class="col-md-2">
                     <div class="form-group myserachform">
@@ -261,7 +306,7 @@
                            <input type="text" name="dep" class="textboxstyle" id="arival" placeholder=" rooms">
                         </div>
                 </div>
-                <div class="col-md-2" style="MARGIN-TOP: 31PX;">
+                <div class="col-md-2 mt30">
                     <button type="button" class="btn  btn-lg bg-primary">Search</button>
 
                 </div>
@@ -280,7 +325,7 @@
 <br>
 <div class="row">
 <div class="container">
-<div class="col-md-7">
+<div class="col-md-7 nopadding">
 
 
 <!--start slider-->
@@ -376,7 +421,7 @@
 								<span class="fa fa-star"></span>
 								<span class="fa fa-star"></span>
 							</div>
-							<p text-light style="font-size:medium;COLOR: #03366d;">
+							<p text-light style="COLOR: #03366d;">
 						<i class="fa fa-map-marker fa-2x"></i> 
 						<b>Area : Colva Area, South Goa,</b></p>
 					
@@ -392,7 +437,7 @@
 					<h1 class=""><b>Rs. <span>14000/</b><span style="font-size:12px;">night</span></span></h1>
 						</div>
 						<br>
-						<a href="#accordion" class="btn btn-outline-info" style="width: 154px;padding: 10px;text-align: center;"><h4>See Rooms</h4></a>
+						<a href="#accordion" class="btn btn-outline-info myseeroom"><h4>See Rooms</h4></a>
 					</div>
 </div>
 	</div>
@@ -410,31 +455,30 @@
 					<h3>Description</h3></a>
 						</li>
 						<li>
-							<a href="#tab_default_2" data-toggle="tab" style="line-height: 10px;">
+							<a href="#tab_default_2" data-toggle="tab" style="line-height: 9px;">
 							Hotelfacilities</a>
 						</li>
 						<li>
-							<a href="#tab_default_3" data-toggle="tab" style="line-height: 10px;">
+							<a href="#tab_default_3" data-toggle="tab" style="line-height: 9px;">
 							Roomfacilities</a>
 						</li>	
 						<li>
-							<a href="#tab_default_4" data-toggle="tab" style="line-height: 10px;">
+							<a href="#tab_default_4" data-toggle="tab" style="line-height: 9px;">
 							Attractions</a>
 						</li>
 						<li>
-							<a href="#tab_default_5" data-toggle="tab" style="line-height: 10px;">
+							<a href="#tab_default_5" data-toggle="tab" style="line-height: 9px;">
 							Services</a>
 						</li>
 						<li>
-							<a href="#tab_default_6" data-toggle="tab" style="line-height: 10px;">
+							<a href="#tab_default_6" data-toggle="tab" style="line-height: 9px;">
 							Hotel Policy</a>
 						</li>
 					</ul>
 					<div class="tab-content">
 					
 						<div class="tab-pane active Description " id="tab_default_1">
-							<p> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include separate sitting areas and ceiling fans, and housekeeping is provided daily.Amenities Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and concierge services.Dining Take advantage of the hotel's room service (during limited hours). Continental breakfasts are available for a fee.Business, Other Amenities Featured amenities include complimentary wired Internet access, a business center, and express check-in. Guests may use a roundtrip airport shuttle for a surcharge, and free self parking is available onsite. 
-Disclaimer notification: Amenities are subject to availability and may be chargeable as per the hotel policy.  
+							<p> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include separate sitting areas and ceiling fans, and housekeeping is provided daily.Amenities Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and concierge services.Dining Take advantage of the hotel's room service (during limited hours). Continental breakfasts are available for a fee.Business, Other Amenities Featured amenities include complimentary wired Internet access, a business center, and express 	
 </p>
 							
 						</div>
@@ -507,24 +551,25 @@ Disclaimer notification: Amenities are subject to availability and may be charge
     <div class="card" style="margin: 20px;">
       <div class="card-header">
         <a class="card-link" data-toggle="collapse" href="#collapseOne">
-          <h4>Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 1745/night</span></h4>
+          <h4 style="color:#ffffff">Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 1745/Night</span></h4>
         </a>
       </div>
       <div id="collapseOne" class="collapse show" data-parent="#accordion">
-        <div class="card-body"style="background: #e2e2e2;">
+        <div class="card-body"style="background: #bbdefb">
          <div class="row" style="color: #4a4a4a;">
-         	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" style="width: 272px;"></div>
+         	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" class="responsive"></div>
          	<div class="col-md-4">
-<h3>Amenities : Breakfast</h3>
+         	<br>
+			<h3>Amenities : Breakfast</h3>
          	<br>
          	<h3>Inclusion :</h3>
          	
          	
          	<br>
-         	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
+         	 <button type="button" class="btn mybutton" style="background: #1976d2;color:#fff" data-toggle="collapse" data-target="#demo"><b>Cancellation Policies :</b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
           		<table style="font-size: 15px;font-weight: 600;">
-<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
+
          			
          			<td>Last Cancellation Date &nbsp; </td>
          			<td>: 2019-01-07T00:00:00</td>
@@ -567,7 +612,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          		</tr>
          	</table>
          	<br>
-<button type="button" class="btn btn-lg"style="margin: 0px 77px;;background: #ff9921;"><h4>Book Now</h4></button>
+<button type="button" class="btn btn-lg" style="margin: 0px 77px;background: #d66d6d;color: white;box-shadow: 1px 1px 3px 3px #d66d6d42;"><h4>Book Now</h4></button>
 			</div>
          	</div>
 </div>
@@ -577,21 +622,22 @@ Under Cancellation Allowed For The Hotel.</h5></span>
     <div class="card"  style="margin: 20px;">
       <div class="card-header">
         <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-        <h4>Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 2400/night</span></h4>
+        <h4 style="color:#ffffff">Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 2400/Night</span></h4>
       </a>
       </div>
       <div id="collapseTwo" class="collapse" data-parent="#accordion">
-       <div class="card-body"style="background: #39b0e4;">
-          <div class="row" style="color: #ffffff;">
-         	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" style="width: 272px;"></div>
+       <div class="card-body"style="background: #bbdefb">
+          <div class="row">
+         	<div class="col-md-4 responsive"><img src="images/hotel/hotel1.jpg" alt="" class="responsive"></div>
          	<div class="col-md-4">
+         	<br>
          	<h3>Amenities : Breakfast</h3>
          	<br>
          	<h3>Inclusion :</h3>
          	
          	
          	<br>
-         	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
+         	 <button type="button" class="btn mybutton" style="background: #1976d2;color:white"data-toggle="collapse" data-target="#demo"><b>Cancellation Policies :</b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
           		<table style="font-size: 15px;font-weight: 600;">
 <!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
@@ -637,7 +683,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          		</tr>
          	</table>
          	<br>
-<button type="button" class="btn btn-lg"style="margin: 0px 77px;;background: #ff9921;"><h4>Book Now</h4></button>
+<button type="button" class="btn btn-lg" style="margin: 0px 77px;background: #d66d6d;color: white;box-shadow: 1px 1px 3px 3px #d66d6d42;"><h4>Book Now</h4></button>
 			</div>
          	</div>
         </div>
@@ -647,25 +693,25 @@ Under Cancellation Allowed For The Hotel.</h5></span>
     <div class="card"  style="margin: 20px;">
       <div class="card-header">
         <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-          <h4>Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 2400/night</span></h4>
+          <h4 style="color:#ffffff">Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 2400/Night</span></h4>
         </a>
       </div>
       
       <div id="collapseThree" class="collapse" data-parent="#accordion">
-       <div class="card-body"style="background: #39b0e4;">
-          <div class="row" style="color: #ffffff;">
-         	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" style="width: 272px;"></div>
-         	<div class="col-md-4">
+       <div class="card-body"style="background: #bbdefb">
+          <div class="row">
+         	<div class="col-md-4 responsive"><img src="images/hotel/hotel1.jpg" alt="" class="responsive"></div>
+         	<div class="col-md-4"> <br>
         	<h3>Amenities : Breakfast</h3>
          	<br>
          	<h3>Inclusion :</h3>
          	
          	
          	<br>
-         	 <button type="button" class="btn mybutton" style="background: #42a5f5;"data-toggle="collapse" data-target="#demo"><b><u>Cancellation Policies :</u></b></button>
+         	 <button type="button" class="btn mybutton" style="background: 	#1976d2; color:white"data-toggle="collapse" data-target="#demo"><b>Cancellation Policies :</b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
           		<table style="font-size: 15px;font-weight: 600;">
-<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
+
          			
          			<td>Last Cancellation Date &nbsp; </td>
          			<td>: 2019-01-07T00:00:00</td>
@@ -691,7 +737,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
   	</div>
   	<hr>
          	<span><h5><strong>Note :  </strong>
-Under Cancellation Allowed For The Hotel.</h5></span>
+			Under Cancellation Allowed For The Hotel.</h5></span>
    </div>
          	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
          		<tr>
@@ -708,7 +754,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          		</tr>
          	</table>
          	<br>
-<button type="button" class="btn btn-lg"style="margin: 0px 77px;;background: #ff9921;"><h4>Book Now</h4></button>
+			<button type="button" class="btn btn-lg" style="margin: 0px 77px;background: #d66d6d;color: white;box-shadow: 1px 1px 3px 3px #d66d6d42;"><h4>Book Now</h4></button>
 			</div>
          	</div>
         </div>
@@ -721,17 +767,6 @@ Under Cancellation Allowed For The Hotel.</h5></span>
 <!--room end-->
 </div>
 </div>
-
-
-
-
-
-
-<!--TABS -->
-
-
- <!--TABS END-->
-
 
 
 

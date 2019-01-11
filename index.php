@@ -72,17 +72,25 @@
 
  <style>
 	 
-	
-
-
-
+	 .hottour{margin-bottom: 65px;position: relative;z-index: 9;text-align: center;}
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 div.gallery img {
      width: 78%;
   height: auto;
 }
-
-
-
 
 .responsive {
   padding: 0 6px;
@@ -103,15 +111,6 @@ div.gallery img {
   }
 }
 
-
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
 	 
 /*  read more */	 
 #more {display: none;}
@@ -127,12 +126,44 @@ div.gallery img {
 {
     list-style-type: none;
 }
+	 
+	 
+	 
+	@media screen and (max-width: 768px) {
+ .tBackground{font-size: 18px;
+   }
+ }		 
+	 	@media screen and (max-width: 768px) {
+ .heading-section p{font-size: 12px;
+   }
+ }		 
+	 
+		 	@media screen and (max-width: 768px) {
+ .hottour{margin-top: 530px;
+   }
+ }		 
+	 
+			 	@media screen and (max-width: 768px) {
+ h3,strong{font-size: 20px;
+   }
+ }		 
+	 
+	
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
   </style>
 	</head>
 	<body>
 
 
-		
 	
 	<!-- Start:header-top -->
  
@@ -410,8 +441,8 @@ div.gallery img {
 <div id="fh5co-tours" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row" >
-					<div class="col-md-12 text-center heading-section" style="margin-bottom: 82px;position: relative;z-index: 9;">
-						<h3><b>Hot Tours</b></h3>
+					<div class="col-md-12 hottour heading-section">
+						<h3><strong>Hot Tours</strong></h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					</div>
 				</div>
@@ -635,7 +666,7 @@ function myFunction() {
 						<div class="row">
 						<div class="col-md-12 oServices">
 						<img src="images/service/line.jpg" alt="">
-						<b>Our Services</b>&nbsp;<img src="images/service/line.jpg" alt=""/>
+						<strong>Our Services</strong>&nbsp;<img src="images/service/line.jpg" alt=""/>
 						</div>	
 						
 <div class="container">
