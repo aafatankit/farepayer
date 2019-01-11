@@ -73,7 +73,7 @@
  <style>
 	 
 	 .hottour{margin-bottom: 65px;position: relative;z-index: 9;text-align: center;}
-	 
+	 .sliderhottourM{margin-top:-115px;margin-bottom: -58px;}
 	 
 	 
 	 
@@ -145,6 +145,27 @@ div.gallery img {
 	 
 			 	@media screen and (max-width: 768px) {
  h3,strong{font-size: 20px;
+   }
+ }		 
+
+ }		 
+	 			 	@media screen and (max-width: 768px) {
+ p{font-size: 12px;
+   }
+ }		 
+	 	 			 	@media screen and (max-width: 768px) {
+ .heading-section h3{font-size: 27px;font-weight: 700;
+   }
+ }		 
+	@media screen and (max-width: 768px) {
+ .oServices strong{font-size: 27px;
+   }
+ }		 
+
+	
+	 
+@media screen and (max-width: 768px) {
+ .sliderhottourM{margin-top:-158px;margin-bottom: -58px;
    }
  }		 
 	 
@@ -456,7 +477,7 @@ div.gallery img {
       
 <div class="row">
 
-      <div id="adv_team_4_columns_carousel" class="carousel slide four_shows_one_move team_columns_carousel_wrapper" data-ride="carousel" data-interval="2000" data-pause="hover" style="margin-top: -119px;">
+      <div id="adv_team_4_columns_carousel" class="carousel slide four_shows_one_move team_columns_carousel_wrapper sliderhottourM" data-ride="carousel" data-interval="2000" data-pause="hover">
          <!--========= Wrapper for slides =========-->
          <div class="carousel-inner" role="listbox">
             <!--========= 1st slide =========-->
@@ -877,46 +898,47 @@ function myFunction() {
   <div class="gallery hvr-grow-shadow">
     <img src="images/counter/best.png" alt="Cinque Terre" width="100" >
     </a>
-    <div class="desc"><h3>Best Price Gurantee</h3></div>
+    
+    <div class="desc"><h4 style="line-height: 44px;">Best Price Gurantee</h4></div>
   </div>
 </div>
 
 
 <div class="responsive">
   <div class="gallery hvr-grow-shadow">
-    <img src="images/counter/trust.png" alt="Forest" width="100" style="width: 121px;" >
+    <img src="images/counter/trust.png" alt="Forest" width="100" style="width: 109px;" >
     </a>
-    <div class="desc"><h3>Trust Online Travel Brand</h3></div>
+    <div class="desc"><h4 style="line-height: 44px;">Trust Online Travel Brand</h4></div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery hvr-grow-shadow">
-    <img src="images/counter/trustedp.png" alt="Northern Lights" width="100" style="width: 121px;" >
+    <img src="images/counter/trustedp.png" alt="Northern Lights" width="100" style="width: 109px;" >
     </a>
-    <div class="desc"><h3>Trusted People</h3></div>
+    <div class="desc"><h4 style="line-height: 44px;">Trusted People</h4></div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery hvr-grow-shadow">
-    <img src="images/counter/fastbooking.png" alt="Mountains" width="100" style="width: 121px;" >
+    <img src="images/counter/fastbooking.png" alt="Mountains" width="100" style="width: 109px;" >
     </a>
-    <div class="desc"><h3>Fast Booking</h3></div>
+    <div class="desc"><h4 style="line-height: 44px;">Fast Booking</h4></div>
   </div>
 </div>
 <div class="responsive">
   <div class="gallery hvr-grow-shadow">
-    <img src="images/counter/holiday.png" alt="Mountains" width="100" style="width: 121px;" >
+    <img src="images/counter/holiday.png" alt="Mountains" width="100" style="width: 109px;" >
     </a>
-    <div class="desc"><h3>Hassle Free Holiday Planning</h3></div>
+    <div class="desc"><h4  style="line-height: 44px;">Hassle free Holiday Planning</h4></div>
   </div>
 </div>
 <div class="responsive">
   <div class="gallery hvr-grow-shadow">
-    <img src="images/counter/support.png" alt="Mountains" width="100" style="width: 121px;" >
+    <img src="images/counter/support.png" alt="Mountains" width="100" style="width: 109px;" >
     </a>
-    <div class="desc"><h3>Support Team</h3></div>
+    <div class="desc"><h4 style="line-height: 44px;">Support Team</h4></div>
   </div>
 </div>
 
