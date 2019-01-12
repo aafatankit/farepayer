@@ -552,74 +552,68 @@
 <div class="container">
 
   <div id="accordion">
-    <div class="card" style="margin: 20px;">
+     <div class="card" style="margin: 20px;">
       <div class="card-header">
         <a class="card-link" data-toggle="collapse" href="#collapseOne">
           <h4 style="color:#ffffff">Type of Room   &nbsp;<i class='fas fa-angle-down'></i><span style="float: right;">Rs. 1745/Night</span></h4>
         </a>
       </div>
-      <div id="collapseOne" class="collapse show" data-parent="#accordion">
-        <div class="card-body"style="background: #bbdefb">
-         <div class="row" style="color: #4a4a4a;">
-         	<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" class="responsive"></div>
-         	<div class="col-md-4">
-         	<br>
-			<h3>Amenities : Breakfast</h3>
-         	<br>
-         	<h3>Inclusion :</h3>
-         	
-         	
-         	<br>
-         	 <button type="button" class="btn mybutton" style="background: #1976d2;color:#fff" data-toggle="collapse" data-target="#demo"><b>Cancellation Policies :</b></button>
-  <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
-          		<table style="font-size: 15px;font-weight: 600;">
+      	<div id="collapseOne" class="collapse show" data-parent="#accordion">
+       	<div class="card-body"style="background: #bbdefb">
+        	<div class="row" style="color: #4a4a4a;">
+				<div class="col-md-4"><img src="images/hotel/hotel1.jpg" alt="" class="responsive"></div>
+				<div class="col-md-4">
+				<br>
+				<h3>Amenities : Breakfast</h3>
+				<br>
+				<h3>Inclusion :</h3>
 
-         			
-         			<td>Last Cancellation Date &nbsp; </td>
-         			<td>: 2019-01-07T00:00:00</td>
-         			<tr>
-         			<tr>
-         				<td>
-         				<strong>Cancellation Policies : </strong>
-         				</td>
-         			</tr>
-         			<tr>
-         				<td>From Date </td>
-         				<td>:  2019-01-07T00:00:00</td>
-         			</tr>
-         			<tr> 
-         				<td>Date Rate</td>
-         				<td>: 2019-01-07T00:00:00</td>
-         			</tr>
-         			</tr>
-         	</table> 
-         	<hr>
-				<span><h5><strong>Cancellation Policies : </strong>
-				Charges(will deducted) : 100 %</h5></span> 
-  	</div>
-  	<hr>
-         	<span><h5><strong>Note :  </strong>
-Under Cancellation Allowed For The Hotel.</h5></span>
-   </div>
-         	<div class="col-md-4"><table style="font-size: 15px;font-weight: 600;">
-         		<tr>
-         			<td><strong>Price Details &nbsp; </strong></td>
-         			
-         			<tr>
-         				<td>Extra Guset Charge &nbsp;</td><td>:&nbsp; 854</td>
-         			</tr>
-         			<tr> 
-         				<td>Child Charge</td><td> :&nbsp; 745</td>
-         			</tr><tr> 
-         				<td><b><u>Totel Amount</u></strong></td><td><strong> &nbsp;: 1745</b></td>
-         			</tr>
-         		</tr>
-         	</table>
-         	<br>
-<button type="button" class="btn btn-lg" style="margin: 0px 77px;background: #d66d6d;color: white;box-shadow: 1px 1px 3px 3px #d66d6d42;"><h4>Book Now</h4></button>
-			</div>
-         	</div>
-</div>
+
+				<br>
+				 <button type="button" class="btn mybutton" style="background: #1976d2;color:#fff" data-toggle="collapse" data-target="#demo">
+				 <b>Cancellation Policies :</b>
+				 </button>
+				 <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
+						<table style="font-size: 15px;font-weight: 600;">
+						<td>Last Cancellation Date &nbsp; </td>
+						<td>: 2019-01-07T00:00:00</td>
+						<tr>
+						<td><strong>Cancellation Policies : </strong></td>
+						</tr>
+						<tr>
+						<td>From Date </td>
+						<td>:  2019-01-07T00:00:00</td>
+						</tr>
+						<tr>
+						<td>Date Rate</td>
+						<td>: 2019-01-07T00:00:00</td>
+						</tr>
+						</tr>
+						</table>
+						<hr>
+					<span><h5><strong>Cancellation Policies : </strong>Charges(will deducted) : 100 %</h5></span> 
+				</div>
+				<hr>
+				<span><h5><strong>Note :  </strong>Under Cancellation Allowed For The Hotel.</h5></span>
+				</div>
+				<div class="col-md-4">
+				<table style="font-size: 15px;font-weight: 600;">
+					<tr>
+					<td><strong>Price Details &nbsp; </strong></td>
+							<tr>
+							<td>Child Charge</td><td> :&nbsp; 745</td>
+							</tr>
+							<tr>
+							<td><b><u>Totel Amount</u></strong></td>
+							<td><strong> &nbsp;: 1745</b></td>
+							</tr>
+					</tr>
+				</table>
+				<br>
+				<button type="button" class="btn btn-lg" style="margin: 0px 77px;background: #d66d6d;color: white;box-shadow: 1px 1px 3px 3px #d66d6d42;"><h4>Book Now</h4></button>
+				</div>
+      		</div>
+	`	</div>
       </div>
     </div>
     
