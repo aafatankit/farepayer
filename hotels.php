@@ -122,7 +122,7 @@
 								   <!-- Tab panes -->
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
-                                        
+                                        <form>
 										<div role="tabpanel" class="tab-pane" id="hotels">
 									 	<div class="row">
 											<div class="col-xxs-12 col-xs-6 mt">
@@ -189,7 +189,7 @@
 											<div class="col-xs-12">
 												<input type="submit" class="btn btn-primary btn-block" value="Search Hotel">
 											</div>
-										</div>
+										</div></form>
 									 </div>
 									 </div>
 

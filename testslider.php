@@ -341,11 +341,11 @@
             </div>
             <div>
                 <img data-u="image" src="img/032.jpg" />
-                <img data-u="thumb" src="img/032-s190x90.jpg" />
+                <img data-u="thumb" src="img/032.jpg" />
             </div>
             <div>
                 <img data-u="image" src="img/033.jpg" />
-                <img data-u="thumb" src="img/033-s190x90.jpg" />
+                <img data-u="thumb" src="img/033.jpg" />
             </div>
             <div>
                 <img data-u="image" src="img/034.jpg" />
@@ -458,10 +458,12 @@
 							<a href="#tab_default_2" data-toggle="tab" style="line-height: 9px;">
 							Hotelfacilities</a>
 						</li>
+<!--
 						<li>
 							<a href="#tab_default_3" data-toggle="tab" style="line-height: 9px;">
 							Roomfacilities</a>
 						</li>	
+-->
 						<li>
 							<a href="#tab_default_4" data-toggle="tab" style="line-height: 9px;">
 							Attractions</a>
@@ -523,9 +525,11 @@
 					
 						
 						</div>
+<!--
 						<div class="tab-pane Description" id="tab_default_3">
 							<p> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimentary wireless Internet access keeps you connected,
 						</div>
+-->
 						<div class="tab-pane Description" id="tab_default_4">
 							<p> Property Location With a stay at Zostel Delhi in New Delhi (Paharganj), you'll be within a 15-minute drive of Jantar Mantar and Jama Masjid. This hotel is 2.2 mi (3.5 km) from Red Fort and 4.3 mi (6.9 km) from University of Delhi.Rooms Make yourself at home in one of the 39 air-conditioned guestrooms. Complimenta
 						</div>
