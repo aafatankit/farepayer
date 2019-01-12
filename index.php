@@ -184,124 +184,77 @@ div.gallery img {
 	 
 	 
 	 
-	 
-.fab {
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  z-index: 99;
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  top:200px;
   cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+
+  right: 0px;
+  width: 60px;
 }
-.fab-backdrop {
-  color: rgba(255, 255, 255, 0);
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 999;
 }
-.fab-primary, .fab-secondary {
-  transition: all 0.35s ease-in-out;
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
 }
-.fab.active .fab-primary {
-  opacity: 0;
-  transform: rotate(225deg);
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
 }
-.fab-secondary {
-  opacity: 0;
-  transform: rotate(-225deg);
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
 }
-.fab.active .fab-secondary {
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
   opacity: 1;
-  transform: rotate(0);
-  margin-top: -2px;
-}
-
-
-
-#inbox .show-on-hover:hover > ul.dropdown-menu {
-    display: block;    
-    
-}
-#inbox .show-on-hover {
-    position: absolute;
-    bottom: 80px;
-    right: 80px;
-}
-#inbox .btn-io{
-	right: 1px;
-    top: 188px;
-	position: fixed;
-    z-index: 99999;
-    border-radius: 50%;
-    height: 54px;
-    width: 54px;
-    padding: 0 !important;
-    box-shadow: 0px 3px 7px 0px rgba(202, 124, 124, 0.72);
-}
-#inbox .dropup .dropdown-menu, .navbar-fixed-bottom .dropdown .dropdown-menu {
-top: auto;
-bottom: 100%;
-margin-bottom: 1px;
-margin-bottom: -5px;
-padding-bottom: 30px;
-}
-#inbox .dropdown-menu-right {
-right: 0 !Important;
-left: auto !Important;
-}
-#inbox .dropdown-menu {
-position: fixed;
-top: 10%;
-left: 0;
-z-index: 1000000000;
-display: none;
-float: left;
-min-width: 50px;
-padding: 5px 0;
-margin: 2px 0 0;
-font-size: 14px;
-text-align: center;
-list-style: none;
-background-color: rgba(255, 255, 255, 0) !Important;
--webkit-background-clip: padding-box;
-background-clip: padding-box;
-border: none;
-border-radius: 0px;
--webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0) !Important;
-box-shadow: 0 6px 12px rgba(0, 0, 0, 0) !Important;
-}
-#inbox .fa-iox{
-    font-size: 22px;
-}
-#inbox .dropdown-menu > li > a {
-display: block;
-padding: 0;
-padding-top: 4px;
-margin-top: 20px;
-clear: both;
-font-weight: normal;
-line-height: 1.42857143;
-color: #333;
-background: #fff;
-white-space: nowrap;
-width: 40px;
-height: 40px;
-border: solid 1px #ccc;
-border-radius: 50px;
-font-size: 21px;
-box-shadow: 0px 3px 7px 0px rgba(203, 203, 203, 0.72);
-}
-#inbox .dropdown-menu > li:first-child>a {
-    background: #6E4320 !important;
-    color: #fff !important;
-}
-#inbox .dropdown-menu > li:last-child>a {
-    background: #D3A516;
-    color: #fff;
-}
-#inbox .dropdown-menu > li:nth-child(3)>a {
-    background: #3C80F6;
-    color: #fff;
-}
-#inbox .dropdown-menu > li:nth-child(2)>a {
-    background: #2CAC26;
-    color: #fff;
-}
-#inbox .fa-iosm{
-    
-    margin-top: 7px;
 }
   </style>
 	</head>
@@ -314,33 +267,38 @@ box-shadow: 0px 3px 7px 0px rgba(203, 203, 203, 0.72);
     <?php include 'header.php'; ?>
         
 	<!-- end:header-top -->
-<div class="container">
-	<div class="row">
-		        <div id="inbox">
-          <div class="fab btn-group show-on-hover dropup">
-              <div data-toggle="tooltip" data-placement="left" title="Call Us" style="">
-          <button type="button" class="btn btn-danger btn-io dropdown-toggle" data-toggle="dropdown">
-            <span><p>rajhat</p>
-               
-            </span>
-          </button></div>
-          <ul class="dropdown-menu dropdown-menu-right" role="menu">
-            <li><a href="#" data-toggle="tooltip" data-placement="left" title="Coffee"><i class="fa fa-coffee"></i></a></li>
-            <li><a href="#" data-toggle="tooltip" data-placement="left" title="LiveChat"><i class="fa fa-comments-o"></i></a></li>
-            <li><a href="#" data-toggle="tooltip" data-placement="left" title="Reminders"><i class="fa fa-hand-o-up"></i></a></li>
-            <li><a href="#" data-toggle="tooltip" data-placement="left" title="Invites"><i class="fa fa-ticket"></i></a></li>
-          </ul>
-        </div>
-        </div>
-	</div>
+
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
 </div>
 
-		<script>$('.fab').hover(function () {
-    $(this).toggleClass('active');
-});
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})</script>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+
+
+
+
+
+
 
 
 
@@ -1148,7 +1106,7 @@ var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadedurati
 <noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
 <!--button Scroll end-->
 
-
+<script defer  type="text/javascript" src="js/smoothscroll.js"></script>
 	<!-- jQuery -->
     <script type="text/javascript" src="engine1/wowslider.js"></script>
 	<script type="text/javascript" src="engine1/script.js"></script>

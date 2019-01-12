@@ -623,6 +623,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
       </div>
     </div>
     
+<!--
     <div class="card"  style="margin: 20px;">
       <div class="card-header">
         <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
@@ -644,7 +645,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
          	 <button type="button" class="btn mybutton" style="background: #1976d2;color:white"data-toggle="collapse" data-target="#demo"><b>Cancellation Policies :</b></button>
   <div id="demo" class="collapse"style="text-align: -webkit-auto; font-size: 12px">
           		<table style="font-size: 15px;font-weight: 600;">
-<!--					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>-->
+					<tr><h4><strong>* IMPORTANT NOTE *</strong></h4>
          			
          			<td>Last Cancellation Date &nbsp; </td>
          			<td>: 2019-01-07T00:00:00</td>
@@ -693,6 +694,7 @@ Under Cancellation Allowed For The Hotel.</h5></span>
         </div>
       </div>
     </div>
+-->
     
     <div class="card"  style="margin: 20px;">
       <div class="card-header">
