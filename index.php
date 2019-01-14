@@ -174,7 +174,7 @@ div.gallery img {
 	 
 
 	 
-	 
+	 .myenquiry{font-size: 13px;padding: 16px;margin-bottom: 25px;}
 
 #center-text {          
   display: flex;
@@ -186,18 +186,17 @@ div.gallery img {
   
 }
 #chat-circle {
-  z-index: 9999;
-  position: fixed;
-  bottom: 200px;
-  right: 0px;
-  background: #5A5EB9;
-  width: 50px;
-  height: 50px;  
-  border-radius: 50%;
-  color: white;
-  padding: 28px;
-  cursor: pointer;
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.6), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    z-index: 9999;
+    position: fixed;
+    bottom: 360px;
+    right: -6px;
+    background: #5A5EB9;
+    width: 42px;
+    height: 39px;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.6), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 .btn#my-btn {
@@ -221,14 +220,14 @@ div.gallery img {
 }
 
 
-.chat-box {
+.chat-box {    width: 276px;
   z-index: 9999;
   display:none;
   background: #efefef;
   position:fixed;
   right:30px;
-  bottom:50px;  
-  width:350px;
+  bottom:360px;  
+ 
   max-width: 85vw;
   max-height:100vh;
   border-radius:5px;  
@@ -240,14 +239,14 @@ box-shadow: 0px 6px 6px 2px #44444429;
   cursor:pointer;
 }
 .chat-box-header {
-  background: #5A5EB9;
-  height:70px;
-  border-top-left-radius:5px;
-  border-top-right-radius:5px; 
-  color:white;
-  text-align:center;
-  font-size:14px;
-  padding-top:17px;
+    background: #5A5EB9;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 7px;
 }
 .chat-box-body {
   position: relative;  
@@ -269,6 +268,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
   z-index: -1;   
 }
 #chat-input {
+	font-size: 15px;
   background: #f4f7f9;
   width:100%; 
   position:relative;
@@ -302,21 +302,23 @@ box-shadow: 0px 6px 6px 2px #44444429;
 #chat-input:-moz-placeholder { /* Firefox 18- */
   color: #ccc;
 }
-.chat-submit {  
-  position:absolute;
-  bottom:3px;
-  right:10px;
-  background: transparent;
-  box-shadow:none;
-  border:none;
-  border-radius:50%;
-  color:#5A5EB9;
-  width:35px;
-  height:35px;  
+.chat-submit {
+    position: absolute;
+    bottom: 21px;
+    right: 32px;
+    /* font-size: 14px; */
+    background: #5a5eb9;
+    box-shadow: 1px 6px 8px #00008b5c;
+    border: none;
+    border-radius: 5%;
+    color: #ffffff;
+    width: 211px;
+    height: 35px;
+    font-size: 16px;
 }
 .chat-logs {
   padding:15px; 
-  height:370px;
+/*  height:370px;*/
   overflow-y:scroll;
 }
 
@@ -340,11 +342,25 @@ box-shadow: 0px 6px 6px 2px #44444429;
 
 
 @media only screen and (max-width: 500px) {
-   .chat-logs {
-        height:40vh;
+   .myenquiry.fontS {font-size: 9px;
+      
+    }
+}
+@media only screen and (max-width: 500px) {
+   .chat-box {bottom: 250px;
+      
+    }
+}
+@media only screen and (max-width: 500px) {
+   #call {top: 309px;
+      
     }
 }
 
+	 
+	 
+	 
+	 .fontS{font-size:12px;}	 
 .chat-msg.user > .msg-avatar img {
   width:45px;
   height:45px;
@@ -388,6 +404,82 @@ box-shadow: 0px 6px 6px 2px #44444429;
     clear: both;
     margin-bottom: 70px;
 }
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+.phonelink{
+       z-index: 9999;
+    position: fixed;
+    bottom: 191px;
+    right: -23px;
+    margin: 30px; /* Add space around background */
+}
+.phoneicon{
+    width: 40px; /* Set width of icon */
+    height: 40px; /* Set height of icon */
+}
+@media screen and (max-width: 480px){
+    .lgscreenphone{
+        display: none;  /* On small screens make phone icon disappear */
+    }
+    .mbscreenphone{
+        display: block; /* On small screens make phone icon appear */
+    }
+}
+@media screen and (min-width: 481px){
+    .mbscreenphone{
+        display: none; /* On large screens make phone icon disappear */
+    }
+    .lgscreenphone{
+       top: 231px;
+    right: -20px;
+    display: block;
+    z-index: 999; /* On large screens make phone icon appear */
+    }
+}
+	 
+
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+	 
+
+	 #mySidenav a {display: flex;box-shadow: 1px 6px 8px #00008b5c;
+ position: fixed;
+    right: -64px;
+    z-index: 9999;
+    transition: 0.3s;
+    padding: 5px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius:  5px 0px 0px 5px;
+		    
+}
+#mySidenav a:hover {
+  width: 168px;
+    right: -7px;
+
+}
+
+#call {width: 162px;
+    padding: 10px;
+    right: -9px;
+	top: 160px;
+  background-color: #1fa3dd;
+}
+	 #call b{display:none;}
+	 #call:hover b{display:inline;width: 200px;}
+
   </style>
 	</head>
 	<body>
@@ -400,32 +492,56 @@ box-shadow: 0px 6px 6px 2px #44444429;
         
 	<!-- end:header-top -->
 
+<div id="mySidenav" class="sidenav">
+  <a href="tel:9402188899" id="call"><i class="fa fa-phone" aria-hidden="true" style="padding: 7px;margin-right: 10px;"></i> <b style="margin-right: 10px">987456321</b> </a>
+ 
+</div>
+
+
+
+
 <div id="body"> 
   
 <div id="chat-circle" class="btn btn-raised">
+       
         <div id="chat-overlay"></div>
-		   <i class="fa fa-envelope-o fa-3x"style="
-    margin: -17px -17px;
-"></i>
+		 <i class="fa fa-envelope-o fa-2x"style="margin: -17px -17px;"></i>
 	</div>
   
   <div class="chat-box">
     <div class="chat-box-header">
-      ChatBot
-      <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+		<b>Enquiry</b>
+      <span class="chat-box-toggle "><i class="material-icons">close</i></span>
     </div>
+    
     <div class="chat-box-body">
-      <div class="chat-box-overlay">   
-      </div>
+     <form class="mtop myenquiry">
+     	  <label>Name:</label>
+  <input type="text" class="form-control fontS" placeholder="Name"> 
+ 	    <p></p>
+  	  <label>Mobile No:</label>
+  <input type="text" class="form-control fontS" placeholder="Mobile No.">
+    <p></p>
+      <label>Email:</label>
+  	<input type="text" class="form-control fontS" placeholder="email"> 
+   	  <p></p>
+    	<label>Remarks:</label>
+     	<textarea class="form-control fontS" id="description" placeholder="Enter Your Message"></textarea>
+     	
+     </form>
+     
+     
+     
+      
       <div class="chat-logs">
        
       </div><!--chat-log -->
     </div>
     <div class="chat-input">      
-      <form>
-        <input type="text" id="chat-input" placeholder="Send a message..."/>
+    
+       
       <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
-      </form>      
+         
     </div>
   </div>
   
@@ -435,7 +551,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
 </div>
 
 
-<div class="fh5co-hero">
+			<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover">
 	
@@ -1316,7 +1432,7 @@ var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadedurati
     str += "          <\/div>";
     str += "        <\/div>";
     $(".chat-logs").append(str);
-    $("#cm-msg-"+INDEX).hide().fadeIn(300);   
+    $("#cm-msg-"+INDEX).hide().fadeIn(500);   
     $(".chat-logs").stop().animate({ scrollTop: $(".chat-logs")[0].scrollHeight}, 1000);
     $("#chat-input").attr("disabled", true);
   }

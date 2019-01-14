@@ -2122,7 +2122,7 @@ icon-twitter2 a{color: black !important;}
   z-index: 9999;
  
 }
-.bannertop{ position:absolute; z-index: 99999999 !important;top: 262px !important;
+.bannertop{ position:absolute; z-index: 999!important;top: 262px !important;
     margin-left: -149px; left:150px;
 }
 
