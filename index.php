@@ -827,7 +827,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
 				</div>
 	</div>		
 		</div>
-					
+	
 <!--Hot Tours end-->	
 	
 					
@@ -1352,7 +1352,11 @@ var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadedurati
 	
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
-
+	
+		
+			
+				
+						
 
 
 
