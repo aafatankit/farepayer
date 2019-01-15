@@ -21,7 +21,7 @@
 							<ul>
 								<li><a href="contact.php">Contact</a></li>
 								<li><a href="Careers.php">Careers</a></li>
-								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="Terms & Conditions.php">Terms & Conditions</a></li>
 								<li><a href="#">Privacy and Policy</a></li>
 							</ul>
 						</div>
@@ -90,4 +90,5 @@
 			
 		</footer>
 
-<!--footer end-->
+<!--footer end--><!--smoth scroll-->
+	<script defer  type="text/javascript" src="js/smoothscroll.js"></script>

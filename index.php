@@ -39,8 +39,6 @@
 <link rel="stylesheet" type="text/css" href="css/animateslider.css" />
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     
-<link rel="stylesheet prefetch" href="css/owl.carousel.min.css">
-
 <!--slider links end-->
 
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -51,6 +49,23 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 
+
+
+
+
+
+
+	<link rel="stylesheet" href="css/animations.css" type="text/css">
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-51797107-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 
 
 <link rel="stylesheet" href="js/jquery-ui.js">
@@ -188,7 +203,7 @@ div.gallery img {
 #chat-circle {
     z-index: 9999;
     position: fixed;
-    bottom: 360px;
+    bottom: 350px;
     right: -6px;
     background: #5A5EB9;
     width: 42px;
@@ -226,7 +241,7 @@ div.gallery img {
   background: #efefef;
   position:fixed;
   right:30px;
-  bottom:360px;  
+  bottom:300px;  
  
   max-width: 85vw;
   max-height:100vh;
@@ -456,6 +471,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
  position: fixed;
     right: -64px;
     z-index: 9999;
+		 top:310px;
     transition: 0.3s;
     padding: 5px;
     width: 100px;
@@ -480,6 +496,13 @@ box-shadow: 0px 6px 6px 2px #44444429;
 	 #call b{display:none;}
 	 #call:hover b{display:inline;width: 200px;}
 
+	 
+	 #chat-circle a:hover{  width: 168px;
+    right: -7px;} 
+	 
+	 
+	 
+	 
   </style>
 	</head>
 	<body>
@@ -573,7 +596,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
 					<div class="container">
 				
 						<div class="row">
-							<div class="col-sm-5 col-md-5">
+							<div class="col-sm-5 col-md-5 animated bounceInDown">
 								<div class="tabulation "Style="border: solid 1px #e0e0e0;">
 
 								  <!-- Nav tabs -->
@@ -820,7 +843,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
 <div id="fh5co-tours" class="fh5co-section-gray">
 			<div class="container">
 				<div class="row" >
-					<div class="col-md-12 hottour heading-section">
+					<div class="col-md-12 hottour heading-section animated bounceInRight">
 						<h3><strong>Hot Tours</strong></h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					</div>
@@ -932,7 +955,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
 <div class="container-fluid">
 						<div class="row">
 						<div class="container">
-						<div class="col-md-12 tBackground">
+						<div class="col-md-12 tBackground animated bounceInRight">
 						
 						<b>SELECT YOUR CUSTOMIZED PACKAGES</b>
 						<br>
@@ -1247,6 +1270,9 @@ function myFunction() {
 		</div>
 <!--Recent From Blog end-->		
 	
+	
+<!--Why choose Farepayer-->
+	
 <div class="row">
 <div class="col-sm-12 wChoose clINE bgCOUNTER">
 <br>
@@ -1307,12 +1333,64 @@ function myFunction() {
 </div>
 </div>							
 
+<!--Why choose Farepayer end-->
 
 <!--footer start-->	
 		
-		<?php include 'footer.php'; ?>
+	<?php include 'footer.php'; ?>
 	
 <!--footer end-->
+
+
+
+
+
+
+	
+<script src="js/jquery.min.js"></script>
+<script src='js/css3-animate-it.js'></script>
+
+
+
+<script>
+$(document).ready(function(){
+	$.doTimeout(2500, function(){
+		$('.repeat.go').removeClass('go');
+
+		return true;
+	});
+	$.doTimeout(2520, function(){
+		$('.repeat').addClass('go');
+		return true;
+	});
+	
+});
+
+</script>
+
+<script>
+  AOS.init(150);
+</script>
+
+
+
+
+
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'ed05150e-53bf-4ff5-afa9-757415f2c2cc', f: true }); done = true; } }; })();</script>
+
+ 
+<!--
+<script type="text/javascript">function add_chatinline(){var hccid=41204252;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+
+add_chatinline(); </script>
+-->
+
+
+
+
+
+
+
 <!--button Scroll start-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
@@ -1320,8 +1398,8 @@ var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadedurati
 </script>
 <noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
 <!--button Scroll end-->
-
-<script defer  type="text/javascript" src="js/smoothscroll.js"></script>
+<!--smoth scroll-->
+	<script defer  type="text/javascript" src="js/smoothscroll.js"></script>
 	<!-- jQuery -->
     <script type="text/javascript" src="engine1/wowslider.js"></script>
 	<script type="text/javascript" src="engine1/script.js"></script>
