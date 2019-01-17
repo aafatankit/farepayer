@@ -51,20 +51,20 @@
 	</head>
 	
 	<style>
-  .allbackpage{background:#f4f4f4;}
+.allbackpage{background:#f4f4f4;}
 .allbackpage a{color:#5f6367;line-height:30px;font-size:13px;margin-right:10px;}
 .allbackpage i{margin-right:5px;}
-        .aboutbg{background:url(images/aboutus/1111.jpg) fixed;}
-        .about-img figure{position:relative;}
+.aboutbg{background:url("images/aboutus/5.jpg") fixed;}
+.about-img figure{position:relative;}
 .about-img figure::before{position:absolute;top:0;left:-75%;z-index:2;display:block;content:'';width:50%;height:100%;background:-webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);background:linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);-webkit-transform:skewX(-25deg);transform:skewX(-25deg);}
 .about-img figure:hover::before{-webkit-animation:shine .99s;animation:shine .99s;}
-        .nopadding{margin: 0px;padding: 0px;}
-        .margin-t50{margin-top: 50px;}
-        .margin-t30{margin-top: 30px;}
-        .margin-t40{margin-top: 40px;}
-        .margin-t20{margin-top: 20px;}
-        .aboutus h1{color:#3e50c5;font-family:'Allerta Stencil';font-weight: 900;border-left:9px solid;padding-left: 15px;}
-		.aboutus p{color:#7d7c80;font-family:'Patua One';}
+.nopadding{margin: 0px;padding: 0px;}
+.margin-t50{margin-top: 50px;}
+.margin-t30{margin-top: 30px;}
+.margin-t40{margin-top: 40px;}
+.margin-t20{margin-top: 20px;}
+.aboutus h1{color:#3e50c5;font-family:'Allerta Stencil';font-weight: 900;border-left:9px solid;padding-left: 15px;}
+.aboutus p{color:#7d7c80;font-family:'Patua One';}
 .welcometext h5{color: #121317;font-family:Arial, Helvetica, sans-serif !important;font-weight:600;font-size:30px;margin-top:0px !important;}
 .welcometext h1{   color: #3e50b4;
     padding-top: 10px;
@@ -106,7 +106,7 @@
 	</div>
     <div class="row margin-t40">
     <div class="col-sm-4 about-img ">
-<figure><img src="images/aboutus/about111.jpg" class="img-responsive" alt="Picture"></figure>
+<figure><img src="images/aboutus/2.jpg" class="img-responsive" alt="Picture"></figure>
 </div>
         <div class="col-md-8 welcometext margin-t20">
         <h5>Welcome to</h5>

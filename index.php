@@ -178,18 +178,9 @@ div.gallery img {
  .sliderhottourM{margin-top:-158px;margin-bottom: -58px;
    }
  }		 
-	 
-	
 
 	 
-
-
-
-	 
-	 
-
-	 
-	 .myenquiry{font-size: 13px;padding: 16px;margin-bottom: 25px;}
+.myenquiry{font-size: 13px;padding: 16px;margin-bottom: 25px;}
 
 #center-text {          
   display: flex;

@@ -22,7 +22,7 @@
 								<li><a href="contact.php">Contact</a></li>
 								<li><a href="Careers.php">Careers</a></li>
 								<li><a href="Terms & Conditions.php">Terms & Conditions</a></li>
-								<li><a href="#">Privacy and Policy</a></li>
+								<li><a href="PrivacyPolicy.php">Privacy and Policy</a></li>
 							</ul>
 						</div>
 						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
