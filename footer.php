@@ -9,7 +9,7 @@
 							<h3>Company</h3>
 							<ul>
 								<li><a href="Aboutus.php">About Us</a></li>
-								<li><a href="#">International Tours</a></li>
+								<li><a href="International.php">International Tours</a></li>
 								<li><a href="#">Domestic Tours</a></li>
 								<li><a href="#">Testimonial</a></li>
 								<li><a href="#">Blog</a></li>
@@ -90,5 +90,3 @@
 			
 		</footer>
 
-<!--footer end--><!--smoth scroll-->
-	<script defer  type="text/javascript" src="js/smoothscroll.js"></script>

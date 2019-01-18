@@ -54,7 +54,6 @@
 
 
 
-
 	<link rel="stylesheet" href="css/animations.css" type="text/css">
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -82,20 +81,8 @@
 
  <style>
 	 
-	 .hottour{margin-bottom: 65px;position: relative;z-index: 9;text-align: center;}
-	 .sliderhottourM{margin-top:-115px;margin-bottom: -58px;}
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
+.hottour{margin-bottom: 65px;position: relative;z-index: 9;text-align: center;}
+.sliderhottourM{margin-top:-115px;margin-bottom: -58px;}
 	 
 div.gallery img {
      width: 78%;
@@ -181,15 +168,7 @@ div.gallery img {
 	 
 	
 
-	 
-
-
-
-	 
-	 
-
-	 
-	 .myenquiry{font-size: 13px;padding: 16px;margin-bottom: 25px;}
+ .myenquiry{font-size: 13px;padding: 16px;margin-bottom: 25px;}
 
 #center-text {          
   display: flex;
@@ -504,7 +483,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
 	 
 	
 	 
-	 
+	 .myborder{border-bottom: solid;padding: 6px;}
 	 
 	 
 	   .brdcrm {
@@ -518,11 +497,11 @@ box-shadow: 0px 6px 6px 2px #44444429;
 	 a {
     color: #3835b7;
     text-decoration: none;
-    background-color: transparent;
-
-
-	 
-	 
+	background-color: transparent;}
+	@import url('https://fonts.googleapis.com/css?family=Roboto');
+		 
+body{font-family: 'Roboto', sans-serif;}
+	 p{font-size: 15px;}
   </style>
 	</head>
 	<body>
@@ -587,125 +566,65 @@ box-shadow: 0px 6px 6px 2px #44444429;
     <p style="color: white;"><a href="index.php"><i class="fa fa-home"></i> Home</a> / Privacy Policy</p>
 </div>
 
-	<div class="container tramscondition">
-    <div class="row margin-b30 margin-t30">
-        <img src="images/pp.jpg" align="left" />
-        <h3>Farepayer.com respects your privacy and acknowledges the need to guard the identifiable records (any information by which you can be identified, which include name, address and telephone number) you percentage with us. We would love to guarantee you that we follow suitable requirements with regard to protective your privateness on our internet web sites.</h3>	
-        
-        <p>Some of our web pages use &quot;cookies&quot; in order that we will better serve you with customized information when you go back to our web site. Cookies are identifiers which an internet web page can ship to your browser to hold on your laptop to help you next visit to our website. You may set your browser to inform you when you are dispatched a cookie, supplying you with the option to decide whether or not to just accept it. The fact we acquire and analyze is used to improve our carrier to you.</p>
-<p>We will take all reasonable steps to protect your information from misuse and keep it secure.
+	<div class="container">
+    <div class="col-md-5">
+		<img src="images/PrivacyPolicy.png" align="left" />
+       </div>
+        <div class="col-md-7 mt-5"style="border-left: solid darkblue;">
+        <h3>Farepayer.com respects your privacy and acknowledges the need to guard the identifiable records (any information by which you can be identified, which include name, address and telephone number) you percentage with us. We would love to guarantee you that we follow suitable requirements with regard to protective your privateness on our internet web sites.</h3>
+        <p>Some of our web pages use &quot;cookies&quot; in order that we will better serve you with customized information when you go back to our web site. Cookies are identifiers which an internet web page can ship to your browser to hold on your laptop to help you next visit to our website. You may set your browser to inform you when you are dispatched a cookie, supplying you with the option to decide whether or not to just accept it. The fact we acquire and analyze is used to improve our carrier to you.
+We will take all reasonable steps to protect your information from misuse and keep it secure.
 We will comply with all applicable data protection laws and regulations and we will co-operate with data protection authorities. In the absence of data protection legislation, we will act in accordance with generally accepted principles governing data protection.
-</p>
-<p>&nbsp;</p>
-<h3>&nbsp;Who We Are, Policy, Updates and Other Important Information</h3>
-        <ul>
-	<li>We areFarepayer.com is one of the leading Travel Companies in India, based in Delhi and our corporate office address at B &ndash; 15 , 1st Floor Shankar Garden VikasPuri , Near Janakpuri West Metro Station , New Delhi, India, Pin Code: 110018</li>
+</p>	
+		</div></div>
+    
+     
+    <div class="container text-center">
+    <div class="col-md-12 font">
+    	<h1><strong class="myborder">&nbsp;Who We Are, Policy, Updates and Other Important Information</strong></h1>
+    	<p></p>
+    	<br>
+    	</div>
+    	</div>
+    
+ <div class="container">
+ <div class="col-md-12">
+ 
+
+      <ul>
+	<li>We are Farepayer.com is one of the leading Travel Companies in India, based in Delhi and our corporate office address at B &ndash; 15 , 1st Floor Shankar Garden VikasPuri , Near Janakpuri West Metro Station , New Delhi, India, Pin Code: 110018</li>
 	<li>For the purpose of applicable data protection laws, we are the &ldquo;Data Controller&rdquo; of all Personal Data that we collect, use and otherwise process about you, through &ndash;
-	<ol>
-		<li>Online sales channels</li>
-		<li>Offline sales channels</li>
-		<li>Our social media pages that we control (hereinafter referred as &ldquo;social media pages&rdquo;)</li>
-		<li>Email messages, SMS, notifications, alerts etc. that we send you from time to time.</li>
-		<li>Offline interactions</li>
-	</ol>
+	<ul style="margin: 9px -45px;">
+		<li><i class="fa fa-check"></i>Online sales channels</li>
+		<li><i class="fa fa-check"></i>Offline sales channels</li>
+		<li><i class="fa fa-check"></i>Our social media pages that we control (hereinafter referred as &ldquo;social media pages&rdquo;)</li>
+		<li><i class="fa fa-check"></i>Email messages, SMS, notifications, alerts etc. that we send you from time to time.</li>
+		<li><i class="fa fa-check"></i>Offline interactions</li>
+	</li>
 	</li>
 </ul>
-<h3>&nbsp;Cookies</h3>
+	 <br>
+
+	 </div>
+	 </div>
+	 
+	 
+	 
+	 
+ <div class="container">
+ <div class="col-md-12">
+ 
+<h2><strong>&nbsp;Cookies</strong></h2>
 
 <p>We use our as well as third parties data collection devices such as cookies on certain pages of our Website and App. Cookies are small files stored on your hard drive that assist us in providing services customized to your requirements, interests and preferences. We also offer certain features which are only available through the use of a cookie. Cookies may be used whether you choose to register with us or not. Third party vendors such as www.google.com (Google) may use cookies to serve advertisements based on your visits to this website. You may visit the website of the third party and choose to opt out of the use of cookies for interest-based advertising, if the third party offers such an option. We place both permanent and temporary cookies in your computer&#39;s hard drive. However, such cookies do not contain any of your personally identifiable information.</p>
 
 <p>Thank you for using&nbsp;<a href="http://www.farepayer.com/">http://www.farepayer.com/</a></p>
 
 <p>&nbsp;</p>	
-    </div>
-    </div>
 
-
-
-
-
-<!--
-	<div class="container bg">
-		<div class="row">
-		
-			<div class="col-md-12">
-				<div class="single-welcome-text">
-					<div class="section-title-version-2">
-					
-					
-						<div class="welcome-content">
-								<h1>Privacy Policy</h1>
-
-<p>Farepayer.com respects your privacy and acknowledges the need to guard the identifiable records (any information by which you can be identified, which include name, address and telephone number) you percentage with us. We would love to guarantee you that we follow suitable requirements with regard to protective your privateness on our internet web sites.</p>
-
-<p>Some of our web pages use &quot;cookies&quot; in order that we will better serve you with customized information when you go back to our web site. Cookies are identifiers which an internet web page can ship to your browser to hold on your laptop to help you next visit to our website. You may set your browser to inform you when you are dispatched a cookie, supplying you with the option to decide whether or not to just accept it. The fact we acquire and analyze is used to improve our carrier to you.</p>
-
-<h3>&nbsp;Who We Are, Policy, Updates and Other Important Information</h3>
-
-<ul>
-	<li>We areFarepayer.com is one of the leading Travel Companies in India, based in Delhi and our corporate office address at B &ndash; 15 , 1st Floor Shankar Garden VikasPuri , Near Janakpuri West Metro Station , New Delhi, India, Pin Code: 110018</li>
-	<li>For the purpose of applicable data protection laws, we are the &ldquo;Data Controller&rdquo; of all Personal Data that we collect, use and otherwise process about you, through &ndash;
-	<ol>
-		<li>Online sales channels</li>
-		<li>Offline sales channels</li>
-		<li>Our social media pages that we control (hereinafter referred as &ldquo;social media pages&rdquo;)</li>
-		<li>Email messages, SMS, notifications, alerts etc. that we send you from time to time.</li>
-		<li>Offline interactions</li>
-	</ol>
-	</li>
-</ul>
-
-<h3>&nbsp;Cookies</h3>
-
-<p>We use our as well as third parties data collection devices such as cookies on certain pages of our Website and App. Cookies are small files stored on your hard drive that assist us in providing services customized to your requirements, interests and preferences. We also offer certain features which are only available through the use of a cookie. Cookies may be used whether you choose to register with us or not. Third party vendors such as www.google.com (Google) may use cookies to serve advertisements based on your visits to this website. You may visit the website of the third party and choose to opt out of the use of cookies for interest-based advertising, if the third party offers such an option. We place both permanent and temporary cookies in your computer&#39;s hard drive. However, such cookies do not contain any of your personally identifiable information.</p>
-
-<p>Thank you for using&nbsp;<a href="http://www.farepayer.com/">http://www.farepayer.com/</a></p>
-
-<p>&nbsp;</p>
-	
-						</div>
-					</div>
-				</div>
-			</div> 
-		</div>
-	</div>
--->
-
-
-
-
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ </div>
+	 </div>
 
 <!--footer start-->	
 		

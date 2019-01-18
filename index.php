@@ -48,14 +48,8 @@
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
-
-
-
-
-
-
-
 	<link rel="stylesheet" href="css/animations.css" type="text/css">
+<!--
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -66,35 +60,56 @@
 		  ga('send', 'pageview');
 
 		</script>
+-->
 
 
-<link rel="stylesheet" href="js/jquery-ui.js">
+  <link rel="stylesheet" href="js/jquery-ui.js">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
-  </script>
 
 
 
  <style>
 	 
-	 .hottour{margin-bottom: 65px;position: relative;z-index: 9;text-align: center;}
-	 .sliderhottourM{margin-top:-115px;margin-bottom: -58px;}
+	 .hottour{
+		 margin-bottom: 65px;position: relative;
+		 z-index: 9;text-align: center;
+	 }
+	 .sliderhottourM{
+		 margin-top:-115px;
+		 margin-bottom: -58px;
+	 }
+	 
+	 .myenquiry{
+		 font-size: 13px;
+		 padding: 16px;
+		 margin-bottom: 25px;
+	 }
+	 .fontS{
+		 font-size:12px;
+	 }
 	 
 	 
 	 
 	 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+  ul
+{
+list-style-type: none;
+}
 	 
 	 
 	 
-	 
-	 
-	 
-	 
+/*  read more */	 
+#more {display: none;}
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+     	 
 	 
 	 
 div.gallery img {
@@ -107,7 +122,7 @@ div.gallery img {
   float: left;
      width: 15.99999%;
 }
-
+														/*media  screen start*/
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
@@ -121,45 +136,28 @@ div.gallery img {
   }
 }
 
-	 
-/*  read more */	 
-#more {display: none;}
-  .carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
-     
- .dropdown:hover>.dropdown-menu {
-  display: block;
-}
-  ul
-{
-    list-style-type: none;
-}
-	 
-	 
-	 
-	@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
  .tBackground{font-size: 18px;
    }
  }		 
-	 	@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
  .heading-section p{font-size: 12px;
    }
  }		 
 	 
-		 	@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
  .hottour{margin-top: 530px;
    }
  }		 
 	 
-			 	@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
  h3,strong{font-size: 20px;
    }
  }		 
 
- }		 
-	 			 	@media screen and (max-width: 768px) {
+ }
+	 
+@media screen and (max-width: 768px) {
  p{font-size: 12px;
    }
  }		 
@@ -177,11 +175,27 @@ div.gallery img {
 @media screen and (max-width: 768px) {
  .sliderhottourM{margin-top:-158px;margin-bottom: -58px;
    }
- }		 
-
+ }	
 	 
-.myenquiry{font-size: 13px;padding: 16px;margin-bottom: 25px;}
+@media only screen and (max-width: 500px) {
+   .myenquiry.fontS {font-size: 9px;
+      
+    }
+}
+@media only screen and (max-width: 500px) {
+   .chat-box {bottom: 250px;
+      
+    }
+}
+@media only screen and (max-width: 500px) {
+   #call {top: 309px;
+      
+    }
+}
 
+														/*media  screen end*/
+	 
+					/*fix chat box start*/
 #center-text {          
   display: flex;
   flex: 1;
@@ -226,18 +240,18 @@ div.gallery img {
 }
 
 
-.chat-box {    width: 276px;
+.chat-box {
+  width: 276px;
   z-index: 9999;
   display:none;
   background: #efefef;
   position:fixed;
   right:30px;
   bottom:300px;  
- 
   max-width: 85vw;
   max-height:100vh;
   border-radius:5px;  
-box-shadow: 0px 6px 6px 2px #44444429;
+  box-shadow: 0px 6px 6px 2px #44444429;
 }
 .chat-box-toggle {
   float:right;
@@ -312,8 +326,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
     position: absolute;
     bottom: 21px;
     right: 32px;
-    /* font-size: 14px; */
-    background: #5a5eb9;
+ 	background: #5a5eb9;
     box-shadow: 1px 6px 8px #00008b5c;
     border: none;
     border-radius: 5%;
@@ -324,7 +337,6 @@ box-shadow: 0px 6px 6px 2px #44444429;
 }
 .chat-logs {
   padding:15px; 
-/*  height:370px;*/
   overflow-y:scroll;
 }
 
@@ -347,26 +359,9 @@ box-shadow: 0px 6px 6px 2px #44444429;
 
 
 
-@media only screen and (max-width: 500px) {
-   .myenquiry.fontS {font-size: 9px;
-      
-    }
-}
-@media only screen and (max-width: 500px) {
-   .chat-box {bottom: 250px;
-      
-    }
-}
-@media only screen and (max-width: 500px) {
-   #call {top: 309px;
-      
-    }
-}
-
 	 
 	 
-	 
-	 .fontS{font-size:12px;}	 
+	 	 
 .chat-msg.user > .msg-avatar img {
   width:45px;
   height:45px;
@@ -411,12 +406,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
     margin-bottom: 70px;
 }
 
-	 
-	 
-	 
-	 
-	 
-	 
+	 					/*fix chat box End*/
 	 
 	 
 .phonelink{
@@ -456,9 +446,8 @@ box-shadow: 0px 6px 6px 2px #44444429;
   right: 0;
 }
 
-	 
-
-	 #mySidenav a {display: flex;box-shadow: 1px 6px 8px #00008b5c;
+#mySidenav a {
+	display: flex;box-shadow: 1px 6px 8px #00008b5c;
  position: fixed;
     right: -64px;
     z-index: 9999;
@@ -470,12 +459,11 @@ box-shadow: 0px 6px 6px 2px #44444429;
     font-size: 20px;
     color: white;
     border-radius:  5px 0px 0px 5px;
-		    
 }
+	 
 #mySidenav a:hover {
   width: 168px;
     right: -7px;
-
 }
 
 #call {width: 162px;
@@ -484,124 +472,110 @@ box-shadow: 0px 6px 6px 2px #44444429;
 	top: 160px;
   background-color: #1fa3dd;
 }
-	 #call b{display:none;}
-	 #call:hover b{display:inline;width: 200px;}
+	 
+ #call b{
+	 display:none;
+	 }
+ #call:hover b{
+	 display:inline;width: 200px;
+	 }
+#chat-circle a:hover{
+	width: 168px;
+    right: -7px;
+	 } 
+	 
+</style>
 
-	 
-	 #chat-circle a:hover{  width: 168px;
-    right: -7px;} 
-	 
-	 
-	 
-	 
-  </style>
 	</head>
 	<body>
 
 
-	
 	<!-- Start:header-top -->
- 
-    <?php include 'header.php'; ?>
-        
-	<!-- end:header-top -->
+     <?php include 'header.php'; ?>
+     <!-- end:header-top -->
 
-<div id="mySidenav" class="sidenav">
-  <a href="tel:9402188899" id="call"><i class="fa fa-phone" aria-hidden="true" style="padding: 7px;margin-right: 10px;"></i> <b style="margin-right: 10px">987456321</b> </a>
- 
-</div>
+<!--fix caller start-->
+		<div id="mySidenav" class="sidenav">
+		<a href="tel:9402188899" id="call"><i class="fa fa-phone" aria-hidden="true" style="padding: 7px;margin-right: 10px;"></i>
+		<b style="margin-right: 10px">987456321</b>
+		</a>
+		</div>
+<!--fix caller End-->
+		
+<!--fix chat box-->
+		<div id="body">
+				<div id="chat-circle" class="btn btn-raised">
+				<div id="chat-overlay"></div>
+				<i class="fa fa-envelope-o fa-2x"style="margin: -17px -17px;"></i>
+				</div>
+				<div class="chat-box">
+				<div class="chat-box-header"><b>Enquiry</b><span class="chat-box-toggle "><i class="material-icons">close</i></span>
+				</div>
+				<div class="chat-box-body">
+			  <form class="mtop myenquiry">
+			  <label>Name:</label>
+			  <input type="text" class="form-control fontS" placeholder="Name">
+			  <p></p>
+			  <label>Mobile No:</label>
+			  <input type="text" class="form-control fontS" placeholder="Mobile No.">
+			  <p></p>
+			  <label>Email:</label>
+			  <input type="text" class="form-control fontS" placeholder="email">
+			  <p></p>
+			  <label>Remarks:</label>
+			  <textarea class="form-control fontS" id="description" placeholder="Enter Your Message"></textarea>
+			  </form>
+			  <div class="chat-logs">
+			  	
+			  </div>
+			  </div>
+			  <div class="chat-input">
+			  <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+			  </div>
+			  </div>
+			  </div>
+<!--fix chat End-->
 
-
-
-
-<div id="body"> 
-  
-<div id="chat-circle" class="btn btn-raised">
-       
-        <div id="chat-overlay"></div>
-		 <i class="fa fa-envelope-o fa-2x"style="margin: -17px -17px;"></i>
-	</div>
-  
-  <div class="chat-box">
-    <div class="chat-box-header">
-		<b>Enquiry</b>
-      <span class="chat-box-toggle "><i class="material-icons">close</i></span>
-    </div>
-    
-    <div class="chat-box-body">
-     <form class="mtop myenquiry">
-     	  <label>Name:</label>
-  <input type="text" class="form-control fontS" placeholder="Name"> 
- 	    <p></p>
-  	  <label>Mobile No:</label>
-  <input type="text" class="form-control fontS" placeholder="Mobile No.">
-    <p></p>
-      <label>Email:</label>
-  	<input type="text" class="form-control fontS" placeholder="email"> 
-   	  <p></p>
-    	<label>Remarks:</label>
-     	<textarea class="form-control fontS" id="description" placeholder="Enter Your Message"></textarea>
-     	
-     </form>
-     
-     
-     
-      
-      <div class="chat-logs">
-       
-      </div><!--chat-log -->
-    </div>
-    <div class="chat-input">      
-    
-       
-      <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
-         
-    </div>
-  </div>
-  
-  
-  
-  
-</div>
-
-
+<!--banner start-->
 			<div class="fh5co-hero">
-			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover">
-	
-	<div id="wowslider-container1">
-	<div class="ws_images"><ul>
-		<li><img src="data1/images/banner1.jpg" alt="banner1" title="" id="wows1_0"/></li>
-		<li><img src="data1/images/banner2.jpg" alt="banner2" title="" id="wows1_1"/></li>
-		<li><a href="http://wowslider.net"><img src="data1/images/banner3.jpg" alt="slider html" title="" id="wows1_2"/></a></li>
-		<li><img src="data1/images/banner4.jpg" alt="banner4" title="" id="wows1_3"/></li>
-	</ul></div>
-<div class="ws_script" style="position:absolute;left:-99%"><a href="#"></a></div>
-	<div class="ws_shadow"></div>
-	</div>	
-
-			
-			
-			
-	<div class="desc bannertop">
-					<div class="container">
+			<div class="fh5co-overlay">
 				
+			</div>
+			<div class="fh5co-cover">
+			<div id="wowslider-container1">
+			<div class="ws_images">
+			<ul>
+			<li><img src="data1/images/banner1.jpg" alt="banner1" title="" id="wows1_0"/></li>
+			<li><img src="data1/images/banner2.jpg" alt="banner2" title="" id="wows1_1"/></li>
+			<li><a href="http://wowslider.net"><img src="data1/images/banner3.jpg" alt="slider html" title="" id="wows1_2"/></a></li>
+			<li><img src="data1/images/banner4.jpg" alt="banner4" title="" id="wows1_3"/></li>
+			</ul>
+			</div>
+			<div class="ws_script" style="position:absolute;left:-99%"><a href="#"></a></div>
+			<div class="ws_shadow">
+				
+			</div>
+			</div>	
+
+
+<!--form search-->
+	<div class="desc bannertop">
+			<div class="container">
 						<div class="row">
 							<div class="col-sm-5 col-md-5 animated bounceInDown">
-								<div class="tabulation "Style="border: solid 1px #e0e0e0;">
-
+								  <div class="tabulation "Style="border: solid 1px #e0e0e0;">
 								  <!-- Nav tabs -->
 								   <ul class="nav nav-tabs" role="tablist">
-								      <li role="presentation" class="active">
-								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Flights</a>
-								      </li>
-								      <li role="presentation">
-								    	   <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Hotels</a>
-								      </li>
-								      <li role="presentation">
-								    	   <a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Packages</a>
-								      </li>
-								   </ul>
+							      	<li role="presentation" class="active">
+							      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Flights</a>
+							      	</li>
+							    	   <li role="presentation">
+							    	   <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Hotels</a>
+							    	   </li>
+							    	   <li role="presentation">
+							    	   <a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Packages</a>
+							    	   </li>
+							       </ul>
 
 								   <!-- Tab panes -->
 									<div class="tab-content">
@@ -819,15 +793,12 @@ box-shadow: 0px 6px 6px 2px #44444429;
 					  </div>
 				  </div>
 			  </div>
-					
+<!--form End-->	
+	  				
 		  </div>
 		  </div>
 
 			
-	
-<!-- end Banner -->
-	
-	
 	
 <!--Hot Tours start-->			
 
@@ -839,8 +810,8 @@ box-shadow: 0px 6px 6px 2px #44444429;
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 					</div>
 				</div>
-	</div>		
-		</div>
+			</div>		
+</div>
 	
 <!--Hot Tours end-->	
 	
@@ -1030,7 +1001,7 @@ box-shadow: 0px 6px 6px 2px #44444429;
 	  </div>
 		</div>
 
-<!--SELECT YOUR CUSTOMIZED PACKAGES END-->
+
 
 
 <script>
@@ -1051,7 +1022,7 @@ function myFunction() {
 }
 </script>
 
-
+<!--SELECT YOUR CUSTOMIZED PACKAGES END-->
 
 <!--Start Service-->	
 				
@@ -1126,9 +1097,8 @@ function myFunction() {
 </div>
 
 </div>
+
 <!--end Service-->
-<br>
-<p></p>
 
 
 
@@ -1389,12 +1359,11 @@ var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadedurati
 </script>
 <noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
 <!--button Scroll end-->
-<!--smoth scroll-->
-	<script defer  type="text/javascript" src="js/smoothscroll.js"></script>
+
 	<!-- jQuery -->
     <script type="text/javascript" src="engine1/wowslider.js"></script>
 	<script type="text/javascript" src="engine1/script.js"></script>
-	<!-- End WOWSlider.com BODY section -->
+	<!-- script slider-->
 
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
